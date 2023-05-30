@@ -1,0 +1,8901 @@
+;FLAVOR:RepRap
+;TIME:931
+;Filament used: 9.34895m
+;Layer height: 0.4
+;MINX:88.81
+;MINY:88.983
+;MINZ:0.2
+;MAXX:191.204
+;MAXY:211.113
+;MAXZ:38.028
+;ARCWELDERPROCESSED
+;Exported with Cura-DuetRRF v1.2.9 plugin by Thomas Kriechbaumer
+; thumbnail_QOI begin 48x48 3800
+; cW9pZgAAADAAAAAwBAAA/f39/dX/XUCXLP9dPpZr/10/l6f/XT6W4v9dPpb9/1w/lej/XT+Wu/9dPp
+; eM/14+ll//WUCZKP8AAAAA2v9cP5s9/18/mXb/Xz+aef9gQJpo/15AmFf/Xz6ZRv9dQJg0/187miv/
+; Xz+YYf9ePpjM/14/mP/H/14/mf7/WDuKdADW/0kkkgf/Xj6aYv9fP5vR/19Am//S/1g7jvn/LiRAHA
+; DT/2BAlRj/YUGegf9gQZ3p/2FAnf/HbsMjxp5j/0UxaoL/AAAAANH/Yz6cMf9jQZ+g/2JBn/j/YkGf
+; /8Jr0Tmedf9UOYWu/1U5jgn/AAAAAM3/fwB/Av9jQKNQ/2JBocD/Y0Gi/v9jQqH/wGvY/2NCovH/Y0
+; Kiov9iQqFJ/0BAvwQAyP9iO7EN/2VDo2//ZEKj3P9kQqP/wGvDbnrAa84vwSfD/2RDpOb/WjyWMwDG
+; /2VCpGj/ZUOl8DbAa8J6wWvVAME9wP9PNnzY/wAAAADE/106ohb/ZkOosgfAa27AesFr2hbAnWP/Sz
+; R26v8AAAAAw/9nRalK/2dEqegdwGt6wmvBbsNrwHrLOjPDLsH+XD2U/0k0cqEAwf9VOaoJ/2hEq5X/
+; aESs/jPAPcNrxHvUBMP+VTqH/0UwaVUAwP9oRKwx/2lFrdYEwQ7BbmvDemvYHRqedP9PNn35/yQkSQ
+; 4A/2pFr3b/a0av+RrAeiTCa8J6wG/Ia8c6x2b+YECc/0w1dv7/QzJqSP9YO45oJCvALjU6wWvBesFr
+; xmvNC8X+WTyOnFH/TDR4gP9ePpjt/4BR1v+hm/57T86cYf5vSLefdsESem7Ba8VrwCvMKMAhw551/l
+; M5g/5ZPI//RDBoQP9gQJuy/4ZV4v/+k1z5oYp6V59RnGCcYP59UNGcUJ1Qn4Zrw27Ae9JaNzLA/mZD
+; qP5UOYX/XT6W8v8qACoG/wAAAAX/QS9j2P9PN33//ls9kwT+flDU/otY7P6RW/eivX9uZZ1i/oxY6f
+; 6BUtj+eE3HnFAIehLUCwifhp5j/l0/l/9bPpOxAMD/SzR0qyGfdv5hQZ7+VjqJIP5eP5g9/mFAnv5z
+; Sr7+hVTe/o9a76O/n2hrnob+iFbm/n9R1jaeYtQInnT+XD6U/ko0dP9ONnza/yoqVQYA/0YwaoQkKD
+; Jva/5gQJ3+gFHY/m5Itv5fP5oxnmNZGP5ySrz+iFbm/pJb+KKKZhr+hlXh/nlOyj7NZsGgZZ50/mJB
+; n/4yJ0f+UjiC/1E3f/3/QDBgEP8AAAAA/0w1dsD/Z0Sp//5xSrwoa3sZ/n9R1JxhnmNvwHv+bUe0/l
+; g8jv5MNXj+ZEKj/mlFrv5+UNT+jlnxGqBknXQy/ndMxp9kzJ+GnmT+ZUOl/kMwZ/46K1YH/1I4g9D/
+; AAAAAP9DKF4T/2lFrv7/iVbn/6GJnVCcYZ1Q/mBAnP58UNCedJ1ia35rnXSfYiEg/nlOyxEqo74l/o
+; tY66KuwP6IVuX+fVDSLyXIDwg9/kUxap5i/kcybTz/Tjd8jP8AAAAAwP9ePpiL/31P0v7/jFnu//6T
+; XPqhmmv+gFLWnGL+hVTgn2OcYS9Un1Odcxr+YkGg/n9R1P5wSbppLv5PN32dUAD+hFTf/pBa9X+edj
+; 49nmPFVJ9inFGeYv5BL2OinP5YO43+YECc/0YxbEn/AAAAAMH/Qi9k6f9QN3//oZr+WTyPJP5+UdM9
+; /pRc+qKbDgKeYv6KV+f+fE/PEiP+flHTEp92WP5nRKhr/ls+k/5JNHL+WDyO/n1Q0f6OWfCjnWf+jF
+; jt/oFS2f54TclYwXudYZ1R/lw+lf5xSbv+QzBm/mRCpFj/WTyQ+f8uF0YLAMH/TDZ4wwuiimUn/lY6
+; if5lQ6WcYP5XO4v+Z0So/nxPzf6NWOqjnz9n/nBJuf59UNKdYCsh/mZEpxaginscEv5QN34n/odV5P
+; 6TW/mieHn+toLv/r+Q7P6UXvOXUyj+TDV2/lo8kAv+YUGf/mxGsf5IM2//UjmBwQDC/0gzbcT/akWv
+; /ys3AQj+YkGg/nxPzxL+aESr/lw9k/5SOYOfhv5ZPI7+dkzFopz+iVbnJp51/oZV4gj+ZkSoeyT+XT
+; 6X/npOy/5ySr7+Wz6U/kkzcv5SOIM9/pZe9v7aov7+6LX//p9l/f6CUtoAOP5cPpX+bEezoZv+SzR0
+; /kIvZP9PN31+/wAAAADB/0wxdDn/ZkOn//54TcmfdJxhWX8Z/nxP0P5xSrzAe8H+aUSs/lg7jJ5B/m
+; xHsiEPMJ50Bf53Tcf+aUWs/l0+lv55Tsr+ckm8/mlFrXueZP5PN32eY/5bQImmqpEx/kIwZaCaWf5i
+; QZ/+a0ax/lQ6hhT+UTh//0YwcjoAwf9AKmoY/3FJvO0poptVnGH+hlXiB/57T88oVMBvZv5qRq96/l
+; 0+liz+ZUKl/k83fnsr/olX6P6PWvOfdv5uR7X+eE3IEv5pRawEexoV/nRLwRk6/k83fD/+VTqHEv5a
+; PZH+QC5ga/9WOojx/wAAQAT/AAAAAML/SDBwIP9QOICy/14/mfb/c0q///6HVeT+kVr2/n5Q0wv+lV
+; 38nVD+iFbj/oBS1v55Tsn+a0awWP5cPpUMKDpr/lk8j/5NNXj+YECc/oVU4J1h/nhNyP6EU93+dUvC
+; /mlFrcAOop3+eE3Jev5sRrL+TTZ5Mf5xSbz+aESr/lg8jQL+YECd/1g8jbP/AAAAAMX/AAAABP8mIT
+; Ev/y4kQGT/QS9kmf9PNn3O/2BAnPr/d03G//6KV+n+lF35oqxlCf6DU93+Z0Sp/nZMxJ5k/mtGsTqb
+; YFgDLf5XO4r+ek7M/pBa9aGanWH+e0/PNaGJ/nhNyMD+a0av/lY6if5xSbv+aUWsnnT+WTyQoZn/bU
+; e0/v9TOIVW/wAAAADK/yAgIAj/JCAyOP8yJkRs/0QxaaH/VTmH1v9kQ6P8/31Q0f8J/oVU3w/+g1Pc
+; /npOy/5uSLb+ZUKkSCChif5aPZH+bEez/lc7i/5zS8D+jlnxo61U/odW4f6XZducev6BUtieZCH+Rj
+; Jt/mhEq55j/m9Iuf9aPZKWAND/JxQnDf8oIDJH/0QwZ5n/XD2U6v9wSLn//pBa9KOdZf6BUtn+bUez
+; /mRCoic1D55RGP5ONnv+Z0Op/otX6/6bYf7+05f//smN//6YX/3+glLa/kw1d/5BL2L+akavPf9iQZ
+; /E/yoqVQYA0/8AAAAD/yYeMUP/QjBklv9cPpTn/3pOzP82o4v+hVTf/nFJuzX+c0q/nmL+ZkOnb/5d
+; Ppb+TTV5/lw+kP6GXridrv5fQJf+RzJunVCjv/5wSbn/Xz+Z5f89KWYZ/wAAAADX/wAAAAL/JBwtP/
+; 9HMW6b/2xGsvf/ilfq/6Ou/nlOyv5ySr2eZP5lQ6YHE3uhiZ1zn3ZY/kYybZ50Dv9tR7P4/0w2fTn/
+; AAAAANv/FBQdGv9CMGWL/2dDqvL/gFLX//50S8D+iFbm/npOzC4HE6K+/nVLw6Bk/mNCov5GMmsZEv
+; 9XOYtnAN7/Dw8eEf89LVx9/2A/m+r/iFbl//6RW/efdv5/UNQkwP50S8Kfdf5iQZ+fZP50SsD/XD+W
+; mwDh/xkZGQr/NylTb/9ePpji/4VU4P/+klz4Zv6JV+T+lWTb/ota2f6EVN7+fE/Q/2NCo8j/KipVBv
+; 8AAAAA4/8AAAAF/zInSmH/WTyR1wv+m2L+/sKF//6ucv/+lFz5/3VLwd3/Qi9oGwDm/wAAAAL/LiVB
+; U/9SOIDE/2hJmPz/ZEOW9v9QOH2l/0MoaxMA/f39/cAAAAAAAAAAAQ==
+; thumbnail_QOI end
+; thumbnail_QOI begin 128x128 17124
+; cW9pZgAAAIAAAACABAAA/f39/f39/f39/f39/f39/f39/f39/f39/f39/c//WjqUH/9cPpVb/1w8lZ
+; j/XD2U0P9dPZXx/10+lf//XT6W/P9dPpXk/1w9lL3/XD2Wjf9dPZVg/1w9lDL/SSSSBwD97/9ZO5Qr
+; /1w+lmb/XD6VpP9dP5bg/10/lv/FZsP/XT6W+v9dP5bU/10+l6T/XT2Wef9cPZZL/145lxsA/eb/AA
+; AAARj/Xj6Xqf9dP5jr/14/l//KWsj/Xj+W5/9eP5eb/10+lSkA/eH/TjuJDf9ePZls/14/mNj/Xj+Y
+; /9n/Xj+Y9/9VOos5AP3J/0wzmQr/XT+aXf9fP5mn/14/mdb/Xz+Z7/9fP5nx/14/me7/Xj+Z3v9fP5
+; nK/14+mLg0/14/mpX/Xj+Zhf9eP5py/14+mmL/XECZUP9dPZo//1s+mS0B/1U5jgn/XD2ZGTP/X0CZ
+; j/9fP5nw/18/mf/RWsZpwf9SOYLd/yQkNw7/AAAAAP3GAf9fP5qG/19Amez/X0Ca/+5pwjwo/zYpTq
+; AA/cT/XzybM/9fQJuj/18/m/n/X0Ca/8FrwnrjD8IIxv9HMm3+/yokQSsA/cD/fwB/Av9gQJxQ/18/
+; msP/Xz+c/v9gQJv/xmvlEsmcYv8xJUSXAPz/WzeSDv9hQZ5u/2A/nN0ZynrAa+AcGcqdc/89LVv0/y
+; 0ePBEA+f9gQJ8g/2BBnY3/YUGe7/9hQZ3/0mvXKND+VTqJ/ko0dP87K1hxAPf/X0GcO/9hQZ6p/2JB
+; nvv/YUGe/856yWvNMskvyv5PN3yedf9IMm+xAPT/QEB/BP9gQJxY/2JBn8j/YUCf/jn9w/5ROIAj/z
+; 8tX57/AAAAAPL/YECfEP9hQaB2/2JAoOI5w2vNbsB64QXAAMqdYf9UOoWb/2E9nhX/AAAAAO//Y0Cj
+; JP9iQaCU/2JCoPQIxWv9xP9jQaH6/2NBoLf/YUChXP9bN5IOAOr/YUKeQv9hQqCy/2NCof0PymvLeu
+; MWzA/C/2NCovT/YkGhqf9hQaFP/21JkgcA5P9VKqoG/2NAoV//Y0KizhbFGchr+RnI/2NCou3/Y0Gi
+; nf9hQqJC/1UAqgMA3/9dOpcW/2RBo33/ZEGj5hnAINFua8h63yzIJSDN/2RCo+T/YkKjf/9dLqILAN
+; v/X0GgK/9kQqOb/2RCo/YgxCzEL81r7S/NLMT/ZEOjz/9MM38KANf/AAAAAf9jQ6NI/2VCpLn/ZEKk
+; /i/INtVrxXrXPcY21C/B/0o0c5T/AAAAANb/YUKjOv9lQqTQNs09wXrUa90A1D3BNsKehv9KNHT+/z
+; kqVUj/AAAAANMG/2VBpoH/ZkOm+zbBPcF6ywfEbtVrwHrMEwzVB8UAxP5cPZT+TjZ6/0Uxa+D/AAAA
+; ANL/X0KgI/9mQ6bG/2ZDpv/FB8MMyRb9xwzH/lU6hwOedv8AAAAA0f9mQ6Zf/2ZEp/H/ZkOn/wzHFs
+; 9r/cEWyTb+Tzd8A/9FMGrjAM//aTylEf9nQ6io/2ZDqP4Wyx3NesFr+SDBHcn+Xj+ZGVX/QC5hmwDO
+; /2hEp0D/Z0So4hbCa8kgwCfKbsVr8yzFJ8j+VzuLGQr/MiZIUQDM/2YzmQX/ZkKoh/9nRKn8HcMgwC
+; fHLMMzy3rFa+s2xTPLHf5RN38Z/0gzb/f/FxcuCwDL/2lBqif/aEOqzCfELMJrxzbDa9Rr5T3UNv5h
+; QJ3+UDd9Wv9CMGa5AMv/ZkOnZv9oRKvzLGvGNsI9zQTJesxrwW7UDsAHzQTJPcH+WTyQ/lA3fiD/Oy
+; pXbADJ/2tDrhP/aESrsDPANsE9ygTGB8UOE/3HDgfDBP5SOIIqnmP/Jx8uIQDI/2dDqkX/aUSr5f9p
+; Raz/xgTEB8QObs5rx3rtGsgTxpxQ/lE4fyr/RTFq1ADH/0kkkgf/aUStj/9pRaz9BMQHwxPLa8QdyW
+; v5Hcka/lw+lP5ROIBZ/z8tX4n/AAAAAMb/Z0OwKv9pRa7QB8ITyWvDHcYk0WvGesZu0i7GK8UkzVX+
+; VDmGn2Mq/y4mPz3/AAAAAMT/AAAAAf9pRKtt/2pGrvUTxRrCHcUkzGvCLsEzzGvnM8wuwSvBnWH+Uj
+; iBWf5FMWv/OixVXf8AAAAAw/9kQ6YX/2pFr7UTGsEdxSTJK8EuwTPHOtdrw3rPAcM61zPA/l4/mQpa
+; /kIwZf9IM3Dx/zYnTSEAwf9qQ7I1/2pGr+YdwiTIa8B6wTPFOs0BwAT9wwHAOsP+VzuKEQr+SjRzo6
+; //QzBpqgDA/zMiRA//akWv4iTEK8EuwDPEOsoBwHrNa/0Exp1j/lM5g1mcUP5WOogq/0w1eckAwP9D
+; L2aYHSt6wDPDOskBBMoLzG7Bemv1E8AQwQvF/mFAnSAWnnT+WTyPNv9FMWqqAP85KFE//082e/3/aE
+; Sr/wE6xwEEyQvIEMATGtJr6xrP/lk8jiDAoq9YNv88LVxmAP9EMWrN/10+lv/+cEm5/n1Q0qGsnmL+
+; dkzDnFAExgvGEMATGswhz3rFK90kxiHNnnT+VDmFWZ5k/mNBoP5UOYb+TjZ6/ykhMR8A/1I5g/j/Z0
+; So//52TMX+g1Pd/o1Z7/6TW/mhiW6ddP6JVuedUJxQ/nZMxCsLbsB7ymvJesIr22vNK9skwP5jQqIx
+; Wf5MNXf+bUe1/lI4gv9HM27XAMD/UDd/1SH+e0/O/oZV4/6PWvOhvn8fa8F7wFaeYZxQ/oNT3JxQ/n
+; VMxDJYx3rBK84ywW7Let83yzLBK8T+Wz2T/lQ6hSc4/m5Itf5PNnz/Qy9mkQDA/zoqVm7/X0Ca//5+
+; UNMP/pFb9qGceh8mwTDBa8B+a8A3E/6KV+icUB2cUJ1gK8cywG7GOsUB9zrFN8Cehv5XO4qfZVT+XD
+; 6W/m1Hs/5ONXr/NilOSwDB/0o0cXX/Wj2S/P90S8H//oNT3f6LV+spFybBMMFrwD8Gw3rBVJ5A/olX
+; 5pxgnUCcYAFZOsMB0mvrAcwynmP+Xj+YPf5MNXf+a0awn2T/SjR09/8XFxcL/wAAAADC/yQeLk3/Oi
+; tW+if+YUGfC/52TMX+fE/QpK7+iFbl/o5Z8KOvMGvAegbDCcN+wp92nGGdUJxQnFCcUAgBwgjGes1r
+; 3QvNCMNlBFmdYv5YPI2cUP5uSLX+ZEKk/0cybrwAxP8zJ0nS/zAmQ/9VoZv+OCpS/kMwZ/5ONnz+Wj
+; 2R/mZDp/5xSbz+eE3J/n5Q1P6EU9+kr6SvNwbBesNuesN6wp5V/ohW5v5/UdU2EmnCEslu7RLJCJ50
+; OsBU/mFAnv5YO4wL/mJBn/8/LmJ1AMT/OCpTrP9UOof//l0+l55R/k42e/5DMGb+NylQnlHAa/47LF
+; j+RzJv/lI4g/5fP5n+akav/nVMwv57T83+gVLY/odV46O/pK+hrQnADhHDFMKeZ59lwHueY/6GVeL+
+; fVDR/nRLwZ9jw2vGeuwexRfBEp50WFppaf5TOYTAATL/LyJAPADE/zUoTIb/UTiA//5kQqQIoatuVg
+; H+YUGe/lY6if5KNHP+Py5f/jQoSp92wKGs/kIvY/50S8L+akWu/mJBoP5uSLb+eE3H/n1Q0qO/pK4+
+; o68RwhTAEZ1mWMAJwRBVnWH+hFTeDP5zSr+gdcVr7yHGGZ9zRATAWRz+NShN/lI5g/5cPZT+VDmG/0
+; IvZLr/AAAAAf8AAAAAw/8wJkZf/0w1eP/+YkGg/m9IuKKswW/Be8A5/mlFrSP+UjiC/jkrVP5wSbr+
+; gFLX/mVCpP46K1Ut/kMwZ/5PNnz+Wz2T/mdDqP5ySr7+eU7LpL7+hlXgo7+jv6OuoJqeQ8FrCcBrwG
+; t6bgYs/oJS2v54TckvKMgvxDLVL8QozGafZKB1VWnA/mBAnP42KU+fhv5UOoVW/ko0dKOd/z0uXmT/
+; AAAAAMP/LSQ6Of9IM2///mBAm/5uR7UoL3rAPsF7wmv+SzV2/mlErP5/UdShnJ1i/lc6iv5CL2X+Ny
+; lQnmLB/jsrWP5HMm/+UzmE/l9Amv5rRrH+dkzEo66hm/6GVeP+kFr1BnrAEMF7HybBe550Bf5/UdUv
+; Mspuxj7HN8Yy0CiehqBlaVkL/mNBof45K1X+JSAv/kMwZv5UOoZl/kgyb/5SOIL/TDZ5oADD/ygbKB
+; P/QjBl/xz+bEax/nFJvH/AMsA3PsF7wTH+YECc/nxP0QFpK/51TMJmFf5iQZ8Y/ks0dP4/LV7+NCdL
+; oHXAoZv+Py5f/kk0cv5bPZL+bEaz/ndMxwH+jFjs/pJb+X/Aex8mwXvBazCdYf6FVeH+eE7JPvFVn3
+; Sfhlppaf5lQ6b+QzBn/iwjPP4lIDD+UTd/o4ydYqGaoYn/SDNwjf8AAAAAxP8+Llzr/1o8kP/+akau
+; /nFJvCjBe8E+wQjANZ9l/ntOzjrAnnQewGvAemvAD/5qRa/+Xj+YEf5HMm3+OStU/iwkPKGK/j0tXP
+; 5QN3/+Y0Ki/nJKvf58T8/+h1Xj/pBa9aObJsEwwTfAfp5knXSeUf5/UdUlCOo+wWafdZ91wCFpnGH+
+; RDFqnXL+KiI4o6/+VTqHWZ1zB591/z0uW1QAw/8zJlMo/zwsWvf/VjuK//5oRav+cUm6oYlrwWt6wD
+; 7CFjT+eU7KOsCfdv51S8IewGvBemvBa8B+/mtGsP5WO4k4/jEnRp1h/jMnSf5GMmz+WTyO/m9IuP53
+; TMU6/otY6/6TXPowwTfBnWGfdm56Vf6FVOH+e07N/nRLweIIxlafdaBkK8BZnXP+RzJtnVGfhv4oIT
+; X+Pi1d/lU6h2mhnJ1i/083fPz/HBwqEv8AAAAAwv8AAEAE/0IvZMz/TDV4//5TOYT+ZkOmAaGawGvB
+; a3rAbmvAJP5JM3H+eE3H/oBS18BV/nRLwXsewSXAemvCNp5hnmNrZf5hQJ3+TTZ6/jssV/4sJD3+aE
+; Wq/m1HtCf+YUGe/nFJvP57T87+hlTh/pBa9KKvf1gzwG56a8BrnYT+gVLZ/ndMxp90xGvNEsYPyWaf
+; daBkaVYrnnT+STRy/kEvY2mfdv4nITL+TTV4/lU6iJ+G/l4/l/5QN3//SjNzzP8AAAAAw/89K1xk/1
+; I4gf/+aESqop2fhqOvool7wWvBe8E+n3b+QjBk/nZMxDDAaf51S8MPEhluwCXBei/BnmMawGvAe8D+
+; UTiB/mNCof58UNE2/kMwZ/4xJ0b+QzBo/lc7jA7+dkvE/oBR1/6IVuaivzM4OwLACcB6Vv6HVuX+fV
+; DRJR7iGTKfZQE6Wgv+SzV2/kIvYxgRnnX+KyM7/lU6iMD+TjZ7/mlFrP5QN33/RTBsiQDD/0w2eJ3/
+; Xj+Z//5wSLn+flDU/olX6aK+nlGcYf59UNGcYJ5SwmsywD7+QC9h/nRLwf6AUtcpwDYPwXsewSXAem
+; vAnmQawSHAev5WOor+Xj+Y/ntPzilVMv48LVr+LSQ+Wf45K1X+TDV4/l0+li7+e07N/opX6aOta8AJ
+; wAxrbmuehP6DU93+eU7KnmPgPp6FCAE6If5ONnsnVcARAAP+VjuJDp6F/mZDp/5SOIL/NyhURv8AAA
+; AAw/9QN32D/2hEqv82/oJS2/6MWO6kr6GZwCbAn4acYv6GVeIr/nlOy5xxWMD+QTBk/nJKvRp7wP53
+; TMefYmvBehluwCXBep52/m1ItHvBIcD+Wz2SVP56Tsv+f1HWaZ10AZ5j/lo9kf5GMm3+NChL/iwjPK
+; Oc/kkzcf5jQaH+c0vA/oNT3f6OWfGhicB6a25resBW/opX6f5/UdX+dkzFadRpxggXC1oBVRH+QjBk
+; wFVpwJ1Q/kgyb/5WO4llop3+YkGg/043e/f/GRkZCv8AAAAAw/8yJkc9/14+mf7/e0/O//6GVOIzo6
+; 5/wGvAemvBazCdYv6JV+j+UTiA/mtGr/5+UNIawJxQnmHBD8F7HsFrwAicUMB/wWv+Xz+a/lU5hx3+
+; f1HVwJ5k/nBJuAHBZv5lQqX+UTeA/jUoTP4nITL+PS1b/lc8jf5sR7L+fE/P/otX6wwTbmsiwGvAaw
+; T+hlThDi/ZD590F2ZZPP5VOogDJ2VaaWmcUv5UOYeiiJ5j/mJBoJ91/0o0c8H/AAAAAMX/RjJtdf9g
+; QZ38/3xP0P/+jlnwEH/AJsB6a8E3wH5r/nJKvf5jQaL+fE/PopzAor+eYv55TsoPaQ/BemsewCUIC8
+; F/wf5jQqL+UDd//ndMxv5/UdXAnnX+b0m4emvBazz+aUWt/ls9k/5ALmH+KCI1/i8mQ/5LNXX+ZUKk
+; Gf6FVN8JoYkiwGvAa3rAMJ1h/oFS2f54Tcigdcdmw1rHGSghF2Zp/lg7jv5iQaD+bki2JxjAaVn+TT
+; Z6/lg7jaBl/k83ff5rRrD+Xj+Z/0QxaXz/AAAAAMb/Py1eSf9JNHTs/2RCo//+dkzE/nxQ0P6DVN7+
+; ilfqMCZ7wWvAfmv+jlnw/lw+lf56Tswa/oZU4f6WXf5/wKBlnHL+iVfmnGEdLw8ZHsAP/m1HtGkLwH
+; /AnGH+TDV3L/5/UdTAn3b+b0i3b8B6a8Bm/mlFrZ91wCD+TTZ5/jInR/4nITP+Pi1d/lk8j/5tR7X+
+; fVDSDCJrwGt6wG/BKf6IVuX+fVDRnVDSJSjAaRdm/lw9lKKL/nlOyST+Qi9kGBHA/kw1eCT+YD+b/l
+; c7ikT+a0av/lw+lP8xKEw5AMf/LyVCkv8sIzz/o6/+Py5g/k01ef5ZPJD+aESp/nRLwP58T8/+g1Pc
+; /olX6P6QWvWjrX9rwCT+eE3J/oJS2/6VXfwJwm56wVWeYpxh/oZV3xP+eE7I/m1HtGnAC8B+nnf+SD
+; JvGf5/UdRaZf5vSLfAN8B6a1adUJ90wCBrWv5ZPZD+Py5e/ichM/4xJkb+TTV5/mVDpy/+hlThGqGJ
+; esBvwXvAa51i/oNT3f55TsufdcQFyC+edFnAaVr+X0CanGD+eE3JJSf+Qi9jGGn+STNw/mtGsKGbnX
+; P+Wj2SnoT+akav/1Q5hfH/AAAABQDH/zElSG7/TTZ5/6O/I/5ALmH+MydJ/i0kPaKu/j0tXP5KNHT+
+; VzuM/mRDpP5ySr7+ek/N/oJT2v6JVub+e0/OFv6SW/ijrMNuesR6wFmaMP6CU9sM/m5HtgvAfv5GMW
+; v+c0u//n5R08H+b0i4K8BvwHoBnGGfY2vAeidua51z/ks1dv4wJkP+KCE0/j8uYP5lQqQr/n5Q1P6O
+; WO+jnT/Be8BrwWX+ilfp/n9R1f54TchpylWfUmUvKCH+YkGg/kMwZx3+eU7JWv5kQ6T+QS9jaSn+aU
+; Wto61ZUP5YO42eUv5gQJz/UDh+sv8AAAAAyP8rJD1H/0gzcP/+X0Ca/mxHszpWBP5cPpX+UDd+/kIv
+; Zf42KU/+LSQ+oZr+OytY/kgyb/5VOoj+ZEKj/nNKvv56Tsv+gVLY/ohV5P6PWfGkr6GabnrEFMBFnl
+; TAa5+F/odV5P58T8/+cUm7/kUxaij+flHTwTwrwWs3epxin2PAa8B6J25rwGb+WDuN/jorV/5bPZP+
+; bEax/lU6hx0F/odW5DB/e8BrwXtuwJ11/oVU4f57T86edMahmv6AUdefY/50S8KfhcAo/mVDpv5EMG
+; mgdQ7+eE3IwP5gP5sYoZv+ZkOn/m5ItmlpBP5JM3H+VjuJZf9DMGdvAMj/Jx82IT/+XD6V/mpGrzc6
+; a8FrwJ1z/l8/m/5SOIP+RTFr/jgqU6GrMgcjGBn+bke2Fv6AUdX+h1Xh/o5Z7v6VXfqim8EUwCmfZc
+; AGCcBrVf5SOIL+cUm6/n5Q02nACCF6a8BrN51hnmN7wGvAJ8Asa3pr/ls9lJ5h/nhNyJ1h/jwsWqOv
+; /l0/l/5wSbn+f1HW/o9a8gnAEMB7wG5rwKCq/pVe8/6aZef+pXXf/qV92/6fctr+lmTe/o5b5f6QWv
+; GhjJxQ/oJS2/54TcmeUDL+aESr/kYyazjA/m1HtBbA/lw+lf5CL2X+Y0GhK1lpn3b+RjJsoJr+VjuJ
+; n3b/LiNALADI/wAAAAP/Pi1d9/9ZPJD//mlFrCs3egHBCMB6wGtu/kAuYv5xSrz+fVDSnmIY/jAlQ5
+; 9k/jYpTjgx/l4/mP5rRrH+d03H/n5R0/6GVd/+jVjr/pRc+BA/wGt6wBDA/mFAnv5vSLj+flDSOsCf
+; df5vSLmgdSRrwZ5SnmLAe8BrwCfAbjM2PJ5i/ndNx6O/E/5NNXn+JSAw/jQoSjH+aUWs/nhNyP6IVu
+; b+klv5EGt6bibAoqmmov65fP/+6bL//v/c//7ywv/+xYn//qRp//6ZYP8X/o1Z7/6GVOEz/nVMwv5r
+; RrD+SDNunWQ4af5wSLn+eE3HwBWjrivAIVX+TjZ7/ikiN/5TOIOjjP9NNnnn/wAAAAEAyf87LFfTJB
+; 0hoJpuesBrwQh6wGv+RDBo/mxHs/59T9ChecD+dEvB/mVDpf5XO43+SjR1/j0sW/4xJkWeY6Sv/kEv
+; Yv5ONnr+Wz2TPQj+e0/P/odW5TChmcAQwP5ySb2eYzrA/opX6yYQ/opX6f5/UNT+c0rAK8CeUp1zbm
+; t6wB3Ae8Asazwu/ndMxqSvwJ92/mJCoP5HMm7+LCQ8nnX+QzBn/l8/mgj+gFHX/pBa9KKtHyZ7Gaeh
+; /r6C//7ut//+/9z//vPC//7IjP/+p2v//pph/zCdUZxQ/oFS2f5ySr7+STRynWA4wGn+ckq9o79a/l
+; w9lP5vSbhlwFku/i0kP6GZLiT/SDNypv8AAAAAyf8AAAAB/zcpUcz/UzmE//5lQqX+bke1K8A3wHpr
+; wQjAev5MNXcx/ntOzTPA/nZMxJ5iKMFl/mhEqv5bPZL+TjZ6/kAvYf4zKEmdYaGt/kAvYv5WOoj+ak
+; au/nlOyf6EVN/+kFr0EP6CU9v+bEay/nxP0f6IVucmwHowwZxR/oNT3P5zS8D+ZkOma24WwR3AJ8As
+; /mBAnP5WOokv/n1Q0MCfdv5qRa1vPf5UOof+OCpTFP41KU7+UjiC/mpFrv55Tsr+iVfo/pNc+6KZo6
+; aooP7Dhv/+87v//v/b//71wv/+y47//qlt//6cYv8/nWScYP50S8L+Tzd9/kQxaFU4wFn+dUvCootp
+; /ls9lP5wSbhWaf5ePpj+Py1e/ichM/49LVv+VzuLaf9ALmFk/wAAAADJ/zopVWn/QC9h//5QN33+Y0
+; Gg/m1HtCvBMjc6AcII/lM4hC3+eU3KM8AFnWHBKMFresBu/mtGsP5dP5j+SzV1/jQoS/4pIjb+OyxX
+; /lA3fv5lQ6b+dUzD/oBR1zX+hlXh/pNc+3/Be8FrMJ5S/oZV4/52TMT+Z0SqoHV7wR3Ae8D+YECc/l
+; E4gf52TMP+fFDQwJ92/mlFrXoTwGv+YUGe/kUxav4rIzpZ/kQxaf5hQJ3+ckq9/oRU3P6VXvOv1P7I
+; i//+87v//v/Y//72wv/+zpH//qtv//6dYv6ZRf6BUtj+akWu/k82fBVoPzhpoJr+dkzGBcD+Wj2S/n
+; BJuFr+ZEKj/kEvYp5k/iYgMRL+VzuL/1Q5hv7/KCA4IP8AAAAAyP86I1EW/0cybvP/XD6V//5TOYQZ
+; NaKKe8I3wDoBwTydYP53TcczaZ1j/nFKu2t6wGvCe8FvCJ1h/mNBohT+OitV/ikiNv41KU3+SjR0/m
+; hFqzL+f1HU/otY6/6TXPsmMMFrVZ1QaW6ehf58T8/+a0axnmHAa8F7Gf5ROIH+dUzD/nxQz8CfdgTA
+; em/Aa3qfdv5SOIP+NilP/iUgMP43KlL+VTqJ/m9It/57T8uuxv6jdN7+roPims3+mWfe/oVW1Q/+bE
+; ey/lE4gP42KU7+QC5ho5taZcAxooz+d03GwGn+WjyQ/nBJuP5pRasEnYSeZP4oIjUuwP9NNnnb/wAA
+; AADJ/0cxbV7/VjuK//5qRa7+eE3Jn4VZCJ91emvBb8A6AcD+YkGf/k42ey8sWp50/nFJu24eesFrwW
+; sywBKdUMIn/lU6h/46K1b+X0CbC/5SOIL+Wz2S/m5Itv57T8/+iFbl/pNc+TBrEJ1hM257wDP+glPb
+; EhZrwRn+UTiA/nVMwv58T8/An3b+aUWsa8B6E8BresAk/l8/mj/+KyM5oIoU/kkzcf5TOYWivVqeYi
+; b+OStV/ichM/4vJUH+QzBofmk/acBZ/ks1df52TMV+Nv5ZPI/+bEez/kczb/5ALmBZnWOeUP5YPIw1
+; /0k0cZn/AAAAAMn/TzZ9Wv9hQZ7//nFJvP5/UdX+ilfo/pJb9xCeYv6HVeMa/nhNyP5xSbsra246wJ
+; xi/kYybP50S8EpIp6HEsBuwGt6wGvCaxIdwCTBe/5WO4n+Wz2TFqGJ/lA3f/4tJD/+Py5g/lQ5hw7+
+; eE3J/oVU4P6NWO9/a24CwWt6/ohW5v53TMb+aESsoHWehTH+dErA/nxPzsA9/mlFrMBrwHoTwGt6wC
+; TAnnX+VTmG/kQwZ/43KVCeUcBZZRf+QzBm/lQ6h6Gr/kYybZ90aTjAaaKd/mpFrh4lNv5YPI3+TDV4
+; /kAvYGZZnFD+QzBnBGn/Py1dVf8AAAAAyf8uJ0gn/2BAnf7/d0zG//6CU9v+jVju/pJb+aKIwGvBZp
+; 1h/odV5f6AUdf+eU7J/nJKvJ51/kEvYy8iZln+cUm6wBLAbh4hwSjBGf5rRq/BJMH+Wj2RnmL+dkzF
+; o7/A/mxGsf5LNHX+NShN/ikiNgr+Tzd9/mFAnf5zS7/+hVXh/o5a8XvBCcB7wJ9k/n1Q0w7+TDR3/n
+; NKv/57T87An3b+aUWra8BrwHpvwBp6wCTAoawPoq0AnmIooq05/m1Hs/5kQqP+VjuKNZ90P2nAoJr+
+; ZkOoIRcSoZz+RDFpnmJpOzH+NylQEaSv/1Q5hP3/JhkzFP8AAAAAyv9GMWug/25Htf/+hVXi/o5Z8a
+; K/fx8mwXvBa8AwDP5JM3ES/nxPz8BVEll6EsBuwGshwSgZ/mpGsGnAemvA/l4/mf5ROIH+dUvDpL9a
+; nWL+bEeye/5lQ6b+UDd//jsrV/4pIjf+OCpR/lU6h/5uSLb+gVLYMwJrwHvAbmsz/k42ejL+e0/NwE
+; T+aEWremvAa8B6b8AaHcAkoZykr6K+oZuhiVidhjL+bEey/mNCof5VOon+RjJrn3U/OMD+YkGhKGkX
+; Zv5bPZL+QC9hwDtZwJ92/lk8jln/TDZ40ADL/0AAQAT/TzZ8iP9jQqL8DP6IVeb+kFr0o5zAa8Awwm
+; vAfv5hQZ7+b0i2/ntOzm6hrP6IVuX+gVLY/nlNyigLEsAXa8AhwBn+a0awWMAaHST+Y0Gh/k01ef50
+; S8H+e0/OwJ5j/mxHssB7wZ5k/lQ5hv4zJ0meYv5NNnkz/nxPz/6MWO4JemsYa3r+WDyO/nJKvv57T8
+; 3BM8A2a8AEwHpvwBrAeqGdDxahmww9nnQvnGD+YkGg/lU6h/5FMWqgdVXA/l4+lyjAIRf+YUGe/lY6
+; if5ALmFtOzHA/lY6iqKuoGP/SDNyi/8AAAAAzf8tIjxE/zwsWeT/Tzd9//5eP5j+b0i5/npOy/6CU9
+; r+ilfp/pJb+DDBN8A//n1Q0v5nRKk2oYv+kFr0pL/BVJ1Q/ohW5P6BUtf+eU7JKBceIRmdUKB1wWt6
+; nmT+STNx/nJKvgzAnnT+bEeywXvBK/5kQ6T+WTyO/jssWP4qIjj+RTFp/mJBof53TMb+ilbo/pBa9M
+; BvwAooDGn+glPbnnT+bki1nVF6a8BrwHpvwGvAoaz+dEvAop2hq6GJNgAoK/5iQZ/+VDmG/kUxap92
+; af5YO43+c0q+KMAhHf5WOokr/kAvYWk7Mf5SOIISOQ7/OCpUSf8AAAAAzv8PDx4R/yEdKXv/KCEzyP
+; 8pIzj5/zUpTv/+RDFp/lM5g/5hQZ4o/ntPzv6DU93+jFjt/pNc+6GqSP5nQ6gW/otY6/6WXv8Jw256
+; wFSdUJtQ/oJS2P56Tsr+bUeznnRvwWtl/kYxa/5xSbz+e0/NwJ52/mxHsWvBawRU/mRCpGksnHI4/i
+; kiNv49LFr+XD2T/nJJvf6FVOD+j1r0f/5pRa3+cUm6/npPzP6DU9z+kVr2f1r+hVXh/nRLwP5pRazB
+; BMAHE8Aaob3+c0rAo5w2AlWedJ1y/mtGsP5hQJ3+UzmE/kUxaUQn/nJKvjIvaTX+UjiD/nNLwP5oRa
+; v+QC9hZTH+SjR0EnueY/9WOor5/xUVKgz/AAAAANH/JAAkB/8mIjU1/yYhNGv/JyI1nv8nITTW/yoj
+; Ovz/OCtT//5HMm7+VTqI/mRCpP51S8L+flDSMv59UNH+lV39oYkJw24RxGadQv6EVN/+d03H/mxHsR
+; PAGv5GMWv+cEm6/ntPzAJULjPAOsEuJyDAb3oK/ks0df4tJD7+NChL/lM5hf5tR7T+gFLW/nRLwQj+
+; hFTe/pBa9n96a27AnGH+ek7M/mtGr592BMB6E8AL/nNKv6OcoZx7WJ50nWId/mBAnP5SOIL+RTFp/k
+; 42fP5ySbyieTJannT+UTiA/nBJu6Os/mVDpf5AL2A7/kUxaySirWlV/1A2fsD/AAAAANf/JxQnDf8o
+; IDU//ychNHX/JyE0q/8nITXe/ywkPf4q/kkzcv5ZPI7+aESq/nZMxf5/UdX+h1Xj/pBa8v6WXf4JwG
+; 56w2U/wVX+hlXiMwv+RTFqKwI9M/5rRrBrfsBrwGX+ZEKkIMFvemtm/lM5hP40KEv+LCQ8/ks1df5j
+; QqMI/oxY7qOtMHrAP8Brep52/oBR2P5vSLcEwAdvC/5zSr+jnKGbe0SfY51z/mpGr/5fP5v+UTiBnV
+; AIoqw+ZRz+TzZ8/l4/mf51TMJm/mJBnzuhmv5mQ6j+b0m4K8D/YECd/v85KVNQ/wAAAADc/yYZMxT/
+; Jh80Sv8mIDR//ygiNLT/JyI16f8vJUH+/z4tXP/+TDV4/ls+kyT+eE3I/oFS2P6JV+b+klv0o69/wU
+; CeZD/ABgnAVf5SOIL+bUe1PTZW/mtGsSQrfsBrK/5lQqRYIMEvwGvAa/5bPZP+PSxa/kYybP5mRKid
+; c/52TMT+iVbn/pFa9n8/wAYJwGtVKP51S8P+akWtwAv+c0q/oq2hm38WJZ1inGD+Xz+a/lY7iv5uSL
+; ejvsBZVf5WOon+QS9j/mFBn/50S8HA/l0+lzv+YECc/nBJuVll/mdEqf9DMGaU/wAAAADi/yEhMR//
+; KCI0U/8nIjSI/ygiNL7/KCI18f8yJ0f//kAvYf5PN33+Xj+YK/56Tsv+glPa/otX6P6QWvQzb8EJwf
+; 5iQaA6NsH+cUm7nVDAa3puK/5kQqRYemvAbnvAa8A9ev5IM3D+b0i3/mZDqDX+WjyQEv6EVN7+kVv3
+; P8AJwGvBe/6NWe/+fE/P/nBIuaKbop2hqyxUnnQ8nkD+cUm6/n5R1BYIwD7+XT+XGMD+ZEKjD8D+Wj
+; 2RnoYBwFmedf9JM3DD/zMAMwX/AAAAAOb/AAAAAv8mIDMo/yggM1//KCE0k/8pITTI/ykiN/Ym/kMw
+; ZhH+Xj+Y/nBJu/5/UdX+jVnuo68Jwf5ySr3+a0aw/npOy1r+iVbn/pNc+/6MWO4a/nJJvf5rRrEuK/
+; 5lQ6WfdWt6IMBvesA2wD3+SDJv/m5Htf55Tso5/j8uYP4yJ0f+UjiBKxr+j1r0CcFrwHvAbqGY/pNd
+; 7P6XZOL+oW/donT+k2Pa/ota3f6MWOcpnmP+hVXh/nxP0P51S8MI/mRCo/5CMGUYaf5mQ6cIwP5aPZ
+; E8bsBV/1E4fuT/QCpgGADs/wAAMwX/Jx0xNP8oIDRn/ygiNZ7/KCE00f8sIzz8Ef5ZPI7+cUm6/n9R
+; 1P6NWO6kr/6EVN/+aUSs/nlNyv6GVeP+lF37wGvAepxS/oFS2f50S8E2n3XAa3ogwG8vwDbA/ko0cx
+; X+eU7Jwf5XO4r+NilO/isjO/5JM3IH/npOzAwJEMEaoYmiqKiQ/r2A//7prP/+9Lf//s2Q//6obf/+
+; m2H/KZ1j/olW5/6BUtj+eE3I/mpFrv5EMWiehRgR/mlFrQjA/lo8kQtaaf9ZPI/5/z4sXDoA8v8VFS
+; oM/x8cKVH/IR4opP8qIjnw/0EvY//+WDuNAf5+UNP+aESr/oRT3hAfwGvAKTDAVv6IVub+dEvAIFnA
+; GSDALC/ANv5MNXj+bUe1/nlOyVrA/mhEqlj+XT6W/j8uXv4oITX+QC5i/mA/m/51S8L+iFbl/pJb+R
+; AaoYqjpv6laf/+wYT//ums/6eR/s6R//6qb//+nGH/nWqdVJxh/oRU3xn+SDNw/kIwZBjAEf5sRrII
+; Wf5bPZILWv5iQaD/Py5haf8AAAAA9v8gACAI/yAdJ08d/ygiN/D/Py5g//5XO4z+b0i4/n5Q1AwfJs
+; F7wBCdYWueYv53Tcf+ZkOnn2R6IMBvL8D+SDNv/m1HtP54TcjB/mdEqVh7wJ1j/kcybv4qIjj+OCpS
+; P/5wSbn+g1Pc/pNc+aKspJT+qG3//sSH//7mqf+ngf7Okv/+rnL//p5j/wIQnGD+dUvD/lA3fv5CMG
+; VlWRHA/m5Itj7A/lo9kf5xSbqcUP9EMGme/wAAAAD6/yAAIAj/IB0qT/8hHiqk/ygiN/A4Nf5vSLgE
+; /otY7f6UXPwwwJ10n2Nrbnqedv57T87+aESrGWvAby8G/mtGsf54TcjB/mdEqVRue8FE/k83ff4vJU
+; JrICv+gFHV/pNc7rLE/saK//7kp/8F/s6R//6wdP/+n2X+lkX+f1HW/mdEqv5MNXf+QjBmaFXAEcAI
+; Pmn+WT2Q/m5It/9KNHTK/yQkSQcA/f8kACQH/yAdKk//IR0pof8oIDXs/z4tXv/+VjuJ/m5ItgT+jF
+; jtoaxYMzg7a8BF/n9R1P5rRrD+ZEKjwG/+SjRzK/54TcfB/mdDqFgHbhbBa2Y//jgqUv4qIjj+RzJu
+; /mFAnv50S8Cruq2zooeZjZRsmUL+Y0KhBv42KU/+QS9jJ8AYacD+VTmH/nJKvWt6/lk8j/9SOYLq/z
+; opWh//AAAAAP3D/wAAAAX/IBwnSP8iHSqe/yggNewi/lU6if5pRa3+f1DU/o1Y8DjAe8FrPf6CUtv+
+; bke2/mRCoyP+a0aw/nhNx1rA/mdDqFjAB24WwR3Aev5fP5kY/ioiOaGa/jkrVBiirZ9j/jorVf4rIz
+; sl/kIvZP5JNHL+QjBlJxsYaf5NNXj+ckm8KMH/SDNw+/8/K15B/wAAAAD9xzf/IBwnSP8iHSqd/ygh
+; Nuz/RDBp//5mQ6b+fFDQ/o1Z76GawQl6awn+hlXi/k02eiT+d03Gwf5mQ6hYesAHbhbBHcAga6KL/l
+; 4/l/5ROIH+SjR0noWhif5RN4D+XD6V/mRCo/5ZPJD+STNy/kIwZMAYwP5HMm7+bki3or1ZwDb/QC5h
+; dP8AAAAA/cs3/xsYH0v/JB8uvv9ALmH//mJBoP56Ts3+jFjtoptrwBPAbv5dP5j+akWuBcH+ZkOnNj
+; 16wAduFsEdwHujnaOvob2hi8Cfhp5znkH+Y0Ki/lg8jv5IM3D+QjBkwFWhmg7+c0u+MiicYP9FMWym
+; /wAAAAD9z/8XFxw3/x8cJrP/PSxc/f9eP5r//nhNyP6LWOwJehNu/mhFrHr+d03Fwf5pRa2eYsBres
+; AHbnvBHWuivh6hvaGKwBmeZP5sR7H+Y0KiPxAnZVr+Y0Gh/nNLv8Ayn3b/SzR20/9AKlUM/wAAAAD9
+; 0f8XFxwt/x8cJKX/OStV+/9cPpT//nZMxP6KV+oTwP50S8L+aUWsNnr+hlXi/o5Z8v59UNIOnlFres
+; AHDGt6wB2irhKinTlan3USnVAK/lc7jAYnGP5aPJEIPsBV/1Q5hu//OixfI/8AAAAA/dT/FRUcJP8d
+; GyKY/zUpTvj/WDyO//50S8D+iVfn/nxPz/5pRKv+dkzG/ohW5v6RW/bAa1T+gVLY/m1Hs/5lQ6Z6wA
+; cMwHtror8SD6GbaQ+eY5xh/mJBoP5WO4r+RzJtG/5ROIH+c0rAfj7A/14/mPz/PSxfS/8AAAAA/df/
+; FBQUGf8bGR+O/zQnSvL/VDmF/yufdf6JV+gpwTB6wDD+hFTf/nBJuv5mQ6bAawzAFi6jrg8vWp91CA
+; 7+YkGf/lY6if5GMWujr/5ySbwPaVkd/0EvY37/AAAAAP3a/w4OHBL/Ghoegf8wJUPs/1E4gP/+b0i4
+; /oVU4Bp/MDPAb8H+iVbm/nRKwAfADB0ro64PL1mehp9jBP5hQZ7+VTqH/kkzcv5uSLUPwGkh/0cybb
+; H/AAAAAf8AAAAA/dz/FBQUDf8bGRty/ywjPeb/TDV4//5tR7P+glPb/pBa9jPAaz/Aa3qcUP53Tccd
+; E6K+o6+irKGaIDky/mlFrP5hQJ3+VzuL/m1HtP51TMIPwJ92/042edn/QCBQEP8AAAAA/d//AAAAB/
+; 8ZGRtn/ykiONwtDv6BUdj+kVr1Mz/ABgnAa51i/nxPz/5vSLehigWhmmUvK51REv5/UdafZCVkA/9W
+; O4vz/z0qYSoA/eL/AAAAA/8ZGRxc/yYgMdH/RjFs//5nQ6j+flDT/pBb9T/ACcEQoJqil/6VX+7+mm
+; bj/p1r3Zt7/pBe3v6NWeb+klv3n3acUP6BUtn+eE3JGf9gQJz+/z4sX1b/AAAAAP3l/wAAAAH/Ghca
+; Tf8kHy7I/0IvZP/+ZEKj/nxQz/6PWvOirMEQoZqjp6iQ/rt+//7Pkv/+x4r//q5y//6eY/+bbDqdUP
+; 6FVN/+fVDQ/mtGr/9BMGWJAP3p/xgYHED/IR0pu/8+LV7+/2BAnf/+ek7K/o5Z8QkQopqjpqig/rt/
+; //7NkP+Zf/6vc//+n2X/mn6ddp1RnFD+dkzF/0o0dbr/AAB/AgD96/8YGBw2/x8cJa7/OitY/f9dPp
+; b//ndNx/6NWO8CpJX+p2z/Gv7Lj//+xIf/Ov6gZv+afp14/o1Z7/5ySr7/UziEv/9AMHAQAP3u/xgY
+; GCv/Hhsjov83KlD7/1o9kv/+d0zE/olX4K/a/rd8+/7Jjf+Zn/6vc/3+m2L1liL+eU7K/l8/m/9ONn
+; 2T/yoqVQYA/fH/GRkZH/8bGR2X/zEnRvX/TDV3//5fQJv+bEey/nVLwFor/mNBof5ROH//OStT7/8k
+; Hi9cAP31/xYWFhf/IR0oev8kHy3G/yYgMfb/JyEz/2n/JSAw9v8jHSrH/x4cInf/GBgYFQD9/f39/f
+; 39/f39/f39/f39/f39/f39/f39/f3SAAAAAAAAAAE=
+; thumbnail_QOI end
+; thumbnail_QOI begin 160x160 23656
+; cW9pZgAAAKAAAACgBAAA/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/c
+; T/UDCPEP9bPJRM/1w9loX/XD2Wv/9cPpXj/10+lvz/XT6V//9cPpX7/109leL/XT6Vvv9cPpWQ/1w8
+; lmH/WjyWM/9VOY4JAP390P9cPY8Z/1s+lVf/XT+Wkv9cPpXS/1w+lvv/XT6W/8r/XT6W+v9dPpXW/1
+; 0/lqf/XT+Wef9cPZZL/1g4jyAA/f3H/1o8liL/Xj2WZP9dP5ef/10+lt3/XT+X/89pxP9cP5fw/1w+
+; l8H/Xj6Xk/9dP5dd/1k3kBf/AAAAAP39/2YzmQX/XD6XW/9dPpbI/14+mP3/Xj+X/9z/Xj6Y+f9ePp
+; el/2BAlRgA/fn/VTWVGP9fP5p+/14+mOb/Xj+Y/+H/XT6W0/8gIEAIAP3c/1s3khz/Xj6Yb/9fPpms
+; /18/mdT/Xz+Z8P9eP5nzwP9fP5no/14/mdv/Xz+Ywv9fP5my/18+mKT/Xj+Ykv9fQJh8/18/mW7/Xz
+; 6bXv9eP5pJ/2BAmzj/YECZKDv/AAB/AgDC/0kkkgf/YD+bPf9eQJmg/18/mfj/Xz+Z/9VayTLC/0Uw
+; aZQA/dn/AAAAAf9dQJk8/19Amqz/X0Ca/P9fQJn/wmvO/14/mfH/XkCa4/9fP5rP/18/meL/Xj+Z+w
+; jbAcM8xf9QN33+/ywlQEwA/db/QEB/BP9eQJtc/19AmswI/cU5/zUpTub/JCQkBwD90/9VPZIV/18/
+; mnn/YECb5P9gQJv//cj+STNy/y4kQGMA/dH/XT6bKf9fP52Z/2BAnPQSwWv9whLDnWP/MCZEzgD9zg
+; //YT2aR/9gQJu4/2A/nf4ZyXrAa81u0iPMHMEZyTz+Pi1d/zEkQT8A/cv/VTmOCf9gQJ1o/2FBntQo
+; /c/+VTqH/ko0dP85KlSqAP3J/2I7nRr/YEGdhf9hQZ3tKMBr/c5V/k42fJ90/0Yybfr/QCBQEP8AAA
+; AA/cb/YkCdNP9hQZ2m/2FBnvcvxHrFa/3AMsOdYyPAVP8wIEAgAP3DJf9gPp9S/2FAn8I512vrOc1V
+; /lE3fyP/Qi9k9P8AACoG/wAAAAD9wf9iO50N/2BBn3L/YkCg3jnCa9FuwHrwBcAAyp5i/1E3f9T/Y0
+; KcH/8AAAAA/f9jQJwk/2NCn5D/YkGg8v9iQaD/wAUIyGv9zgjA/2JBof7/Y0Khwf9iQKJr/1lAmRT/
+; AAAAAPj/YECbQP9iQqCv/2JCofwP12v4D83/Y0Gh+v9iQaC5/2FAoVz/VTOZDwDy/21Jkgf/ZEOhXP
+; 9iQqHOD8Rry3rSa+IZ0hbH/2NCovT/Y0Kiqv9iQqFR/2BAnwgA7f9hPZ4V/2RBoX3/Y0Kh5RbCGcog
+; /dYZxf9kQqPw/2RBo57/YkKgRv9AQH8EAOj/Y0CiLP9jQqKa/2RBo/YZwCDUbmvKeu0syiXAIM7/ZE
+; Gj5v9kQaOF/1UzmQ8A5P9kQaJK/2RBpLv/Y0Kj/iDHJSzFL9Nr7y/TLMUlIMD/ZEKk4/9dPpspAOD/
+; XUaiC/9jQaFq/2RDpNYswy/MNuZrzDbmL8f/XT+Y0v8qKioG/wAAAADd/2BAqhj/ZEKkh/9kQ6TsL8
+; U21D3Dev3DPcQ2z/5bPZP/PS1cjf8AAAAA2/9/AH8C/2RDpHP/ZUOk9TbMPcF61GvNbt4HzQDTPcL+
+; VTqI/0kycP3/NSpQQ/8AAAAA2f9kQKQc/2VDprs2wj3Bes4HxQzYa3rcEwzXB8YAxET+TjZ8n4b/Qz
+; Bn2v8AAAAA2P9jQqJV/2ZDpez/ZkOm/8cHxAzNFv3VEwzK/l5Amf5ONnrAn3X/AAAAANb/WzekDv9l
+; Q6efPQfDDMoW1Wv9wxbU/lc7i/5ONnsD/0Yxa/UA1f9iQ6Y5/2ZDp9wMxBbQHdV6w2vtIMQd1RbAB/
+; 5QN38KA/8/LmC9ANP/VVWqA/9nQ6iB/2ZEqPkWyh3PIMJr027rJ9QgwR3FnFD+Tzd8WQr/NylQcADS
+; /2lDrCL/Z0SpxxbBHcx6wCfNLMZr/cosxifH/lk8jxnAnWH/IhsvJgDR/2ZDqV//Z0So8R3FIMAnyi
+; zEM896yGvxNsgzzyxW/lI4ghnA/0IvZdcA0P9pPKUR/2ZDqKwgJ8gswzPLNsRr5GvQPeM2xZxi/lA3
+; fVoZ/zwrWY0Az/9kQqpC/2dFquMnwCzDM8k2wz3UBNN64ATTPc3+Wz2T/lA3fiCfdv8oIDhA/wAAAA
+; DN/1Uqqgb/Z0Spi/9oRav9M8Y2wj3PBMsHy2vAbvQOB8wEyGX+VDmFKiP/RTBp7v8AAAAEAMz/Z0Oq
+; Kv9pRavPMzbCPc0EyAfHDhPha9MT4Q4HxJ5S/lA4fyrA/z4uXqgAzP9nQ6tq/2lErPY9yATHB8UOE9
+; Iaynr1GsoTy/5dP5f+UTh/NlT/MiRFXADK/2RDsRf/aUSttD3CBMUHxRPPGsYdz2v3Hc8axf5VOok5
+; Nv9IM3D7/xkZJhQAyf9oQ65M/2pFreoEwQfEE8waxR3KJN9r3CTfHcGeZP5ROIFpOf9BL2PE/wAAAA
+; DI/1U5qgn/aUatlv9pRa7+/2pFrf8OE8saxHrIJNMrxXrEbvIuxCvFJMr+Xz+b/lE4gWk5/zgpUXf/
+; AAAAAMf/a0KtMv9pRKzYE8UaxB3GJM8rwy7CM85r+jPOLsIr/lc7jJ1gWZ1z/zMnSbj/AAAAAf8AAA
+; AAxP8AAP8B/2lFsHf/aUau+RMawx3FJM0rwi7BM8o64GvKesAByjrgM8Gedv5SOYIKB/5BL2T+STNy
+; /zoqV3IAw/9mPa0Z/2tGsL4dxSTLK8EuwTPHOtMBwHr9ywHAOsn+YUGeFgrA/kUxa/5QN37/RzJu+P
+; 80J04nAMH/aTy0Ef9rRrDcJMorwnrAM8Y6zwHABNVr9wTU/lo8kBYRn3aecypU/0Ywa3kAwf9cP5aj
+; JMMrwS7AM8Y6zAHABM8L1G7FesJr2RPCEMUL1QTAJP5TOYRZFv5IM3D+WjyRNmX/RjFueADA/zcoVE
+; b/WTyP/isuwDPFOssBBM0LzRDCE8Aa/cwTEMILxP5kQqP+UzmDwBaddP5bPZL+UTh/Kv82KUxRAP8q
+; FUAM/0MwZuE8/mtGsTM6ygEEywvLEMATwBrXa/Ya0/5cPZQnIBGjr3s5/0o0cvz/ICAgEAD/PCtajf
+; 9RN3///mRCo/5ySr6ivp9TnHE6wAEEygvJbsETGtEh1XrPa8ckzyHWGsEE/lU6hydp/ks0df5nQ6j+
+; VTqIOf9FMWnF/wAAAADA/0kzcO//XD2T//5rRrD+d0zH/oJT2/6LWOyjv510/odV45xQ/npOy5xQnV
+; ELyRDAe84hznrEa/3KJMMhxP5mQ6f+VDmFJ8D+TDV2If5TOYWfdP88LFp//wAAAADA/1M4hPD/ZEKj
+; //5xSbr+fE/P/oVU4f6NWe+iv6GabsBrwJ+GnWIonVA2/nNLv51hzCHLJMMr2WvFbuAyxSvW/l4/mD
+; FpJy4h/lI4gZ9l/yogPDcAwP9JM3LH/2pGrv/+dkzD/n9R1v6HVuX+jlryoc6hiW7AJsF6a8Frn3ad
+; UP6HVuOcUDY5nlHIJMIr0WvBbs168jfMMsErwlr+VjqJoGQxnWP+X0Cc/m5ItRv/RzJu7P8AAAADAM
+; D/NSlNav9XO4v//nhNx/6CUtr+ilfp/pBa9KGtfx/AJsF6a8JrwH5rwRoinGCcYP56Tss5K80ywG7I
+; Oshr/cM6yDfCnGD+VTqHWTH+SjRzEn7+TTV4/0IwZqoAwv9GMm+K/1c7jf7/cUm6//6DU93+j1rzoq
+; 17H8AmwSkwwmvAPwbEesGedf6OWe6cUJ1A/nlOyv5zS76eZMY6xQHba+gB1yv+Z0Sq/lk8jj1pnnT+
+; bki1nWL+TjZ7/zcqUWIAw/87K1dk/0o0c/j/ZkOn//5xSbv+eE3I/n5Q06Se/olX6KO/FyYpa8JrwH
+; oGxAnEbnpVn3ScUJxQ/oBS1ZxhnFAB0AjMC/QIywHDVZ9kn4b+YUCe/lY6iJ9U/lo9kP5uSLX+ZEKk
+; /0s1dv7/IxosHQDE/x8bIkv/JiAx//46K1b+SzV1/lY7i/5iQZ/+bUe1PqCro6/+gFHXo7+kn6O/oa
+; 43wDoGxAnEbnrFep5jnFCcUSKcUJthCMZ6zGv8C8tVn2RYM55j/lw9lP5KNHP+akauopz+YUGd/0Yy
+; bNMAxf8gICAI/zcpUPz/MSZG/55iMH/A/jgqUv5DMGf+TzZ8/lo9kv5mQ6b+cEm7oqyhm6O//oJS26
+; Su/o5Z8P6TXPuimsIJxA56xnrCWZ1V/opX6f6BUtgW/nFJu2nAEstu02vXF9MSyAiedGlZwFT+Y0Ki
+; /k42exAL/l4/mf9ALl+L/wAAAADG/zorVdz/UzmD//5bPZQY/kw1eP5BL2T+NilQnmHCa/47LFj+Rj
+; Jt/lI4hP5ePpj+akWu/nNKv6KJop2jv/6EVN+jvv6QWvOjr6GZwm4RxnrCSZ1lwXuedv6IVuX+flHU
+; /nVMxBfGa8d6+B7HF8JWnnQEwDrAM/5gQJz+Qi9kOgv+XD2U/y8kQUcAxv82KE25/083ff/+YUCe/m
+; xGs6Sue1r+a0ex/mBAnf5VOoj+STNy/j0tXP4zKEqfhsKhrP4/LV7+SzR0/lg8jv51TMIooZyhmaK/
+; K6Svo76kr6K+f8UUwp9nnmXBCcFrVZ5i/oVU4f59UND+dEvAIc8o8CHOVZ9kVATAOsCcUP4/Ll/+Rj
+; Jr/lg7jf5qRa7+UjiC/zstWaAAxv80KEqO/0w1d//+Xz+aJP5xSbwywG/CCCj+aESr/l0+lhH+RjFs
+; /jkrVf4yJ0fAoJs+or7+VzuL/kMwZv5ONnr+Wj2R/mZDp/5ySbwvoJoso6/+iFblo7+krqKswBTBEZ
+; 5mn3bBawnAa8J7EJxQ/oNT3f56Tsz+ckq+af3OGZ90WAvAaVqdUP5EMWn+KyM6/lE4gqGqGCP/SzR1
+; /v85KVFe/wAAAADF/zAkQ2v/STNx//5cPpT+akWuEi96wG5rwgjCa510/mVCpP45KlP+bUe0/nxQz6
+; O/Ejj+MydIwf47K1Yw/lI4gf5ePpj+aUWuDzaimv5/UdSjvv6LV+ijvqOvED/BBnrAEMJ7H8BrwAb+
+; ilfp/oFS2f54TcgvKC/DMvYvwijFZitYwFXABJ5j/kcybv4rIzn+MidH/lQ6hjFZ/kYxa/5ROIH/Rj
+; Fs4/8AAAACAMT/KiI9QxX+WTyP/mhEq/5wSLkoLzLBPsIIwg/A/kIwZSr+e07NAcBV/mJBoP5LNHT+
+; Py1e/jUoS592wqCb/j4tXv5KNHP+VjuI/mFBnv5uSLb+dkzENlT+flHU/ohW5f6QW/ahmnrAa8J7H8
+; BrwXprwJ10/ohV5f5+UNT+dUzDnoXEbsRr5DfDMswonoYhacBZZp51/kozcv4tJD3+JSAv/kAvYj1p
+; nXT+STNx/lI5gir/ORxxCf8AAAAAxP8jGiwd/z8uX//+WDuM/mZDpv5vSLgowXvBPsIIwg/+SzR0/l
+; w+lf54TckBwGmedv51TMIlCP5qRa4t/lI4gv5HMm3+OytX/jMnSWnCo4z+QS9j/ks1df5bPZP+bEax
+; oq7+eU3J/oNT3P6MWO7+klv5f8F7H8BrwSlrwWvAMJ1Q/oVV4f56Tsw+/cFVPCtZacBpQP5MNXf+PC
+; xZDcD+TjZ7pK/A/ks1dv5SOIGhef9MNXf0/wAAAAL/AAAAAMQW/zssWPT/VDmH//5jQqIhKMIywW4+
+; wgjB/lM5g6Gb/ndMxjrBRP51TMLAJcF6a8Ac/mZDp/5aPJL+TjZ7/kMwZv43KVAJWRuhif4+LV3+UT
+; eA/mNBoSuirv59UNH+h1XkJKKbH8AmwSkwwWvBfjCdUZ1i/oBS1/52TMQI8mk+xjmfZCvAWcBpVf5O
+; NnsY/jkrVA3+LSQ+/lU6h2k9J55kIP9GMmzB/wAAAADF/wAAAAH/OCpS4P9ROIH//mFBn/5sR7Oiv3
+; /CazLBPsJ7wP5aPZD+TTV4/nVLwzrBVR7BJcF6wGvCay/+b0i3/mNBof5VOof+Py5g/i4lQZ90wP4z
+; KEr+RjJs/lg8jv5qRrCjvf54Tcf+glPa/otY7P6TXPsmwClrwjfAfp52nWLAbmX+hlXi/nxPz/50S8
+; EI9zmfdaBlK8BZwFT+UjiC/kEvY2n+NypQDf47LFgHwFSjnv5ONnujrf9BL2J9AMX/OitUair+TjZ6
+; /mBAnP5rRrASf2vCazLBPsII/mJBn/5FMWoI/oBR139ZwP52TMRUbsElwXovwjbBKJxQnnX+XD6U/k
+; o0dP43KlH+LCQ8wCIq/lk8j/5vSLgropwd/oVV4v6QWvWjrcJrwD+dYywzOHprwJ51/oJS2/54TcgP
+; 9AiedqB0WivAaVX+VTqIGMBp/jUpTQ3+SjRzDgct/mNCoSehq/8vIkA8AMT/MCJFJf9FMWr1/1I4g/
+; /+SzV2/l0/l/5qRa7+cEm6IcFrwnvBbj7BDv49LVv+dEvA/n9R1aGJwf53TMafdGsewSXBesAvwjYo
+; nFFYwSSbUP5UOYX+QS9j/jAmRP5EMWj+cUm6nVH+SzV2/lY6if5pRaz+cEm6Nv6AUdf+ilfqF6GawG
+; mcYVgzODsCwQk9nVD+flDTJWXgEsZaxmafdaBkwFkyacD+WTyO/kIvY1ppwP4zKEn+KCE1B2sHnGE5
+; /lM5hP9KNHTx/wAAAAT/AAAAAMT/Py5fsif+ZUKl/mtGsf5kQqOirv5vSbmhmnrBa8JresFvwJ52/j
+; YpTj7+fVDRopzB/nhNyZ5iwBluwiXBemvCVv5vSLigdWvBemvAnmT+Pi1dNzCcYQP+LCQ9/jgqU/5L
+; NHb+Xz+aJKGt/ntOzf6FVOD+jlnwwWs4OwLBCcB6ayz+hFTfPR7tGZ91n2UBwDo3Zf5bPZP+QjBkZV
+; oRwP4xJkWjr/5WO4kOaQ7+YECc/lM5hP9FMmy0AMT/MzNmBf9LNHX4/14+l//+bEaz/nlNyf6DU92i
+; rZ90nkGcYZ1gn3XAa8JrMsFvwP44KlL+b0i4/ntPzjBpwJxQD8ESax7BJcF6a8FVnlAawWvAJCtU/j
+; 0sWyv+flHUKcD+ZkSn/jQoTP4sJDzAoaz+QS9i/lQ5hv5nQ6j+bke2oZn+f1DV/oxY7aKKO2vBCcB6
+; a8BuVp5hMP53TMYl4x7FnocLWgHAOjf+Xj+Z/kIwZMBVwGnA/i8lQf5EMWodZZ5l/l4/l2v+VDmF/z
+; 8sX27/AAAAAMT/MwBmBf9VOoj4/2VDpv/+ckq9/n1Q0f6GVeL+jlnxo62hicAXnmKcYJ1QnGEvKMF7
+; wW7+Pi5f/mdEqv55TsspwZxi/nRLwGvCGW7CJcB6wC8gnlGfdMJrwHpr/jwsWSv+flDSoZvBGf5hQZ
+; /+TjZ8/jssWf4sJD1pwP41KE3+RzJu/mBAnP5qRa7+d03H/odV5P6PWvLBCcB6E8Bua8B6EP6HVeP+
+; fE/Q/nZMxGneJcY+noYLCGnAOv5iQZ/+QzBmJxtaacBV/i0kP/5TOYMdZf5MNXf+akWv/ls9k/5SOI
+; H/KCI5LQDF/1A3ftL/a0ax//53TcYw/ohW5gmirX/Aa8F6a8Cedv6MWO2cUJ1Q/npOypxiMv5HM27+
+; X0CaFv6AUtZmIZ5z/nRLwMBrwnprHsElwShWnmGeZBrCa8B6/jsrWP5vSLf+fU/QooxpwP52TMb+cE
+; m5wZ1i/lk8j/5HMm3+MyhK/iojOZ1y/jkrVAf+Z0SpARr+jVjvCcB6E8Bua8Aia8GdZP6DU9wWn3Xj
+; D59kZWnAAcD+ZUOl/kczb51gwFXAacBU/jcqUf5WO4ppwJ1i/mtGsBX/SjRz5/8AAAAB/wAAAADF/z
+; YqT3r/YECc//57T80h/opX6imhrG7AJsF6MMFrwX4wCf5eP5icUP52TcX+gFHWWcCedQjCD8F6a27B
+; a8Kdc55jwH/Ca8D+PSxa/m5Htf57Ts2jncH+d03GOgHCa2X+ZEKk/k02ef4wJkP+JSAu/i0kPv5IM2
+; /+YUGe/mpGrv54Tcf+iFXk/pBa82vAbmvAemvBa8Bl/olW6P5+UNT+dkzF0mnMn3afdFppEmkI/mdE
+; qf5KNHP+aUWt/kIwZMBVwBHAn3b+RTFq/lc7ilppoJr+a0awNf9GMmynAMb/AAAAAv9GMW2q/10/mP
+; /+ek7M/otY7DChq27AJsF6a8I3wHpvwP5/UdX+Tzd9GRrBoZoa/nlOyZ1iwQ/CehluwWvAIZ1jwX5r
+; wWv+Py1eJDOjv8H+eE3I/m9JuHrAAcFrwJ6F/mdEqS7+PCxZ/iYhMWX+OitW/lY7if5oRKr+cUm7/o
+; FR2P6OWfCiimvAImvBa8B6wG+edP6EVN/+ek/MnnPLZsM2yhmfZGlaaRJp/mlErDwBnXT+QjBkZVoR
+; wFmgm/5ZPI4uWf5ONnz+Y0Ki/mtGr/5WOoj/OipXYQDI/0YybXX/UzmF/AT+d0zG/oBR1v6GVeP+jV
+; nv/pNc+ibBe8JrwHoGwDD+UDd+/nNKv/5+UNQaa/6SW/ajrsCfdp1QnGD+glPZnGGdQQ/Aehluwiid
+; YWvBE2vB/kMwZv5mQ6j+eE3JpL/BnVH+b0i4bnrAa8EIn3X+Z0SpwHqdUf5JM3D+LiVA/iUgLjj+ST
+; Nx/mJBoP5rRrAs/ohW5/6QW/V6a8FrwDPAP8Fm/otY6/6BUtj+d03HBdM+w0QowGlaF2acYf5LNHUL
+; LP5qRa4nGMBpwBj+YUGdoq/+WTyPn2T+TjZ7/mtGr8D/UDd+/v8oIDAg/wAAAADJ/yIdKmE4/kQxaP
+; 5VOoj+YUGf/m1HtaKtpL/+flDU/oZU4f6MWO7+k1v5oorAa8F+a8D+ZUOl/nJKvf5+UNOhif6OWfD+
+; l17/w256wFWeUZxRnGCcYZ1Qn1PBnnadYMBrwW57wCb+YUCd/ndMxv5/UdTBnVErMm7AegHBnof+Z0
+; SpwXvAHf5WO4kU/iYgMcD+OyxY/lc7jP5oRKz+cUm8/oFS2P6PWfIpwWszwG/Ba3rAnnf+h1Xk/nxP
+; 0AXVRJ6EKMBpwBcL/kw0dv5qRa7+eU7JwP5lQ6T+Qi9kGMBpwP5dPpYQnob+YECcLp50/mtGr1r/Rz
+; Jt2/8AAAAAyv8lHzIp/zwsWf/+NChL/iojOaCroZv+OCpT/kUxa/5TOIT+Xz+a/mxGsqOuo6/+fVDR
+; /oRU3v6LV+v+klv4o5trwP56T8wo/n1P0P6JVuf+l17/xG56xXqedJ1BnFD+gFLVEgTAC8EQe/5MNX
+; gc/nZMxP5+UdTBnXP+b0i3wGtuwHoBwJ92/mdEqcJ7wG5r/mFBnv5IM27+LSQ+/iUgL/4vJUH+STRz
+; /mNBov5sRrD+eU7LDylresBvwWt6wWtVnWL+g1Pc/nlOyp+GwFrPVJ9jZSjAacAr/ks1dhwlwf5iQZ
+; 8bGGnA/lg8jRrAVJ1i/lo8kf5RN3/+aUWsoYr/Pi5flwDK/wAAJAf/OyxZ+v9UOob//l4/mJ1R/k02
+; ef5ALmH+MydJImki/jUoTf5DMGb+Tzd+/lw+lRr+cEm7o6z+fFDQ/oNT3KGb/nFJu/6BUtn+ll3+f8
+; RuesUUwp9nMDv+gFHX/nVLwv5tR7TBbv5ROID+WTyOGf5+UdPBnnT+b0i3wm/Aemufdh1pHcF7wG5r
+; wCf+VTqH/jkrVP4lIDCgmv48LFr+aUWtev5xSrz+gVLZ/o9Z86KaP8EGesFrwXsG/olX5/5+UNT+eE
+; 3Iac6eYz5lWijAn3X+TjZ6/kMwZv5kQqL+eU7JWmn+X0CaGMBp/lM5hP5tR7V+wFWfhv5ROIE9oq3+
+; ZUOm/ysiOlP/AAAAAMv/OSpS3Af+YUGdLgHBnFD+XD6W/lA3fv5DMGf+NihO/i0kP2nA/jInSQL+TD
+; V4/lo9kR3+cUm7opz+ek7M/oJS2qSv/pBa86O/oYnAbnrGesARnnefZcAGep5k/oRU4P55Tsv+b0i4
+; /lU6hyf+c0u//n5R08Gedf5vSLZrwjfAOisdacAdwXvALGvAemsj/kYybf4tJD3+aESsor3+VDqG/m
+; RDpP5sR7L+ek7N/opX6v6SXPjABnrBEMF7wG7AnWQFBJ90yaCbpL+fdv52TMQ+ZcBZn3b+UTiAOMD+
+; ZkOn/nhOyBbA/lo8kBjACv5uR7QhacBV/mVCpf5FMWv+VjuJwP9PN337/xsbKBP/AAAAAMv/NilOtA
+; r+X0Cb/mpGrv5vSLh+a8IIwJ2E/mA/nP5SOIP+RjJs/jgqU/4tJD8iwP5hQJ7+cUm8/lo9kp50/mRC
+; o/5wSLminP56Tcok/odW4/6PWu/+lV37EcR6wFWeVljABgnBEFQ5Cij+flHTBGlVIcArwjfAK/5nRK
+; lpwR3BJ8BuM8A2a8D+RzJv/mNCo/53TMZZ/kAvYp6F/lo9kP5pRa7+ckq+/oJT2/6QWvWimsEQwXvA
+; bsBrwHot/opY4P6GWNWcZJ1onJqih6Gaoq3+hVTe/otX6qKdnWH+glLa/npOy51Rn4bAGf5VOof+Qz
+; BnOMD+aUWuFsH+VzuL/kEvY/5KNHX+bUazookhacCdYxj+SzR0/lY7icD/STRyzv8AAAAAzP8yJ0eP
+; /0s0df8c/mhFrP5vSLc3emvCCMB6wGvAIf5jQqL+Qi9lFf52TMT+fVDS/mJBoP43KVH+LyVB/jorVv
+; 5HMm7+VTqI/mJBnyuirqOu/n9R1P6GVeD+jVns/pRd+BF6wAWeRWnBCcFrwP6MWO3+SzR1/nBJu/5+
+; UNLBVSHBJCvBayH+Z0SpWHvBHcB6J8Asa8B6a/5HMm7+Y0Ki/nZMxf59UNFV/lQ5hf4mIDH+MCZE/k
+; s1d/5lQ6b+bUez/ntPzf6LV+oJEMF7wG7AJsCgqqOWqJD+un7//uGn//791v6hBP7lqv3+vH///qVp
+; /xydeZ5TnVGcYP5+UNM2n2Io/lg7jP5DMGfAacD+a0aw/nhNyMBp/lQ5hgb+a0axoqxpWmmfdgb+Ky
+; M6B6GKaf9DMWeI/wAAAADM/y8lQmgG/lo9kv5nRKkhoYnAesABwmvAC8BrwP5TOYNV/nRLwf5+UNLA
+; noYV/j4tXv4xJkaeYsB7/jcpUP5FMWn+UjiC/l9Amv5tR7Sjrzb+flDR/oVU3f6LV+j+j1rzopvBe8
+; EQwf5SOIP+b0i5PVrA/oNT3aOd/nxP0BmfY3orwSGcUKB1wHvBHcB6a8Bua8B6Bv5jQqL+dkzF/n1Q
+; 0cH+aESr/jYpTv4lIC+hm/4/Ll7+Wz2S/mpFr/5zSr/+g1Pc/pFa9hBrem7AJsChqqOV/qVq//6/gv
+; /+5qz//v/Z/6RE/umu/zX+p2v//pxh/51qnWaeUJxy/oFS2f56TsydUP5bPZL+RDFnVmnAaf5wSLn+
+; eE3HwRH+aEWr/m9IuCvAWVX+TjZ7/iwkPP4zJ0j+VzuKWg7/MyRJRgDM/ycjN0E//lc7jf5mQ6cLKz
+; fAesBrwmvAesBr/lo9kf5KNHT+ckq+/n5Q0lrAn3b+ckq9Gf5oRKz+Wz2UCv5BL2P+NChL/i0kPnpr
+; Jv5CMGT+Tjd7/l0+lf5oRKqinf51S8L+gVLY/oxZ7v6TXPnBEMH+YkGg/m5Htv59UNJp/oJS2xChiX
+; pW/oxY7f6BUtg2/m9It8AcJwduwHvBHcAgJ8Bua8D+SDNv/mNCov51S8P+fVDRwZ91/mpGrv5eP5k4
+; /ioiOA3+MSZG/k01ef5mQ6ikv/57Ts7+i1fs/pRc+x/AJnuimKOV/qdr//7FiP/+67D//v/Z/27+6b
+; D//sOG//6qbv/+nWL/nWoanWOdYZ5A/n5Q0v5gQJ3+RDFoaT84wDH+cUm8pL/AWv5UOYb+cEm4NyvA
+; Wf5VOoj+MydJ/iUgLv5BL2P+VzuLaf9ONnr2/xcXLgv/AAAAAMz/KiA8Nxv+VjqJ/mRCo/5sRrMrwD
+; I3wDoBwgjAC8D+Y0Gh/kIvZv5xSbv+fU/Rb2lV/nJKvMBrwmb+bEax/l8/mv5SOIH+RDFo/jcqUf4u
+; JUBpIqOu/kUxav5ZPJD+akavIT3+iVfo/pJb+KGJwP5zSr6dUf58T9GjnP6SXPgmwClrwp10/oVU4f
+; 56Tsv+aUWtnnNrbsB7wR3AemvAbmv+TjZ6/mNBof50S8H+fVDQwZ92/mpFrRPAnnb+UDd//jQoSw2h
+; nP4/LmD+XD6V/mtFsP50SsD+hFTeP6GboJqjlqSk/qtv//7Gif/+8LX//v/Z/527/uqx//7Hiv/+rH
+; D//p5j/xEwnWOeUv6CUtv+YkGg/kgzcJ5hWmXBWf51S8GijMBp/lU6iP5wSbhaZcD+XD2U/j8tX/4t
+; JD/+JSAu/k83ff5XO4tp/0kyb8H/AAAAAMz/AAAAA/8+Ll7J/zssWP/+UziD/mFAnv5sRrIrwjfAOs
+; ABwgjAnGD+OytX/nFJuv57T8+hmcEyWMBrwzLCnlL+YkGf/lQ6h/5GMm3+MydJ/ichMqKu/j8uXv5U
+; OoX+aESq/m9IuP56Tsz+hlXinXT+bUez/n9R1f6RW/aimybBMMJrwGj+jFjt/ntPz/5rRrGeUMAWwR
+; 3BeifAbv5NNnr+XD6V/nRLwP58UNDBn3X+akWtwBPBa/5eP5j+QS9j/igiNg3+MidH/k42ex3+bki1
+; Kf6NWe/+mmD+ppP+r3P//sqN//7wtf/+/9n/mu7+6rL/Df6ucv/+nmP/nWudif6LV+v+dUzE/l4/mP
+; 5NNXj+RDFoaVY4wGmgmv52TMUFwf5SOIP+cEm4WmX+YkGg/kEvYp6H/iwjPDsuwf9CMGR7/wAAAADM
+; /zgqVID/TTZ5/551o7/+YD+b/mpFr6OsK8JrN8A6AcJrK/41KE3+cEi5PaKbwf50S8CfZXrBa8Jres
+; Fua8CeY/5hQZ8t/jgqU/4oITTA/jkrVP5ONnv+Y0Kh/mxHs2n+f1HV/o9a8h9rwTDCa8CfdZ1ibmX+
+; glPb/nFKu/5mRKcWwR3BJ8H+TTZ6Ev5zS8ApwGmfdv5pRa16wBPBa3qeZP5PN33+MydJ/iUgLz4R/l
+; 4/mP5uSLb+dk3E/oVV2bDW/riA8P7bo/b+7sb5pef+3ab5/sKI9/6hafGRTZkw/nRLwQT+VTqI/jws
+; WqSvoZppP2nAMaGL/ndNxsFU/lQ5hf5wSbhaHS6edGX+KiI5/jkrU/5YPIxVn3b/LSQ6Of8AAAAAy/
+; 9AKlUM/0Uxa/T/WTyQ//5pRaz+Xz+aWT2iv38rwms3wDprw/45KlM1/nlNyaOdacD+dEvCFx56wSjD
+; a3rBbwGdYsGdc/5TOYP+Pi1c/iojOZ50/jUoTf5sR7InNQ/+gFHX/oxY7f6UXPswwmtVn2KedW7Ae8
+; CcUP53Tcf+aEWrn4bAHcEnwP5NNnkS/nNLwCJmwJ91PWt6wBPBa3rAVhL+QC5h/ichNJ90/jQnSgr+
+; ZEKiD/56TsyhiSJmWD2gdTL+YkGg/ks1dv4uJUCedD9/aT9pwGla/kgzcf53TcbAaZ92/lU6iAEk/k
+; YybJxgwJ92/igiNf5HM27+WDyMVv9NNXnv/wAAAAP/AAAAAMv/RjFrPv9SOIL//mJBoP5wSbr+fE/Q
+; o60knmP+cUq8nnR6a8JvwHrAAcH+QS9i/mRCo/53TMYsWsCcUJ1yF8AeesFrwzLBCJ1hw3ugZf5ZPI
+; /+NilOJP51TMP+VjuK/kUxaf5YO43+akWuEv59T9H+iVbn/pNc+jBrVZ1gWcBue8Kedv5+UNL+bUez
+; FmvBJ/5PNnz+XD6U/nNLv/58T8/BNv5pRazAa3rAb8FresBrwJ1j/k02ev4yJ0f+KCE1oq6iq/43KV
+; H+Qi9k/kgzcMBpIv45KlP+LSQ9BZ5z/jssV/5HMm+fYsBpVmnAMVr+UDh//nZMxH9m/nBJuTX+bke1
+; /ko0dP5AL2A7WZ91Bf5VOoeimzX/SDJvsf8AAAAAzP9LMnMz/1s9lP8EL/6AUdf+iVbm/pBa9BAfE/
+; 6IVuX+gFLXm2D+ckm8n2TAa27AOgHA/kgzcP5cPZMlKcBpnHMSwBfAayHCa8Jrep91HcAkwntu/kAu
+; Yf5nRKn+d03GIv5tR7P+OitW/ioiOf48LFr+UjiC/mZDqP5uSLf+eU7K/oVU4ROfdcBrbnprwWvAZv
+; 6EU94vHcH+VDmF/lw9lP5ySbz+fE/PacCfdv5pRazBa3rAb8EaesAkwv5dPpX+SDJv/jgqU/4wJUSh
+; iX/AMKB0Vf46K1X+SjRz/ls9k55R/kcybp9jacBVwVn+SjR0Kx6hvKGL/m5Htv5aPZH+UDd//kAvYW
+; lmWZ51P/5YPI3Aaf8/Ll9u/wAAAADM/xwcHAn/VzuM+f9vSLj//npOy/6DU9z+i1frpK+hrB/AJsFm
+; nmL+iFbm/oFS2f55Tsv+ckq9NzrA/k83faO//nNLwCLAZp5jC2vBF8AeesEowxKdUGnAJMJr/kQxaf
+; 5iQZ4l/nxPz8BU/lk8jhT+KCI2VP42KVD+TDV3/mFBniQo/oRT3/6NWfB/emvBCcB6E8CdUf55Tsr+
+; akWu/lQ5hKGcEv57T87BLP5pRazCa3rAb8FresAkwaCbEiVU/m1Hs/5mQ6ZVb/5sRrEonnX+aEWr/m
+; BAnP5VOoj+RjJtn3RpVmnAaaOv/mxHsyEXEqGb/mpFrhD+QC9hwGVaaZ5jor/+WDyNwJ50/yUfMin/
+; AAAAAM3/PS5epiT+fVDR/oVV4f6NWO6jrqGbH8AmwXprwlaeYv6JV+f+glPa/l9Am/5NNXn+ckq9/n
+; xPz8En/nBJugvAEsAXwB7AIcEowVUkWXrAJML+SjNz/l4/mP51S8L+fE/PacCcUf5tR7OddP5VOogC
+; /iwjPJ5R/jAmQ/5GMmz+YUCc/m1HtP5/UdX+jlnwoYnBCcB6a8Bua5+F/mdEqA4S/ntPzsGfdf5pRa
+; trwmt6wG/Ba3rAJMABoq6jrKGtoZuhiWlEnoaec55R/mhFq/5fQJv+VTqHNZ91aT9pwKGb/mpFriHA
+; FxLA/lw+lf5AL2HAaWYxwA3+TjZ6/lg8jmn/TDZ45P8AAAAAzv88LUsR/0o0dMsO/oNT3f6OWfGirq
+; GZbsAmwjDCa8F+Pv5GMmv+cUm6/nxPz8BpPQjAC8BrwRfAayHBa8BVJFhresEkwP5NNnr+WjyROf57
+; T87BIP5sR7JresBE/ls9k/5FMWz+LyVB/iQfLAr+Wz2S/mlFrP56Tsz+i1jroq0JwHprwBhrwP59UN
+; D+VTqICP57T83BVP5oRat6a8JresBvwRodwCQBoq4loayhm6GJVViehZ5knmCcUP5fP5r+VDmF/kYy
+; bJ90VjjAoJr+ZkOnKMAhHhf+ZEKk/kQxaJ5jwGlmWcBU/lk8j2lZ/0YybaT/AAAAAM//ORxxCf9ONX
+; qUPP5wSbn+flDS/oZU4v6OWfCjr39rwXvCN8F+a/5NNnn+b0m4/ntOzn5a/odV4/6RW/b+ilfo/oJS
+; 2v57Tsz+c0q/n3QSwBfAa8AhwVYroHXAGsAdwGv+UTiBoaz+ckm9/ntPzsGdYjrAa3rBa8D+XD6VKv
+; 4jHiv+NChL/lM5g/5mQ6f+dUvC/odV5f6PWvN6a8AYa8D+iFbm/lU6iAj+e0/Nwv5oRavAemvCa3rA
+; b8EaHcA6CKOuoayhmgxWn4afdTmeUf5nRKn+Xz+Z/lM5hC6fdVZpwP5iQZ/+ckq+acBpHv5pRa3+TD
+; V3EjtuO1ppwBI8nVBZ/zoqWGD/AAAAANH/JB0uTv83Kk/p/0s0dv/+Wz2T/mhErP5vSLn+eE3H/n9R
+; 1v6HVuX+kFr0oq4wwWvBfgb+Y0Ki/m9IuP55Tsuhmv6CUtr+ll3+f8I/nWL+ilfn/oJT2v57T8z+c0
+; u/n3XAHnrAVp5Qn3XBGsB6wP5WO4qcYf5wSbsMwZ5jOsJ7wWuedJ5AnWH+RDBn/ichMv4sJD3+SjRz
+; /mNBof5wSLn+g1Pc/o9Z83/AH8Bk/lg8jv5wSbr+e0/NwGn+hFPdn2X+b0m5/mhFq3o9wmt6wG/BGh
+; 06CKK+opyhmgxVVJ9knnOdUv5nRKn+Xj+Y/lI5g/5GMWugZFZp/lw+lf5zSr7AKMBpnWP+SzR1/m5I
+; tv5bPpT+QC9haWZZwP5WOor+bke2/mdDqP5bPZP+UzmE/yQbLhz/AAAAANL/FRUgGP8gHSWW/yYgMe
+; 7/KCI2//4zJ0n+QC9i/k83ff5eP5j+a0aw/nFJu/55TsoB/olW6P6RWvc3wHpu/n1Q0f5tR7P+d03I
+; /n5Q1P6TXPsGCcRuesBVnlGbUP6DU9sM/nRLwBKeUZ6Fb8Jrev5bPZL+TDV3OQzBnnT+bEexOsIEwZ
+; 51nVBua56WI/4tJD7+JiAw/kIvZP5fP5n+a0ax/n1Q0v6NWfCimmt6/l0+liH+ek/MwP6EVN/+kVr2
+; f2v+iFblNv5pRa1pwQTAB8ATwRqhmhIZD6GbAmafhp9lnnOdUf5mQ6f+Xj6Y/lE4gf5FMWqfdjj+Vz
+; uLLzLAKMCfdf5NNnoE/nVMwxX+QC9hO8Ax/k42e/5uR7Z+nnb+YkGf/0w1d9j/AAAAANX/AAAAA/8n
+; IjE0/yciM2n/JyE0nP8oIjTT/ygiNfv/KCI2//41KU0//lE4gP5gQJz+bEezL/56Ts3+g1Pb/otY66
+; OvNf53TccfBsAJxG56xWWeUf6FVOD+d0zFKxPCa/5fP5n+SDJvHP57T83AaZ92/mxHscBrwnvAnnWd
+; UMAswHpW/lQ5hf41KE3+Ih4q/jkrVP5YO4z+aESr/nhNyf6KV+oi/mlFq/5uSLYC/oZV4v6RWvZ/wW
+; /AKf59UNE1n2PBa3rAE8E1o52irqKboZoCZR2fdCidYZxQ/l0+lv5RN4D+RTFpRP5SOIP+c0q+bzLA
+; KFX+UjiC/mJBof51TMLA/lU6h/5AL2BmWRABoavAVT3/RzJtlP8AAAAA2v8VFSoM/yYhMj3/KCIzcv
+; 8nIjWl/ychNN3/KCI1/6Ga/jcqUf5FMmz+UzmF/mNBoBwr/nZLw/6EVN7+jFjt/pRc+wnEbsB6xWWe
+; Vlgf/oVU4CUBE8D+YkGg/kIwZQsCwSX+a0axfsE6wQGehSDBb3rAa8D+Wz2UG/4jHyz+MSZF/lA3fj
+; Y+CyH+h1Xk/pFb9mt6wT/Bayn+g1PcGT3Aa3rAE8CgnKOtFg+hiqCaWZ+Gn2WeYp1y/mVDpv5dPpYq
+; /kUxaf5ONnsoPsBpZij+WDuNoor+dUzCwf5ROIH+QC9gO6Kd/mpFraSfZcBZ/l4/mf8uI0NI/wAAAA
+; Df/x4eLRH/JyA1SP8nITR7/ygiNa7/KCE05f8nITT+/ysjO//+OStU/kkzcP5XO4r+ZUKkK/51S8T+
+; fVDS/oVV4P6OWfD+lV38CcBuEcVVnWVuwQZk/odV4/56T83+bEey/j8uXjr+ek/MwGZZ/mtGsGt6bs
+; A6wZ92nGDCb3rANsGddP5GMmz+KCE1f/5HMm3+YkKgJP6AUtj+j1rzoZvAesBvwQZ6wFb+iVbo/ndN
+; x/5pRa5pB8ATKwiirgyhmntan4afZJ5jOv5lQ6X+XD6V/k82fZ9S/m9IuaOsPsEy/mA/nP5BL2P+ZU
+; Om/nVMwmZp/k83fTtr/mRCo/5wSbhaZcCcUP9CL2S6/wAAAAEA5P8pHzMZ/yYfMlH/JyE0hP8oITS5
+; /yghNe3/KCI1/6O//jwsWP5KNHP+WT2Q/mdEqv5wSbn+d0zF/n9R1P6HVuP+kFrx/pde/RHDQJ5kb8
+; EGCcFV/kUxaRr+ek7MwGlW/mxGsVlrLm7Aa8AaIGkgwW8vwGvBa1T+TzZ8/jAlQ/5NNnn+Z0Sp/mBA
+; nP5qRq7+e0/O/o1Y76OtwD/BBgnBEMCdY/5+UNP+bke1B8ArAaKuoayhm39Zn4aedZ5jK/5lQ6X+XD
+; 6U/lQ5hv5vSLijrgjAWcD+ZkOm/kIvZFka/nVLwQ/A/ko0dP5ALmD+XD6WAWk3ZZ6G/0gzcOL/OiNd
+; Fv8AAAAA6f8AAAAB/yUeNCL/JiA0WP8oITSN/ychNcL/KCI18v8pIjX//jAmQv4+Ll3+TTV3/lw+lP
+; 5qRq/+cUm7Fv6AUtb+iVbk/pFb8/6XXv6edzNvwWsJwRD+UTiA/mpGrv55Tcp/wf5sRrIkwWt+wGuf
+; dpxgWXogwW8vwGvBPXr+Xj+Z/kkzcv5sR7Mr/kcybv5WOon+Z0Sp/nZMxf6JVugwP8BrCcEQwgn+hV
+; Tf/nNKvy6jng+hrKGaoXloDJ51nnIr/mRCpCT+e0/OnmQPacA+JP5FMWqeY8ArD8H+RzNuOP5wSLlu
+; aTdV/1A3ffb/PC1aM/8AAAAA7/8AAAAE/yQeLyv/JyI0Yv8pIjWW/ykiNM3/KCI0+A3+MidGGP5PN3
+; 3+XT6X/mxHs6O/oq3+gFLY/o5a8T/BCcEQ/mJBoP5qRq7+eE3IoZrA/oFS2f6NWfD+gFHXCP5rRrDA
+; a37AJP5jQqNpGcBrwW96wGvBPf5eP5j+RzJvK/55Tsqedf5IM3D+LiRA/k01eP5lQqX+cUm8/oRU3j
+; A/CcEQwntuwJxQ/oNT2f58UMyddqCKLB2fhp91opr+flHT/ohW5qGanFD+e0/PnGCgdcCdYhz+Qi9j
+; GGkro6/ACP5PNnz+cEi4oXlpwFn/WDyQ/v88LFti/wAAAAD1/yQkJAf/KB4yM/8pITRr/ygiNJ7/KS
+; I11f8pIjX7/ykiNv/+NChL/kEvY/5TOYX+ZkSo/nNKvv6BUtj+jVnwo77BEA/+aUWt/ndMxiz+gFHX
+; BqGawZ1y/oJT2/52S8T+bEaxwFgWaRZ6wGvBby/Aa8H+Xj+Y/kcybyT+eU7KwGn+YUGe/isjOp1i/k
+; QwaP5hQJ7+bEey/n5R1AyinMBrwnsfwKGbo6WooP6+gv3+1pz3/tyj9P7NlPT+tHr2/qRq/P6bYf8C
+; nWSdUZ1QnFD+eE3InmOfdf5NNnn+QjBkGMAR/nFJvKKawf5TOIT+cUm6WgHA/mNCoP8+L1+T/wAAAA
+; D7/ycUJw3/KCA1P/8oITV0/ygiNaf/JR8v3/8mIDH//jwsWf5TOYT+Z0Sp/nJKvP6AUdb+jVnvCf6F
+; VOH+aESq/nVLw/5+UNMzH8AmwXvAnXT+hVTf/ndMxv5kQqSgdcBresBrwW96wDbAnnb+RzJu/mtGsC
+; XC/mhEqv5ROIH+MydI/iMeK/47K1j+Wj2S/mlFrP56Tsv+jFjtEMIawDChmaSU/qds//7Bhf/+6Kv/
+; /vS3//7ipf/+woX//qhs//6cYf+dehCdYp1h/oJT2/57T86dYP5SOYP+QjBkGxjAEf5zSr9/wJ6G/l
+; U5hwtaaZxQ/0IwZ8T/KipVBv8AAAAA/cL/HR0kI/8iHSlx/yEeKcb/JiAx/f87LFj//lI4g/5lQ6b+
+; ckq9/n9R1v5oRKv+eE3I/pJa96KKH8AmwXowwUT+iVbp/nZMxf5lQ6WfdWsZwCDBby/ANiAGJP55Ts
+; nAWsD+aEWqVMD+Wj2RKv4iHin+MidI/lI4gv5nQ6n+dErB/odV5P6SW/l/GsChiqKnpJT+q2///sWI
+; //7nqv/+87b//uGk//7Dhv/+qW3//p1i/51rH510nVKdYP5+UdT+XD6VJ8AbWmminTl/Pp10/lg7jQ
+; tanob/STNx5P89KVwZAP3G/xoaIx0x/yIeKcX/JB8v/f85KlT//lE3gP5lQ6Yy/n9Q1P6NWO8fwCbB
+; KTDBnnSeY2ufZP56Tsv+Z0SqnmIZwCDBb3rAIP5CMGX+akavImXBJKB1e8GcUf5DMGf+JyAyop3+ST
+; Ny/mVCpP5vSLf+gVLZ/pJb+KGaooqipqWT/q5y//7Ii//+5Kf//vCz//7go//+xIj//qpu/zcUMJ5j
+; nWP+glPc/mBAnP5GMmwnwBjAEaK//nNLv8H+akau/ls9lAtV/1E3gPn/Oy5bOAD9yv8bGyQc/yAeKW
+; //Ih4qxP8kHy/8/zkqVP/+UDd//mZDpgv+f1HV/oxY7hcmwDDAVZ5hn3YzOMBU/n5Q0/5qRa7+ZEKi
+; wGvBby8gGP5pRa3+eE3Iwv5nRKqgdcB7wp6H/kw1eP4tJD7+JB8u/kAuYv5fQJn+a0aw/n1Q0v6RW/
+; Ol36WT/rB0//7Ljv/+46b//u2w/z3+xon/Egccnmj+jFjt/nVMw/5cPpT+STRyLidlGBHA/ko0c/5z
+; S7/B/mdEqv5eP5j+cUm6/1s9kv7/Pi1eZ/8AAAAA/c4I/yAeKm7/Ih4qw/8kHy79/zgqU//+TjZ7L/
+; 5wSbn+fVDT/oxY7DDAVDNpM27Ae8Az/oFS2v5tR7UZIMFvGRH+aESr/nhNyMIkn4ZuwHvCa2X+VTmH
+; /jUoTP4iHin+NypR/lg8jf5tR7P+eE3G/ohW2rC3/rqB8v7Wm/ipkf7XnPr+vIL4/qBo8pVJlzH+dE
+; vAHf5ONnz+Py5fopwnwBjAacD+TzZ8/nJKvj5l/mRCpJ9kGf9BL2GZAP3S/x0dJxr/Ih0paf8hHSm6
+; /yMfLfr/NilP//5ONnss/nBJuf5+UNP+iVbooq1/MzjAe8JW/oVU4P5ySbwgwv5FMWv+aESr/nhNx8
+; L+Z0Spn4YHDMB7wh3Aev5dPpf+Pi1d/iMeLP4tJD/+STNx/l4/mf5vSLj+dkzFoYkPWWWfZf5tR7P+
+; XD6U/kQxaP4qIjj+OitW/kIwZWnAZhjAaaK//m1HtKOuwHv+YECcVP9EMGfI/zkcVQn/AAAAAP3V/x
+; kZJhT/IRwpZP8hHSm5PQ3+TTZ6/mFAnf5sRrL+gVLZ/o1Y8DM4egLBa8B6nFD+dUvC/mVDpVT+RjJs
+; /mhEqv54TcfAWsAdn4bAB27AFsIdwSeeUf5HMm3+LSQ9nVKhrP4yJ0c0MWX+OCpS/jAmRP4nITOec/
+; 41KEz+TjZ6nVGdUGnAZRgRIv5oRKovKMH+XT6X/0MxaOf/QC5bHP8AAAAA/dn/GxsoExr/IR0quP8j
+; Hiv5/zgqUf/+VzuL/mpFr/5+UdT+jVnvoZlrwQnAemvAnlL+eE7K/kIwZSf+d03HwAXAHZ92esAHbs
+; AWwh3BJ8Chiv5eP5j+TjZ6GBQNZaOv/kQwaf5ROID+YUGeVP5VOof+RzNvLmnAGMAR/mBAnf5zSr7A
+; KMBV/1A3f/v/Pi1fPv8AAAAA/d3/GxsoE/8fHSdi/xwaH7z/MidI/v9TOYX//mhEq/58T9AioZrACc
+; B6E8Fu/ks0df5nRKr+d03Gwv5mRKg2PXrAa27AExbBHcF7oZujrz6grKGKBVWfdRmeYR3+Xz+Z/lQ5
+; h/5GMm2eYcAbWhH+WDuNPmXAKMD+XD2U/z8sXm3/AAAAAP3h/xoaGjH/Gxkcqv8vJUL7/082ff8H/n
+; pOzP6MWO0JwHprwW7+VzuL/mVDpgXC/mdEqZ91wD16wAduwGsWwR3BDqOvPqCsoYkFVA+edAQd/l4/
+; mf5UOYU8J8BVwP5PN37+c0q+PjLAKP5lQ6X/Py5hof8AAAAA/eT/GhQaJ/8aGhyd/ysjPPj/SzR2//
+; 5kQqT+eE3I/opX6wl6a8Bu/mJBoT3+d03FwaCaKDbBPXrAa27Be8EdwKGcKzKhm6GKBS+fdZ5lnmEM
+; /l4/mP5TOYX+RTFrn2JmWf5JM3H+cUm6oovAZcCcUf9FMWnM/zMZTAr/AAAAAP3m/xoSGh3/GxkckP
+; 8oITTz/0gyb//+Y0Kh/nVMw/6KVugTwG7+bki2Pf53TMU2oZr+i1fq/pBa9v6IVuYIPWk9esAHDMF7
+; wWuhmysyJaGZwFUInmSdcwf+XT6W/lM5hP5FMWqfY2UfNf50S8BZwGkL/0s0dev/OilaH/8AAAAA/e
+; n/GBgYFf8aGhyB/yUfL+3/RDFp//5hQZ4y/ohW5Rj+dUzENv52TMWhm/6MWO2jrsBrepxQ/nhNyP5n
+; Q6k9esAHbsF7waKcK6Kdopqgm8Aln3WedZ1iPRz+UziC/kUxaSd3B/50S8DAPsA3/1M5hPz/PS5fQ/
+; 8AAAAA/ez/FBQUDf8aGB10/yEdKeUR/l8/mv5wSbkl/mVDpf55Tsv+jVnwoqzBMHrBOP57T8/+aUSs
+; n2PABwzBFsAOo64oHqCawCU+AZ1inGD+XD6V/lI4gv5EMGgi/l4+mP50S8EIwGk+I/8+LF9z/wAAAA
+; D97/8AACAI/xkZG2f/Hxwl3P89LVz//lw+lP5jQqP+gVLZ/pBa9SnBMMAzwG/An3b+f1HV/mxGsZ1Q
+; BwzBFqGso54ooawvWh6ehp9jJJxQC/5ROIH+RDBn/lU6iP51S8EPwAjA/mdEqf9BL2Kp/wAAAAD98v
+; 8AAAAE/xoaHVn/HRsi0v85K1X//lg8j/5rRrH+gFLY/pBa9CnAMDPAP8Iz/oNT3P5vSLf+ZkOnwAxr
+; BKOuKA8vJR4yn1OdYv5jQqL+XD2U/lA3f1g+GQ/ACJxh/0YyatH/Li5dCwD99P8AAAAC/xgYHEr/HB
+; ofxv81KE3//lY6iv5qRa7+flDT/o9a9DAzwGs/wXvAVv6HVeQoDMChrSGirA+hmVYZn2WeYw7+Y0Ki
+; /ls9kkQPHhkPwJ91/0s0du7/PCheJgD9+P8ZGRk9/xwaHbn/MSZF/v9TOIP//mhEqv58T8/+j1nyM8
+; A/wWsJwWv+ilfq/nZMxRqiraKsCCUgVCiddJ5SnmH+cUm7/oFS2J1RJWUPwP9VOYf9/0AuYEgA/fv/
+; GxUbMP8bGRys/y0kPv3/TzZ9//5mQ6f+ek7L/o1Z7z/BBgnBEMBroHT+iVfh/oJU0p5RnHedeaGXop
+; qhvv6EVN7+jlnxn3X+hlXhnFD+eE3HGVkD/z8vX34A/f3A/xUVHCT/Ghodn/8pIjj3/0s0dv/+ZEKk
+; /ndNxv6LWOz+klz4wAnBa8CgmqOIo7X+qGz//rt///7Pkv5+/rp+/v6lav/+nGH/nWueZDOdUJxgE5
+; 1h/mhEq/9CL2SuAP39w/8TExwb/xoYHJL/JiAw8v9IMm///mNBoQ/+ilfpCcFrwKGaoqeklf6pbv/+
+; vID//s6R/37+un7//qZr//6dYv+da55mnWSdYZ1h/n9R1P5ySb3/RjJs1v87J2INAP39xf8bDRsT/x
+; sZHYX/Ix4r6/9EMWn//mBAnP5xSrv+iFbl/pJb+AmgiqGqo4akpP6rb//+voH//syQ/8D+uX3/Av6e
+; ZP+bjTApDJ1i/ntOzf9PN33u/z4sXSkA/f3IO/8ZGRx4/yAdJ+T/QC5h//5fP5n+b0i3CP6UXPuima
+; KXpZP+rHD/Lf7Lj/9SCv6pbf/+n2X/HJ15AZ5Q/nVLw/9VOofu/0oxcz4A/f3L/wAAAAf/GxkbaP8e
+; HCTa/zssWP/+XD6U/m5Htf6EU9v+ll71qbj+rXH//ryA//7Kjf+eev65ff/+qm//BxybMf5+UNP+ZU
+; Om/1Q6htT/TjR2J/8AAAAA/f3O/wAAAAT/GRkcW/8dGyHQ/zcpUP/+WDyO/m1HtP53TcOqzKy3qqNS
+; mX6XfJdF/nNLvf5oRav+UTiA/zorVqz/JBIkDv8AAAAA/f3S/xoaHU7/HRshw/8oITT//j4tXf5ONn
+; r+WTyO/mFBnsBU/lc7i/5MNXb+OitV/yIeKu3/GxseZwD9/db/HBwhNv8iHiuP/yUfL87/JiAy9/8n
+; ITL/Vlj/JCAt5/8iHimz/xwaIWM7AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f
+; 39/f39/f393AAAAAAAAAAB
+; thumbnail_QOI end
+; thumbnail_QOI begin 256x256 45740
+; cW9pZgAAAQAAAAEABAAA/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f
+; 39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+; /f39/f39/f3Q/1U9khX/XD6WTv9dPZWJ/1s9lLj/XT6V1/9dPZXx/10+lf/B/1w9lPYd/1w9lLz/XT
+; 2Ukv9cPZRk/107kzT/VSqVDAD9/f3w/1g4jyD/WjyUXf9cPZaW/1w9ltj/XD6W/P9dPpb/xhXE/10+
+; lvf/XT2V2f9cPpWp/1w9lX3/XD2WS/9eOZcb/wAAAAEA/f395f9/AH8C/187miv/XD6SZ/9cPpah/1
+; 0+luL/XT+W/80cyP9dPpbu/10+lsD/XD6Xlf9bPpRi/1w9lDL/WzeSDgD9/f3c/1UAqgP/XTyZN/9c
+; PpV0/10/lq//XT+X5/9dP5f/ymnU/10/lvj/XT+W3P9dPpes/1w+lYD/Wj2UT/9aOpQf/wAAfwIA/f
+; 390/9ZO5Qr/1s9lH7/Xj6Xwf9dP5fw/14/l//XKNH/XT+X6/9cPpW1/1w+lmb/VTmcEgD9/f3N/2Yz
+; mQX/WzuRX/9dPpbO/10+mP7/Xj+Y/8gr5v9ePpf1/1w+l5X/VTOZDwD9/f3J/1k3kBf/XT+Yfv9ePp
+; flMvQr/14+mOH/XTuZHgD9/f3F/wAAAAH/XTuYNP9eP5mi/14+mfn/Xj+Y//j/VzqMxQsA/f3X/38A
+; fwL/XzyWM/9eP5ht/14+mZ3/Xj6Yvf9fP5nc/18/mOTC/14/mdgXaf9dP5mWwP9fPpp0/14+mG//XD
+; yVWf9cPJhI/108mTf/XT6TIf9bQJIc/wAAAADR/1UAVQP/Xj2YVP9ePpfF/14/mP975FrPMsMc/zkr
+; Vn0A/f3V/10+myn/X0CZjP9fP5nnPNL/Xj+a/v9eP5r5wP9fP5rSaf9dP5i3/14/mqv/Xj+alf9fQJ
+; mE/14/mXr/XT+aXf9dQJdY/149lzbA/106lxYS/10+lSn/XTuVPP9fPphm/18+mpf/X0Ca6P9fQJn/
+; 1Dzo/0gybvn/KyM9O/8AAAAA/f3S/1w/m0X/XkCauP9eQJn7/19Amv/94QHGPMCeUv8wJkPc/yQkNw
+; 4A/f3O/1VAlQz/Xj6aYv9eP5rWNQj97v5AL2L/LSVBmAD9/cz/WUCZFP9fP5yB/2BAm+gIxWvFev3M
+; D8YIzf5UOYb/MCVC/P8wIEAgAP39yf9ePpcx/19Am5v/YD+b+RL981X+OStU/y4lQosA/f3G/wAAAA
+; H/Xz6aTv9ePpjB/2BAm/wSzmv90BLU/k02ef8vJkLu/xwcOQkA/f3D/2YzmQr/YD+cav9fP5zWGf35
+; nWP+MidG/y8lQGgA/f3B/145lxv/Xj+Ziv9gP5ztGdV6wmv9xRzBGdacYf4/Ll//MCVC1AsA/fz/YE
+; CfOP9gQJ2k/2FAnPsjyW796CPI/lU5h/5KNHP+NypR/y4iQUMA/fn/VQCqA/9fQZ1W/2FAncP/YUGd
+; /Sjla/Io4Rn+TjZ7nnWeUf80J0qvAP33/1s3pA7/YkCdc/9gQZ7cKMcv/fconWP+TDV3wBT/QC9i+/
+; 83JEkcAP30/10+myH/YEGdjf9gQZ7xL9961GvcMtQv1v5VOogjwZ91/0AuY18A/fL/XDyXQP9hQZ6t
+; /2JBnvgvxTLIOf3vMsMKn4YjwGn/QS1hZgD97/9JJJIH/2BAn1j/YUGfzP9hQJ/+Of39yf5LNHUjwZ
+; 92/ykgNFgA/e3/XjaUE/9iQJ94/2JBn+A52Wv95DnJnWL+Tzd8nnYj/0AvYfz/IxwqJP8AAAAA/ev/
+; YkGjJ/9hQaCW/2JBn/U5x2vdbsJ6/cYFwgDVOZ1R/lM5hf85KlXT/wAAAAD96v9fQaBD/2FBobX/Yk
+; Gg+v9iQaD/zgXACNFr/dkI0QX/YkKe9f9iQp+n/2RBn1IG/wAAAAD95P9mM5kK/2JAn2D/YkKf1QUI
+; zA/9/cv/Y0Kg7f9iQaKZ/2A/n0X/VQBVAwD93/9eNqET/2JCn4D/Y0Gh5gjAD+1r/coP4P9jQqHg/2
+; NBoo7/XTyZNwD92/9iQZ0v/2BAnZ//Y0Kg+P9jQqH/1hbZev3LFtkPx/9iQqLV/2JBoYL/YECfKP8A
+; AAAA/dX/AAD/Af9jQaNL/2FAnr7/YkKh/A/HFtIZ3mv4Gd4Wzf9jQqL8/2NCocn/Y0KjdP9jQpwfAP
+; 3QDv9hQaBm/2NCotUWyxnTIP33GdH/ZEGi+v9kQaK7/2NAoWf/ZDebFwD9y/9iO50a/2NCoYj/Y0Ki
+; 7BYZzyD1bsVr3CXFIPUZw/9kQqL3/2RCo67/ZEKjWf9bN6QOAP3G/2NCoTb/ZEGjoR0ZwiDjbsBr03
+; r9wizTJcAg2/9jQaL0/2RBo6D/YUGiPwD9wf9VAKoD/2FAnlT/Y0Kjwf9kQqP9INclwCzML/30LMwl
+; wCDL/2NCo/7/ZEGjv/9jQKIsAPs6/2NAo2//ZEKj2yDKJSzJL9xr/eAv3CzJ/2RDo/j/ZUOkTAD4/1
+; 0+myH/Y0Kji/9jQ6TxICXALMcv1jb9/cov1P9kQqH4/1U3jCoA9f9jQqU+/2RCo6r/ZUKj+ywv0jbr
+; a8x68j3NNuovxP9PN37J/wAAVQP/AAAAAPH/ZjOZBf9kQKRX/2VDpMr/ZEKl/i/INuI9xnr97D3HNt
+; r+UDd9/zcqUob/AAAAAPD/Y0KjZP9kQ6TeNtw9xHrqa/0A6T3ENscW/k42ev9DMGb8/zEoSDn/AAAA
+; AO3/Y0CjJP9jQqHGNs89w3rdB9Bu/dUHzwDc/l4+mAOfdf88LFzc/y4XRgv/AAAAAOv/ZEGlXv9lQ6
+; bwNsU9w3rYB8sM7GvBetsTwAztB8sAy/5WOokDwJ1R/zgqUpL/AAAAAOk6/2VCpac9etUHyQzaFv3q
+; EwzaB8U2/k82fQPAVf9DMGfz/wAAAADo/2VCpzr/ZkOl4f9mQ6b/zAfHDNUW/f3QEwzPnFD+TjZ7A8
+; Gedf8AAAAA5v9mM5kF/2FAoYj/ZkOm/f9mQ6b/wAfHDNETFudr/d0W5hMM/lg8jArAA8CdUP8AAAAA
+; 5f9kPqIp/2VDp8oHwQzQFt8d/f3GFtQH/lE4f59lCgPA/z0tXOUA5P9mQqhk/2ZEp/AMxxbbHeN6x2
+; v9yyDHHeIWw51R/k83fGkKwAP/NChMqgDi/2k8pRH/Z0Onrv9mQ6j+/2ZEqP8W1x3cIMQn/fggxB3U
+; /lk8kBnACsCehv8nITVcAOH/ZUSpR/9nQ6njFs4d1yDDJ9tu1WvyLNUn2yDDHcJl/lI4ghnAEgr/QS
+; 9j+f8gICoYAN//bUm2B/9nQ6iN/2dEqP3/Z0So/8Ud1SDCJ9YszDP96izNJ9GdY/5PN30ZwBIK/zgq
+; Usr/AAAAAN//ZUGmK/9nRKrOHdF6wifSLMkz4Xr9zTPgLMknwf5bPZP+Tzd9GcFZ/ywjOnsA3f8AAH
+; 8C/2dCqWj/Z0Sp8x3IesIn0CzIM9g2zWv92jbNM9n+UzmFnmLAacD+RTFq/yIcKC0A3P9hPaoV/2VC
+; prUdwHrBJ84sxzPUNsk9/f3INskzxp50/lA3fiNaGcD/PCxY4v8AAAABANv/aEOoTP9oRKrpJ8ksxj
+; PResc96mv90D3qNsD+XT6XKmkgwBn/MSZHmwDa/10uogv/aESqk/9oRar8J8EsxTPQNsY94QTgevQE
+; 4D3X/lU6iCrAIyCdYv8lHixMANn/ZkSqLf9nRKrSLMAzzzbFa9wE1Afba8Nu6w7DB9sE1D3Enob+UD
+; h/KsAjIP8+LV/y/xkZGQoA1/8AAAAB/2RBo3X/aESr9jPJesQ92QTRB9EOwBP95g7BB9EEyv5fP5r+
+; UDh/KsAjIP82KU+0ANf/Zj2tGf9pRKq7M8F6xD3WBM4HzQ7AE/390A7AB8r+VzuL/lA4fyrBn3X/Jh
+; 8zav8AAAAA1v9pRa1O/2lErOz/aUWr/8A91ATNB8sOwBPla/3aE+Uz/lE4gWhaKsD+QzBm/xwcJhsA
+; 1P9iO50N/2lErJc9zgTLesoObt4a0Hr94BrRE8/+YUGd/lE4gDk2KsD/OitV0P8AAAAA1P9pQaoz/2
+; lFrNQ9xgTLB8kOE9kazR3fa/3DHd4azRPB/lg8jv5ROIA5NsAg/y8lQoP/AAAAANP/aESse/9pRa34
+; BMoHyA4T1xrKHdUk/fYd1RoH/lI4g6B1wDk2/kgzcP8jHyw6/wAAAADR/2RArRz/aUSswgTEB8cOwB
+; PUGskd0iT4a98k+B3G/mNBof5ROIDBOVr/PSxb5v8AAAAE/wAAAADQ/2pDrVT/akSt7wfFDhPTGsgd
+; z2vkK816zm7nLs4rzCTe/ls9kv5ROIFpwDnA/zQnSqL/AAAAAM//akCqDP9pRa6e/2lFrv7/akWt/w
+; 4T0RrIHc0k3ivILscz/eIuxyvIJMxV/lQ5hp90WcGeY/8kHjFU/wAAAADO/2JAoTz/akWu2RPMGsYd
+; zSTZK8cuxDPaa/3SM9ouxSvEnGAKwFppwP5ALmH/LyVCYf8AAAAAzP9/QL8E/2pGrYD/akav+BPEGs
+; YdyyTXK8UuxDPTOv39wTPQ/lw+lf5SOIIKB2nA/jMnSv9ALmHz/y4nRiH/AAAAAMr/a0KtH/9pRq/F
+; ExrFHcsk1SvELsMz0Trwa8d64gHIOvAzwv5UOocRCsAHKv40KEv+TDV3/zorWMn/AAAAAgDI/2lFr1
+; z/akav8hodyiTTK8QuwzPOOuIBwnr95gHDOtedYf5SOYLAZgoHH55S/k83ff5IM2//NilPhADG/11G
+; ogv/a0Wunv9qRa/+HcUk0ivDLsMzzDrdAcF6/f3KAcE6yP5eP5kWwBFpwP5CL2UHKp92/0IwZPn/My
+; hKLQDE/11GuQv/a0WwvyTSK8MuwjPLOtkBwQTka/3bBOH+VzuLnlJpwGXAIxX+UDh+Kp5T/0EvYoIA
+; xP9oQ6qQJMsrw3rCM8o61wHBBN0L/f3BBM6dc/5TOYPAFsAR/ko0dP5aPJD+SzV1NipV/0k0c5kAw/
+; 82Kk89/2pFrvskwyvDLsEzyjrVAcAE2Qvebsd6w2v9whPEEMcL3v5gQJwgwFoWEQL+akWu/kcybjYq
+; wP9HMW2NAML/JCQkB/9CL2bYK8IuwTPJOtQBwATWC9kQxBPBGv3vE8EQxAvN/lk8j51QIMAWwP5IM3
+; D+aESq/ks1dqO+Nir/MyZHcwDC/zgpUYT/STNx//5oRaozxzrSAcAE1AvVEMMTwBr9a9Ma/BPBEMGe
+; hf5TOYTAIMAWnnShrv5iQZ/+Tzd+oZg2nGH/JRwuNwDB/zEnRTT/QS9j+BH+YkGfKzM60QHABNNr0h
+; DDE8Br5iH92hrg/mJBoP5TOYTAIMH+QzBn/mhEq/5cPZT+UTiAaTb/QC9i6v8AAAAE/wAAAADA/wAA
+; AAP/OyxXxyP+WTyQ/mVCpRprOskBwATRC9EQwhMa3yHvet4h7xrM/lo8kf5TOYTBIMD+RDBoJP5dPp
+; X+UTiAOcD/OitVq/8AAAAAwf82KlFo/0Uxav/+VDmF/mBAmw7+ckq9/npOzKGanlL+cEm6BAHABNAL
+; zxDCE8Aa2iHfJM1r/STNId2ehjgxJ8AgB56FIf5WOomeUcAq/ykhOWP/AAAAAMH/QC9hz/9ONnv/Jv
+; 5lQqUh/nZMxP58T9Gkr/6JVuijrmmdUZxg/nxPzpxQJATEa88QwRMa2CHYJMdr/fIkxyHK/mRCo/5U
+; OYXAJ8Bp/kcyb/5gP5oh/lg8j/5ROIDA/kYybP8dHSca/wAAAADB/0gzcP/+VTqI/mBAnP5pRa3+cU
+; m7/nlNyf5/Udajv6Ou/pBa9KGboZrAbsGdY5xh/oFS2v56Ts3+dEvBKwvGEMF6a9Zr1CTFK/hr3iv4
+; JML+XD6V/lQ6hTHAJ8D+Qi9lCyH+UTeAbsD/Pi1c0/8AAAAAwv9RN4Dm/1s9k//+ZUKkCw/+e07OCK
+; O/o52iv6GroYnAH8Frw1SeYgX+glPaHf50S8AhadMh0iTEK+Yyx279yjLHK90L/lU6iDYxwCdV/kkz
+; ciHAOAdp/zUoTYv/AAAAAML/RzJuwhn+aUWs/nBJuv53TMb+fVDS/oNT3aO/o52inKC9f8BuwSbDem
+; vDVTOcUP6BUtn+e0/NnFCdUGnDIdAkxCveMsQ32Hr9xDfYMsQryf5mQ6f+VDqGwGkxWZ1R/lc7jSEa
+; /kw1d6OvnmL/Ix8tSf8AAAAAwv8uJEGW/1s9k//+bEey/nRLwP56Tsujr6OvJTOim6GcesAfwSbDej
+; DEa8J+JjP+h1bknFCcYP5zS8CdYiHGJMQr2jLDbtF61Wv9wTrUN9Eywf5eP5n+VDqGwGkxwP5CL2X+
+; akWvo5vA/k42eqKt/0IwZfb/HBwcCQDC/y0kPzn/Pi1c/P9iQqH//nZMw/58T9Cjr6Otoq4JoZsXes
+; AfwSbDemvEa8I/wGvDGv6NWe+cYJxQ/npOy5xQnmLWMsNuzTrNAf3yOs03wiH+VzuMPcBpMcD+RjJt
+; /m5ItcH+STNxCv88LFq7AMT/OitWg/9HM2///l0+l/52TMX+g1Pdo62inaOuoKsXesBuwWvDKTDEa8
+; I/wAbHelWfdZ1Q/oZU4f5/UdUg/nJKvTIrxjLBbsx6ywH9/dE6wpxQ/lo8kJ5RWcBpnnVV/m5ItcCe
+; dP5LNHX+UTeA/y0kQXH/AAAAAMX/RTFrgf9RN3/9/1g8jv/+aUWs/npOy/6GVeL+kFr0oZwXesBuwS
+; bDKTDEa8I/wAbHCcaeZJ1Q/oZW4v5/UdT+eE7IKJ9kxjrJa+Zr/dsB2591nVL+YD+b/lc7ip9lwGn+
+; RTFq/mRCpBrA/mZDpv5NNnot/x8fLCn/AAAAAMb/OitXWP9IM271/19Amv/+ZkOno67+cUm7/nlOy/
+; 6AUdYeAqO/oZt/JsN6MMRrwj/ABsd6yG56wFWeY51QnFCcYJxQ/nFKvJ+FwAHga9V6/c8I1QHJIZ91
+; VJ1R/lw9lP5VOohYwP5DMGUawf5gQJv+Tzd9/0AuYuL/AAAAAwDH/x0YIjX/KSE16P9EMWj//lw+lC
+; sooYnCoq2jv/6CU9ujr/6NWfCjriZ6MMQ3wno/a8cJyG4RxgKeUZxhnFCdUJxQnVABzAjPetxr/Avc
+; CMorn2TBnnX+YUGf/lk8jj3A/ks1dhrB/l8/mf5ROIH/NypQnQDJ/xUVIBj/IB0m7P8lIDD//i4lQP
+; 4+Ll3+SzR1/lU6if5iQaD+bUez/nJKvj7Ae8GirhP+hFTfo7/+kFr0oq0wwGvCej8GxwnIbhHKesBV
+; nVGcUJ1AnGCdQJxiWMoL0xLlbtoS5QvRKwRZwSSeUv5ePpj+VjqK/ko0c/5dPpb+bki1wFn+WDyM/l
+; A4f/8mIDVX/wAAAADK/y8lQrr/KiI3/51R/iwjPKOcoJt/wP44KlP+QzBn/k42e/5bPZP+ZkOn/nFJ
+; u6Kbw6Cco62jr/6GVeOjv/6SW/iinHpuBscJyA7AEckUxW6fdptS/oNT3D3+ckm8C8oS1Bf94BLUCz
+; IEwFnBaZ52nVD+Wz2S/kEvY/5tR7MaEGY1/0Uya/r/GxsoEwDK/y0kQJP/QzBm/59k/i8lQp5jo60w
+; f8X+OitX/kcybv5SOIL+Xz+Z/mlFrf5xSb2imsOhrKO/pJ7+iFbm/o5Z8aO/oorEesgOwHrJFMUZEZ
+; 5mn3bAVf6JV+n+gVLY/nhNyJxQEswX1mvees8e3RfWEsRYC2nAWcFpJJ50/l8/mjj+bki1WQvA/lM5
+; hP89LVvG/wAAAADL/ywjOm7/QC5g//5PN341Wf5ONnz+RTFr/jorVv4yJ0fJoZz+Py5f/ko0dP5XO4
+; z+YkGgC/50SsB/wGtua6Ks/n5R1KO//opX6qOuo7+hmcgOwHrJesVuVZ1mWcIJwJ51/odW5BD+dEzC
+; nnPMa80h/d0ezBfGAQvABMBaOsEzn3b+TjZ7/j8uXgvC/lc7iv8xJUKD/wAAAADL/ykhNEX/PCxZ//
+; 5ONnr+WTyQ/mNBof5qRa+knaG9n2T+ZEKj/lk8j/5ONnv+Qi9k/jcpUJ5RyRc4Cv5aPJH+ZkSo/nBJ
+; uqOtwmvAo7+jv6Ov/o1Y7aOvoq1/wg7AEckUxRlBnlTDe8NrnVH+hVTg/ntPzv5zS7+fdsQh5Cj0Ie
+; QewVSfYwvABMFZwWk8/jcpUP5DMWf+XT6W/mxGsgvA/kgzcP8sIzptAMv/ICAwIP84KlL//kw1d/5Y
+; PI3+YUGf/mlFrP5vSLcywG4+wS/+a0ax/mFAnf5VOof+SjRz/j4tXf4zJ0lYx2ugqjT+RzJt/lY6if
+; 51TMLAVSXCeqCb/n1P0aSuo6+jv6SvAhHJFMURnnifZMMJw2vCVP6LV+v+g1Pc/nlOyv5ySrzQa/3k
+; Ic9Vn2NZC8BpwVnB/mFBnv5BL2L+LyVB/k83faK+/lo8kP5rRbAEEf8/L2Dx/y4hQSf/AAAAAMr/AA
+; AAA/81KEv3/0k0cv/+VjuL/mBAnP5oRKr+b0i3oa1/wDdrxHvAKP5oRKv+XD6U/lE4gP5GMm3+OitW
+; /jInR8UGFw8eAQOeZP5VOoj+YkGf/m1HtP51S8J/a8KhrKOv/oVU36O+o6+krqGaxXrEEZ5nn3XDCc
+; Nrw2t6wJ91/ohW5v5/Udb+d0zGnlH9/cRVn2NpWQvAacE6wP5jQqL+RDBn/jUoTJ5R/lQ6hmXAoZz+
+; aUSrNP5MNXf/OytX0f8kJEkH/wAAAADK/zInSNH/RjJs/w7+Xz+a/mdEqP5uR7YZMsI3PsQIxJ5k/m
+; NCoxX+TDV4/kEvY/42KU+eYsBp/nBJuR7+gFLWoJr+YECb/jcpUJ5iwKK//kMwZgr+Wz2S/mZDp/5x
+; Sbsvw6CKoq0p/odV4aSuo6+ivhEUxEqddljDa3rCEMNresBuwReeYv6GVeL+fE/QDyjWa8sy7C/LKN
+; sZn2NpwGkLwGnBWv5lQ6X+RDBoLf4lIDD+PS1c/lQ6hmlmWWv+RDFo/lE4gf5HMm//OClRjgDK/y8l
+; Q6wO/lI5g/5dPpf+ZkOnCxIywzc+xHvED8P+bEax/lA3fv4yJ0b+aUWs/nVLwv5+UdSirMD+ek7M/l
+; A3ff4zJ0lpxP47K1j+RzJt/lI4gf5eP5n+aUWu/nNKwKKbwn6gm6Oto7+jrv6PWe6jr6OswEaeU8Rr
+; esJrwxd6wB/BJsIQnGH+hFPePQAvw3r95i/FKMRVn2PAacFVwQTAnWL+RzJt/jgqU/4lIDBp/kw1d/
+; 5UOoZpMcD+SDJvoov+UjmCnnb/QzBm9f8zIlUP/wAAAADJ/y0kPoj/QS9k//5QOH/+XD6U/mVDpf5s
+; RrKirSgvMsI3a8QIxQ/C/mJAnjj+YUCd/nVLwv59UNGjrVbB/m5Ht/5CL2P+MydIyKCb/j4tXgP+Vz
+; uM/mJBoBr+dkzDoYnAa8Ghm6O+op0e/o9a86KbwgZ6wmvDF3rAbsEmw3prwJ52/otX6v6BUdj+eEzH
+; Mtk3z2vRN84y41UrWcBpwVlmwASeY/5HMm3+OyxY/iYhMg2jr/5UOYZuwGXA/j4tXf5NNXgWVi3/RD
+; BoQP8AAAAAyf8rIzle/z4uXv/+Tzd8/lo9kf5kQqL+a0awoq6im8BresI3PsQIxQ/B/mlFrf4yJ0b+
+; WjyQD/57T83+gVLZw1X+ZkOoFf5MNXcY/jcpUJ5iyaOv/kIwZf5NNnn+Wj2S/mZEpxIFwA8hoKr+dk
+; zF/oBS2P6LWOv+kVv4BnrCa8R7wG7BJsMpMMNrnWL+h1Xl/n5R1P51TMKfdcE+/dw3xGbIKJ51aCHA
+; acFZC8Cedf5LNHX+PS1b/ichM591wP45K1T+VTqGPcBpMf5CL2T+UzmDWhZU/0kydEL/AAAAAMn/KB
+; 8wOv86K1f/Of5ZPI7+YkGg/mpFraOvKMEvesM3PsQIxA/AVTj+UTiAD6K/AcM6/ndNyJ90wWT+bUey
+; /mFAnv5UOYb+STNx/jwsWv40KEufhsZrwG/+OixX/kUya/5QOH/+Wz6U/mtGsKKcemuhrf57Ts3+hV
+; Tg/o9a8qKtwGvEe8AfwWvDKTDDa8Iw/o5a8f6FVeH+fFDQ/nNLwD796i+edCskIcBpwWkLn3X+SzR2
+; /kAuYv41KEwNwT/+VTqHWcBpnWI//lM5g8AWn3b/LSI+Lf8AAAAAyf8kGCQV/zYpT//+SzR1/lg7jP
+; 5hQJ3+aEWrIaGtKMJ7w24+xHvFVv43KlH+SDNvD6KcAcE6wSweJcJ6wGvAnmQE/lw+lf5ROIH+RDBo
+; /jkqVP4zJ0jEa8BZn3NF/j4uXv5QN37+Y0GhK8L+dUvD/n9R1v6KV+n+kVv3oZrCe8AfwSbDemvDa8
+; N+azeeUf6DU93+eU7L/nNLv8wI+Gk+3C+edSvAaVrBacFE/lA3gBhU/jEmRv4lIC/ANP5TOYOhm2k9
+; wP5GMm3+WTyPIMAd/0cybvn/IhEiD/8AAAAAyf8AAAAC/zQoS+j/SDNw//5WOon+X0Ca/mdEqSEZf8
+; MvMsJuPsR6a8T+Py5foZsPoZv+gVLZOsOcUB7Aa8N6wGvDVjn+ZEKkFf5MNXf+QS5h/jYoTQnBWp5i
+; n3XB/jMoSf5HMm3+WDyO/mpFrivBonoz/oRU3v6OWfD+k1v6f8BuwSbDemvEa8J+azCeUp6GWZ5j/n
+; 9R1SgI/ds+xmafZCvCIcFpwFX+UDd/GMCfhv4wJkQNwP4zJ0kHwVnA/kk0cv5WOokgwf8/L2DJAMv/
+; MSdGxv9FMmv//lQ5hv5eP5j+ZkSn/m1HtaKcoZnEa3rDPsV7w/5FMWv+OitU/nRLwcD+gVLYxJ1RHs
+; Elw3rAa8U2wZ+F/mxHsv5hQZ04HP47K1f+LSU/n4URwqCa/jssWf5ONnv+YUCf/m9IuG7BEv5/UdX+
+; iFbm/pJc+KGawGvDejDEa8J+ax+dYjPAbsAs/oZV4f57T80I/eA5n3RIMmnBJCHAacD+VzuL/kEvY8
+; BpO/4uJUANwBgHwT1VnXL+WDyOnWEgwP85KlOHAMr/Jyc7Df8yJkbi/0MwZv/+UjiB/lw+lv5lQ6b+
+; bEezoqyhmmvFe8NuPsQIwv5QN33+MydHCGv+f1HVoZrDnmP+dUzCwyXDesAvxDbCem7Aa/5vSbj+Wz
+; 2S/kczbv41KEz+LCQ7a8Oirv5EMWj+VzuL/mlFrTd6wKCK/nlOyf6CU9v+jVnv/pNc+ybBKWvEa8I/
+; N59jnXTBbsB6a8CeY/6BUtn+d0zGD/3Lac9Vn3U6WsArwWlawGkuGMFpn3b+LCQ9DcD+UTd/o54HwG
+; n+SzR0/l8/mv5ROIEnIJ5k/yMfLkL/AAAAAMr/OSlTlP86K1X//kAvYir+Wz2T/mRDpP5rRrGiraKa
+; wWvEa3rCbmvFCMD+VzuM/jInRv5rRrAI/n5Q06KbwlkE/nVLwh7Da8N6wGvFNsJ+wAidYlll/mRCov
+; 5ROID+Py5g/i4lQJ91w6Ca/jgrU/5MNXYaoZprwaKd/n1Q0v6HVeT+kVv2oqxrxGvCfjeeUZ6FM8Bu
+; wHoCwjMv/nxP0f50S8IP/dhVn3UBaVrAZcFpIcD+Xj+Y/kIvY1rBaZ9l/iojOp1g/i4lQP5VOojAac
+; H+RjFr/mxHsf5ROIGhmsD/RTFq9f8gICAI/wAAAADJ/zEnSE7/Qy9l/f9LNHX//j0tXP5ONnr+WT2Q
+; /mJBof5qRq4ropvCa8RresNvxQj+Xz+a/jInRv5jQqII/n1Q0aKtwFnBVP51S8FrHsQlwnrAa8U2wn
+; oPK1nCJJ92/lw+lf5JM3L+NilP/iwkPMIK/mFBnf5wSbiedv5YPI3+Z0SoAcFr/ndNyP6BUtr+jFjt
+; F6GZwWvCPyaccixrwG7AOwLDa8Cehf6DU9v+eU3JnmLNGd0Szg/WnnYBwDrAWmYrwSH+XT+Y/kIwZB
+; sYwGnAnnX+KSI3nmL+PS1b/lY6iA7AacD+SzR2/mxHsf5PNnyjncD/QC5iuwDJ/yocORL/OytY5f9N
+; NXn//lo9khSfZQT+YUGe/mlFrCGinHrCa8RresNuPsT+ZUOm/jEnRv5dPpb+dEvA/ntPzaOvxA8SGc
+; BuwyXDesBrxTbBGStYa8IkK8E9/lI4g/5BL2P+LyZCnYT+YEGd/m9JuAz+c0vA/kAvYf42KU7+STRy
+; HAsBa8Chmv58T87+hlXi/pFa9qKdf8F6n2QswGvAOMA7AsNrwXpWnVD+flDTL1j0Gc8Sxw9mn3UBwW
+; nAWmYrwf5kQqL+QzBnn4UYwWnAnmP+KCI1Df5LNXX+VjqIWsBpnnUH/mxHsf5MNXYnVf8zKEp5AMn/
+; OCpQk/9HMm3/B/5gQJ3+akWv/mNBof5ZPJCkv/5oRKqkr6Gtb3rCa8VresJuPsOcYjUH/nRLwKOvMM
+; T+dUzED8B6a27Da8N6wGvFNsAZnVEawGvCeivDRP40KEr+VzyM/m9JuP56TsswVf5bPZL+LyVCn2MJ
+; /j8uYP5ROIL+ZUKl/nBJusB6wP52TMX+gFHY/opX6/6TW/qiiZ5jnnTAa8BuwHoCw2vBDMBrwCz+hF
+; Tf/npPzB79zRnAn2QIwAHBaTfAK8D+Y0Ki/kQxZ592G1rBacCdYv4nITOhrP5VOoehiWVaB/5HMm/+
+; ZkSn/mxGsf5NNXj+UzmEnWL/Ih0mNQDI/zsnTg3/QS9i8f9QN37/PP5mQ6Yr/ndMxqKt/nNKvpxhGq
+; Gcf2t6wyjEazLDbmvBL/41KU3+TDV2PqK//oBS18NpAA/BehnAbsNrw3rAa8VEnWEawWvCJCvD/jUo
+; Tf5WOoky/nlOyzDAKT7+QC5g/iwkPMI3/kkzcf5bPZH+bEayo63AayP+ek7L/oFS2f6LV+wsa8A4wH
+; prwwnBesATwW5WnWH+gFLY/nZMxiXtHtqehwsIwGnBOlrAK/5oRKr+RTFqn2PAG1rAacGdUP4mITL+
+; NypQHcBlDsD+RzJu/mxGsZ5R/ks0df5UOYX/RjFr6v8AACoG/wAAAADI/0EuYTf/SjRz//5WO4r+YU
+; Ce/mpFrv5ySr7+ek7M/oFS2KOv/otX7KKJnWKdUJ1RnGCeUXrCa8QvesNuPsH+PC1b/kQxaT42/oBS
+; 18IpwP53TccPw3oZbsMlw3rAa8QZCBrCa8J6K8L+PSxa/lA3fisMKcKfdv5bPZL+LyVCn2PDoKv+PS
+; 1b/lE3f/5jQaH+cEi6af5qRa3A/ndMx/6GVOMzOMA7a8NrwXrAE8FuwGvADP6GVeH+fE/QJf3HHp92
+; noYLwAgBwWlawJtg/kYybCfBG1rAacH+OStV/iUgMP5FMWodwGZZwP5NNXj+a0ax/mRCpP5ROH8x/z
+; 4sXK4Ayf9JMnBC/1I4gv/+XD6V/mZDpv5uR7b+dUzE/nxPz/6CU9sFor+jnKGbf8BWn4b+i1jsnGCd
+; UP54TcidYljFazLCbj7A/kMwZ/49LVo+DzDAacKcUA/EehnAHsMlw3rAa8IZnlKfdMMhwnrAa8D+Py
+; 5f/kw1div+d0zGKcJmwP5vSLj+VjuKFf4yJ0edUMN7/jMnSP5FMWv+VTqH/mZDp6GZazL+f1HV/oxY
+; 7aKaa8NrwXrAE8FuwGvAesBWnmP+glLa/nhNxyjrJdWfdp6FwGnACAHBacCeU/5JM3L+QjBkwWVawW
+; nB/jgqUv4mIDL+UzmEopvBZZxQ/ls9kv5rRrH+XD6V/lE4gaGr/zElRG3/AAAAAMn/MSlSH/9XO4v/
+; /mJBn/5qRa7+cUm8/nhNyaSv/oRT3qSfor6inKKawmvDZTOdYf6CUtr+e0/OnGCfZMFresM+/ko1df
+; 43KlAvPv5/UdYpwmadUf50S8DAa8N6GcAew2vDesBrwVWeY59ha8NrwnrAa/5EMGijrisSKWbCWjYB
+; wCs5/k42e/46K1f+LSQ9WcFrn4Yb/kUxaf5fP5r+aESqwKKK/ndNx/6HVeMCwmvBesBrwW7Aa8B6wW
+; vAE/6IVub+fVDSL+9pzgifZMBmacBaAcKeYv5KNHT+QjBkwmVawGnC/jYpTp1i/lY7isBpwGX+RjFr
+; DqGJ/l0+l/5UOoX+TTZ4/yIbKCYAyv9KNHPx/2ZDpv/+bUe1/nVLwqSv/oBS2P6GVOKjnaO+oZuiis
+; Jrw3prwlWedJ1R/oRT3p1AnGCeclnC/lM5hf4xJ0b+b0m4Pv5+UdOhmsBmwZ5i/nRLwMEPxHprwB7D
+; JcMowC8gnmOfUXoaw2vDev5KM3IYKw/+gFHWwFrAacD+eE3I/nBJucScYv5YO43+RjJs/jMnSf4sJD
+; zAnof+JSAuay0x/mZDp6GabwEh/oxY7gJrwQzAa8FuwGvAesFrw55k/oRT3v55Tcov+w+fdBfAZgvA
+; WsABwJ92/k02ef5EMWmfdMJVwWnBWf40KEz+QC9i/lc7ilodwGb+STNy/mtGsMD+VTqJoHX/QzFm4P
+; 8AAAAC/wAAAADK/zQnS7X/YECc/wj+d03GOqO/oq6jnSKgm6GabsEmw3prxGvCoHScYy/+gVLY/npO
+; y/5dPpb+MSdF/mZEp/5zS77+fVDQoa3BWmmedf50S8DDD8N6a8AewyXDesAgn2KdY8B+a8Nrw/5NNX
+; j+QC5gK6Kt/n9R1mnD/nhNx/5wSbgBxGvAZf5kQqL+UDd9/jwsWv4rIzkGwf4tJD7+RzNu/mFBnf5o
+; RaproZv+eE3I/odW5QnAesBrwW7Aa8B6wWvDa8Bl/opW6f5/UdX+dkzGaPdEn3NawBdmwGkIwAGfdv
+; 5PN33+RjJt/mFBnv5CMGTBG1rBEcFU/jInSAr+VzuKWh3An3adhf5rRrDA/lg8jj3/PC1bpQDL/zEk
+; RT//QS9j/P9mQ6b//nlOy6Ou/oRT36Otop0ioK1/bsEmw3prxGvCem5rwf6FVeEu/l9AmzL+e0/Nor
+; 9aacEE/nRLwMRrxHprbsQlw2afYp1jwW57xGvBMf43KVD+b0i2oZ3+f1HVxJ1Q/nBJuMABxGvBesCd
+; Uv5VOof+NilN/iYgL1nAoJv+OitW/lQ6h/5nRKmhicAB/oBR1/6OWO+iimvBbsBrwCLBa8NrwHrBn2
+; b+hVTg/npOzZ5i62nHFp90acBaaWbAC8BaVf5TOYT+RDFo/mpGsGT+QjBkwRtawBHBaUX+OCpT/lc7
+; i2lawGn+STRy/mJBn/5rRrDA/lM5hGv/MCVCYP8AAAAAzP8+Ll97/0kzcf7/XT+Y//55Tcr+hVTgo6
+; +irCmgrH9uwSbDemvEa8J6bmvBN/5AL2H+WDuN/nNKviekr8NVD2nFD8N6a8BuwyXDKJ1jacFue8Rr
+; wC7+NylQIaGr/n9R1cSdYv5vSbh6wAHEa8ELVZ5SnmL+XD6V/kIvZP4pIjWeY8H+LSQ//kgzb/5hQZ
+; 7+aEWreiT+eU3J/olW6P6PWfMTbsBrwHrBa8NrwHrBa24wnVD+gVLY/nhNx1jUZsda0VQowGnAWmnA
+; ZgvAPP5VOon+RDBo/mlFrf55Tsr+ZkOn/kIwZMBmWcERwVlU/ks1dv5YO4xYwFpp/kQxaf5rRrDBLv
+; 9KNHP9/x0dJxoAzf9LNXRc/1E4gPX/WTyQ//5oRKo9/ohW5v6QWvWirMBuwWvDemvEa8J6bmvC/lw+
+; lf5ROIAyo6/+f1HVw/6IVuX+ll39nFCdUf6DU9ucUP52TMOfdsFrxHprwG7DJcEynVJpwhB7xGv+XT
+; 6Y/i4kQCF6/n9R1cNpPf5vSbjAesABxGvBPJ5inlLAJ56G/k82fP40KEr+JSAuwaGc/jssWDgnoYnA
+; /nJJvP6BUtn+jlrxoZprwHrBa8NrwHrBa27CH/6HVuT+fVDRnVDQadsonmTBacBaacBmacD+WTyP/k
+; MwZv5kQqMswP5hQZ/+QjBkwGVawRHBB/5IM3Ag/ls9lJ5haVrA/kw1eP5rRrDAaQD/QzBm2v8AAAAA
+; z/8xJ0o0/0Yya9wD/mVDph2irhYa/oZV4v6MWO3+k1z6JsR7xGvDfmvCLP5HM27+ckq+oq0awqK+/p
+; Zd/aGJw1ieYpxinFCcUP53TccPw3oZwG7DJcAvnWJoa8Jue8T+XT6Y/i0jPf5uSLbA/n5Q1H/AE8Ge
+; df5vSLhuwXrAa8QIPJ5jnlHBe8Ad/lo9kAf+KCEzn2TAa/4vJUP+STRz/mNCoqO/wKGs/nlOy/6JV+
+; n+kFr0f8Epw2vAesFrbsNrep1R/oNT3P54TskF6GlVnnQowWnAWhfAZsD+XD6V/kMwZv5jQaEswf5h
+; QZ/+QjBkwBtawBHBaf5HMm49Dv5hQJ8Vn3TAnVKjv/5rRrBpwP5ONnv/OyxXmADQ/xgYJBX/IB4ntf
+; 86K1b//lM4gyABwqCKDP59UNL+hFTe/oxY7TAme8Rrw35rwgn+RTFqKBkawaGa/pRc+qKbxW56wp52
+; /o9a75xR/oFS15xQnXNIehluxESccQTAa8Jue8ObUP4sIzw9o6/+fE/RopnDnnX+b0i3a27BesABxF
+; aecp5SwnvCn2T+TDV4/jInR/4lIC7ADaCb/jwtWv5XO4wnPcD+ckq+/oJS2v6PWvKhminDa8B6wWtu
+; w2t6wTr+iFbn/n5Q0/53TcbmVJ50wCjBacFaF2b+Xz+bOP5bPZIswGnA/lo9kf5CMGRmGMFpwaKt/m
+; ZDpv5uSLREnHL+Xj6Y/lg7jFj+RjFrEaOcwf5NNXn/KCE1Tf8AAAAA0f8kIDI4/yoiOf/+IR4p/igh
+; Nf4zJ0j+QC5h/ks1dv5ZPI/+Z0Sq/m9IuAjBe6Ku/nxP0P6EU93+ilfq/pFb9qGtf8Brwn7Aa8L+WD
+; yOKKCK/n9R1cBr/pFa9KSvxm7AesZEnWGcUJxhnVH+d03Gn3XCRJxxWMFrwhATa8GcUf4rIzv+ZUOl
+; /m5Itv58T9CimsM9/m9It8AybsF6wAHDOS6eUsJ6a8FuwB3+WTyP/j4tXP4nITOfdGvA/jEmRRn+ZU
+; Klo5xroaz+e07N/opX6f6QWvV/wWvAM8FrbsNresJrwJ1z/oRU3/55Tsufdc1p01WfY2XAKMJpwFpp
+; /mJCoP5EMGj+Wz2S/nhNyX7CFf5CMGRlWsBpwSL+Y0Kh/m5ItWkLnnWcUP5bPZOeYf5JM3H+a0avwV
+; X/Pi5e+v8ZGSYUANH/GBgkFf82KVD9/z0tXP/+KSI2n3UCoJp+wP4xJkf+PCxa/ko0dP5YO40x/m5H
+; taKbwBLAopz+ek/N/oJT2/6JVuj+j1nzo69/fsBrwggSoYn+flDTf/6NWO3+l17/x27Aesl6wZ1jnU
+; CcUJ1RJf5uSLafhsJrwm56GsCedf4tJD/+YkGfGgejnMBawivBa27BesABwlafY51hwyBrwSzAa8Cd
+; cv5LNXX+LiVB/iUgL8E0/j8uX/5ZPJD+aESsf3r+c0q+/oJT3P6PWvOhmmvAesFrbsNresJrwjr+i1
+; fr/oBR1v54TcfLDNJVn2NoMsAowmnAWv5lQ6f+RDBo/k01eQwlw/5VOoj+QjBkZVrAacH+Xz+aGsEL
+; VJ5j/mBAnP5YO43+RTFr/mdDp6OdWlT/OCpUzADT/zMoSu7/RzJv//5UOoYS/j0tXP4xJkWeYsRroZ
+; r+OytX/kgzcP5UOYX+YUCd/m5HtqKbwG7AoZv+ek7MpK/+h1bk/o9a86O/oYnA/otY6/5qRa4o/n1Q
+; 0P6HVeT+ll3+f8duwHrKFMRJm1L+g1Pd/nlNyf5vSLafdsALw35rwP4vJUL+Wz2SGv56TsujnsFpwS
+; vDb8F6wGvCnmOdYmkdwnprwW7Aa8En/lg7jP48LFn+JiAxWMH+MSZGKv5kQqSjvsAE/npPzf6KV+r+
+; kVv3esJvw2t6wmvEe550/oZV4v57T84P21UFPmkywFppwWnALv5GMWyfY/5TOYMlw1r+UDh//kIvYx
+; jBacA1/m5ItmnBWQuehp1Q/lE3gJ5i/lc7iv5iQaD+akWu/mBAnf8sJD2F/wAAAADT/zEmRcr/RDFp
+; //5TOYX+XT6W/mVDpf5rRrKeYf5aPZH+TTZ5/kAuYf4zJ0n+LSQ9wmvBoJr+OSpU/kQwaf5ROIAZOh
+; drwHqgm6Ou/n9R1f6HVeT+cUm8KP6AUdf+lV39oYl6x27AesoUxJ9onmVpwET+iFbm/n1P0BkLw35r
+; /jMnSv5ZPI8a/nlOyqOuxBKfdcNvwXrAAcGeYx1pwB3CemvBbmvCemucUP5JM3EiDcGhrP5WOokHwG
+; tu/nNLv/6DU9z+kFr0oZrAP8MGesJrxHvAbhD+jFjt/oJS2v55TcpYzA/JFlQ+wWXAWijBaQ7+RjFs
+; OMD+WTyOJcFawBb+UDh//kIvY1rAacD+VjqI/m5HtW9pwVlmVZ5zAv5VOoh/wP5eP5hZ/yUeMEX/AA
+; AAANP/LiVBoP9CMGX/Nv5cPpT+ZEOk/mtGsSEBwVWdYf5dPpf+Tzd+GP42KU/+LiQ/WGvDa/40KEwY
+; /lA3gP5cPpX+aUWt/nFJuqGJwqKu/n5Q0/6FVOD+jFjsCaGsf8VuesoUwxGfZz/CBnpVnVD+gVLaL/
+; 5tR7VpwBD+OSpU/lA3fxr+d03G/n5R08T+cUm7n3XEMjfAesEBnmSdYWnBHcIga8Fua8J6PcAn/lU6
+; iP46K1b+JiAxWP5PN37+aUWtoav+WTyQ/mZDpqOdwKGb/nxP0Aw/wwZ6wmvEe8AfwWuedv6HVuUknm
+; LUJKGrnVCfUp92wGXBWcEB/kkzcv5DMGbB/ls9kyVawBbB/kgzcBjBaf5QN30Vb8BpwWkLwP5WOooR
+; /lY7icFl/0cybvX/FRUqDP8AAAAA0/8rIzx8Av5PN3z+Wj2R/mNCof5qRq+irKGaa8RrwC7+YD+a/l
+; E3gDD+OSpV/i4kP1nFo6/+QS9j/kw1eP5iQZ/+ckq8wGvCoa3+fVDR/oRT3qSu/pFb9aO/wW7Aesl6
+; wxEmP8JresIQnmP+hVTh/nlOy/5vSbj+OitXMRr+d03G/n5R08QhnnRrxGs3wTrAC51QacIdwnprwW
+; 5rwjY9wv5hQJ7+PS1c/ks0dgT+c0q+LzgY/l0+lv5qRq7Aa/50S8L+hFTf/pFb9j/ABnrCEMR7wG7C
+; JsGcYf6DU93+eU7Ln4bOa/5/Udb+hlXjaZxynlKdYZ9SwDLBWcCeY/5KNHOcUDjB/ls9k/54TskWw/
+; 5IMm8Ywf5KNHQVfyHAacIL/l4/mTT+UTd/pJ9pwGX/QC9ivv8AAAAA1P8pIDhX/zwsWv/+TTZ5/lk8
+; jv5hQZ89CzrAAcQIwXrBnnYq/lQ5hi3+OytX/i8lQp91w/5LNHX+ckq8KP5fQJsN/lc7jP5kQqT+b0
+; i4KMFroav+e07N/oJS2f6JV+f+kVvzo66hmsh6w1aeVVjCBnrCEMJV/lI4g/5HM2/+bUi0/nRLwf5+
+; UdPCZcD+c0q+nlJ6wCvDazfBOp52nVBpwx3Ce8Isa8J6a8L+TjZ8/kUxa/5pRa3+c0q+/n5Q0lT+VT
+; qH/iYgMv40KEv+UTiAHRNrFf59UNH+jFjtBnrDa8N7wR/Ba8KgqVn+kVvv/olX4f6DVdSbVJ54xWmg
+; mqOb/oNU3P6LWOr+kVr2oGWedZ1gnnSdYyyeYz5pMsBZnnX+TjZ6/kMwZ8Bpwf5jQqH+eE3Iw1T+RD
+; Bon2TA/kgycC6inMAhwWnB/mRCo/5AL2L+NilP/lY6im5pwf81KEx5/wAAAADU/yIcLS3/OSpT//5M
+; NXb+VzuL/mBAnP5nRKqjrqKbOsBrxQjBesFrwSEgNf5KNHT+PCxb/jEmRf5CL2X+ckq8oa3+flHTEv
+; 5HMm/+LSQ+oZv+OitV/kgybwf+YkGgK6KtwqGJ/npOy/6CU9n+iFbk/o9a8P6WXvyhmsQUwkUGacIG
+; esNrwv5oRKv+RTFs/m1HtP50S8H+flHTZj3CL55iwHrAK8NrbsGehZ1RWHvCHcN7wm5rwXrAa8H+Tj
+; Z7/kUxaj0v/n1Q0sEu/i8lQf4lIC+iv/5DMGf+Xz+a/mpGr8B6Gf6GVOH+kVv2oZrBEMN7wW7Ba8Kg
+; qn+jlaSU/qpu//7Ag/7+zJH5/tao8f7bs/CTPpys/sSM7f6+hvH+qG/2/qVq/P6eY/8URRApnmOddJ
+; 5znVKfUQWeZGhmwJ92Cv5DMWc/wGnB/mNBof54TcjDn3X+QS5iwKOe/mlFrSvBIcFpwDM//jEmRh7+
+; VzuKWmnAnFD/IBwuN/8AAAAA1P8SEiQO/zUoS/r/STNy//5VOokD/mZDp6SvopzAesEBxGvBesISwW
+; 7B/kUxah7+cUq8Pv5+UdPAVf5sR7L+Pi1d/i0kPsJ7/jkqUx/+UjiCA/5sRrIoe24+wKOu/oBS1f6H
+; VeH+jlntpK+irRTCn2eeZcMGesMQwv58T8/+QC5i/m1HtCj+flDSxP50S8IhwXrAK8RvwJ6H/mdEqV
+; jAe8IdwnprwW7AM8J6a8D+TjZ7Hz3+ckq+/n1Q0mnBnFH+Pi5eDcH+NShN/lE4gP5oRKqim8Chrjr+
+; jVjupK8Qw3vBbsFrwqGqEaOVppKmkv7Gif/+1pn//vnJ//7/2P/+/+H/m83+5qn//tmc//6xdf8S/p
+; 5j/517ERqfdp5in2Sdc55jnlKdYZ50PjJU/lQ5hf5EMWfAVmnC/mVCpP54TcjCaZ52GKGc/mVDpf5v
+; SLgrwSRawGmfdv5HMm7+NSlN/iUgLv5JM3H+VzuKWsBp/0Yzbe3/AAAABf8AAAAA1f8yJ0jk/0YybP
+; /+VDmG/l0/l/5lQqWlr6Gdf8F6wAHECMJ6wWvBbsD+TDV4/jUoTgihiv59UNJ7acBV/mJBn/45KlX+
+; LSQ+xHrAPP5CMGX+Tzd9/lw+lv5qRq/+ckq+f8IP/n9R0/6FVN7+jFjq/pRc+KF7n3XDa3rDa8KcYf
+; 47LFn+bUe0oq49wVrABP6JV+n+gVLY/nVLwyHBeivEMp92/mdEqVjBe8Idw3vCbmvBesBr/k42e/5F
+; MWo9L/59UNHDVf5UOob+KCE1DcGjr/5EMWn+YUCd/mpFr36giiD+hVTh/pJb+BDBa3rAbsEmwXuhma
+; KWooanoaaS/siM//7bnv/++sn//v/Z/6Yim93+5qn//tqd//6xdf+bjf6eY/+eehEwEJ5jnnSec55U
+; nWGedJ5QnnUvOAfAWmZpwWn+a0aw/nhNyMBpwQv+QS9kI/5vSbjAZcFpWsAS/k01ef44KlP+JiAwwP
+; 5UOYeimcBaaf8/Ll+xANb/MCdEuf9EMGf//lI4gv5cPpX+ZEKj/mxHsSEyN8F6wAHFa8F6wWvC/lQ5
+; hf4xJkX+bUe0o5z+fVDRe8JaFv5tR7P+YECc/lE3gP5DMGf+OCpS/i4kQFjBJcBvwKKv/j8uYP5NNn
+; j+Wj2S/mdEqh4+wHvAnnb+ek7N/oZV4/6QW/Shm8BresMQw/5LNHULoa06wmv+jVnvJsB6nWP+hVTg
+; /npOzP5wSLhYK8RE/mdEqVjBe8MdwnprwW7Aa8E2wP5ONnv+RTFq/mlFrP5ySr3+fVDRxJ50Hf5PN3
+; 3+NChK/iUgL8L+OCpR/lQ5hf5oRKyimsChrTr+jVjvEGsawG7Ba8Ggqn+jlaKGp6H+sHT//smM//7g
+; o//++sn//v/Z/6Uzmf/+6K3//t6h//6xdf+di/6eY/9GnXtFF550n2SdhJ5jn1OdcZ5TnnP+Wj2S/k
+; QxZ8FWwGnBaf5rRrAPwwv+TTV6/nBJuFrAK8FpIcD+UzmF/jssWf4nITOfdP4zJ0j+VzuLwGlawP8v
+; JEFxANb/LCQ+lf9CL2T//lA3ff5bPpP+Y0Gi/mtGr6GtK2s3wTrBa8RrwXrCa8D+Wz2T/jEmRf5kQq
+; P+cUq7/ntOzT3AWsGdY/5ySr3DIf5hQJ7+VDmF/kYybf47K1j+LiQ/WcB6LG7BKf47LFj+SjR0/lg8
+; jf5lQ6X+bEaxWcCgqw/+g1Pc/o9a86Gsf8IQw/5XO4v+bUezoYv+fVDSwv6MWO0mwXowwRD+iVbn/n
+; 5Q0/5zSr8rwkSdUJ+GbsFrFsJrwnprwW7Aa8F6/k82e/5FMWr+aUWsCP59UNHEnnT+akauwFX+Wz2T
+; /kAvYf4nITSfdMH+KyM7/kUxa/5hQJ7+a0awwf51S8QZ/pJb+KGabsFrwGuhmaGXopakhKWj/rV4//
+; 7Lj//+5qj//vnI//7/2v+jVf7/1f/+6a7//tyf//62ev+ajv6fZP9CEVWeeJ9knoWeU56Fn1Gdc55j
+; /l4/mf5EMWlowVY4wmn+b0i2/nhNx8FawP5oRKr+TTV6/nBJuFrAK8JZ/lo8kf4/LV/+LiRA/iUgLs
+; D+QS9jLsBpWv5ONnz/Hx8sKf8AAAAA1v8pIzl1/z8uX//+TjZ7/lk8kP5iQaD+aUWtoq0rwWs3wTrA
+; a8UIwXrBa/5kQaP+MSZE/l0+lxL+eU7Koq7CaZ51/nJKvMBrxWuehf5kQqP+VzqL/ks0df48LFkinn
+; TAb8NrNBH+ZEKk/mtGsXpu/nRLwP5/UdX+jFjsCcAQw/5qRa6hm6Gb/nxP0X7A/opX6f6UXfzCemvE
+; a/6NWPAe/ndMxjKfhp1Rn3XAbsEWw2vCemvBbsBrwf5ZPI7+RTFq/mlFqzL+fVDRwWnBnnX+akWtE8
+; KeZP5NNnn+MidG/iUgL8Fr/jgqUv5VOocEoZrAoq0a/o9a8qOuwCbAN3+ipn6lk6WD/rl8//7Ljv/+
+; 6q3//vnH//7/2/9u/v/S//7rsv/+257//rp9//6wdP8PnYuda1UwnnafdJ5jnnaeUZxg/l4/mP5IM3
+; GeYWnAP8BpwWla/nNKvqOuwFrB/mRCpf5SOIP+cEm4wFpmK8H+YECc/kAuYZ91/isiOf4lIC7A/k42
+; e/5XO4vBaf9FMWnp/wAAAADW/wAAQAT/MSZFvf87LFj//k01d/5YO4z+YUCd/mhEq6KuK8IyN8E6wW
+; vEa8F6wZ1SIv5VOokS/ndNyKO/wDPBn3YhwSjFa3rCC/5nRKn+WjyQ/kw1d/4/Ll/+MidHnmLAVZ+G
+; nlJ7/jQoS/5LNHX+Xz+a/mtGsH/ACP59UNH+iFbm/pJb+RDB/npOzf5pRayirf58T88z/ohW5f6UXf
+; zDejDEa8KeYv6GVeH+c0q//mZDpmvAbsEWw2vCIGvBbsBrwP5ZPI3+Qi9j/mlFq/5vSLj+fVDQxJ50
+; /mpFrcBvw1X+Wj2R/j4tXP4nITKfdsH+LCQ9/kgzcP5jQaEkazUP/odW5BAmN6GYopaihqaSpYP+vH
+; ///s2Q//7usP/++cf//v/b/8D+/9D//uuy//7anf/+vYH//rB0/x+bjRxFMFSeY592nVH+dEvC/ls9
+; kv5QN3/+RzJuDmnAVmnCaVr+c0q+o57BacD+Y0Kh/lQ5h/5wSblpWmZpwP5mQ6f+Qy9ln2Sedf4pIj
+; eeYf4rIzn+VzuLwmn/PC1Zpv8AAAAA1v80KEt6/0AvYv/+NypR/ks0dP5WOor+YD+b/mdDqKOvK8My
+; N8E6wQHECMELwDL+NCdK/k82fRKjr/59UNHDVCHDa8RresRvwQT+XD6V/k83ff5CMGT+MSZFLcL+MC
+; ZC/kQxaf5aPZD+akWtooproZv+eU7K/oVU4P6QWvWedP5rRrChmv58T8/+hlXiEH9rwzDEa8J6EJ1j
+; /odW5Tb+aESrn3VuwXvDa8J6a8FuwGv+WDyN/jsrVzMr/n1Q0MBawp50/mpFrcBrbsNrwJ1h/ks0df
+; 4uJUD+JSAvwaCa/jkrVf5WOor+akWvoYl+Af6AUtb+kFr0pb6ilqKWpJT+rXH//rx///7Slf/+7bD/
+; PP7/2v9i/v/P//7stP/+2Zz//sKF/wL+pmr/NyQRQEX+jVjv/n1P0f5kQqT+XD2UnlD+RzNvnnPAac
+; BWacExwKGL/nVMxKGaacL+XD6VHwFpWsBlnWL+RjJrnGHAnmT+KCE1n2L+OStT/lg8jFZpwFT/LiM+
+; XgDV/zIjRjP/Pi5e9v9PN33//jorVv5IM3D+VTmH/l4/mP5mQ6ajryvFazfBOsABxWvBC/45KlP+Rz
+; JtC6Ku/n1Q0cQoacMoxS96w24+w592/mRCo/5MNXf+OSpT/ighNFjBor/+Py5f/lQ6h/5mRKijv8Br
+; /nZMxQF6/oFS2RB/wCbDejDDa8Iwn2SddMBunob+flDS/mxHs/5mRKfBFsNrwnprwW5r/lg8jf47K1
+; czK/58UNDEnnT+aUWtesAObsJrwXoH/lg7jf48LFn+JiAxWMEiHP5kQqL+bEaxAaGa/nlOyP6GVd7+
+; lV/wp97+snb//rt///7Ym//+7K///vjI//7/2P+du5n//u22//7ZnP/+xon//rBz/5l//p9k/555ml
+; UX/ndMxwSedP5gQJv+TTV4O/5DMGd/acA/wGnBaVqhrf53TcbE/lw+lVT+cEm5aVrAnnX+SjRz/j8u
+; X3vAnWP+JyEzBv5GMmz+WDyMVmnA/0w1eP7/Hh4lIv8AAAAA1P8AAEAE/zkqVNL/STRy/y6fdv5FMm
+; v+UzmF/l0+lv5kQqQkoa1+a8RrN8E6wWvECMH+Qi9knmMLOf59UNHDaf5zS8CfdcB6wijFL8B6w25r
+; wS+eYp50wJxi/lM5hP48LFr+KyM5nmPBoYr+OitW/k02ev5kQqP+bEeywTn+f1HU/otY6hChicN6MM
+; RrwTCdY591wG7AejP+g1TdKP5mRKgMFsNrwnvCbv5YPI3+OytX/mhFq/5uSLf+fFDQwmnAnnX+aUWt
+; wHrAa27Ca8F6wSD+STNx/i0kPg3BoZv+PCxZ/lk8kP5sR7Oivj6hrKGaqsuouf6veuf+wIns/tan8f
+; 7bsvKqsp/b/s6a8f6/hvH+sXnu/phj55hXl1b+eE3FnUKehjqdYf5SOIL+MSZFoq7+RDFowWnAP2nC
+; aVqhrf53TcbEGKOv/nBJuWlaIf5PN37+QC9gZsBZFP4mIDIN/lQ6hqKsVmnA/0MwZ9z/AAAAANX/OC
+; pTVg7+UjiD/l0+l/5oRKv+YUGe/lM5hDz+Y0Ki/mpFr6KrIXorxTI3wTrAAcUI/ko0c/44KlEIoKr+
+; fVDRwWnB/nRLwZ9jHsB6w2vFa3rDbmvAL55jnnPCa5+F/lc7iz/+LiQ//ichMsGgiv4zJ0n+XT+X/m
+; xHssB7wAj+fE/P/ohW5v6RW/iimsB6MMRrwZ+GnWJZwG7AemvBnGH+eE3I/mlFrJ91wmvDe8L+WDyN
+; /jsrV/5oRar+bki3/nxQz8Nmn2T+aUWtwQfAa27Ca8B6wiQO/lU6if45K1X+JiAxDcH+LyVCPP5gQJ
+; z+dEvAopugrKGJoIp/a38iwBNpNlifdp92n3aeYxn+RjJs/ioiOP4dGyH+NylR/kQxaMFpwFo/acFp
+; wFr+TTZ5/ndNxsNp/lQ5hf5hQZ4BaVX+VjuJ/kAvYMBmwFmcUP4lIDD+MSZE/lg8jWnAVmn/OyxXkv
+; 8AAAAA1f9CMGSmOf5ZPI/+Y0Ki/mxHs/51S8Khiv5qRa2dUqO/opyhicB6K8VrbsE6wGvF/lA3fv4y
+; Jkf+bke2opr+fE/QfsIp/nVMwxfBa8B6w2vFa3rDbi8rnmPEa3pI/l4/mP5JM3H+NChKLaCa/lQ6h/
+; 5sR7Khmv5UOYajrf5qRa6im8Ac/nlNyv6EVN/+kVr1MMRrwZ50nmIzwG7AegLDnof+flDT/m1Hs51Q
+; wWvDe8H+WDyN/jsrVv5oRar+bki2/nxQz2bDnnX+aUWsa8EHwG/Da8B6wiTB/mJBn/5FMWr+KyM7Dc
+; Chq6Gdo78b/k83ff5cPZX+ZkOn/nFJvP54TcgiZsAMn3YB/mhEqjIq/kAvYv4uJUH+JSAwnnKfdv47
+; LFj+RDFpacFpwFbAacFpWsD+TTZ6BcFpwf5ROID+Y0GhAcD+XT6W/kAvYWnAZlpp/jcpUP4lIC8b/l
+; g8jWnANZ51/yohOFb/AAAAANX/SjRy0v9UOYb//l4/mSf+cEm6Fv5+UNSkrqKunWL+fVDRnFH+b0i5
+; IXrAa8RrbsF6wQHDNf4xJkT+aEWsCP57T86hmcBawT0SbsEewHrDa8UvesMvnnSeYsVrem7AK/5jQq
+; L+NylQGP5sR7I2o6/+VjuL/i4lQBv+UzmF/mZDpv5tR7PAa/51S8P+gVLa/o5Z8P6UXPwwwGvAVZ5i
+; LGvAbsB6a8NrwGX+hFPe/nNKvv5nRKlpHcMnwP5aPJH+OytWJ/5uSLb+fE/PxJ50/mlFrMBrwXrAa2
+; 7Ca8B6wiTCRP5UOYb+NylQ/icgMqGKopuhm6GaoJt/oYkQe8EQaZ9kVZ92n4afZJ50nmIC/ks1dlT+
+; RDFowmnAVmnCaVrA/ls9kyU+wWY2/ks0dv5lQ6YB/mNCof5BL2SgdWlmwFnA/jUoTf4lIC7+TDV4/l
+; g8jcBpNf9KNHT8/yQYJBX/AAAAANX/UTeBxv9aPZL//mNCov5sRrH+dEvA/ntOzf6BUtmjv6Od/pBa
+; 9aKaoYkJnVH+hlXi/n1Q0Tb+b0i4acQybsF6wGvC/l8/mv4xJkT+YECbAf55TsqinMOdc/5xSbvAbs
+; JrwHrDa8UvesKeZCQdJMRrLm7B/j0tXP5KNHT+bEey/nRLwSnA/nFKvf5AL2L+JyEzBf44KlMq/mNC
+; o/5tR7TBKP5+UNL+ilfp/pRc/KGJn3adclhrwG7AemvDa8F6wJxi/nlNyv5pRa2fdcJ6a5xh/jsrVi
+; c6/nxPz8SedP5pRazBBMF6wBPDa8B6wiTDK/5gQJz+RzJu/jAlQp5joZwMIqCKf8JZZaB1RJ6Hn3Sf
+; df45KlT+UTiB/ls9kv5TOYT+STRznWDBacBaZmnBacBa/lU6hxIeCKGsNsEU/mpFrp91/kMxaJ5zwG
+; lmwFnA/jQoSv4oITT+VzuMf8BpwP9DMGfJ/wAAAADW/083fKL/Xz+b/ycyOf59T9Gkr6Ovor6jnaGb
+; f8FrwRD+jFjt/oVU4P5+UNP+dkvEnVBYwDJuwXrBAcD+aUWs/jAmRP5YO40B/ndNx6OuwWnAnnQSwm
+; 7BHsB6wyjFL8B6wDwkHcAkxGt6bsD+RDFo/ko0czP+dEvAIsBmWf5fP5r+LiVB/ichM8H+MSZHBhz+
+; bEayoYnAoooT/oVU3xYsa8BuwHoCwwnBesBrwJ6G/n5R1P5tR7X+Z0SpwXqcYv44KlL+aESqJP58T8
+; 9pw551PcJrwXrAa27Ca8B6wiTDK6GZoJv+ZEKi/lE3gP5EMGgtnVFpwlgYoaz+OStU/kgzb/5VOoj+
+; ZUOloYqdcv5aPZL+UzmE/kkzcp5QwWnAVmnCaVr+UTiB/nFJuiEeFy+hrX/A/kYxa/5mQ6f+RjJt/k
+; AvYcBpZsBaaVUwo63+WDyOacBpwP83KlGK/wAAAADW/zYoTnL/YUGe/yso/nlNyqSvo6/+ilbpM6Kb
+; oaxuwSbEe8Cfdp1Q/oVU4P5+UNP+dkzG/m9JuTfBOsBrnnX+MiZH/lI4ggE2pK9pwWafdf5xSbrAa8
+; EXwh7AIcMoxWt6nnYkacIkwyt6wP5HMm7+QC9i/mxHsSj+fE/Pwyr+TDV4/jQoS/4nITPC/i0kP/5C
+; L2T+VzuM/mpGrqKcnnaehDYgo51uwHoCw2vBDMBrwgn+hVXiD/5nRKnAnHL+MCVEJ6GtFlrDnnX+aU
+; Wsw2vBesBrbsJrwHrCJMOhiqGro52grKKKoKufY51z/mpFr8AOBByirlifZZ90Gp5iOf5aPZL+UzmD
+; /kgzcZ5hwWlaP2nBacD+TDV4K6KbwB4XEmuinKGZ/kQwaP5LNHX+QC9hwWlmwFnAVf4wJkT+RTFp/l
+; k8jlnBnmL/JyAySP8AAAAA1v8qHjUr/0Yybfz/bki2/y+jv6Ovo6+iv6OdoZuhq27Ca8N6a8RV/o1Y
+; 7/6FVeL+flHU/ndMxZ1QWMD+NylQ/ks0dAGiv/58UM/AZsFVC8ESwm7Ba8B6wyjFaxKdUVh6wiTDK8
+; AN/kAvYv5sR7ES/nxPz8MW/nBJup5z/mRCo/5PNnz+OStV/ighNqB1waGs/jssV/5QN3/+X0Cco62g
+; qv50S8D+hlXi/o5a8XoCwwnCemvCbmvAnWL+ek7M/mVCpP4wJUT+aESpoa7+e0/OxJ51/mlFq2vDa8
+; F6wG/Da8B6wiTCoZuhij4ZooonoYmhicB6WVmeh1SfcxyfZZ5QnmOdYZxR/lI5g/5IM2+eY8BpwD/A
+; acFp/kkzcAujriHAWhdmwSgxn2XCaWbAWcBU/i4lQBH+WTyOWmnA/0k0c/f/FxcXC/8AAAAA1/82KV
+; Cp/1M5g//+dUvD/n5Q06Ouoq6jraKvoZqhmsBuwSbDKTDEa8J6H5xi/oVU4P5FMWqedP5wSbg+/nxP
+; z8NV/nFJu2nCEsEXwh7AesMoxBIrWMF6wSTDK/5RN4D+OSpULgH+fE/PwRbBKJ1hwp1j/lQ5hv4+Ll
+; /+KyM7NMBVoZkx/l0/lv5lQ6TA/m9It/6CU9ozf8IJwnprwhjAa8B6/ohW5f4yJkb+Z0Spob7+e0/O
+; xJ50/mhFqzZrw2vBesBvwxrAesIkwaGboYqjraCboponf6GKwVjAnoZUD551n3WdYZ5jnVGcYP5ROI
+; EVnmPAacA/acKhrBr+ckq9wGnAHhfAEgP+WTyO/kEvYVrBaWbAWjHAG/42KU4OwFppwP9AL2G//wAA
+; AADY/zMiVQ//QzBlyf9TOYP/If6EVN+ir6K8IqCsoYnAbsFrw3owxDfDfmvA/mJBoP47K1c6If58T8
+; /DaSifdsB6wRLCF8FrwCHEKMISnWKgZGvBesEkw/5TOYT+NilQ/mtGsaKrFsFawR6dYXvEnnf+WTyQ
+; /kQwaf4vJUIlnnOfZP43KU/+VTqHL8D+a0aw/nxP0P6MWO6imsFrwQxrwhjAa8AiwP44KlH+Z0Spoa
+; 3+e0/OwGnCnnYzesA9w2vBesBvwxrAesJrwKGaoYujraCbBaCsf6GKwVjAnoZUDxmfdAeeUp1jnGD+
+; UDiA/kczb55zacBaZmnBoJr+aESr/nJKvcFpwB4XwGb+YD+b/kEvY1jCaWbAMcGfdgn+WTyOwVnA/z
+; MnS4L/AAAAANn/QDBwEP9LNHW1/1Q6hv/+YUGf/nZMxf6HVeT+kFr1oax/wG7Ba8R7xDfDfsAG/oFT
+; 2v40KEv+b0i2oZv+e07Of8BpwBOhqzadUQgLwhLBF8IewCHDKMESOp91wWvAesFrwv5aPZL+MiZHJK
+; Gt/ntPzsT+c0q//mxHssBresNrwDX+Xz+a/kk0cv4vJUL+IB0lwP4uJD/+TTZ5/mNCo6GZoZsF/olX
+; 6KO/a8F6wGvBbsBrwCLA/kUxaR0V/ntPzcUzwHrAa8NrwXrAb8MawHrCJKGaoYo+oZsFJ38MwGtUwJ
+; 90VJ9lGSsHnlKdYv5ZPI7+UDh//kczbp50acBWOME//mNBov5ySr4owWnBF8D+ZUOm/kIvZP5WOon+
+; QC5hbsFpO8AxwWn+WjyRwKB1wFmdYv8jHyw6/wAAAADb/0MxaG7/UjiC9v9hQJ7/o67+bki1/nlNy/
+; 6BUdj+iFbmH6KswWvDMMU3wn7ABib+OitWOqKc/ntOzhbAE8D+hlXh/pde/8Cedv6OWe/+hlTh/n5Q
+; 0jmdUWkSwm7BHsEhwygSAZ90wmvAHcEkwf5bPZP+LSQ9JKCK/ntPzsT+c0vAOsEBesNrwhX+VjuJ/j
+; cpT/4hHScpNP5FMWsDpK/AKP6EVOD+j1rzwHrAa8FuwGvAesD+TzZ8/mdEqRX+e0/NxTPBesBrw2vB
+; esBvwxrBesGhm6GKor6ii6GaoKx/DMBrVDafdTmfZJ5ln3WdYZ5inWH+WTyO/lA4f/5HMm2fZGnAVj
+; jB/l0+ljLAWcFpwR4aP/5aPI/+aESq/kAvYcFpO8Axwv5ZPJD+Z0Op/l4+mJ5RaVr/RzJt8f8AAAAD
+; /wAAAADc/x4ZIzP/MCVD1f9HMm7//l4/mP5rRrGhmsGirv56T83+g1Pc/opX6v6RW/eim8F6a8Rrwn
+; pua8D+VjqJ/mNCov5vSbj+eU3KE8H+gVLZOn/FnnX+jFnsnFD+fVDRm2AZacAXwR7AesMSnmKfZMMa
+; wB3BJMD+ZEKj/iwjPP5pRa0r/ntPzsJpwAj+bEeyw3vDC8GedZ5QWf5bPZIx/iUfLp5Ropz+PS1b/l
+; o8kDbAC/5/UdX+j1nxoYlrwW7Aa8AiwP5YPI3+Z0SoFf57T83Eoa3+dUzD/mhFrGnAesBrw2vBesBv
+; w2vBHcChm6GKor6iiqGaoJx/DMFUJ6B1OQieZJ6GnlGeYQMO/k83ff5HMm2fY8BWwDjA/lc7jDLBKM
+; JpwJ5k/kcybv5SOIL+dUvB/mRDpP5AL2HBaTvAMcH+UjiDHCT+Y0Gi/lw9kw7A/z8tXbf/AAAAAN7/
+; GRkZCv8dGyGV/yEdJ//+KyM5/jorVv5IM3H+VTqJ/mZDpwvBf/50S8D+fE/P/oRU3v6MWO3+k1z5MM
+; Nrw35rwP51TMP+Wz2S/m9IuP53TceircChnAmirMhuwHqedf6NWe3+hVTf/n5R0v52TcUXwWvAesFV
+; nmSfYsRrwHrCnFA0/mNBoST+eU7LoZnDnWL+bEeyxHvECySdUFnAep5k/kcybv4pIjUpa/40KEv+Uz
+; mENmuivf58T87+jFfso53Bbh/BIv5mQ6ahiaGbDMJp/oBS1xOhmp1i/ntPzjqeY3rAPcNrwQfAb8Ma
+; wR2hm6GKor6hmz6gnH8MwVRVoGWfdgiddRKeYiCdYv5ZPI7+Tzd9/kcybZ9jwFY4wP5TOYT+ckq+fj
+; LAKMJpVP5NNXlYKCX+X0Ca/kAvYcBpwGbAMcD+SzR1/m1Hs6GbVJ1R/mBAnJxgn3X/MSVIbv8AAAAA
+; 4P8bGx5D/yAcJcj/JB8u/f8nITT/f8D+LiVB/jssWf5KNHT+Wj2R/mdEqf5uSLXBa/51S8L+flDS/o
+; VU4P6OWfD+k1z7oZrDfsBrnFD+VzuL/m9It/52TMWjrmv+kFr0BnrIbsARw1UbFP6GVeD+fVDRNp5i
+; HnpVnmSecsBvw2vAesFE/i0kPv5iQaAk/nlOyqGaw51i/mxHsTrEa3rDJJ1QVG/AesAg/k83ff4wJk
+; QpwP4sIzv+SjRz/mNBoqKaoYr+dUvD/ohV5v6QWvQYa8F6HWkd/ntPzFrBMP6RWvWhicFvGP6CU9v+
+; cUm7/mlFq8Brw2vBB8BrbsIawaGqKzIZoYqhm38FwAxUVaBkRJ+FnXSfZZ5hEZ5i/lc7jP5PNn3+Rj
+; FsoGNaZmn+TjZ8HqGaaTLAWijBVf5TOYX+RzJv/m5ItyXA/l9Amv5AL2HAaWbAWcCjr/5qRa8rwByf
+; dJ1Q/l4+l/5RN3//IRwsLv8AAAAA4v8hGicn/yUfMHT/JyE0sP8nIjXp/ygiNP8Kwv4xJ0b+Pi5e/k
+; 02ef5dP5b+akWto53BoJykv/5/UdX+h1Xk/o5Z8v6VXf56bgbA/mdDqCv+dUvC/ntPzv6LWOsGwQnI
+; bnrJnnX+jlnt/oZV3/5/UdL+ckq8B8Fvw2vAesH+LiQ//lk8jyQPDMOeY/5sR7HAa8QBesIknVBUwG
+; /AesE2/lY7iv43KlH+Ih4oKf4mIDD+QzBn/l8/mf5mQ6bA/nBJuv6EVN7+j1r0H8Ai/nFJu/5nRKjA
+; AsH+glPb/pBa9aGJesFvwTD+iFbm/ndMxf5pRa09wwTBB8ATw2vAOiuinKGcoZqhm38CwAxUVaBkJZ
+; +GnXSfZT2cYi3+VzuL/k82ff5GMWygY1bA/ks0dv5vSLg+wWXAWijB/lo9kv5EMGn+a0awJcBp/lg8
+; jf5AL2HAaWbAMaGK/mZEqCvBaVWeY/5iQaD/RzJt6f8AAAAC/wAAAADl/wAAAAH/JBsuHP8nIDRP/y
+; YhNIX/KCI1u/8oITTuCsJr/jInSP5BL2T+UDh//l9Amv5rRrCinMGhmw/+gFHW/olX6P6QW/X+fVDR
+; K6Ku/oZV4v6VXf5/wXrIbsB6ynpWn2b+ilfq/n5Q0v5xSbv+akWubsMawXr+NChL/lk8jx3+dkzFo6
+; 3CaZ52/mxHscJrxHvBRP5lQ6UgwW/AesE2wP5dPpb+QC5h/iUfLp5RoZv+OSpU/lg7jf5mQ6bAOv59
+; UdP+jlnxIv6AUdX+Z0SowP56T8zA/oJT3P6QWvZ/wHrBb8SddP59UNH+bEayn2PCa8F6wA4Tw6Ctoo
+; kooZyhmqGbfwLBLB2gdSWfdZ10n3Q9nGKdUC7+TjV6/kYxa6BkVqKuNf5zS7/CZcBaKMD+YUCe/kIv
+; Zf5kQqX+dUzCwv5XO4v+QC9haTvAWsD+X0Ca/m9JuGXBaSE1nWH/OipUo/8AAAAA6/8AAAAD/ygiLy
+; b/JiA1V/8nITWV/ygiNcX/KCE09ArCoZv+NChM/kQxaf5TOYT+YECd/m1HtKGJwCSgmyuhrBv+klz4
+; oq3BCchuwHrKFFafVT/BnGH+flHVKBPCGsH+OCpQ/lI4gf5rRq/+dkzEo65pWsGedf5sRrFuwjrEBM
+; Cfdp1Rn4bCb8B6wWvBnnb+SDNw/isiOf4gHSXA/jInR/5RN3/+ZUKloYmii/55Tsn+hVTf/mZEp3v+
+; ek7M/oNT3f6QWvV/MMB6wWtuw2t6MP6DU9wS/mlFrMFrwXrAE8OgraGao5yhnKGZJcCgm8ACVFWgdZ
+; 92Pp10n3SeY5xQI/5XO4v+TjV5/kYxa6BUoKv+akWu/nRLwD7CZcEo/mZDqP5CMGb+Xj+ZHsMn/kAv
+; YWk7wFn+VzuM/m9JuMArwllV/lU6iP8qIjxh/wAAAADw/wAAAAH/JiI1Nf8oIDRm/yghNJn/JyE10P
+; 8oIjT4/ygiNf/CoZv+NypR/kcybf5XO4og/m1HtCvBop3+ek7M/oNT3P6MV+v+lFz5opzGbsARyhRF
+; nmZYwwadg/6BUtj+c0vA/mpGrxPAGv47LFf+Tzd8/mtGrwj+ek/Mw1X+a0axwHpuwWvEeySdUSDDb3
+; rCa8Jm/lE4gP4xJkb+IB0maf4pIjf+SDNw/mNCoaKcwXv+hlTi/pBa9X/Aa8B6wWs/wwZ6wVb+iVbo
+; /ndMx/5pRa1pBMF6wGsTwTyhmiihrKGJoptroJrAAixVoHWedj6dc590nmT+YkGfnWP+VTqI/k41eR
+; +gdf5mQ6cIwT7BMsE8H6GtFh7CGf5PN3z+QC9haTvA/k82fSt/WmYrwWkg/zorVeb/MxkzCv8AAAAA
+; 9f8nFCcN/yYhMj3/JyI0cP8oITWg/ygiNdr/JyE0/grCoq3+PCxZ/ko0cv5YO4z+Z0OoHCvAMqOu/n
+; xPz/6EVN7+jVnu/pVd+6Cbf8FuwHrKOp5kP8MGesGdYv6DU90v/mpGsP5BL2P+SjR0/mpGrz4CwWbA
+; Wf5rRrDAay5uwWvELp1An4Ugw2/AesE2w3v+VzuL/jorVf4hHSdYoq/+Py5g/l0/lwzA/m9It/6BUt
+; n+kFr0oYlrwHrCP8MGCcMQnWL+fVDR/mxHtATBesBrbsCgrByjnKGsoYmiiyWgmsBrWFWgdA9YK59k
+; nnOcUJ1S/lU6iP5NNXkf/mBAnf50S8DCPsFpZp51/kkzcRgXHsFmwGn+TzZ8/kAvYDvA/kgyb/5tR7
+; OinGlaZivBJP9FMGj9/zoqV0//AAAAAPv/HBwqEv8nHzNB/ygiNXn/JyE0sf8nIjXiCsOjv/4/LV7+
+; TTV3/lo8kP5oRKorMjfAL/5+UNL+hVTf/o5a8P6VXvyhmhHKnniedD/DawnDa551/lQ5hv5FMWr+ak
+; av/nFKvAJmwlX+a0axJMArem7Ba8MrnWGfdMBrw296wmvDe8CcUP5DMGb+JSAvnWGhrf5mRKfCJP58
+; T8/+jVjvo516wj/DBgnDEMEw/oNT3f5ySb3+aUWtwHrAaxM1HKOboa2hiaGbIqCqwVgWn4YPn3aeYy
+; 6fU5xgnVCcUP5MNXf+XD6VD8BpwT7BaVX+TzZ7GMD+TTZ6/nVMwhnAacAP/kYybf5AL2A7OP5qRa6k
+; r8BpWsBlwFT+SjR0/z4sW5H/AAAAAP3D/yYcLxv/JSIzS/8oIjWH/yghNLv/JyI06/8oITT+CsF6/j
+; InRzv+Tzd9/l0/lhqjrsA6oJsF/oBR1f6HVuL+kFrx/pde/hHFZZ5nn3VvwwbACcIQwDX+QzBnE/5w
+; Sbs9wDbC/m1Hs592wWsubsJrwSSdYp90wWvDLHrCa8JresGedv5KM3P+KSI3Bwwn/lM5gy+hm6Ga/n
+; dMxv6JVuj+kVr2f8BvwwYJwxDDZv6KV+r+eE3J/mtFr1jAazUVo5yhrKGJoZwdoZnBJRafdp91n3ae
+; Yp50JzmdUJxQ/mNCov52TcYPwAjBWcEvDv5CL2NawP5QN37+dUvCEg/CPP5AL2CfqxYBwWlawGXA/l
+; M5hP8+LV29/zMAMwX/AAAAAP3I/yggMCD/JyI1W/8mITWM/yciNMP/KCI08ArADcBr/jUpTP5DMGUq
+; /mBAmwQ6AcChiv54Tcj+gFLW/olX5f6RW/L+l17+f8ACnXYzaz/DawnCEMD+f1HV/jssWBMy/npOy8
+; T+bUezJMJrLsBuwWvAJJ1in2R6wWvCbmt6wWvDPXrC/jMnSv5ePpgH/nlNyRz+PCxZ/kYybP5iQaCj
+; rcD+ckq9/oZU4f6RWvY/wwbACcIQxHvAnlL+f1HUFZ5ioZyim6KbD6GZoZwdoZnAWWkWn3YPnoafUZ
+; 51nmOdYFX+dEvCE51AnYQPacE+wf5cPpUbwBjA/lA3fg/DVDGedf5dPpX+cEm6AcFpN8Ar/l0+l/8+
+; LV3e/zMmWRT/AAAAAP3N/wAAMwX/JyEyLv8oIDRm/yciNZb/KCI1y/8pIjX6/ykiNf/CoZv+NylP/k
+; Yxayf+Y0Gh/m5ItgHBoZz+ek7M/oJS2f6JV+f+j1nyoptrP8MGesNrnnX+Py5f/mpGriH+ek7Lw2ui
+; nP5vSLgkwmvALm7BayudYp9jwHrBa8Jua3rBa8NresH+MydJEgD+dkzFopufdv5LNHX+JSAv/j0tXA
+; v+Z0SowP5uR7X+f1HW/pBb9D/CBgnCa8R7wG7AP/6FVOD+dUvD/m9Itx4PoYqhq8ChicFZDJ+Gnnaf
+; hp9RJG/+ek7L/oZV4sCdUJ1inXMPacFpPv5jQqL+QjBlZVnB/lc7iw/DRDsn/nFJulppwWnANz3/Py
+; 5g+f89Klo2/wAAAAD90/8XFy4L/yYhNDb/KSI1av8oIjSm/ykhNNb/KCE0/f8pIjX/wqKd/jgqU/5H
+; Mm7+VjqJ/mVDpf5vSLkBRJ1i/nNKv/6BUtn+jlrxP8JrCcMQwP5HMm7+akauGv56TsvD/oxY7f6UXf
+; xV/opX6v5/UdX+cUm8JMFrem7BK55hnmNrwHrBa8JvwHrBa8M9esD+MydJEgD+dkzFopvBCv4rIzr+
+; IR0n/jUoTP5VOof+Z0SowAv+ek7M/o1Z7z/AawnCa8R7wR/AJqCqn2D+iVbh/oNU05pEVKCKLMFUWF
+; SfhqOt/oBR1f6KV+n+klv4nmKfZZ5hnWOeYxaedaB1wv5pRaz+RDFpn3QbWsH+VzuM/nRLwcIIRP5D
+; MGb+b0i3oZpaacJpnlP/RDFo/v8+LF1j/wAAAAD92f8gIDAQ/ycfM0H/KCIzcv8pITSw/ykhNOD/KC
+; E1/A3Ba6K//jssWP5JM3H+VjuK/mZEqKGaPf50S7/+gVLZ/o5a8T8GCcNrwP5cPZT+akWtoor+ek7L
+; wFrA/olX6B9rwlX+jVnvIf5ySr/+a0axwC5uwFWeYp5jwGvAGcFrwm/AesFrw2t6/jMnSf5cPpUA/n
+; ZMxaKbwjkx/iAdJcD+LSQ9/kw1eCCinGv+dUzD/odW5v6SW/gJw2vDGsEfwKCaoYmipqGX/qZq//6v
+; cv7+voP5/suS9J9ho4VW/rJ76/6sde7+omn0/qFn/ZuPnXtVCZ51nmSeYZ51IZ5inXOfZGnAnFD+SD
+; NvnVDAZRjAaf5ZPI4PwAjB/mtGr/5IMnD+cUm6wFrAacFU/kw1d/8+LV2U/wAAAAD93/8mGTMU/yYg
+; M1D/KCIzgf8oIjS0/ykiNej/KSI1/8Brn3Z7/j0tXP5UOof+ZkSnoZugmv50S8AhIgnCa8D+bUe0nW
+; Girf55TsrB/ohW5v6UXfvBa8N7wJ1R/oJS2g8ublWeY55iwWvAGcAgw2/AL8Frwz3+MydJ/lw+lf5m
+; Q6b+dkzFopvAacL+VjqJ/jUoTCnA/icgM/5EMGj+YECcHcD+cUm6/oNT3P6SW/ehicFrw2sawB/AoJ
+; t/oqailqiA/rJ2//7FiP/+4aT//vCz/6aCQv7Slf/+xon//qxw/5mPmX+de0UQn3WeY550nXOfUp5j
+; nGKfdAieZP5MNXb+QjBkwBtawWn+Xz+a/nRLwMP+akWv/kw0dwvAWsABwf5VOoj/PS5dw/85HFUJ/w
+; AAAAD94/8AAAAC/yUeNCL/KSA0WP8oITWL/ykiNbz/JyAz9P8iHir/af4nIDP+PSxb/lU6h/5nRKih
+; mmv+ckm8/oBR1v6OWe+jr2vA/n9R1f5nQ6iimx1//oVU4BAfwSbDemvCnWL+hFTf/nZMxP5oRKqeUc
+; JrwHrAIMNvwHrBa8P+PCxb/lw+lf5mQ6b+dkzEopvEBJ50/lw+lP4+LVz+Ix4rn2Ohm/47LFj+Wj2R
+; /mdEqcCiv/5+UNL+j1ryCWvEe8AfJgahl6GXpJQy/rZ6//7FiP/+5Kf//vCz/6WDnYv+0pb//siM//
+; 6rb/+cfP6dYv8cQR86nmSedJ5jnnOeUZ5jnXQ5/lE4gP5CMGTBGxjBaQP+dEvAw/5mQ6f+TDV4/nFJ
+; u2lawAHA/l9Amv8+LV3n/zkmXhv/AAAAAP3p/yoAKgb/IhwtLf8hHSl9/yEdKcj/Ih4p/8D+JyE0/j
+; 0tXP5VOof+Z0SpoZrA/nJKvf6AUdf+jVnwoZv+ZUOmBP54Tck+/pNb+n8fwWvDejDEVv6MWO3+eE3I
+; /mVDpQ/Aa8EZwCDDLMB6wTbC/j0tW/5cPpU9/nZMxKKbxASfdMGdYf5FMWr+KCE1/iAdJaCK/jInSP
+; 5RN4D+Z0Oof6GbHf6LV+z+k1z6wxrAbjChiaGnooalk6WT/rh7/wL+46b//vCy/6Vzm43+05b//smM
+; //6rb/+di/6dYv9Cn2kwCZ51nmSedJ5innSeUp1y/lk8kCfCGMFpwP5iQaD+dEvAw/5jQaD+VDmF/n
+; FJu2lawAH+Z0Sp/0EvY/n/Pi1aPv8AAAAA/e7/IRkpH/8hHSh0/yEdKcj/IR0o/P8iHin//icgM/49
+; LFv+UTiA/mVDpqKswP5ySb3+aUWuBP5/Udb+k1v6f8BuwSbDejDEVZ1iWAz+e0/OHZ5ia8EZwGvDLM
+; B6wTbBCv5cPpQ2/nZMxCXBWsE9n2R7wjb+TjZ6/i0kPv4gHSbA/ioiOf5LNHT+ZEGio53A/nRKwP6G
+; VeL+klv4oYnAGsAfoJt/oqaihqSUqJD+uX3//suO//7ipf81o4Wbjf7VmP/+yIz//q1x/xL+nWL/Vp
+; 5qn2dAnnSfdJ5knnOedf59UNL+Xz+Z/kQxaZ90wRsYwWnA/mdDqP50S8DBWcD+YUGf/lM5hf5xSbtp
+; wFqeY/5FMWr/PS1ebP8AAAAA/fL/IBgoIP8iHShy/yEdKcn/Ih4p/8Chrf46K1b+UTiB/mZDpj1r/m
+; 9Iuf5+UNT+jVju/pRc+27CJsMpa8OedjNpM25U/n9R1P5qRq/+Y0KiwRnAIMNvwHrBa8D+PS1b/lQ6
+; hjb+dkzEoovBaWbA/mhFrAzAe8Md/lU6iP42KU/+IB0mwKOv/kAuYf5fP5v+aESqwP5vSLf+gVLY/p
+; Fa9qKbwCYGehyjlaOVKv65ff/+zpH//t6h//7vsv+ihpmPJf7Hi//+sXX/mY83Vp1rRRefdJ6GnmOf
+; dv5/UdX+Xj+Y/ko0dP5DMGegdcFlGMBpwf5nQ6j+dEu/PsL+Wj2RVP5xSbtpwFr+TTV4/z4tXp3/AA
+; AAAP32/yEZKR//IR0odP8hHSnI/yEdKfz/Ih4q/6Gs/jkrVf5RN4H+ZkOnBMD+cUi6/n5Q0/6MWO0f
+; wCbDemvCISSfY8AzOMEz/oJT2/5tR7X+Y0KiwBnAIMNvwHrBa/49LVv+UjiCNv51TMOhrMT+aEWsn3
+; TBe8MdwP5eP5n+Pi5f/iQfLZ5je/45KlT+WDuNHX+hnP58T9Az/pVd/aGJoaccpJSjhf6wdP+okP7R
+; lP/+3aD//u6x/6GXmX/+15r//saK//6zdv/+qm7//qBl/52LnWtVJp92noSdUv50S8H+WDyNnFD+RT
+; JrnnPBZhjBacH+bEax/nNLv8P+Wj2Re/5xSbsLwP5YO4z/Pi5ezv87J2INAP35/yAYKCD/IR0oc/8h
+; HSrJ/yEdKf7/Ih4q/6Gt/jorVgf+ZkOnopx6Ev5/UdX+i1jr/pNc+ybBKTDCVJ1joHXAM8BuwHprwP
+; 6FVOESIBnAIMNvwHrBCv5SOII2/nJKvqO/xP5oRKyfdG7Be8MdwZ1R/kgyb/4oITb+IB0mwP4wJUP+
+; Tzd9FqGJoIr+eE3I/opX6P6ZX/0cpKSkhP6xdf+okP7Slf/+3J///u2w/8Cajv7Wmf/+xon//rR4//
+; 6qbv+Zf5uNnXtKJpxg/nhNyf5kQ6T+XT6WEf5FMWqfZCfBGxjBacH+bki1PsP+VTqI/l0/l/5xSbsL
+; /mFAnv8/Ll7u/zopWh8A/f3/IBgoIP8hHSpz/yEdKcj/IR0p/P8iHir/CP45K1X+UTeB/mRCo6O/a6
+; Ou/nxQ0f6KV+r+k1z7JnvCnoYzacAzwDjAO2vCnFH+dUvC/mVDpZ+GIMNvwHrA/j0tW/5SOII2/nJK
+; vhbE/mhErJ90wG7Be8NrwmT+TzZ9/i8lQv4gHSbA/ighNv5GMm3+YkKhDqGKpK/+gVLU/pBb56vcr6
+; H+vYH/Bf7cn//+7K//VpqO/tib//7FiP/+uHz//qpu/5p+mWuaQf6DU9r+dEvA/mlFrJ1ROf5DMGae
+; YqKdacIYwWnC/m5Itj7BacD+UjiC/mJCoP5xSbs1/0IvZPj/PS5fQwD9/cP/IRkpH/8hHSp0/yEdKs
+; n/IR0p/f8iHir/oJv+NilP/k42fCyjv8Civ/59UNH+i1js/pRc/H8hn2OedMFrwG7AO2vDa51j/nhN
+; yf5nQ6ggw2/Aev4+Ll3+UjiBL/5ySr6jv8Fpwf5oRKufdAfAbsF7w2vDZv5YO43+OSpU/iAdJ2mirv
+; 4+LV3+XT6X/m5HtqGbopoIo6uqua6zraGsoFaeepmP/p9r45Ncl2qaVJtRn2SfdQ7+YUGe/kAvYv4r
+; Izv+Py1eo4zAJ8FlWsFpwf5UOYb+ckq9a34ywf5QN38F/m5Itv5HMm3/Pi5de/8AAAAA/f3H/yAYKC
+; D/IB4qZ/8iHim8/yIeKvkXoJsN/k42eyyjv8D+b0i4/n1Q0v6KV+n+j1nzoHXBa8BuwDtrw2vBnoX+
+; fE/P/mlErJ5Rwm96/kYybP5SOIEvKA/E/mhEq590wAfADMF7w2vDemv+Xz+a/kAuYf4lIDCdYaCb/i
+; 8lQv5HMm7+Wz2TMqSve6GJa3sPwAVpVESfhp5k/mJBoP5MNXf+NChK/h4cIv4qIzj+QzFnVMFpwRsY
+; wBHB/k01eRKhicF7wf5KNHP+aEWs/k42e/8+Ll2s/wAAAAH/AAAAAP39yv8jFyMW/yEcKGX/Ih4pu/
+; 8iHSr7F6CaDf5ONnwsE1XA/nxP0P6NWO6hiTPAbsA7a8Nrwnoz/oBR1v5rRrH+ZEKjwW81/lI4gf5l
+; Q6T+ckq9o7/E/mhEq590wQfAbsF7wx3DemvAnlL+STNx/ikiN/4iHimhraKLoawf/kIwZSP+UjiD/l
+; o8kaOcwGn+VDmEMf5EMWn+OCpS/ioiOJ1Qn2Sehv47LFj+TTZ6/kUyay7AacFmWcFpwDX+b0e2o50o
+; wzI8/lI4g/8+LV3S/0AqVQz/AAAAAP39zv8XFyMW/yAeKmf/Ih4pu/8iHir5F6GKDf5NNnr+Xj+Yoq
+; wd/npOy/6LV+0zOMF6AsNrwXrAa1X+g1Pd/m9It/5kQqNuNf5ROIH+ZEOk/nJKvQ/AWsL+aESrn3TC
+; a8BuwXvDHcN6a8EdGP43KVD+JiAyoZoboZprf2sRwGU7WBufdZ51f/49LFv+VzuLwP5ON3v+RTFqn2
+; TAacFlWsFpoZv+akWt/nNKvsAowmko/kQwaP8/Ll/v/zsuXCf/AAAAAP390v8XFyMWHv8iHiq8/yIe
+; Kvr/Ih4q/6Ca/jsrV/5bPZL+YkGfoa3+eE3J/opX6aOdwHprw2vBesATwQn+h1Xj/nJKvf5GMm2jri
+; woo6/Daf5oRKufZHrCa8BuwRbDa8N6a8FuoaydZP5SOIP+QS9j/jInSJ1QVH/AZmlUDP41KEz+RDFo
+; /lU6h/5kQqSfdZ1i/lY6iv5ONnv+RTFqn2RpwhtawGkYADLBWijBIR3/QC9h/P9ALWBQ/wAAAAD9/d
+; YD/yAeKGck/yAdJ/r/Hhwj//42KU/+VzuMOaGa/nZMxCWjrWvDCcF6wBPCbmv+Xj+Y/kczb/5kQqP+
+; cUq9o77E/mdEqp90PXrCa8BuwRbDa8N6a8Gim6KdoZqinKCannWeY/5jQqJ6VVn+bEayo69onnWfZZ
+; 5hnVKdcv5VOon+TTV5/kQxai5pwRtawRH+WTyQPmlmwFoowZ51/kgzcP8+LV+D/wAAAAD9/dr/GBgk
+; Ff8eGyNm/xsaHcj/Gxoe/v81KE3//lM5hDl7/nNKv/6IVuYCwgnBesATwm4f/m1Itf5HMm/+ZEKj/n
+; FKvKO/xCSfdMA9esIHwG7BFsNrw3prwKKbopwBPqCaoZprBWs2wA85CxIrnlCdYp1hnFH+TDV4/kQx
+; aS5pwRtawBH+UTiAKD5pZsBaKMAZ/lA3f/8/Ll6z/wAAVQP/AAAAAP393f8YGBw//xsZHL7/Gxod//
+; 4wJUP+UziD/mJBn6CK/nBJu/6GVeECwAnCemvCbh/+ek7MDf5kQqMhBcQkn3TBa3rCa8BuwRbDa8N6
+; oIqiiqKsAT6gmqGaawXANi8PVJ9kEp90DJ1iC5xQKv5EMGgnwlXB/kkzcv5xSbs+wTLAWijA/lo8kf
+; 8/LV7b/zsnTg3/AAAAAP394P8ZGRkz/xsZHKv/Ghkd+/8qIjn//k01ev5hQJ9//m9IuP6CU9v+jlny
+; f8F6E8JuwP6EVN8N/mRCoyEFxP5qRa6eUcI9esIHwG7BFsQdwi6iiqKsoYs3D6GZoIoFwFTAn3VUn2
+; WedJ90DJ1inWH+VDmGKv5EMGgnwWVawKKd/m5HtaSewjLBWf5lQ6X/Py5f9P8+Kl4x/wAAAAD9/eP/
+; FhYcLv8aGRyk/xsaHfgs/kgycP5hQJ6hif5tR7P+glPbOn96wBPBbsBEDSAhBWnDKDbDPXrCB8BuwR
+; bDa8J7ooqhrqGbMg+hiaCaBcBUwJ91RAGedRMHnVCeYv5UOYb+SzR1/kQwaKBkwWVaoJr+ZkOoCGla
+; wTLBnFH+QzBn/z8uX1n/AAAAAP395v8aGhod/xkZHZYG/yUfMP/+RzJv/l8/m6Kb/mpFrf6AUdb+j1
+; nxoYlrwm5WOP5kQqIh/ndNxcJr/olW5v6QWvb+h1Xl/nRLwD1pwT16wmvAbsEWxB3Aa6KaEqGaoqyh
+; iiU+wAVUwAhEn3SeYxMHnVCdUTj+SzR1PyfAG1rA/l8/mgjBWcFlwJ51Lf8+LV6H/wAAAAD9/en/Eh
+; IbHP8ZGRuD/xoZHPL/Ih0q/z/+YECbopv+aESq/n1P0DOhmsFua/5eP5ijv/5uSLb+dkzFwaGa/ohW
+; 5/6RW/bAa8D+i1fq/ndMxgdYwD16wgfAbsFresMdJKKaoa2hm6KsDyWgqm7AVWmfZVSfdZ10n3UAnU
+; CdYZxgDf5DMGZYwBta/lU6if5zSsB+wT7BNyj+UziD/z4tYMD/QABABP8AAAAA/f3r/w4OHBL/Ghgc
+; fv8bGh3m/yIeKv/+Pi1d/l0/lqO/Hf56Tsz+jFjuoqxuH/5jQqEZ/m5Htf52TMXAoYr+i1jsKcEwwH
+; rAnWP+e07N/mhEq59ja3rCa8AMwRbEJKKaob+hiaKcoZp/oJvAflTAn2VUATWfZQCdQCv+UzmD/ks0
+; dDgnwFX+TTV5L6GZwj7BN/5dPpX/QC5f5P82KF4T/wAAAAD9/e7/GRkZCv8ZGRtw/xsaHeb/Hxwl//
+; 49LVwr/mNCoaGs/nlOyv6LWOqjr/5sR7P+Y0Ki/m5HtTainP6MWO0pwjDAesKfZf5+UdT+akavPQDC
+; B8BuwnvCJBMcPCgIHjbBWMA+n3afhjWedJ5j/l9Amisg/kozcv5DMGYnZf5IMm7+cEi6o5zAacE+wQ
+; f/QC5i8/8/K2A1/wAAAAD9/fH/AAAcCf8ZGRxc/xoaHNf/HRsg//44KlIr/mNCoaCa/nVMxJ5j/mNC
+; ohX+eU7L/o1Z7ynEa3rCa24f/oJT2v5tR7T+ZkOmwgfADMFresFroasVPCgIoYmgmsA2WMA+n3afhZ
+; 1knoUx/l9Ampxh/lM5g/5JM3L+QjBkwKCs/mtFr/50S8HBacE+wJ1RCf8+LGBi/wAAAAD9/fT/AAAA
+; A/8ZGRtd/xoZHcv/HBof/v8yJ0j//lY7iv5jQqHBKP6OWfCimynEMMAzwWs/wTD+hVXh/nBJuv5mQ6
+; bBa8AMwhbAHaGrop4yKKGaoJovwSVVN592n3adczgx/l9AmpxgnFAtJ8D+ZEKj/nVLwVrBacE+Hv5L
+; NXX/QC1gmP8AAAAA/f34/xgYHEr/Gxocx/8bGh7//jEmRv5ROIH+Y0KhoIr+cEm6/oZV4SIpw2vAM8
+; I/w2v+iVbn/nRLwP5mQ6bAa8AMwnugmqGKoq6hmiigqxkvwVhVn4afdjedc552nmP+Xz+ZDv5ROIH+
+; STNx/kIwZP5bPZIeGQ/BCMFV/lM5hf8/L2DF/yQkSQf/AAAAAP39+f8AAAAB/xkZGT3/Gxkctf8bGR
+; 39/y0kP//+Tzd+/mJBoKGJ/m9IuP6DU9z+kFr1f8EwwDPCb8MGesCcYP54Tcf+Z0OpWMAMwqCbBKKu
+; MqKaoJx/L8EeD5+Gn3afdp5innQgPJxR/lE4gf5HMm/+UjmCCB5mD8EIwf5fQJr/Py9f5v85Jl4b/w
+; AAAAD9/f3/GBgcNv8aGh2o/xsaHfr/KCE2//5LNXf+YkGhf/5tR7L+g1Pb/pBa9CkwwDPCP8RrCcGd
+; dP57Ts7+aUSsn2RuwaCbBKKuMiGgnA+hmcAvHg+fhp9ln4aeYp5kFjycQP5ROIChmz4ewBkPwWnA/m
+; hEqv9BL2P3/0AsXED/AAAAAP39/cL/HBUcJf8bGR2h/xoZHPv/JiAx//5GMm3+YkGfoZr+akWt/n9R
+; 1f6QWvUwM8I6P8MGCcOeh/5+UNX+a0axDMAdoZqirqGaIaCcDyjAL1QPn3Wehp92n2KeZBadcv5XO4
+; ujrzahiZ90wBlpD8AInVH+RDFq/z8tX3H/AAAAAP39/cX/GxIbHP8bGR2O/xsaHPX/JB8u//5EMGf+
+; YECboq2ir/58T9D+kFnzoorBOj/DBgnDa8A6/oJT2yEdPaOuN6GboKwPJcB6VAOgZZ6Gn3afUh0WnY
+; X+bki3/oFS2Z9knWElaWYSD8BU/k02ef8/LmCi/wAAAAH/AAAAAP39/cf/FRUVGP8aGByI/xoaHOv/
+; IB0n//5BL2P+YD+bo5yinv56Tsz+jljwM8A/wwYJw2vCVf6HVeT+d0zG/m9ItqF5oZugqwglwQ85WD
+; wcGsD+eE3I/ohW5muec55RnWKeY590ZhIPVf5WOon/Py9gz/8qKlUG/wAAAAD9/f3K/xEREQ//GRkb
+; ev8bGhzs/x8cJP/+PCxZ/l0+l/5kQqOhm/55Tcr+jFjsP8QJwxDDoZt/oIL+jVrl/oNV1Z5gmWZbwQ
+; 85f6O9/oFS1f6KV+n+klz5VZ5inoWeUp1yn1OccZ9kWBIP/mBAnP8/LmDu/0AqXCQA/f39zf8VFRUM
+; /xkZG2b/Ghkd3/8dGyL//jkqVRX+ZEKja/51TMP+i1js/pJc+MIGCcNrwWuhmqKHoaeklKOV/rV4//
+; 6+gv7+yY77nGZ6/rF49f6zd/z+pWn+nG2bnZ5qRJ9knnWedJ1zn2OdUp5ynlMeZv5pRa3/QjBm+/8+
+; LF9GAP39/dD/AAAABv8aGhxk/xsZHNL/HBof//42KU/+WDuN/mNBoico/olX5/6RW/d/BnrDEMGgmj
+; eilxymkqSEJf7Ag//+zpH/o4XA/r6C//63ev8vnHybjRFBBp91nnSddZ5yC55jnWGfZZ1g/kUxa/9A
+; LmF0AP39/dT/GBgbVP8bGhzQ/xsaHf/+MCZF/lQ5h/5kQqPA/nBKu/6FVeEGesMQwaCbooehqCQMpZ
+; P+tHj//sKF//7NkP+jhVb+voH/mn4vnYskFEYQn3WedZ5znmSedJ5RnnU2/k02ev9AL2Cv/wAAfwL/
+; AAAAAP39/dX/AAAAAv8YGBtB/xsZHL//Gxod/v8tJD7//k83fv5jQqN//m9IuP6DU9z+klv4f8FrwG
+; uhmqKGoZiilqOlqID+tHj//sKG//7MkP81Jf6/g//+t3v//qZq/52Lmm4ZQp53n3WfZJ5znnYBnnWe
+; Uf5YO43/QS9i2P8uLl0LAP39/dn/GBgcQP8aGh2y/xoZHPz/KyM7//5MNXf+Y0KhoYr+bEey/oNT3C
+; mhmsAQoJo3opYZoqaklKhw/rZ6//7Bhf/+zI//ooaeev6/gv8y/qdr/52Lmm4cnnpEEJ5kn3SedJ5j
+; nVH+Wz2T/0Yxa+n/PixkKQD9/f3c/xYWHC7/Gxkcrf8aGRz8/yYgMv/+SjRz/mNCoaGaor/+f1HV/p
+; Fb96GaKH+ilhyjlaWDppL+t3v//sCE//7Ljv+idp2L/sCD//61ef/+qW3/nHyZj0YOUBCedZ91nmL+
+; fE/Q/lo8kf9NNXnv/0gwcEAA/f393/8WFh0j/xoZHJr/Gxod+P8iHiv//kUxaf5iQZ+im6Kt/nxP0f
+; 6RWvajrRSiljenkRL+uXz/pnL+yo7/fpyc/r+D//60eP/+qm7/m303nnoOVRcw/oVU4P5rRrD+WDyO
+; /1I4hN//TjJ6LgD9/f3i/xgYGCD/GRkbjP8bGR3wHv5ALmD+YECa/mVDpaGu/ntOy/6LV+f+m2H8N/
+; 6nbP8S/rp9/6R0/sqN/26cjJmfIv6rcP/+pGj/m42eahGdZP6DU9z+b0i4/mBAnJ1i/1A3fb3/NSpV
+; GAD9/f3l/xkZGRT/GxkdhP8aGR3x/x8cJf/+Pi1d/l4/mf5pRa6hmqOt/nxPy6zOqN3+rXXzqLf+yY
+; z/Wp2Lmo7+s3f/mGuSbZpDmEH+dEvA/mtGr51jn2X+SjR0/zcpUo//AAAAAwD9/f3o/xcXFwv/GRkb
+; cf8aGR3n/xwbH//+NSlO/lA3f/5pRa2jv6KLwKGaeqGZwFplAUSfhitYnmT+X0Cb/kMwZ/8oITXx/x
+; 8cJVoA/f397P8ZGRkK/xoaHG3/HBse2v8fHCT/o53+NShN/kYybP5VOoj+YUGe/mhFrAjBVTL+Z0Oo
+; /l0+lv5RN3/+Py5f/isjOin/HBodwf8bGyImAP39/e8h/x0aIFn/IBwlyP8iHin9/yQfLf+gmqGJf6
+; CbaVppWZ+FN591/x8cJPz/HBoewv8YGBtUAP39/fT/HBwiJf8kHSpy/yQeLan/JR8w2x4twFYeWP8l
+; Hy7e/yIdKq7/Hx0mcv8YGCAg/wAAAAD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f
+; 39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+; /f39/f39/f39/f39/f3VAAAAAAAAAAE=
+; thumbnail_QOI end
+;LINEARADVANCEPROCESSED
+; Postprocessed by [ArcWelder](https://github.com/FormerLurker/ArcWelderLib)
+; Copyright(C) 2021 - Brad Hochgesang
+; Version: 1.2.0, Branch: HEAD, BuildDate: 2021-11-21T20:25:43Z
+; resolution=0.05mm
+; path_tolerance=5.0%
+; max_radius=9999.00mm
+; allow_3d_arcs=True
+; default_xyz_precision=3
+; default_e_precision=5
+; extrusion_rate_variance_percent=5.0%
+
+;Generated with Cura_SteamEngine 5.3.0
+T0
+M104 S215
+M109 S215
+M82 ;absolute extrusion mode
+
+M83 ;relative extrusion mode
+G1 F2700 E-0.4
+;LAYER_COUNT:96
+M572 S0.050000 D0 ;added by LinearAdvanceSettingPlugin
+;LAYER:0
+M107
+M204 T6000
+G1 F600 Z0.4
+G0 F12000 X93.087 Y91.811 Z0.4
+M204 P6000
+;TYPE:SKIRT
+G1 F600 Z0.2
+G1 F1500 E0.4
+G3 X100.669 Y89.068 I6.353 J5.710 E0.87510 F3600
+G1 X101.409 Y89.171 E0.0779
+G1 X123.107 Y92.534 E2.28948
+G2 X138.066 Y93.689 I14.955 J-96.242 E1.56590
+G2 X147.461 Y93.531 I1.911 J-165.740 E0.97991
+G2 X156.898 Y92.532 I-5.503 J-97.058 E0.98984
+G1 X178.593 Y89.169 E2.28917
+G3 X186.953 Y91.864 I1.820 J8.667 E0.95936
+G3 X189.048 Y96.582 I-6.525 J5.722 E0.54651
+G1 X189.14 Y97.732 E0.12029
+G1 X191.148 Y128.732 E3.23916
+G3 X190.979 Y131.912 I-9.380 J1.096 E0.33337
+G1 X181.903 Y176.28 E4.72208
+G3 X178.303 Y182.210 I-8.775 J-1.270 E0.74355
+G2 X152.644 Y207.812 I55.114 J80.896 E3.80126
+G3 X146.098 Y211.096 I-6.703 J-5.194 E0.78934
+G1 X145.092 Y211.112 E0.10491
+G1 X134.775 Y211.113 E1.07576
+G3 X127.980 Y208.533 I-0.482 J-8.968 E0.78090
+G3 X126.833 Y207.078 I6.295 J-6.142 E0.19345
+G2 X101.521 Y182.086 I-80.031 J55.742 E3.72972
+G3 X98.329 Y177.331 I5.021 J-6.819 E0.60872
+G1 X98.073 Y176.168 E0.12417
+G1 X89.104 Y132.325 E4.66621
+G3 X88.834 Y129.018 I9.390 J-2.431 E0.34735
+G1 X90.866 Y97.647 E3.27793
+G3 X91.828 Y93.644 I9.127 J0.076 E0.43264
+G3 X93.087 Y91.811 I8.936 J4.789 E0.23227
+G1 F2700 E-0.4
+;MESH:Box.3mf
+G0 F12000 X95.973 Y93.683
+G0 X100.36 Y92.247
+M204 P800
+;TYPE:WALL-OUTER
+G1 F1500 E0.4
+G1 F3600 X130.332 Y96.889 E3.16246
+G1 X149.696 Y96.886 E2.01909
+G1 X179.564 Y92.243 E3.15176
+G1 X179.576 Y92.254 E0.0017
+G3 X185.896 Y97.175 I0.957 J5.290 E0.94183
+G1 X188.016 Y129.891 E3.41847
+G3 X187.895 Y131.024 I-6.409 J-0.112 E0.11893
+G1 X178.632 Y176.298 E4.81854
+G3 X174.913 Y180.354 I-5.247 J-1.078 E0.60223
+G1 X161.509 Y184.353 E1.45852
+G2 X158.377 Y187.578 I1.329 J4.424 E0.48929
+G1 X156.568 Y194.673 E0.76347
+G3 X155.969 Y196.126 I-5.292 J-1.332 E0.16439
+G1 X150.532 Y205.263 E1.10864
+G3 X145.899 Y207.911 I-4.633 J-2.729 E0.58190
+G1 X134.128 Y207.913 E1.22737
+G3 X129.480 Y205.285 I-0.016 J-5.396 E0.58207
+G1 X124.037 Y196.132 E1.11039
+G3 X123.432 Y194.673 I4.516 J-2.727 E0.16525
+G1 X121.641 Y187.637 E0.75704
+G2 X118.531 Y184.367 I-4.476 J1.143 E0.49128
+G1 X105.099 Y180.358 E1.46161
+G3 X101.367 Y176.296 I1.523 J-5.145 E0.60377
+G1 X92.105 Y131.024 E4.81831
+G3 X91.985 Y129.899 I6.192 J-1.229 E0.11809
+G1 X94.102 Y97.203 E3.41637
+G3 X100.360 Y92.247 I5.357 J0.335 E0.93857
+G0 F12000 X100.349 Y92.233
+G0 X100.117 Y92.213
+G0 X100.092 Y92.465
+G0 X100.251 Y93.292
+M204 P6000
+;TYPE:SKIN
+G1 F3600 X130.212 Y97.933 E3.16131
+G1 X149.733 Y97.94 E2.03547
+G1 X179.707 Y93.285 E3.16287
+G1 X179.732 Y93.293 E0.00274
+G3 X184.826 Y96.917 I0.779 J4.297 E0.72652
+G1 X186.962 Y129.897 E3.44605
+G1 X186.918 Y130.555 E0.06876
+G1 X177.543 Y176.376 E4.87676
+G3 X174.576 Y179.358 I-4.207 J-1.219 E0.45729
+G1 X161.168 Y183.359 E1.45898
+G2 X157.358 Y187.325 I1.653 J5.401 E0.59845
+G1 X155.479 Y194.699 E0.79346
+G1 X155.2 Y195.364 E0.0752
+G1 X149.647 Y204.695 E1.1322
+G3 X145.860 Y206.860 I-3.754 J-2.172 E0.47628
+G1 X134.167 Y206.863 E1.21924
+G3 X130.362 Y204.714 I-0.043 J-4.367 E0.47685
+G1 X124.955 Y195.619 E1.10327
+G3 X124.443 Y194.385 I2.796 J-1.883 E0.14000
+G1 X122.649 Y187.343 E0.75773
+G2 X118.868 Y183.373 I-5.478 J1.432 E0.59648
+G1 X105.097 Y179.261 E1.49856
+G3 X102.578 Y176.762 I1.750 J-4.283 E0.37962
+G1 X102.39 Y176.055 E0.07628
+G1 X93.082 Y130.554 E4.84267
+G1 X93.039 Y129.905 E0.06782
+G1 X95.172 Y96.954 E3.44301
+G3 X100.251 Y93.292 I4.345 J0.673 E0.72841
+G0 F12000 X100.335 Y92.751
+G0 X130.34 Y97.078
+G0 X149.725 Y97.073
+G0 X177.517 Y92.73
+G0 X181.248 Y92.73
+G0 X181.034 Y94.484
+G3 X183.631 Y97.081 I-0.508 J3.105 E0.40928 F3600
+G1 X181.034 Y94.484 E0.38296
+G2 X180.404 Y94.427 I-0.482 J1.818 E0.06619
+G1 X179.386 Y94.533 E0.10672
+G1 X183.75 Y98.897 E0.64352
+G1 X183.868 Y100.712 E0.18965
+G1 X177.932 Y94.776 E0.87533
+G1 X176.462 Y95.004 E0.15511
+G1 X183.985 Y102.526 E1.10927
+G1 X184.103 Y104.341 E0.18965
+G1 X174.994 Y95.232 E1.34322
+G1 X173.525 Y95.46 E0.15501
+G1 X184.22 Y106.155 E1.57709
+G1 X184.338 Y107.97 E0.18965
+G1 X172.056 Y95.689 E1.81104
+G1 X170.587 Y95.916 E0.15499
+G1 X184.455 Y109.785 E2.04506
+G1 X184.573 Y111.599 E0.18955
+G1 X169.118 Y96.145 E2.27893
+G1 X167.65 Y96.373 E0.1549
+G1 X184.69 Y113.414 E2.51281
+G1 X184.808 Y115.229 E0.18965
+G1 X166.181 Y96.602 E2.74675
+G1 X164.712 Y96.829 E0.15499
+G1 X184.926 Y117.043 E2.98077
+G1 X185.043 Y118.858 E0.18964
+G1 X163.243 Y97.058 E3.21465
+G1 X161.774 Y97.286 E0.15501
+G1 X185.16 Y120.672 E3.44852
+G1 X185.278 Y122.487 E0.18965
+G1 X160.306 Y97.514 E3.68246
+G1 X158.836 Y97.742 E0.15511
+G1 X185.396 Y124.302 E3.91656
+G1 X185.513 Y126.116 E0.18954
+G1 X157.368 Y97.971 E4.15028
+G1 X155.899 Y98.199 E0.15501
+G1 X185.631 Y127.931 E4.3843
+G1 X185.749 Y129.746 E0.18965
+G1 X154.43 Y98.427 E4.61832
+G1 X152.961 Y98.655 E0.15501
+G1 X185.551 Y131.246 E4.80582
+G1 X185.263 Y132.654 E0.14985
+G1 X151.492 Y98.883 E4.9799
+G1 X150.024 Y99.112 E0.15492
+G1 X184.974 Y134.063 E5.15383
+G1 X184.687 Y135.472 E0.14993
+G1 X148.354 Y99.139 E5.35769
+G1 X146.656 Y99.139 E0.17705
+G1 X184.398 Y136.881 E5.56547
+G1 X184.11 Y138.289 E0.14985
+G1 X144.959 Y99.138 E5.77324
+G1 X143.261 Y99.137 E0.17705
+G1 X183.822 Y139.698 E5.98116
+G1 X183.533 Y141.107 E0.14998
+G1 X141.564 Y99.137 E6.18886
+G1 X139.866 Y99.137 E0.17705
+G1 X183.245 Y142.515 E6.39663
+G1 X182.957 Y143.925 E0.15006
+G1 X138.168 Y99.136 E6.60462
+G1 X136.47 Y99.135 E0.17705
+G1 X182.669 Y145.333 E6.81247
+G1 X182.38 Y146.742 E0.14998
+G1 X134.773 Y99.135 E7.02017
+G1 X133.076 Y99.134 E0.17695
+G1 X182.092 Y148.151 E7.22801
+G1 X181.804 Y149.56 E0.14995
+G1 X131.378 Y99.134 E7.43586
+G1 X130.106 Y99.133 E0.13263
+G1 X129.602 Y99.055 E0.05318
+G1 X181.515 Y150.968 E7.65513
+G1 X181.227 Y152.377 E0.14995
+G1 X127.594 Y98.744 E7.90876
+G1 X125.585 Y98.432 E0.21199
+G1 X180.939 Y153.786 E8.16254
+G1 X180.65 Y155.195 E0.14998
+G1 X123.577 Y98.121 E8.4161
+G1 X121.569 Y97.81 E0.21187
+G1 X180.363 Y156.604 E8.66981
+G1 X180.074 Y158.012 E0.14987
+G1 X119.56 Y97.498 E8.92344
+G1 X117.552 Y97.187 E0.21187
+G1 X179.786 Y159.422 E9.17715
+G1 X179.498 Y160.83 E0.14985
+G1 X115.544 Y96.876 E9.43071
+G1 X113.535 Y96.564 E0.21199
+G1 X179.209 Y162.239 E9.68441
+G1 X178.922 Y163.648 E0.14993
+G1 X111.527 Y96.253 E9.93812
+G1 X109.518 Y95.942 E0.21197
+G1 X178.633 Y165.057 E10.19175
+G1 X178.345 Y166.465 E0.14985
+G1 X107.509 Y95.63 E10.44546
+G1 X105.501 Y95.319 E0.21187
+G1 X178.057 Y167.874 E10.69909
+G1 X177.768 Y169.283 E0.14998
+G1 X103.493 Y95.008 E10.95265
+G1 X101.484 Y94.696 E0.21199
+G1 X177.48 Y170.692 E11.20643
+G1 X177.192 Y172.101 E0.14995
+G1 X99.533 Y94.441 E11.45173
+G1 X99.257 Y94.43 E0.0288
+G2 X98.133 Y94.739 I0.151 J2.748 E0.12220
+G1 X176.903 Y173.509 E11.61549
+G1 X176.615 Y174.918 E0.14995
+G1 X97.163 Y95.466 E11.71605
+G2 X96.527 Y96.527 I1.719 J1.752 E0.13028
+G1 X176.283 Y176.283 E11.76088
+G3 X175.648 Y177.345 I-2.755 J-0.926 E0.12974
+G1 X96.306 Y98.003 E11.69983
+G1 X96.203 Y99.597 E0.16655
+G1 X174.646 Y178.041 E11.56734
+G1 X174.482 Y178.133 E0.01961
+G1 X173.372 Y178.463 E0.12075
+G1 X96.1 Y101.191 E11.39459
+G1 X95.996 Y102.785 E0.16656
+G1 X172.065 Y178.854 E11.21719
+G1 X170.759 Y179.244 E0.14212
+G1 X95.893 Y104.378 E11.0398
+G1 X95.79 Y105.972 E0.16655
+G1 X169.451 Y179.634 E10.86218
+G1 X168.145 Y180.024 E0.14212
+G1 X95.687 Y107.566 E10.68471
+G1 X95.583 Y109.16 E0.16656
+G1 X166.838 Y180.414 E10.50724
+G1 X165.53 Y180.804 E0.14232
+G1 X95.481 Y110.754 E10.32955
+G1 X95.378 Y112.348 E0.16655
+G1 X164.224 Y181.194 E10.15209
+G1 X162.917 Y181.585 E0.14225
+G1 X95.274 Y113.942 E9.97469
+G1 X95.171 Y115.536 E0.16655
+G1 X161.609 Y181.974 E9.797
+G2 X160.331 Y182.393 I2.212 J8.904 E0.14032
+G1 X95.068 Y117.13 E9.62373
+G1 X94.965 Y118.723 E0.16645
+G1 X159.191 Y182.95 E9.47089
+G2 X158.232 Y183.688 I2.741 J4.554 E0.12634
+G1 X94.861 Y120.317 E9.34474
+G1 X94.758 Y121.911 E0.16655
+G1 X157.418 Y184.571 E9.23989
+G1 X157.264 Y184.757 E0.02518
+G1 X156.739 Y185.589 E0.10258
+G1 X94.655 Y123.505 E9.15496
+G1 X94.552 Y125.099 E0.16655
+G1 X156.252 Y186.799 E9.09833
+G1 X155.907 Y188.151 E0.14549
+G1 X94.448 Y126.693 E9.06272
+G1 X94.345 Y128.286 E0.16645
+G1 X155.563 Y189.504 E9.02725
+G1 X155.219 Y190.857 E0.14557
+G1 X94.242 Y129.88 E8.99172
+G1 X94.274 Y130.393 E0.05359
+G1 X94.586 Y131.922 E0.16271
+G1 X154.874 Y192.21 E8.89012
+G1 X154.53 Y193.562 E0.14547
+G1 X95.023 Y134.055 E8.77495
+G1 X95.459 Y136.188 E0.22701
+G1 X154.113 Y194.843 E8.64924
+G1 X153.48 Y195.906 E0.129
+G1 X95.895 Y138.322 E8.49146
+G1 X96.332 Y140.456 E0.22713
+G1 X152.847 Y196.97 E8.33367
+G1 X152.213 Y198.034 E0.12915
+G1 X96.768 Y142.589 E8.17596
+G1 X97.205 Y144.722 E0.22703
+G1 X151.581 Y199.098 E8.01833
+G1 X150.947 Y200.162 E0.12915
+G1 X97.641 Y146.856 E7.86054
+G1 X98.077 Y148.989 E0.22701
+G1 X150.314 Y201.226 E7.70291
+G1 X149.681 Y202.289 E0.129
+G1 X98.514 Y151.122 E7.54513
+G1 X98.951 Y153.256 E0.22713
+G1 X149.048 Y203.354 E7.38742
+G1 X148.414 Y204.417 E0.12906
+G1 X99.387 Y155.39 E7.22956
+G1 X99.823 Y157.523 E0.22701
+G1 X147.497 Y205.197 E7.03005
+G3 X146.240 Y205.637 I-1.578 J-2.492 E0.13976
+G1 X100.259 Y159.656 E6.78039
+G1 X100.696 Y161.79 E0.22713
+G1 X144.565 Y205.659 E6.46896
+G1 X142.868 Y205.659 E0.17695
+G1 X123.597 Y186.388 E2.84172
+G3 X124.237 Y188.726 I-16.695 J5.827 E0.25287
+G1 X141.172 Y205.66 E2.49717
+G1 X139.475 Y205.66 E0.17695
+G1 X124.819 Y191.004 E2.16119
+G1 X125.399 Y193.281 E0.24501
+G1 X137.779 Y205.661 E1.82556
+G1 X136.082 Y205.662 E0.17695
+G1 X126.81 Y196.389 E1.36733
+G1 X129.298 Y200.574 E0.50766
+G1 X134.397 Y205.674 E0.75198
+G1 X133.55 Y205.62 E0.0885
+G3 X131.528 Y204.326 I0.729 J-3.365 E0.25542
+G0 F12000 X130.094 Y205.298
+G0 X124.184 Y195.218
+G0 X121.937 Y186.927
+G0 X123.597 Y186.388
+G2 X119.556 Y182.347 I-6.343 J2.302 E0.61522 F3600
+G1 X101.133 Y163.924 E2.71667
+G1 X101.569 Y166.057 E0.22701
+G1 X117.106 Y181.594 E2.2911
+G1 X114.686 Y180.871 E0.26336
+G1 X102.005 Y168.191 E1.86988
+G1 X102.442 Y170.324 E0.22703
+G1 X112.265 Y180.148 E1.44858
+G1 X109.846 Y179.425 E0.26326
+G1 X102.878 Y172.457 E1.02751
+G1 X103.315 Y174.591 E0.22713
+G1 X107.425 Y178.702 E0.60614
+G1 X105.53 Y178.136 E0.20622
+G3 X104.585 Y177.560 I1.449 J-3.440 E0.11570
+G1 F2700 E-0.4
+;MESH:NOMESH
+G0 F600 X104.585 Y177.56 Z0.6
+G0 F12000 X103.501 Y178.937
+G0 X102.231 Y177.161
+G0 X92.626 Y130.577
+G0 X90.73 Y130.093
+G0 X92.841 Y97.094
+G0 X98.83 Y97.095
+;TIME_ELAPSED:134.919640
+;LAYER:1
+M106 S255
+;TYPE:WALL-INNER
+;MESH:Box.3mf
+G1 F1500 E0.4
+G1 F4800 X98.688 Y97.452 E0.0607
+G1 X96.579 Y129.996 E5.15227
+G1 X105.883 Y175.471 E7.33322
+G2 X106.352 Y175.941 I0.829 J-0.359 E0.10674
+G1 X119.959 Y180.002 E2.24341
+G3 X126.044 Y186.336 I-2.759 J8.741 E1.44670
+G1 X127.916 Y193.677 E1.19689
+G1 X133.363 Y202.827 E1.68232
+G2 X134.069 Y203.321 I0.784 J-0.368 E0.14158
+G1 X145.736 Y203.322 E1.84322
+G2 X146.566 Y202.953 I0.104 J-0.883 E0.14953
+G1 X152.085 Y193.678 E1.70511
+G1 X153.958 Y186.324 E1.19892
+G3 X160.087 Y179.988 I8.847 J2.425 E1.45227
+G1 X173.626 Y175.948 E2.23217
+G2 X174.118 Y175.461 I-0.336 J-0.832 E0.11198
+G1 X183.421 Y129.987 E7.33304
+G1 X181.314 Y97.453 E5.15067
+G2 X180.522 Y96.769 I-0.779 J0.101 E0.17971
+G1 X179.967 Y96.825 E0.08813
+G1 X150.451 Y101.415 E4.71915
+G1 X149.838 Y101.475 E0.09731
+G1 X130.154 Y101.475 E3.10979
+G1 X129.668 Y101.433 E0.07707
+G1 X99.664 Y96.782 E4.79681
+G2 X98.830 Y97.095 I-0.182 J0.782 E0.14840
+G0 F12000 X98.141 Y96.356
+G1 F4800 X97.898 Y96.703 E0.06693
+G2 X97.694 Y97.321 I1.849 J0.953 E0.10313
+G1 X95.581 Y129.924 E5.16161
+G1 X95.639 Y130.39 E0.07419
+G1 X104.907 Y175.684 E7.30407
+G1 X105.2 Y176.267 E0.10308
+G2 X106.220 Y176.946 I1.481 J-1.120 E0.19688
+G1 X119.605 Y180.941 E2.20682
+G3 X125.083 Y186.613 I-2.395 J7.795 E1.29961
+G1 X126.89 Y193.704 E1.15608
+G1 X127.051 Y194.179 E0.07924
+G1 X132.5 Y203.336 E1.68344
+G2 X133.979 Y204.321 I1.642 J-0.862 E0.29171
+G1 X145.765 Y204.322 E1.86202
+G2 X147.377 Y203.546 I0.096 J-1.863 E0.29372
+G1 X152.833 Y194.377 E1.68563
+G1 X153.056 Y193.917 E0.08076
+G1 X154.918 Y186.614 E1.19068
+G3 X160.395 Y180.940 I7.884 J2.130 E1.29958
+G1 X173.997 Y176.881 E2.24256
+G2 X174.805 Y176.260 I-0.729 J-1.784 E0.16243
+G1 X175.092 Y175.691 E0.10068
+G1 X184.36 Y130.39 E7.30515
+G1 X184.419 Y129.915 E0.07562
+G1 X182.306 Y97.298 E5.16382
+G2 X180.472 Y95.768 I-1.798 J0.291 E0.41153
+G1 X179.875 Y95.827 E0.09478
+G1 X150.194 Y100.441 E4.74549
+G1 X149.796 Y100.476 E0.06312
+G1 X130.291 Y100.479 E3.08151
+G1 X129.799 Y100.441 E0.07796
+G1 X99.818 Y95.792 E4.79317
+G2 X98.141 Y96.356 I-0.321 J1.821 E0.29107
+G0 F12000 X97.396 Y95.687
+G1 F4800 X97.019 Y96.224 E0.10366
+G2 X96.701 Y97.175 I2.793 J1.462 E0.15891
+G1 X94.594 Y129.69 E5.14768
+G1 X94.604 Y130.32 E0.09954
+G1 X103.943 Y175.964 E7.36049
+G2 X105.910 Y177.897 I2.717 J-0.798 E0.45396
+G1 X119.297 Y181.893 E2.20717
+G3 X124.152 Y186.999 I-2.101 J6.859 E1.16299
+G1 X125.996 Y194.246 E1.1814
+G1 X126.297 Y194.866 E0.10888
+G1 X131.793 Y204.104 E1.69823
+G2 X133.885 Y205.321 I2.363 J-1.655 E0.39356
+G1 X145.794 Y205.322 E1.88145
+G2 X148.189 Y204.137 I0.064 J-2.884 E0.43809
+G1 X153.705 Y194.866 E1.70433
+G1 X154.007 Y194.236 E0.11038
+G1 X155.879 Y186.892 E1.19735
+G3 X160.702 Y181.892 I6.929 J1.857 E1.14518
+G1 X174.364 Y177.815 E2.25246
+G2 X176.055 Y175.975 I-1.072 J-2.682 E0.40728
+G1 X185.344 Y130.568 E7.32222
+G1 X185.422 Y129.925 E0.10233
+G1 X183.301 Y97.18 E5.18408
+G1 X183.085 Y96.436 E0.12239
+G2 X180.596 Y94.750 I-2.626 J1.197 E0.49947
+G1 X179.79 Y94.835 E0.12804
+G1 X179.783 Y94.829 E0.00146
+G1 X149.892 Y99.477 E4.7791
+G1 X130.312 Y99.479 E3.09336
+G1 X129.929 Y99.45 E0.06068
+G1 X99.978 Y94.808 E4.78832
+G2 X97.396 Y95.687 I-0.507 J2.742 E0.44931
+G0 F12000 X96.953 Y94.717
+G1 F4800 X96.376 Y95.361 E0.13661
+G2 X95.708 Y97.032 I3.404 J2.330 E0.28639
+G1 X93.578 Y129.908 E5.20483
+G1 X93.618 Y130.49 E0.09216
+G1 X102.981 Y176.251 E7.37936
+G2 X103.587 Y177.457 I4.114 J-1.312 E0.21382
+G2 X105.600 Y178.848 I3.064 J-2.282 E0.39271
+G1 X118.989 Y182.844 E2.20747
+G3 X123.161 Y187.169 I-1.813 J5.923 E0.99091
+G1 X124.963 Y194.243 E1.15328
+G1 X125.254 Y195.069 E0.13836
+G1 X130.81 Y204.407 E1.71665
+G2 X134.175 Y206.322 I3.338 J-1.952 E0.64049
+G1 X145.823 Y206.322 E1.84022
+G2 X149.192 Y204.408 I0.028 J-3.873 E0.64084
+G1 X154.578 Y195.355 E1.66423
+G1 X154.956 Y194.559 E0.13922
+G1 X156.84 Y187.169 E1.20486
+G3 X160.958 Y182.861 I5.979 J1.593 E0.98192
+G1 X174.734 Y178.749 E2.2713
+G1 X175.556 Y178.294 E0.14843
+G2 X176.658 Y177.077 I-2.203 J-3.102 E0.26092
+G1 X177.018 Y176.258 E0.14134
+G1 X186.389 Y130.453 E7.38642
+G1 X186.405 Y129.636 E0.1291
+G1 X184.294 Y97.04 E5.16049
+G2 X179.691 Y93.832 I-3.844 J0.609 E0.99188
+G1 X149.779 Y98.48 E4.78238
+G1 X130.194 Y98.479 E3.09415
+G1 X100.134 Y93.82 E4.80575
+G2 X96.953 Y94.717 I-0.651 J3.780 E0.53941
+G0 F12000 X95.905 Y94.349
+G1 F4800 X95.558 Y94.783 E0.08779
+G2 X94.690 Y97.263 I3.935 J2.769 E0.42026
+G1 X92.575 Y129.906 E5.16794
+G1 X92.625 Y130.62 E0.11308
+G1 X101.936 Y176.135 E7.33964
+G2 X105.290 Y179.799 I4.696 J-0.932 E0.82469
+G1 X118.681 Y183.795 E2.20777
+G3 X122.201 Y187.446 I-1.510 J4.978 E0.83623
+G1 X124.084 Y194.843 E1.20589
+G2 X124.554 Y195.849 I5.366 J-1.894 E0.17563
+G1 X129.964 Y204.943 E1.67173
+G2 X134.147 Y207.322 I4.144 J-2.420 E0.79580
+G1 X145.852 Y207.322 E1.84922
+G2 X150.037 Y204.944 I0.035 J-4.810 E0.79588
+G1 X155.611 Y195.576 E1.72218
+G1 X155.916 Y194.84 E0.12587
+G1 X157.8 Y187.447 E1.20532
+G3 X161.285 Y183.806 I5.026 J1.322 E0.83076
+G1 X174.71 Y179.799 E2.21342
+G2 X178.063 Y176.137 I-1.339 J-4.592 E0.82432
+G1 X187.313 Y130.925 E7.29081
+G1 X187.427 Y129.932 E0.15791
+G1 X185.31 Y97.264 E5.1719
+G2 X179.599 Y92.834 I-4.818 J0.314 E1.29121
+G1 X149.731 Y97.478 E4.77541
+G1 X130.269 Y97.478 E3.07472
+G1 X100.29 Y92.832 E4.79279
+G1 X100.281 Y92.821 E0.00225
+G2 X95.905 Y94.349 I-0.796 J4.751 E0.76334
+G0 F12000 X100.316 Y92.682
+G0 X100.446 Y91.844
+M204 P800
+;TYPE:WALL-OUTER
+G1 F4800 X100.436 Y91.831 E0.00259
+G2 X93.694 Y97.173 I-0.957 J5.718 E1.53012
+G1 X91.596 Y129.56 E5.12741
+G2 X91.703 Y131.103 I5.796 J0.373 E0.24502
+G1 X100.962 Y176.361 E7.29821
+G2 X104.980 Y180.750 I5.663 J-1.150 E0.98717
+G1 X118.393 Y184.754 E2.21146
+G3 X121.244 Y187.739 I-1.232 J4.031 E0.68107
+G1 X123.036 Y194.781 E1.14799
+G2 X123.683 Y196.340 I5.551 J-1.390 E0.26753
+G1 X129.119 Y205.479 E1.67994
+G2 X134.119 Y208.322 I4.982 J-2.944 E0.95042
+G1 X145.881 Y208.322 E1.85823
+G2 X150.882 Y205.480 I0.012 J-5.800 E0.95038
+G1 X156.323 Y196.334 E1.6813
+G2 X156.964 Y194.781 I-5.068 J-3.001 E0.26622
+G1 X158.761 Y187.725 E1.15033
+G3 X161.634 Y184.744 I4.083 J1.060 E0.68324
+G1 X175.021 Y180.75 E2.20708
+G2 X179.038 Y176.362 I-1.645 J-5.539 E0.98690
+G1 X188.297 Y131.103 E7.29837
+G2 X188.404 Y129.550 I-5.674 J-1.171 E0.24660
+G1 X186.306 Y97.174 E5.12567
+G2 X179.507 Y91.836 I-5.808 J0.398 E1.54005
+G1 X149.648 Y96.478 E4.77396
+G1 X130.332 Y96.477 E3.05165
+G1 X100.446 Y91.844 E4.77796
+G0 F12000 X100.436 Y91.831
+G0 X100.203 Y91.81
+G0 X100.117 Y92.66
+G0 X99.08 Y97.597
+G0 X99.53 Y97.626
+M204 P6000
+;TYPE:SKIN
+G1 F4800 X129.598 Y102.284 E4.80698
+G1 X130.243 Y102.327 E0.10213
+G1 X149.594 Y102.331 E3.05718
+G1 X150.3 Y102.3 E0.11165
+G1 X179.888 Y97.684 E4.73102
+G1 X179.895 Y97.69 E0.00146
+G1 X180.473 Y97.63 E0.09181
+G1 X182.564 Y129.921 E5.1122
+G1 X173.319 Y175.123 E7.2891
+G1 X173.284 Y175.16 E0.00805
+G1 X159.83 Y179.177 E2.21826
+G1 X158.744 Y179.573 E0.18262
+G2 X153.142 Y186.098 I4.176 J9.252 E1.40286
+G1 X151.291 Y193.35 E1.18244
+G1 X145.863 Y202.471 E1.67685
+G1 X134.14 Y202.471 E1.85207
+G1 X128.71 Y193.348 E1.67728
+G1 X126.863 Y186.112 E1.17984
+G2 X120.199 Y179.189 I-9.703 J2.671 E1.58271
+G1 X106.692 Y175.154 E2.22709
+G1 X97.434 Y129.93 E7.29292
+G1 X99.53 Y97.626 E5.1143
+G0 F12000 X99.08 Y97.597
+G0 X98.998 Y98.864
+G0 X100.445 Y98.958
+G1 F4800 X100.6 Y98.803 E0.03463
+G1 X100.457 Y98.781 E0.02286
+G1 X100.347 Y100.47 E0.2674
+G1 X101.825 Y98.992 E0.33022
+G1 X103.05 Y99.182 E0.19585
+G1 X100.25 Y101.982 E0.62559
+G1 X100.151 Y103.494 E0.23939
+G1 X104.274 Y99.372 E0.92107
+G1 X105.498 Y99.562 E0.19569
+G1 X100.053 Y105.007 E1.21655
+G1 X99.955 Y106.519 E0.23938
+G1 X106.723 Y99.751 E1.51214
+G1 X107.948 Y99.941 E0.19585
+G1 X99.856 Y108.032 E1.80785
+G1 X99.758 Y109.544 E0.23938
+G1 X109.173 Y100.13 E2.10344
+G1 X110.397 Y100.32 E0.19569
+G1 X99.661 Y111.056 E2.3987
+G1 X99.562 Y112.569 E0.23954
+G1 X111.621 Y100.51 E2.69429
+G1 X112.846 Y100.699 E0.19582
+G1 X99.464 Y114.081 E2.98988
+G1 X99.366 Y115.594 E0.23953
+G1 X114.071 Y100.889 E3.28547
+G1 X115.295 Y101.078 E0.19567
+G1 X99.267 Y117.106 E3.58106
+G1 X99.169 Y118.619 E0.23953
+G1 X116.519 Y101.269 E3.87643
+G1 X117.744 Y101.458 E0.19582
+G1 X99.072 Y120.131 E4.17191
+G1 X98.973 Y121.643 E0.23939
+G1 X118.969 Y101.648 E4.4675
+G1 X120.194 Y101.837 E0.19582
+G1 X98.875 Y123.156 E4.76321
+G1 X98.777 Y124.668 E0.23938
+G1 X121.418 Y102.027 E5.05858
+G1 X122.642 Y102.217 E0.19569
+G1 X98.678 Y126.181 E5.35417
+G1 X98.58 Y127.693 E0.23938
+G1 X123.867 Y102.406 E5.64976
+G1 X125.092 Y102.596 E0.19585
+G1 X98.482 Y129.206 E5.94535
+G2 X98.576 Y130.526 I2.447 J0.489 E0.21097
+G1 X126.316 Y102.785 E6.19793
+G1 X127.541 Y102.975 E0.19585
+G1 X98.816 Y131.7 E6.4179
+G1 X99.057 Y132.873 E0.18919
+G1 X128.765 Y103.165 E6.63752
+G2 X130.030 Y103.314 I1.493 J-7.229 E0.20141
+G1 X99.297 Y134.047 E6.86653
+G1 X99.538 Y135.221 E0.18934
+G1 X131.431 Y103.328 E7.12571
+G1 X132.845 Y103.328 E0.22339
+G1 X99.777 Y136.395 E7.38812
+G1 X100.018 Y137.569 E0.18934
+G1 X134.259 Y103.328 E7.65031
+G1 X135.673 Y103.328 E0.22339
+G1 X100.258 Y138.743 E7.91261
+G1 X100.498 Y139.917 E0.18931
+G1 X137.087 Y103.328 E8.17491
+G1 X138.501 Y103.328 E0.22339
+G1 X100.739 Y141.091 E8.4371
+G1 X100.979 Y142.265 E0.18931
+G1 X139.915 Y103.329 E8.69929
+G1 X141.329 Y103.329 E0.22339
+G1 X101.219 Y143.439 E8.96159
+G1 X101.459 Y144.613 E0.18931
+G1 X142.743 Y103.329 E9.2239
+G1 X144.157 Y103.329 E0.22339
+G1 X101.7 Y145.787 E9.48609
+G1 X101.94 Y146.96 E0.18916
+G1 X145.571 Y103.33 E9.74816
+G1 X146.985 Y103.33 E0.22339
+G1 X102.18 Y148.135 E10.01058
+G1 X102.42 Y149.309 E0.18931
+G1 X148.399 Y103.33 E10.27288
+G1 X149.813 Y103.33 E0.22339
+G1 X102.661 Y150.482 E10.53496
+G1 X102.901 Y151.656 E0.18931
+G1 X151.422 Y103.135 E10.84083
+G1 X153.098 Y102.874 E0.26798
+G1 X103.141 Y152.831 E11.16166
+G1 X103.381 Y154.005 E0.18931
+G1 X154.774 Y102.612 E11.4825
+G1 X156.449 Y102.351 E0.26782
+G1 X103.622 Y155.178 E11.8029
+G1 X103.862 Y156.352 E0.18931
+G1 X158.125 Y102.089 E12.12373
+G1 X159.801 Y101.828 E0.26798
+G1 X104.103 Y157.526 E12.44435
+G1 X104.342 Y158.7 E0.18928
+G1 X161.476 Y101.567 E12.76508
+G1 X163.152 Y101.305 E0.268
+G1 X104.583 Y159.874 E13.0858
+G1 X104.823 Y161.048 E0.18931
+G1 X164.827 Y101.044 E13.40642
+G1 X166.503 Y100.783 E0.26798
+G1 X105.064 Y162.222 E13.72704
+G1 X105.304 Y163.396 E0.18931
+G1 X168.178 Y100.521 E14.04776
+G1 X169.854 Y100.26 E0.26798
+G1 X105.544 Y164.57 E14.36849
+G1 X105.784 Y165.744 E0.18931
+G1 X171.529 Y99.999 E14.68911
+G1 X173.205 Y99.737 E0.268
+G1 X106.025 Y166.918 E15.00983
+G1 X106.265 Y168.092 E0.18931
+G1 X174.88 Y99.476 E15.33045
+G1 X176.556 Y99.214 E0.268
+G1 X106.505 Y169.266 E15.65129
+G1 X106.745 Y170.44 E0.18931
+G1 X178.231 Y98.953 E15.9719
+G1 X179.542 Y98.749 E0.20961
+G1 X179.56 Y99.039 E0.0459
+G1 X106.985 Y171.614 E16.2151
+G1 X107.226 Y172.787 E0.18919
+G1 X179.646 Y100.367 E16.18047
+G1 X179.732 Y101.696 E0.2104
+G1 X107.466 Y173.961 E16.14595
+G1 X107.548 Y174.366 E0.06528
+G1 X108.262 Y174.579 E0.11771
+G1 X179.818 Y103.024 E15.98732
+G1 X179.904 Y104.351 E0.21009
+G1 X109.351 Y174.904 E15.76333
+G1 X110.44 Y175.23 E0.17959
+G1 X179.991 Y105.679 E15.53946
+G1 X180.076 Y107.008 E0.21039
+G1 X111.529 Y175.555 E15.31514
+G1 X112.618 Y175.88 E0.17954
+G1 X180.163 Y108.336 E15.09116
+G1 X180.249 Y109.664 E0.21024
+G1 X113.707 Y176.206 E14.86718
+G1 X114.796 Y176.531 E0.17954
+G1 X180.334 Y110.993 E14.64286
+G1 X180.421 Y112.321 E0.21025
+G1 X115.885 Y176.856 E14.41887
+G1 X116.974 Y177.181 E0.17954
+G1 X180.507 Y113.649 E14.19478
+G1 X180.593 Y114.976 E0.21009
+G1 X118.063 Y177.507 E13.9709
+G1 X119.152 Y177.832 E0.17954
+G1 X180.679 Y116.305 E13.7467
+G1 X180.765 Y117.633 E0.21024
+G1 X120.255 Y178.143 E13.51947
+G1 X121.287 Y178.525 E0.17385
+G1 X180.851 Y118.961 E13.30811
+G1 X180.937 Y120.29 E0.2104
+G1 X122.253 Y178.973 E13.11139
+G3 X123.151 Y179.489 I-2.696 J5.732 E0.16375
+G1 X181.023 Y121.618 E12.92997
+G1 X181.109 Y122.946 E0.21024
+G1 X124 Y180.055 E12.7596
+G1 X124.736 Y180.733 E0.15809
+G1 X181.195 Y124.274 E12.61438
+G1 X181.281 Y125.602 E0.21024
+G1 X125.437 Y181.446 E12.47697
+G1 X126.078 Y182.22 E0.15877
+G1 X181.367 Y126.93 E12.35308
+G1 X181.454 Y128.258 E0.21025
+G1 X126.635 Y183.077 E12.24796
+G3 X127.128 Y183.998 I-3.617 J2.528 E0.16530
+G1 X181.539 Y129.587 E12.1568
+G1 X181.557 Y129.85 E0.04165
+G1 X181.266 Y131.275 E0.22978
+G1 X127.553 Y184.987 E12.00074
+G1 X127.896 Y186.058 E0.17767
+G1 X180.901 Y133.053 E11.84267
+G1 X180.538 Y134.831 E0.28669
+G1 X128.172 Y187.197 E11.6999
+G1 X128.46 Y188.323 E0.18362
+G1 X180.175 Y136.608 E11.55445
+G1 X179.811 Y138.386 E0.28672
+G1 X128.747 Y189.45 E11.409
+G1 X129.035 Y190.576 E0.18362
+G1 X179.448 Y140.164 E11.26343
+G1 X179.083 Y141.942 E0.28676
+G1 X129.322 Y191.703 E11.11787
+G1 X129.61 Y192.83 E0.18377
+G1 X178.72 Y143.72 E10.97242
+G1 X178.357 Y145.497 E0.28654
+G1 X130.111 Y193.743 E10.77938
+G1 X130.638 Y194.63 E0.163
+G1 X177.993 Y147.275 E10.58031
+G1 X177.629 Y149.053 E0.28672
+G1 X131.166 Y195.517 E10.38113
+G1 X131.694 Y196.403 E0.16295
+G1 X177.266 Y150.831 E10.18194
+G1 X176.902 Y152.609 E0.28672
+G1 X132.221 Y197.289 E9.98276
+G1 X132.749 Y198.176 E0.16308
+G1 X176.539 Y154.386 E9.7838
+G1 X176.175 Y156.164 E0.28672
+G1 X133.276 Y199.063 E9.58473
+G1 X133.805 Y199.949 E0.16303
+G1 X175.811 Y157.942 E9.38532
+G1 X175.448 Y159.72 E0.28669
+G1 X134.332 Y200.836 E9.18636
+G1 X134.709 Y201.47 E0.11653
+G1 X135.112 Y201.47 E0.06367
+G1 X153.139 Y183.443 E4.02769
+G3 X157.457 Y179.124 I9.522 J5.201 E0.97771
+G1 X175.084 Y161.498 E3.93821
+G1 X174.721 Y163.275 E0.28654
+G1 X159.878 Y178.118 E3.3163
+G1 X161.894 Y177.516 E0.3324
+G1 X174.356 Y165.054 E2.78433
+G1 X173.993 Y166.831 E0.28654
+G1 X163.91 Y176.914 E2.2528
+G1 X165.926 Y176.312 E0.3324
+G1 X173.63 Y168.609 E1.72116
+G1 X173.266 Y170.387 E0.28672
+G1 X167.942 Y175.711 E1.18952
+G1 X169.959 Y175.108 E0.33259
+G1 X172.903 Y172.164 E0.65776
+G1 X172.539 Y173.943 E0.28688
+G1 X171.975 Y174.506 E0.1259
+G0 F12000 X172.389 Y175.897
+G0 X154.411 Y184.142
+G0 X153.139 Y183.443
+G2 X152.182 Y185.814 I10.532 J5.630 E0.40463 F4800
+G1 X136.526 Y201.47 E3.49795
+G1 X137.94 Y201.47 E0.22339
+G1 X151.695 Y187.715 E3.07322
+G1 X151.211 Y189.614 E0.30961
+G1 X139.355 Y201.47 E2.64893
+G1 X140.769 Y201.47 E0.22339
+G1 X150.726 Y191.512 E2.22476
+G1 X150.357 Y192.959 E0.23592
+G1 X149.862 Y193.791 E0.15295
+G1 X142.183 Y201.47 E1.71568
+G1 X143.597 Y201.47 E0.22339
+G1 X147.784 Y197.283 E0.93548
+G1 X145.293 Y201.47 E0.7697
+G1 X145.012 Y201.47 E0.04439
+G1 X145.706 Y200.775 E0.15517
+G0 F12000 X147.727 Y201.979
+G1 F2700 E-0.4
+;MESH:NOMESH
+G0 F600 X147.727 Y201.979 Z1
+G0 F12000 X146.024 Y202.827
+G0 X134.07 Y202.86
+G0 X120.055 Y179.551
+G0 X106.506 Y175.505
+G0 X97.042 Y129.96
+G0 X95.796 Y94.244
+G0 X94.968 Y93.477
+;TIME_ELAPSED:250.236754
+;LAYER:2
+M204 P800
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G1 F1500 E0.4
+G3 X100.489 Y91.567 I4.497 J4.063 E0.96346 F4800
+G1 X130.349 Y96.197 E4.77382
+G1 X149.62 Y96.199 E3.04454
+G1 X179.466 Y91.559 E4.77188
+G1 X179.479 Y91.57 E0.00269
+G3 X186.586 Y97.156 I1.054 J5.974 E1.61058
+G1 X188.684 Y129.53 E5.12536
+G3 X188.556 Y131.260 I-6.445 J0.393 E0.27481
+G1 X179.312 Y176.418 E7.28226
+G3 X175.101 Y181.019 I-5.942 J-1.211 E1.03470
+G1 X161.719 Y185.012 E2.20627
+G1 X161.184 Y185.215 E0.0904
+G1 X160.397 Y185.701 E0.14613
+G2 X159.643 Y186.491 I2.384 J3.030 E0.17297
+G1 X159.2 Y187.293 E0.14475
+G1 X159.039 Y187.773 E0.07999
+G1 X157.236 Y194.85 E1.15378
+G3 X156.563 Y196.476 I-5.942 J-1.507 E0.27888
+G1 X151.12 Y205.623 E1.68159
+G3 X145.882 Y208.601 I-5.214 J-3.076 E0.99595
+G1 X134.118 Y208.603 E1.85854
+G3 X128.881 Y205.622 I-0.019 J-6.058 E0.99591
+G1 X123.443 Y196.483 E1.6801
+G3 X122.764 Y194.850 I5.191 J-3.116 E0.28029
+G1 X120.972 Y187.806 E1.1483
+G1 X120.802 Y187.295 E0.08508
+G1 X120.333 Y186.459 E0.15144
+G2 X118.314 Y185.023 I-3.201 J2.363 E0.39767
+G1 X104.9 Y181.019 E2.21162
+G3 X100.688 Y176.418 I1.730 J-5.812 E1.03479
+G1 X91.444 Y131.26 E7.28226
+G3 X91.316 Y129.542 I6.148 J-1.322 E0.27291
+G1 X93.414 Y97.155 E5.12741
+G3 X94.968 Y93.477 I6.046 J0.387 E0.64262
+G0 F12000 X94.811 Y93.671
+G0 X95.202 Y94.54
+M204 P6000
+;TYPE:SKIN
+G3 X100.409 Y92.417 I4.266 J3.016 E0.93815 F4800
+G1 X130.251 Y97.042 E4.77089
+G1 X149.73 Y97.043 E3.0774
+G1 X179.587 Y92.402 E4.77362
+G1 X179.617 Y92.411 E0.00495
+G3 X185.737 Y97.227 I0.915 J5.134 E1.38861
+G1 X187.855 Y129.882 E5.16986
+G3 X187.719 Y131.102 I-6.580 J-0.116 E0.19415
+G1 X178.481 Y176.233 E7.27789
+G3 X174.843 Y180.209 I-5.121 J-1.033 E0.89432
+G1 X161.432 Y184.211 E2.21107
+G1 X160.851 Y184.428 E0.09798
+G1 X159.889 Y185.016 E0.17812
+G2 X158.948 Y185.997 I3.055 J3.872 E0.21527
+G1 X158.419 Y186.945 E0.17151
+G1 X158.211 Y187.579 E0.10542
+G1 X156.417 Y194.615 E1.14715
+G3 X155.824 Y196.056 I-5.313 J-1.344 E0.24694
+G1 X150.403 Y205.163 E1.67438
+G3 X145.851 Y207.750 I-4.499 J-2.619 E0.86631
+G1 X134.15 Y207.753 E1.84859
+G3 X129.598 Y205.162 I-0.044 J-5.217 E0.86641
+G1 X124.187 Y196.068 E1.67181
+G3 X123.582 Y194.615 I3.369 J-2.255 E0.24985
+G1 X121.792 Y187.582 E1.14654
+G1 X121.586 Y186.959 E0.10367
+G1 X121.05 Y185.999 E0.1737
+G2 X120.103 Y185.006 I-3.919 J2.789 E0.21734
+G1 X119.178 Y184.442 E0.17116
+G1 X118.548 Y184.204 E0.1064
+G1 X105.158 Y180.208 E2.20762
+G3 X101.519 Y176.232 I1.478 J-5.006 E0.89453
+G1 X92.28 Y131.102 E7.27777
+G3 X92.146 Y129.895 I6.480 J-1.330 E0.19206
+G1 X94.263 Y97.227 E5.1719
+G3 X95.202 Y94.540 I5.243 J0.325 E0.45512
+G0 F12000 X94.816 Y94.307
+G0 X94.264 Y95.46
+G0 X91.766 Y130.063
+G0 X101.18 Y176.724
+G0 X102.567 Y176.368
+G1 F4800 X102.962 Y177.275 E0.15629
+G2 X105.821 Y179.360 I3.772 J-2.169 E0.57529
+G1 X102.5 Y176.039 E0.742
+G1 X102.135 Y174.26 E0.28691
+G1 X107.837 Y179.962 E1.27397
+G1 X109.853 Y180.563 E0.33235
+G1 X101.772 Y172.483 E1.80539
+G1 X101.408 Y170.704 E0.28688
+G1 X111.869 Y181.166 E2.33737
+G1 X113.885 Y181.768 E0.3324
+G1 X101.044 Y168.926 E2.86912
+G1 X100.679 Y167.148 E0.28676
+G1 X115.901 Y182.369 E3.40087
+G1 X117.917 Y182.971 E0.3324
+G1 X100.315 Y165.369 E3.93273
+G1 X99.951 Y163.591 E0.28672
+G1 X120.337 Y183.977 E4.55475
+G1 X120.72 Y184.209 E0.07074
+G3 X121.995 Y185.635 I-3.310 J4.243 E0.30383
+G0 F12000 X120.729 Y186.342
+G0 X121.917 Y189.542
+G0 X123.373 Y195.266
+G0 X129.243 Y205.443
+G0 X130.451 Y204.638
+G1 F4800 X130.741 Y205.073 E0.0826
+G2 X133.074 Y206.613 I3.301 J-2.464 E0.45030
+G1 X129.499 Y203.038 E0.79875
+G1 X127.421 Y199.546 E0.64198
+G1 X134.626 Y206.751 E1.60978
+G1 X136.04 Y206.751 E0.22339
+G1 X125.343 Y196.053 E2.39009
+G3 X124.737 Y194.977 I11.411 J-7.136 E0.19515
+G3 X124.374 Y193.670 I14.597 J-4.758 E0.21436
+G1 X137.454 Y206.75 E2.9224
+G1 X138.868 Y206.75 E0.22339
+G1 X123.89 Y191.773 E3.34635
+G1 X123.407 Y189.875 E0.30941
+G1 X140.282 Y206.75 E3.7703
+G1 X141.696 Y206.75 E0.22339
+G1 X122.924 Y187.977 E4.19425
+G2 X122.509 Y186.560 I-10.652 J2.350 E0.23340
+G1 X121.995 Y185.635 E0.16718
+G1 X143.109 Y206.749 E4.7174
+G1 X144.524 Y206.749 E0.22355
+G1 X99.587 Y161.812 E10.04007
+G1 X99.223 Y160.034 E0.28672
+G1 X145.931 Y206.743 E10.43587
+G1 X146.846 Y206.643 E0.14542
+G1 X147.151 Y206.548 E0.05047
+G1 X98.859 Y158.256 E10.78966
+G1 X98.495 Y156.478 E0.28672
+G1 X148.131 Y206.113 E11.08983
+G2 X148.907 Y205.476 I-1.863 J-3.061 E0.15900
+G1 X98.131 Y154.7 E11.34465
+G1 X97.767 Y152.921 E0.28688
+G1 X149.524 Y204.678 E11.56383
+G1 X150.053 Y203.793 E0.16289
+G1 X97.403 Y151.143 E11.76335
+G1 X97.039 Y149.364 E0.28688
+G1 X150.581 Y202.907 E11.96276
+G1 X151.109 Y202.021 E0.16295
+G1 X96.674 Y147.586 E12.16216
+G1 X96.31 Y145.808 E0.28672
+G1 X151.636 Y201.134 E12.36124
+G1 X152.164 Y200.247 E0.16308
+G1 X95.947 Y144.03 E12.56031
+G1 X95.583 Y142.252 E0.28672
+G1 X152.691 Y199.36 E12.75938
+G1 X153.219 Y198.474 E0.16295
+G1 X95.218 Y140.473 E12.9589
+G1 X94.854 Y138.695 E0.28672
+G1 X153.747 Y197.588 E13.15819
+G1 X154.275 Y196.701 E0.16308
+G1 X94.49 Y136.917 E13.35738
+G1 X94.126 Y135.138 E0.28688
+G1 X154.802 Y195.814 E13.55656
+G2 X155.277 Y194.875 I-4.758 J-2.996 E0.16639
+G1 X93.762 Y133.36 E13.74402
+G1 X93.398 Y131.581 E0.28688
+G1 X155.597 Y193.781 E13.89695
+G1 X155.884 Y192.654 E0.18373
+G1 X93.149 Y129.918 E14.01671
+G1 X93.232 Y128.587 E0.21069
+G1 X156.172 Y191.527 E14.0624
+G1 X156.459 Y190.4 E0.18373
+G1 X93.318 Y127.259 E14.10731
+G1 X93.404 Y125.931 E0.21024
+G1 X156.746 Y189.273 E14.15221
+G1 X157.033 Y188.146 E0.18373
+G1 X93.49 Y124.602 E14.19723
+G1 X93.576 Y123.274 E0.21024
+G1 X157.337 Y187.036 E14.24594
+G3 X157.771 Y186.056 I2.731 J0.623 E0.17011
+G1 X93.662 Y121.946 E14.32369
+G1 X93.748 Y120.618 E0.21024
+G1 X158.32 Y185.19 E14.42703
+G3 X159.008 Y184.464 I3.069 J2.219 E0.15837
+G1 X93.834 Y119.29 E14.56153
+G1 X93.92 Y117.962 E0.21024
+G1 X159.833 Y183.874 E14.72653
+G3 X160.764 Y183.391 I1.708 J2.154 E0.16641
+G1 X94.007 Y116.634 E14.91521
+G1 X94.093 Y115.306 E0.21024
+G1 X161.834 Y183.047 E15.13506
+G1 X162.923 Y182.722 E0.17954
+G1 X94.178 Y113.977 E15.35938
+G1 X94.265 Y112.649 E0.21025
+G1 X164.012 Y182.396 E15.58325
+G1 X165.101 Y182.072 E0.1795
+G1 X94.351 Y111.321 E15.80746
+G1 X94.436 Y109.993 E0.21023
+G1 X166.19 Y181.746 E16.03156
+G1 X167.279 Y181.421 E0.17954
+G1 X94.523 Y108.665 E16.25554
+G1 X94.609 Y107.337 E0.21024
+G1 X168.369 Y181.097 E16.47986
+G1 X169.458 Y180.771 E0.17959
+G1 X94.695 Y106.009 E16.70384
+G1 X94.781 Y104.68 E0.2104
+G1 X170.547 Y180.447 E16.92816
+G1 X171.636 Y180.122 E0.17954
+G1 X94.867 Y103.352 E17.15226
+G1 X94.953 Y102.024 E0.21024
+G1 X172.725 Y179.796 E17.37624
+G1 X173.815 Y179.472 E0.17965
+G1 X95.04 Y100.696 E17.60045
+G1 X95.125 Y99.368 E0.21023
+G1 X174.9 Y179.142 E17.82365
+G1 X175.814 Y178.643 E0.16452
+G1 X95.211 Y98.04 E18.00876
+G1 X95.28 Y96.99 E0.16624
+G1 X95.334 Y96.748 E0.03917
+G1 X176.546 Y177.961 E18.14494
+G1 X177.036 Y177.278 E0.1328
+G1 X177.11 Y177.11 E0.029
+G1 X95.681 Y95.681 E18.19331
+G3 X96.248 Y94.834 I3.246 J1.559 E0.16140
+G1 X177.492 Y176.078 E18.15198
+G1 X177.733 Y174.904 E0.18934
+G1 X96.976 Y94.148 E18.04306
+G3 X97.901 Y93.658 I1.861 J2.394 E0.16599
+G1 X177.973 Y173.73 E17.89012
+G1 X178.213 Y172.556 E0.18931
+G1 X99.018 Y93.362 E17.69407
+G3 X100.516 Y93.445 I0.495 J4.620 E0.23779
+G1 X178.453 Y171.382 E17.41311
+G1 X178.694 Y170.209 E0.18919
+G1 X102.19 Y93.705 E17.09294
+G1 X103.863 Y93.963 E0.26743
+G1 X178.934 Y169.034 E16.77277
+G1 X179.174 Y167.86 E0.18931
+G1 X105.537 Y94.223 E16.45238
+G1 X107.21 Y94.482 E0.26746
+G1 X179.414 Y166.686 E16.13221
+G1 X179.655 Y165.513 E0.18919
+G1 X108.884 Y94.742 E15.81204
+G1 X110.558 Y95.001 E0.26761
+G1 X179.895 Y164.338 E15.49165
+G1 X180.135 Y163.164 E0.18931
+G1 X112.231 Y95.26 E15.17148
+G1 X113.905 Y95.52 E0.26764
+G1 X180.375 Y161.991 E14.8512
+G1 X180.616 Y160.817 E0.18934
+G1 X115.578 Y95.779 E14.53114
+G1 X117.252 Y96.039 E0.26764
+G1 X180.855 Y159.642 E14.21053
+G1 X181.096 Y158.468 E0.18934
+G1 X118.926 Y96.298 E13.89036
+G1 X120.599 Y96.558 E0.26748
+G1 X181.336 Y157.295 E13.57019
+G1 X181.577 Y156.121 E0.18934
+G1 X122.272 Y96.817 E13.25013
+G1 X123.946 Y97.076 E0.26761
+G1 X181.817 Y154.947 E12.92985
+G1 X182.057 Y153.773 E0.18931
+G1 X125.62 Y97.336 E12.60946
+G1 X127.294 Y97.595 E0.26761
+G1 X182.297 Y152.599 E12.28918
+G1 X182.538 Y151.425 E0.18934
+G1 X128.967 Y97.855 E11.96901
+G1 X130.157 Y98.038 E0.19021
+G1 X130.565 Y98.038 E0.06446
+G1 X182.778 Y150.251 E11.66571
+G1 X183.018 Y149.077 E0.18931
+G1 X131.98 Y98.038 E11.4033
+G1 X133.394 Y98.038 E0.22339
+G1 X183.258 Y147.903 E11.141
+G1 X183.499 Y146.729 E0.18934
+G1 X134.808 Y98.038 E10.87881
+G1 X136.222 Y98.038 E0.22339
+G1 X183.739 Y145.555 E10.61651
+G1 X183.979 Y144.381 E0.18931
+G1 X137.636 Y98.038 E10.35421
+G1 X139.051 Y98.038 E0.22355
+G1 X184.219 Y143.207 E10.09179
+G1 X184.46 Y142.033 E0.18934
+G1 X140.465 Y98.038 E9.8296
+G1 X141.879 Y98.038 E0.22339
+G1 X184.7 Y140.859 E9.5673
+G1 X184.94 Y139.686 E0.18916
+G1 X143.293 Y98.038 E9.30511
+G1 X144.707 Y98.038 E0.22339
+G1 X185.18 Y138.511 E9.0427
+G1 X185.421 Y137.337 E0.18934
+G1 X146.122 Y98.038 E8.7804
+G1 X147.536 Y98.038 E0.22339
+G1 X185.661 Y136.164 E8.51821
+G1 X185.901 Y134.99 E0.18931
+G1 X148.95 Y98.038 E8.25591
+G2 X150.294 Y97.968 I0.442 J-4.451 E0.21317
+G1 X186.141 Y133.815 E8.00913
+G1 X186.382 Y132.641 E0.18934
+G1 X151.518 Y97.778 E7.78939
+G1 X152.741 Y97.587 E0.19556
+G1 X186.622 Y131.468 E7.56988
+G2 X186.839 Y130.270 I-14.508 J-3.247 E0.19238
+G1 X153.965 Y97.396 E7.34489
+G1 X155.189 Y97.206 E0.19569
+G1 X186.782 Y128.799 E7.05868
+G1 X186.683 Y127.286 E0.23954
+G1 X156.413 Y97.016 E6.76309
+G1 X157.637 Y96.826 E0.19569
+G1 X186.585 Y125.774 E6.46772
+G1 X186.488 Y124.262 E0.23937
+G1 X158.861 Y96.636 E6.17246
+G1 X160.085 Y96.445 E0.19571
+G1 X186.389 Y122.75 E5.87709
+G1 X186.291 Y121.237 E0.23953
+G1 X161.309 Y96.255 E5.58161
+G1 X162.533 Y96.065 E0.19569
+G1 X186.193 Y119.725 E5.28625
+G1 X186.095 Y118.213 E0.23938
+G1 X163.757 Y95.875 E4.99088
+G1 X164.981 Y95.684 E0.19571
+G1 X185.997 Y116.7 E4.69551
+G1 X185.899 Y115.188 E0.23938
+G1 X166.205 Y95.494 E4.40014
+G1 X167.428 Y95.303 E0.19556
+G1 X185.801 Y113.676 E4.105
+G1 X185.703 Y112.164 E0.23938
+G1 X168.652 Y95.113 E3.80963
+G1 X169.876 Y94.923 E0.19569
+G1 X185.604 Y110.651 E3.51404
+G1 X185.507 Y109.139 E0.23937
+G1 X171.1 Y94.733 E3.21878
+G1 X172.324 Y94.543 E0.19569
+G1 X185.409 Y107.627 E2.92341
+G1 X185.31 Y106.114 E0.23954
+G1 X173.548 Y94.352 E2.62793
+G1 X174.772 Y94.162 E0.19569
+G1 X185.213 Y104.603 E2.33278
+G1 X185.114 Y103.09 E0.23954
+G1 X175.996 Y93.972 E2.03719
+G1 X177.22 Y93.782 E0.19569
+G1 X185.016 Y101.578 E1.74182
+G1 X184.918 Y100.065 E0.23953
+G1 X178.444 Y93.591 E1.44646
+G1 X179.668 Y93.401 E0.19569
+G1 X184.82 Y98.553 E1.15109
+G1 X184.718 Y96.98 E0.24903
+G2 X181.068 Y93.386 I-4.172 J0.586 E0.87011
+G1 X184.722 Y97.041 E0.81651
+G1 F2700 E-0.4
+;MESH:NOMESH
+G0 F600 X184.722 Y97.041 Z1.4
+G0 F12000 X186.151 Y96.875
+G0 X185.699 Y95.36
+G0 X185.066 Y94.247
+G0 X183.298 Y92.67
+G0 X181.457 Y92.017
+G0 X179.524 Y92.02
+G0 X149.649 Y96.488
+G0 X130.342 Y96.488
+G0 X99.737 Y91.949
+G0 X98.455 Y92.028
+G0 X97.226 Y92.408
+G0 X94.84 Y94.187
+G0 X94.351 Y93.788
+;TIME_ELAPSED:367.097882
+;LAYER:3
+M204 P800
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G1 F1500 E0.4
+G3 X100.437 Y91.276 I5.107 J3.744 E1.09341 F4800
+G1 X130.355 Y95.914 E4.78307
+G1 X149.607 Y95.919 E3.04154
+G1 X179.562 Y91.275 E4.78899
+G3 X186.868 Y97.156 I0.977 J6.265 E1.66711
+G1 X188.963 Y129.507 E5.1217
+G3 X188.847 Y131.221 I-6.490 J0.422 E0.27212
+G1 X179.589 Y176.473 E7.29725
+G3 X175.178 Y181.289 I-6.223 J-1.272 E1.08336
+G1 X161.781 Y185.286 E2.20873
+G2 X159.302 Y187.868 I1.054 J3.493 E0.59028
+G1 X157.503 Y194.936 E1.15225
+G3 X156.800 Y196.626 I-6.255 J-1.611 E0.29008
+G1 X151.358 Y205.774 E1.68165
+G3 X145.895 Y208.882 I-5.457 J-3.236 E1.03851
+G1 X134.105 Y208.883 E1.86265
+G3 X128.643 Y205.773 I-0.004 J-6.344 E1.03854
+G1 X123.193 Y196.612 E1.68406
+G3 X122.497 Y194.936 I5.297 J-3.182 E0.28762
+G1 X120.699 Y187.867 E1.15236
+G2 X118.219 Y185.286 I-3.540 J0.919 E0.59016
+G1 X104.833 Y181.292 E2.20692
+G3 X100.411 Y176.472 I1.800 J-6.090 E1.08534
+G1 X91.153 Y131.221 E7.2971
+G3 X91.037 Y129.507 I6.331 J-1.289 E0.27212
+G1 X93.132 Y97.155 E5.12186
+G3 X94.351 Y93.788 I6.324 J0.385 E0.57342
+G0 F12000 X94.501 Y94.049
+G1 F4800 X94.971 Y93.472 Z1.401 E0.11757
+G3 X100.394 Y91.547 Z1.407 I4.513 J4.112 E0.94660
+G1 X130.316 Y96.163 Z1.44 E4.78317
+G1 X149.607 Y96.157 Z1.46 E3.0477
+G1 X179.596 Y91.488 Z1.493 E4.79491
+G3 X186.660 Y97.170 Z1.503 I0.947 J6.055 E1.61115
+G1 X188.78 Y129.519 Z1.538 E5.12164
+G3 X188.667 Y131.186 Z1.540 I-6.190 J0.418 E0.26468
+G1 X179.444 Y176.442 Z1.589 E7.29677
+G3 X175.133 Y181.153 Z1.596 I-6.084 J-1.239 E1.05937
+G1 X161.735 Y185.162 Z1.611 E2.20942
+G2 X159.180 Y187.827 Z1.615 I1.187 J3.695 E0.60818
+G1 X157.383 Y194.905 Z1.623 E1.1537
+G3 X156.695 Y196.563 Z1.625 I-6.153 J-1.581 E0.28447
+G1 X151.257 Y205.718 Z1.637 E1.68228
+G3 X145.894 Y208.772 Z1.643 I-5.361 J-3.179 E1.01968
+G1 X134.106 Y208.782 Z1.656 E1.86234
+G3 X128.728 Y205.727 Z1.663 I-0.011 J-6.241 E1.02189
+G1 X123.269 Y196.567 Z1.674 E1.68465
+G3 X122.581 Y194.914 Z1.676 I5.218 J-3.142 E0.28376
+G1 X120.776 Y187.842 Z1.684 E1.15309
+G2 X118.247 Y185.213 Z1.688 I-3.612 J0.944 E0.60129
+G1 X104.853 Y181.227 Z1.703 E2.20778
+G3 X100.473 Y176.459 Z1.710 I1.780 J-6.031 E1.07421
+G1 X91.181 Y131.215 Z1.76 E7.2971
+G3 X91.064 Y129.509 Z1.761 I6.355 J-1.293 E0.27086
+G1 X93.135 Y97.156 Z1.796 E5.12177
+G3 X94.351 Y93.788 Z1.800 I6.343 J0.387 E0.57337
+;TIME_ELAPSED:376.660517
+;LAYER:4
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.437 Y91.271 Z1.807 I5.111 J3.743 E1.09327 F4724
+G1 X130.384 Y95.887 Z1.84 E4.78707
+G1 X149.556 Y95.877 Z1.86 E3.0289
+G1 X179.553 Y91.212 Z1.892 E4.79606
+G3 X186.940 Y97.152 Z1.904 I0.991 J6.331 E1.68493
+G1 X189.059 Y129.501 Z1.938 E5.12163
+G3 X188.943 Y131.240 Z1.940 I-6.546 J0.437 E0.27608
+G1 X179.718 Y176.501 Z1.989 E7.2976
+G3 X175.217 Y181.421 Z1.997 I-6.354 J-1.294 E1.10611
+G1 X161.814 Y185.431 Z2.011 E2.21022
+G2 X159.451 Y187.895 Z2.015 I1.027 J3.349 E0.56241
+G1 X157.654 Y194.974 Z2.023 E1.15385
+G3 X156.940 Y196.699 Z2.025 I-6.369 J-1.626 E0.29585
+G1 X151.497 Y205.863 Z2.036 E1.6839
+G3 X145.895 Y209.052 Z2.043 I-5.598 J-3.320 E1.06508
+G1 X134.105 Y209.062 Z2.056 E1.86265
+G3 X128.489 Y205.873 Z2.063 I-0.010 J-6.522 E1.06711
+G1 X123.028 Y196.71 Z2.075 E1.68522
+G3 X122.310 Y194.983 Z2.077 I5.506 J-3.302 E0.29642
+G1 X120.505 Y187.909 Z2.084 E1.1534
+G2 X118.168 Y185.482 Z2.088 I-3.342 J0.880 E0.55524
+G1 X104.773 Y181.496 Z2.103 E2.20793
+G3 X100.199 Y176.516 Z2.110 I1.858 J-6.297 E1.12187
+G1 X90.907 Y131.271 Z2.16 E7.29725
+G3 X90.784 Y129.489 I6.540 J-1.347 E0.28294
+G1 X92.855 Y97.138 Z2.196 E5.12146
+G3 X94.145 Y93.595 Z2.200 I6.651 J0.415 E0.60392
+;TIME_ELAPSED:381.532935
+;LAYER:5
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.482 Y90.994 Z2.208 I5.326 J3.956 E1.13668 F4730
+G1 X130.414 Y95.608 Z2.24 E4.78468
+G1 X149.543 Y95.597 Z2.26 E3.02211
+G1 X179.509 Y90.935 Z2.292 E4.79115
+G3 X187.220 Y97.134 Z2.304 I1.034 J6.609 E1.75809
+G1 X189.339 Y129.481 Z2.338 E5.12132
+G3 X189.217 Y131.296 Z2.340 I-6.863 J0.450 E0.28816
+G1 X179.992 Y176.56 Z2.389 E7.29807
+G3 X175.297 Y181.690 Z2.397 I-6.638 J-1.362 E1.15328
+G1 X161.893 Y185.7 Z2.412 E2.21037
+G2 X159.722 Y187.963 Z2.415 I0.948 J3.082 E0.51676
+G1 X157.925 Y195.043 Z2.423 E1.15401
+G3 X157.176 Y196.848 Z2.425 I-6.601 J-1.681 E0.30970
+G1 X151.736 Y206.01 Z2.436 E1.68339
+G3 X145.897 Y209.332 Z2.443 I-5.836 J-3.466 E1.10959
+G1 X134.103 Y209.342 Z2.456 E1.86328
+G3 X128.250 Y206.020 Z2.463 I-0.009 J-6.801 E1.11168
+G1 X122.787 Y196.853 Z2.475 E1.68593
+G3 X122.038 Y195.052 Z2.477 I5.804 J-3.470 E0.30913
+G1 X120.233 Y187.978 Z2.485 E1.1534
+G2 X118.089 Y185.750 Z2.488 I-3.070 J0.809 E0.50954
+G1 X104.693 Y181.763 Z2.503 E2.20812
+G3 X99.924 Y176.572 Z2.511 I1.922 J-6.552 E1.16959
+G1 X90.632 Y131.327 Z2.559 E7.29725
+G3 X90.504 Y129.471 Z2.561 I6.879 J-1.407 E0.29470
+G1 X92.575 Y97.121 Z2.596 E5.1213
+G3 X93.937 Y93.406 Z2.600 I6.904 J0.424 E0.63382
+;TIME_ELAPSED:386.421717
+;LAYER:6
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.525 Y90.717 Z2.608 I5.532 J4.139 E1.18053 F4736
+G1 X130.444 Y95.329 Z2.64 E4.7826
+G1 X149.53 Y95.317 Z2.66 E3.01532
+G1 X179.465 Y90.658 Z2.692 E4.78624
+G3 X187.500 Y97.116 Z2.704 I1.079 J6.886 E1.83214
+G1 X189.619 Y129.463 Z2.738 E5.12132
+G3 X189.491 Y131.356 Z2.740 I-7.006 J0.477 E0.30056
+G1 X180.267 Y176.616 Z2.789 E7.29742
+G3 X175.372 Y181.960 Z2.797 I-6.899 J-1.406 E1.20203
+G1 X161.973 Y185.968 Z2.812 E2.20953
+G2 X159.995 Y188.027 Z2.815 I0.865 J2.810 E0.47033
+G1 X158.196 Y195.112 Z2.822 E1.15485
+G3 X157.421 Y196.985 Z2.825 I-6.815 J-1.723 E0.32124
+G1 X151.978 Y206.15 Z2.836 E1.68404
+G3 X145.899 Y209.612 Z2.844 I-6.080 J-3.607 E1.15556
+G1 X134.101 Y209.622 Z2.856 E1.86392
+G3 X128.007 Y206.159 Z2.864 I-0.005 J-7.084 E1.15785
+G1 X122.546 Y196.997 Z2.875 E1.68508
+G3 X121.767 Y195.121 Z2.877 I6.025 J-3.601 E0.32192
+G1 X119.961 Y188.046 Z2.885 E1.15359
+G2 X118.014 Y186.020 Z2.888 I-2.797 J0.739 E0.46286
+G1 X104.613 Y182.032 Z2.903 E2.20893
+G3 X99.650 Y176.629 Z2.911 I2.007 J-6.825 E1.21721
+G1 X90.359 Y131.386 Z2.959 E7.29691
+G3 X90.225 Y129.453 Z2.961 I7.076 J-1.462 E0.30694
+G1 X92.297 Y97.102 Z2.996 E5.12147
+G3 X93.726 Y93.219 Z3.000 I7.185 J0.440 E0.66276
+;TIME_ELAPSED:391.326962
+;LAYER:7
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.568 Y90.440 Z3.008 I5.744 J4.329 E1.22473 F4742
+G1 X130.48 Y95.051 Z3.04 E4.78149
+G1 X149.568 Y95.032 Z3.06 E3.01563
+G1 X179.422 Y90.381 Z3.092 E4.7734
+G3 X187.780 Y97.098 Z3.104 I1.120 J7.165 E1.90542
+G1 X189.898 Y129.445 Z3.138 E5.12131
+G3 X189.765 Y131.412 Z3.140 I-7.288 J0.495 E0.31232
+G1 X180.544 Y176.652 Z3.189 E7.29423
+G3 X175.446 Y182.230 Z3.197 I-7.182 J-1.446 E1.25391
+G1 X162.043 Y186.241 Z3.212 E2.21027
+G2 X160.270 Y188.084 Z3.215 I0.792 J2.537 E0.42107
+G1 X158.468 Y195.179 Z3.222 E1.1565
+G3 X157.665 Y197.123 Z3.224 I-7.155 J-1.818 E0.33332
+G1 X152.217 Y206.295 Z3.236 E1.68539
+G3 X145.900 Y209.893 Z3.244 I-6.324 J-3.759 E1.20080
+G1 X134.101 Y209.902 Z3.256 E1.86407
+G3 X127.758 Y206.289 Z3.264 I-0.006 J-7.364 E1.20614
+G1 X122.306 Y197.14 Z3.275 E1.68259
+G3 X121.495 Y195.190 Z3.277 I6.227 J-3.733 E0.33472
+G1 X119.689 Y188.114 Z3.285 E1.15374
+G2 X117.943 Y186.292 Z3.288 I-2.525 J0.672 E0.41571
+G1 X104.532 Y182.3 Z3.302 E2.21062
+G3 X99.372 Y176.670 Z3.311 I2.086 J-7.091 E1.26728
+G1 X90.085 Y131.442 Z3.359 E7.29446
+G3 X89.945 Y129.435 Z3.361 I7.373 J-1.523 E0.31871
+G1 X92.017 Y97.083 Z3.395 E5.12163
+G3 X93.529 Y93.013 Z3.400 I7.478 J0.462 E0.69568
+;TIME_ELAPSED:396.248912
+;LAYER:8
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.612 Y90.168 Z3.408 I5.932 J4.529 E1.26529 F4745
+G1 X130.475 Y94.795 Z3.44 E4.77422
+G1 X149.519 Y94.794 Z3.46 E3.00868
+G1 X179.386 Y90.159 Z3.492 E4.77504
+G3 X187.997 Y97.083 Z3.505 I1.151 J7.385 E1.96363
+G1 X190.095 Y129.433 Z3.538 E5.12157
+G3 X189.956 Y131.450 Z3.541 I-7.409 J0.503 E0.32028
+G1 X180.703 Y176.705 Z3.589 E7.29756
+G3 X175.493 Y182.384 Z3.597 I-7.331 J-1.496 E1.27859
+G1 X162.104 Y186.381 Z3.612 E2.20752
+G2 X160.408 Y188.145 Z3.615 I0.725 J2.394 E0.40355
+G1 X158.61 Y195.215 Z3.622 E1.15251
+G3 X157.781 Y197.209 Z3.625 I-7.336 J-1.880 E0.34223
+G1 X152.336 Y206.364 Z3.636 E1.68284
+G3 X145.900 Y210.026 Z3.644 I-6.438 J-3.828 E1.22323
+G1 X134.101 Y210.028 Z3.656 E1.86407
+G3 X127.662 Y206.365 Z3.664 I0.000 J-7.491 E1.22376
+G1 X122.215 Y197.211 Z3.675 E1.68287
+G3 X121.386 Y195.217 Z3.678 I6.363 J-3.815 E0.34223
+G1 X119.585 Y188.146 Z3.685 E1.15278
+G2 X117.895 Y186.387 Z3.688 I-2.418 J0.631 E0.40218
+G1 X104.504 Y182.394 Z3.703 E2.20764
+G3 X99.285 Y176.708 Z3.711 I2.122 J-7.186 E1.28031
+G1 X90.023 Y131.454 Z3.759 E7.29769
+G3 X89.884 Y129.432 Z3.761 I7.406 J-1.525 E0.32107
+G1 X91.975 Y97.081 Z3.795 E5.12166
+G3 X93.489 Y93.003 Z3.800 I7.519 J0.471 E0.69687
+;TIME_ELAPSED:401.180040
+;LAYER:9
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.618 Y90.129 Z3.808 I5.975 J4.542 E1.27438 F4745
+G1 X130.481 Y94.76 Z3.84 E4.77432
+G1 X149.519 Y94.76 Z3.86 E3.00773
+G1 X179.382 Y90.129 Z3.892 E4.77432
+G3 X188.026 Y97.080 Z3.905 I1.153 J7.416 E1.97121
+G1 X190.12 Y129.431 Z3.938 E5.12169
+G3 X189.981 Y131.455 Z3.941 I-7.455 J0.505 E0.32138
+G1 X180.724 Y176.711 Z3.989 E7.29784
+G3 X175.499 Y182.404 Z3.997 I-7.359 J-1.510 E1.28180
+G1 X162.109 Y186.398 Z4.012 E2.20753
+G2 X160.426 Y188.150 Z4.015 I0.721 J2.377 E0.40057
+G1 X158.626 Y195.22 Z4.022 E1.15259
+G3 X157.796 Y197.218 Z4.025 I-7.331 J-1.874 E0.34288
+G1 X152.35 Y206.373 Z4.036 E1.68292
+G3 X145.900 Y210.042 Z4.044 I-6.452 J-3.838 E1.22578
+G1 X134.1 Y210.042 Z4.056 E1.86423
+G3 X127.650 Y206.373 Z4.064 I0.002 J-7.508 E1.22578
+G1 X122.204 Y197.218 Z4.075 E1.68292
+G3 X121.374 Y195.220 Z4.078 I6.369 J-3.817 E0.34288
+G1 X119.574 Y188.15 Z4.085 E1.15259
+G2 X117.891 Y186.398 Z4.088 I-2.404 J0.625 E0.40057
+G1 X104.501 Y182.404 Z4.103 E2.20753
+G3 X99.276 Y176.711 Z4.111 I2.129 J-7.198 E1.28180
+G1 X90.019 Y131.455 Z4.159 E7.29784
+G3 X89.880 Y129.431 Z4.161 I7.420 J-1.526 E0.32138
+G1 X91.974 Y97.08 Z4.195 E5.12169
+G3 X93.489 Y93.003 Z4.200 I7.503 J0.468 E0.69683
+;TIME_ELAPSED:406.112539
+;LAYER:10
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.610 Y90.130 Z4.208 I5.975 J4.548 E1.27290 F4745
+G1 X115.063 Y92.374 Z4.224 E2.31073
+G3 X115.841 Y92.495 I-0.609 J6.477 E0.12444
+G1 X130.481 Y94.77 Z4.24 E2.34067
+G1 X139.605 Y94.772 Z4.25 E1.44146
+G3 X140.394 Y94.772 I0.394 J2.889 E0.12488
+G1 X149.519 Y94.775 Z4.26 E1.44162
+G1 X164.16 Y92.508 Z4.275 E2.34063
+G3 X164.939 Y92.388 I0.672 J1.776 E0.12504
+G1 X179.389 Y90.151 Z4.292 E2.31009
+G3 X187.999 Y97.078 Z4.305 I1.145 J7.391 E1.96354
+G1 X189.017 Y112.862 Z4.321 E2.49883
+G1 X189.053 Y112.961 E0.01664
+G1 X189.091 Y113.547 Z4.322 E0.09277
+G1 X189.068 Y113.649 E0.01652
+G1 X190.086 Y129.461 Z4.338 E2.50324
+G3 X189.947 Y131.448 Z4.341 I-7.504 J0.473 E0.31550
+G1 X185.393 Y153.683 Z4.364 E3.58573
+G1 X185.413 Y153.788 E0.01689
+G1 X185.296 Y154.363 Z4.365 E0.0927
+G1 X185.235 Y154.453 E0.01718
+G1 X180.679 Y176.7 Z4.389 E3.58765
+G3 X175.487 Y182.356 Z4.397 I-7.315 J-1.504 E1.27343
+G1 X169.19 Y184.233 Z4.404 E1.03809
+G1 X169.106 Y184.31 E0.018
+G1 X168.545 Y184.478 Z4.405 E0.09252
+G1 X168.434 Y184.458 E0.01782
+G1 X162.094 Y186.347 Z4.412 E1.04514
+G2 X160.381 Y188.114 Z4.415 I0.740 J2.432 E0.40553
+G1 X158.567 Y195.223 Z4.422 E1.15911
+G3 X157.757 Y197.174 Z4.424 I-7.278 J-1.878 E0.33473
+G1 X155.227 Y201.424 Z4.43 E0.78141
+G1 X155.225 Y201.539 E0.01817
+G1 X154.927 Y202.042 E0.09237
+G1 X154.825 Y202.099 Z4.431 E0.01846
+G1 X152.296 Y206.347 Z4.436 E0.78105
+G3 X145.902 Y209.980 Z4.444 I-6.395 J-3.812 E1.21479
+G1 X140.395 Y209.979 Z4.449 E0.87003
+G1 X140.293 Y210.042 Z4.45 E0.01894
+G1 X139.707 Y210.042 E0.09258
+G1 X139.606 Y209.979 E0.01881
+G1 X134.1 Y209.977 Z4.456 E0.86987
+G3 X127.708 Y206.340 Z4.464 I0.002 J-7.438 E1.21493
+G1 X125.183 Y202.094 Z4.469 E0.78046
+G1 X125.074 Y202.043 E0.01901
+G1 X124.775 Y201.54 Z4.47 E0.09245
+G1 X124.782 Y201.418 E0.01931
+G1 X122.254 Y197.169 Z4.475 E0.78111
+G3 X121.442 Y195.205 Z4.478 I6.497 J-3.836 E0.33675
+G1 X119.644 Y188.134 Z4.485 E1.15267
+G2 X117.936 Y186.337 Z4.488 I-2.480 J0.647 E0.40848
+G1 X111.573 Y184.436 Z4.495 E1.04917
+G1 X111.456 Y184.479 E0.01969
+G1 X110.895 Y184.312 Z4.496 E0.09247
+G1 X110.819 Y184.212 E0.01984
+G1 X104.521 Y182.332 Z4.503 E1.03838
+G3 X99.351 Y176.690 Z4.511 I2.109 J-7.122 E1.26938
+G1 X94.808 Y154.446 Z4.535 E3.58678
+G1 X94.705 Y154.364 E0.0208
+G1 X94.588 Y153.789 E0.0927
+G1 X94.649 Y153.675 Z4.536 E0.02043
+G1 X90.1 Y131.397 Z4.559 E3.59223
+G3 X89.971 Y129.437 Z4.561 I7.405 J-1.472 E0.31112
+G1 X90.996 Y113.653 Z4.578 E2.4989
+G1 X90.908 Y113.548 E0.02164
+G1 X90.945 Y112.962 Z4.579 E0.09276
+G1 X91.048 Y112.867 E0.02214
+G1 X92.072 Y97.085 Z4.595 E2.49857
+G3 X93.586 Y93.044 Z4.600 I7.395 J0.466 E0.69152
+;TIME_ELAPSED:411.528402
+;LAYER:11
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.600 Y90.234 Z4.608 I5.879 J4.516 E1.25214 F4746
+G1 X114.769 Y92.441 Z4.623 E2.26549
+G1 X115.163 Y92.385 Z4.624 E0.06287
+G1 X115.742 Y92.474 E0.09255
+G1 X116.1 Y92.648 Z4.625 E0.06289
+G1 X130.479 Y94.888 Z4.64 E2.29908
+G1 X139.325 Y94.895 Z4.649 E1.39754
+G1 X139.708 Y94.76 Z4.65 E0.06416
+G1 X140.292 Y94.76 E0.09226
+G1 X140.674 Y94.896 Z4.651 E0.06406
+G1 X149.52 Y94.904 Z4.66 E1.39754
+G1 X163.904 Y92.684 Z4.675 E2.29937
+G1 X164.258 Y92.474 Z4.676 E0.06503
+G1 X164.837 Y92.385 E0.09255
+G1 X165.236 Y92.48 Z4.677 E0.0648
+G1 X179.417 Y90.291 Z4.692 E2.26693
+G3 X187.851 Y97.080 Z4.704 I1.112 J7.251 E1.92314
+G1 X188.843 Y112.592 Z4.721 E2.45568
+G1 X189.053 Y112.962 E0.06721
+G1 X189.092 Y113.547 Z4.722 E0.09263
+G1 X188.931 Y113.937 E0.06666
+G1 X189.922 Y129.444 Z4.738 E2.45488
+G3 X189.787 Y131.407 Z4.740 I-7.375 J0.479 E0.31168
+G1 X185.279 Y153.376 Z4.764 E3.54311
+G1 X185.413 Y153.79 E0.06875
+G1 X185.294 Y154.363 Z4.765 E0.09246
+G1 X185.007 Y154.694 E0.06921
+G1 X180.496 Y176.667 Z4.789 E3.54382
+G3 X175.448 Y182.169 Z4.797 I-7.128 J-1.474 E1.23820
+G1 X169.402 Y183.969 Z4.803 E0.99661
+G1 X169.106 Y184.311 Z4.804 E0.07146
+G1 X168.544 Y184.478 Z4.805 E0.09263
+G1 X168.11 Y184.354 E0.07131
+G1 X162.039 Y186.159 Z4.812 E1.00063
+G2 X160.183 Y188.089 Z4.815 I0.795 J2.622 E0.44148
+G1 X158.377 Y195.157 Z4.822 E1.15252
+G3 X157.584 Y197.069 Z4.824 I-7.044 J-1.801 E0.32801
+G1 X155.195 Y201.077 Z4.829 E0.73716
+G1 X155.224 Y201.539 Z4.83 E0.07313
+G1 X154.926 Y202.042 E0.09237
+G1 X154.506 Y202.235 Z4.831 E0.07302
+G1 X152.117 Y206.244 Z4.836 E0.73729
+G3 X145.906 Y209.770 Z4.844 I-6.215 J-3.715 E1.17950
+G1 X140.675 Y209.766 Z4.849 E0.82642
+G1 X140.292 Y210.042 E0.07458
+G1 X139.708 Y210.042 Z4.85 E0.09226
+G1 X139.326 Y209.766 Z4.851 E0.07445
+G1 X134.095 Y209.761 Z4.856 E0.82642
+G3 X127.898 Y206.229 Z4.864 I0.011 J-7.222 E1.17819
+G1 X125.517 Y202.222 Z4.869 E0.73638
+G1 X125.074 Y202.042 E0.07554
+G1 X124.775 Y201.539 Z4.87 E0.09245
+G1 X124.828 Y201.064 E0.07551
+G1 X122.446 Y197.052 Z4.875 E0.73714
+G3 X121.661 Y195.152 Z4.877 I6.307 J-3.718 E0.32573
+G1 X119.866 Y188.079 Z4.885 E1.15286
+G2 X117.976 Y186.109 Z4.888 I-2.702 J0.701 E0.45020
+G1 X111.908 Y184.294 Z4.895 E1.00062
+G1 X111.456 Y184.478 E0.0771
+G1 X110.895 Y184.311 Z4.896 E0.09247
+G1 X110.618 Y183.908 E0.07726
+G1 X104.576 Y182.1 Z4.903 E0.99637
+G3 X99.588 Y176.645 Z4.911 I2.063 J-6.894 E1.22594
+G1 X95.11 Y154.672 Z4.934 E3.54278
+G1 X94.707 Y154.364 Z4.935 E0.08013
+G1 X94.588 Y153.791 E0.09246
+G1 X94.84 Y153.352 Z4.936 E0.07997
+G1 X90.365 Y131.384 Z4.959 E3.54191
+G3 X90.234 Y129.455 Z4.961 I6.928 J-1.439 E0.30632
+G1 X91.247 Y113.949 Z4.978 E2.45495
+G1 X90.908 Y113.547 E0.08308
+G1 X90.946 Y112.962 Z4.979 E0.09262
+G1 X91.336 Y112.606 E0.08342
+G1 X92.35 Y97.103 Z4.996 E2.45449
+G3 X93.778 Y93.254 Z5.000 I7.118 J0.451 E0.65761
+;TIME_ELAPSED:417.008463
+;LAYER:12
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.558 Y90.511 Z5.008 I5.685 J4.302 E1.21288 F4749
+G1 X114.449 Y92.675 Z5.023 E2.22105
+G1 X115.163 Y92.385 E0.12175
+G1 X115.742 Y92.474 Z5.024 E0.09255
+G1 X116.334 Y92.967 Z5.025 E0.12171
+G1 X130.451 Y95.166 Z5.04 E2.25718
+G1 X139.045 Y95.175 Z5.049 E1.35773
+G1 X139.708 Y94.76 Z5.05 E0.12357
+G1 X140.292 Y94.76 E0.09226
+G1 X140.954 Y95.176 Z5.051 E0.12352
+G1 X149.532 Y95.184 Z5.06 E1.3552
+G1 X163.67 Y93.003 Z5.075 E2.26002
+G1 X164.257 Y92.476 Z5.076 E0.12463
+G1 X164.837 Y92.385 E0.09275
+G1 X165.556 Y92.714 Z5.077 E0.12492
+G1 X179.46 Y90.569 Z5.092 E2.22262
+G3 X187.571 Y97.099 Z5.104 I1.073 J6.970 E1.84987
+G1 X188.546 Y112.331 Z5.12 E2.41136
+G1 X189.054 Y112.962 Z5.121 E0.12798
+G1 X189.091 Y113.546 E0.09245
+G1 X188.67 Y114.235 Z5.122 E0.12756
+G1 X189.642 Y129.462 Z5.138 E2.41054
+G3 X189.512 Y131.358 Z5.140 I-6.972 J0.474 E0.30107
+G1 X185.061 Y153.045 Z5.163 E3.49765
+G1 X185.412 Y153.79 Z5.164 E0.13011
+G1 X185.294 Y154.364 Z5.165 E0.09258
+G1 X184.677 Y154.912 E0.13037
+G1 X180.222 Y176.61 Z5.189 E3.49948
+G3 X175.368 Y181.901 Z5.196 I-6.849 J-1.411 E1.19066
+G1 X169.59 Y183.621 Z5.203 E0.95243
+G1 X169.105 Y184.311 Z5.204 E0.13325
+G1 X168.544 Y184.479 E0.09252
+G1 X167.761 Y184.166 Z5.205 E0.13322
+G1 X161.96 Y185.89 Z5.211 E0.95609
+G2 X159.911 Y188.021 Z5.215 I0.880 J2.896 E0.48745
+G1 X158.104 Y195.092 Z5.222 E1.15302
+G3 X157.340 Y196.931 Z5.224 I-6.800 J-1.747 E0.31558
+G1 X155.097 Y200.695 Z5.229 E0.69224
+G1 X155.225 Y201.539 Z5.23 E0.13486
+G1 X154.926 Y202.042 E0.09245
+G1 X154.123 Y202.332 Z5.231 E0.13488
+G1 X151.877 Y206.097 Z5.236 E0.69261
+G3 X145.904 Y209.490 Z5.243 I-5.976 J-3.566 E1.13466
+G1 X140.955 Y209.486 Z5.248 E0.78187
+G1 X140.292 Y210.042 Z5.249 E0.1367
+G1 X139.708 Y210.042 Z5.25 E0.09226
+G1 X139.046 Y209.486 Z5.251 E0.13658
+G1 X134.097 Y209.481 Z5.256 E0.78187
+G3 X128.139 Y206.086 Z5.264 I0.009 J-6.941 E1.13281
+G1 X125.9 Y202.32 Z5.268 E0.69218
+G1 X125.074 Y202.042 Z5.269 E0.13769
+G1 X124.775 Y201.539 Z5.27 E0.09245
+G1 X124.927 Y200.681 Z5.271 E0.13766
+G1 X122.687 Y196.909 Z5.275 E0.69308
+G3 X121.933 Y195.082 Z5.277 I5.968 J-3.532 E0.31319
+G1 X120.137 Y188.01 Z5.285 E1.15274
+G2 X118.055 Y185.840 Z5.288 I-2.977 J0.773 E0.49589
+G1 X112.257 Y184.106 Z5.294 E0.95609
+G1 X111.456 Y184.479 Z5.295 E0.13959
+G1 X110.896 Y184.312 Z5.296 E0.09232
+G1 X110.43 Y183.559 Z5.297 E0.1399
+G1 X104.656 Y181.832 Z5.303 E0.95214
+G3 X99.862 Y176.588 Z5.311 I1.973 J-6.617 E1.17838
+G1 X95.44 Y154.89 Z5.334 E3.49844
+G1 X94.706 Y154.364 Z5.335 E0.14266
+G1 X94.588 Y153.79 E0.09258
+G1 X95.058 Y153.021 Z5.336 E0.14239
+G1 X90.638 Y131.324 Z5.36 E3.49822
+G3 X90.513 Y129.473 I6.722 J-1.384 E0.29390
+G1 X91.509 Y114.247 Z5.377 E2.41063
+G1 X90.908 Y113.547 Z5.378 E0.14576
+G1 X90.945 Y112.963 Z5.379 E0.09245
+G1 X91.634 Y112.345 Z5.38 E0.14622
+G1 X92.63 Y97.122 Z5.396 E2.41016
+G3 X94.023 Y93.390 Z5.400 I6.873 J0.439 E0.63830
+;TIME_ELAPSED:422.821644
+;LAYER:13
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.515 Y90.788 Z5.408 I5.442 J4.179 E1.15882 F4752
+G1 X114.129 Y92.908 Z5.422 E2.17674
+G1 X115.163 Y92.385 Z5.423 E0.18306
+G1 X115.741 Y92.473 Z5.424 E0.09237
+G1 X116.567 Y93.287 Z5.425 E0.18321
+G1 X130.41 Y95.445 Z5.44 E2.21341
+G1 X138.765 Y95.454 Z5.448 E1.31997
+G1 X139.708 Y94.76 Z5.449 E0.18498
+G1 X140.292 Y94.76 Z5.45 E0.09226
+G1 X141.234 Y95.457 Z5.451 E0.18513
+G1 X149.544 Y95.464 Z5.46 E1.31286
+G1 X163.437 Y93.323 Z5.475 E2.22081
+G1 X164.259 Y92.475 Z5.476 E0.18658
+G1 X164.837 Y92.385 E0.09242
+G1 X165.876 Y92.948 Z5.478 E0.1867
+G1 X179.505 Y90.846 Z5.492 E2.17865
+G3 X187.292 Y97.117 Z5.504 I1.028 J6.694 E1.77589
+G1 X188.249 Y112.069 Z5.519 E2.36704
+G1 X189.053 Y112.962 Z5.521 E0.18984
+G1 X189.092 Y113.546 E0.09247
+G1 X188.408 Y114.532 Z5.522 E0.18959
+G1 X189.363 Y129.48 Z5.538 E2.36639
+G3 X189.240 Y131.291 Z5.540 I-6.797 J0.448 E0.28753
+G1 X184.844 Y152.715 Z5.563 E3.4552
+G1 X185.412 Y153.79 Z5.564 E0.19208
+G1 X185.295 Y154.364 E0.09255
+G1 X184.346 Y155.13 Z5.566 E0.19268
+G1 X179.949 Y176.549 Z5.588 E3.45446
+G3 X175.288 Y181.633 Z5.596 I-6.577 J-1.351 E1.14374
+G1 X169.778 Y183.273 Z5.602 E0.90824
+G1 X169.104 Y184.311 Z5.603 E0.19553
+G1 X168.544 Y184.479 Z5.604 E0.09237
+G1 X167.413 Y183.977 Z5.605 E0.19549
+G1 X161.881 Y185.621 Z5.611 E0.91175
+G2 X159.640 Y187.953 Z5.615 I0.958 J3.164 E0.53331
+G1 X157.835 Y195.018 Z5.622 E1.15202
+G3 X157.104 Y196.781 Z5.624 I-6.534 J-1.676 E0.30242
+G1 X155.001 Y200.311 Z5.629 E0.64916
+G1 X155.225 Y201.539 Z5.63 E0.19721
+G1 X154.926 Y202.042 E0.09245
+G1 X153.739 Y202.431 Z5.632 E0.19734
+G1 X151.635 Y205.957 Z5.636 E0.64869
+G3 X145.902 Y209.210 Z5.643 I-5.730 J-3.421 E1.08870
+G1 X141.235 Y209.207 Z5.648 E0.73732
+G1 X140.292 Y210.042 Z5.649 E0.19899
+G1 X139.708 Y210.042 Z5.65 E0.09226
+G1 X138.766 Y209.205 Z5.651 E0.19908
+G1 X134.102 Y209.201 Z5.656 E0.73685
+G3 X128.366 Y205.922 Z5.663 I0.003 J-6.662 E1.09179
+G1 X126.283 Y202.418 Z5.668 E0.64401
+G1 X125.074 Y202.042 Z5.669 E0.20003
+G1 X124.775 Y201.539 E0.09245
+G1 X125.024 Y200.297 Z5.671 E0.20012
+G1 X122.927 Y196.765 Z5.675 E0.64894
+G3 X122.204 Y195.013 Z5.677 I5.766 J-3.405 E0.30033
+G1 X120.408 Y187.942 Z5.685 E1.15259
+G2 X118.134 Y185.570 Z5.688 I-3.247 J0.837 E0.54190
+G1 X112.605 Y183.918 Z5.694 E0.91166
+G1 X111.456 Y184.479 Z5.696 E0.20201
+G1 X110.896 Y184.311 E0.09237
+G1 X110.242 Y183.21 Z5.697 E0.20232
+G1 X104.739 Y181.564 Z5.703 E0.90745
+G3 X100.136 Y176.527 Z5.711 I1.905 J-6.362 E1.13181
+G1 X95.77 Y155.108 Z5.734 E3.45348
+G1 X94.706 Y154.364 Z5.735 E0.20512
+G1 X94.588 Y153.79 Z5.736 E0.09258
+G1 X95.276 Y152.69 Z5.737 E0.20498
+G1 X90.912 Y131.268 Z5.76 E3.45388
+G3 X90.793 Y129.491 Z5.762 I6.424 J-1.323 E0.28213
+G1 X91.77 Y114.544 Z5.777 E2.36645
+G1 X90.908 Y113.546 Z5.779 E0.20834
+G1 X90.946 Y112.963 E0.0923
+G1 X91.932 Y112.083 Z5.78 E0.20879
+G1 X92.91 Y97.14 Z5.796 E2.36583
+G3 X94.191 Y93.637 Z5.800 I6.525 J0.400 E0.59746
+;TIME_ELAPSED:428.823527
+;LAYER:14
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.455 Y91.062 Z5.807 I5.272 J3.919 E1.12379 F4755
+G1 X113.81 Y93.141 Z5.821 E2.13531
+G1 X115.163 Y92.385 Z5.823 E0.24486
+G1 X115.741 Y92.474 Z5.824 E0.09239
+G1 X116.801 Y93.607 Z5.825 E0.24512
+G1 X130.391 Y95.724 Z5.839 E2.17292
+G1 X138.485 Y95.734 Z5.848 E1.27874
+G1 X139.708 Y94.76 Z5.85 E0.247
+G1 X140.292 Y94.76 E0.09226
+G1 X141.514 Y95.737 Z5.852 E0.24718
+G1 X149.563 Y95.743 Z5.86 E1.27163
+G1 X163.203 Y93.643 Z5.874 E2.18032
+G1 X164.258 Y92.475 Z5.876 E0.24866
+G1 X164.837 Y92.385 Z5.877 E0.09257
+G1 X166.195 Y93.182 Z5.878 E0.24876
+G1 X179.548 Y91.123 Z5.892 E2.13452
+G3 X187.010 Y97.109 Z5.903 I0.984 J6.417 E1.69855
+G1 X187.952 Y111.808 Z5.919 E2.327
+G1 X189.054 Y112.962 Z5.92 E0.25209
+G1 X189.092 Y113.546 Z5.921 E0.09246
+G1 X188.147 Y114.83 Z5.923 E0.25187
+G1 X189.083 Y129.498 Z5.938 E2.32205
+G3 X188.965 Y131.239 Z5.940 I-6.499 J0.434 E0.27642
+G1 X184.626 Y152.384 Z5.962 E3.41022
+G1 X185.411 Y153.789 Z5.964 E0.25427
+G1 X185.294 Y154.364 E0.0927
+G1 X184.016 Y155.348 Z5.966 E0.25482
+G1 X179.675 Y176.488 Z5.988 E3.40951
+G3 X175.209 Y181.365 Z5.996 I-6.316 J-1.300 E1.09674
+G1 X169.968 Y182.925 Z6.001 E0.8639
+G1 X169.104 Y184.311 Z6.003 E0.25803
+G1 X168.544 Y184.479 Z6.004 E0.09237
+G1 X167.065 Y183.789 Z6.005 E0.25784
+G1 X161.8 Y185.353 Z6.011 E0.86772
+G2 X159.368 Y187.885 Z6.015 I1.039 J3.432 E0.57892
+G1 X157.563 Y194.949 Z6.022 E1.15187
+G3 X156.860 Y196.643 Z6.024 I-6.225 J-1.590 E0.29064
+G1 X154.903 Y199.927 Z6.028 E0.60396
+G1 X155.225 Y201.539 Z6.03 E0.2597
+G1 X154.926 Y202.042 Z6.031 E0.09245
+G1 X153.354 Y202.527 Z6.032 E0.2599
+G1 X151.394 Y205.814 Z6.036 E0.60461
+G3 X145.901 Y208.930 Z6.043 I-5.491 J-3.280 E1.04321
+G1 X141.515 Y208.927 Z6.048 E0.69293
+G1 X140.292 Y210.042 Z6.049 E0.26146
+G1 X139.708 Y210.042 Z6.05 E0.09226
+G1 X138.486 Y208.925 Z6.052 E0.26156
+G1 X134.099 Y208.921 Z6.056 E0.69308
+G3 X128.609 Y205.784 Z6.063 I0.009 J-6.388 E1.04481
+G1 X126.667 Y202.515 Z6.067 E0.60071
+G1 X125.074 Y202.042 Z6.069 E0.26253
+G1 X124.775 Y201.539 E0.09245
+G1 X125.122 Y199.913 Z6.071 E0.26267
+G1 X123.168 Y196.622 Z6.075 E0.60467
+G3 X122.475 Y194.944 Z6.077 I5.517 J-3.261 E0.28768
+G1 X120.679 Y187.874 Z6.085 E1.15244
+G2 X118.214 Y185.302 Z6.088 I-3.519 J0.906 E0.58755
+G1 X112.953 Y183.73 Z6.094 E0.86747
+G1 X111.456 Y184.479 Z6.096 E0.26446
+G1 X110.896 Y184.311 E0.09237
+G1 X110.053 Y182.861 Z6.098 E0.26498
+G1 X104.816 Y181.295 Z6.104 E0.86357
+G3 X100.411 Y176.475 Z6.111 I1.824 J-6.090 E1.08297
+G1 X96.1 Y155.326 Z6.133 E3.40995
+G1 X94.706 Y154.364 Z6.135 E0.26758
+G1 X94.588 Y153.79 Z6.136 E0.09258
+G1 X95.495 Y152.359 Z6.137 E0.26766
+G1 X91.188 Y131.215 Z6.16 E3.40905
+G3 X91.072 Y129.509 Z6.162 I6.150 J-1.275 E0.27090
+G1 X92.03 Y114.842 Z6.177 E2.32211
+G1 X90.908 Y113.546 Z6.179 E0.27082
+G1 X90.946 Y112.962 E0.09246
+G1 X92.23 Y111.822 Z6.181 E0.27127
+G1 X93.191 Y97.132 Z6.196 E2.32577
+G3 X94.401 Y93.825 Z6.200 I6.261 J0.416 E0.56378
+;TIME_ELAPSED:434.968165
+;LAYER:15
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.427 Y91.341 Z6.207 I5.060 J3.723 E1.08213 F4758
+G1 X113.49 Y93.375 Z6.221 E2.08864
+G1 X115.163 Y92.385 Z6.223 E0.30712
+G1 X115.741 Y92.474 E0.09239
+G1 X117.035 Y93.926 Z6.225 E0.30727
+G1 X130.389 Y96.008 Z6.239 E2.13523
+G1 X138.205 Y96.014 Z6.247 E1.23482
+G1 X139.708 Y94.76 Z6.249 E0.30925
+G1 X140.292 Y94.76 Z6.25 E0.09226
+G1 X141.794 Y96.017 Z6.252 E0.30943
+G1 X149.604 Y96.024 Z6.26 E1.23387
+G1 X162.969 Y93.962 Z6.274 E2.13646
+G1 X164.258 Y92.474 Z6.276 E0.31102
+G1 X164.837 Y92.385 Z6.277 E0.09255
+G1 X166.515 Y93.416 Z6.279 E0.31114
+G1 X179.591 Y91.4 Z6.293 E2.09023
+G3 X186.732 Y97.127 Z6.303 I0.943 J6.140 E1.62515
+G1 X187.654 Y111.547 Z6.318 E2.28281
+G1 X189.054 Y112.962 Z6.32 E0.31448
+G1 X189.092 Y113.546 Z6.321 E0.09246
+G1 X187.885 Y115.127 Z6.323 E0.31425
+G1 X188.804 Y129.516 Z6.338 E2.27789
+G3 X188.689 Y131.190 Z6.340 I-6.180 J0.416 E0.26581
+G1 X184.408 Y152.053 Z6.362 E3.36473
+G1 X185.412 Y153.789 Z6.364 E0.31683
+G1 X185.294 Y154.364 E0.09273
+G1 X183.685 Y155.567 Z6.366 E0.31739
+G1 X179.4 Y176.436 Z6.388 E3.36579
+G3 X175.122 Y181.099 Z6.395 I-6.039 J-1.246 E1.04949
+G1 X170.155 Y182.577 Z6.401 E0.81872
+G1 X169.104 Y184.311 Z6.403 E0.32034
+G1 X168.544 Y184.479 E0.09237
+G1 X166.716 Y183.6 Z6.405 E0.32045
+G1 X161.721 Y185.085 Z6.411 E0.82327
+G2 X159.097 Y187.816 Z6.415 I1.115 J3.698 E0.62464
+G1 X157.29 Y194.886 Z6.422 E1.15286
+G3 X156.619 Y196.500 Z6.424 I-5.944 J-1.525 E0.27699
+G1 X154.806 Y199.543 Z6.428 E0.55961
+G1 X155.225 Y201.539 Z6.43 E0.32221
+G1 X154.926 Y202.042 Z6.431 E0.09245
+G1 X152.97 Y202.625 Z6.433 E0.32245
+G1 X151.159 Y205.662 Z6.436 E0.55863
+G3 X145.899 Y208.650 Z6.443 I-5.256 J-3.128 E0.99932
+G1 X141.795 Y208.647 Z6.447 E0.64837
+G1 X140.292 Y210.042 Z6.449 E0.32397
+G1 X139.708 Y210.042 Z6.45 E0.09226
+G1 X138.206 Y208.645 Z6.452 E0.32407
+G1 X134.1 Y208.641 Z6.456 E0.64869
+G3 X128.863 Y205.662 Z6.463 I0.008 J-6.106 E0.99520
+G1 X127.051 Y202.613 Z6.466 E0.56034
+G1 X125.074 Y202.042 Z6.469 E0.3251
+G1 X124.775 Y201.539 E0.09245
+G1 X125.22 Y199.529 Z6.471 E0.32524
+G1 X123.411 Y196.483 Z6.475 E0.55969
+G3 X122.747 Y194.876 Z6.477 I5.160 J-3.073 E0.27553
+G1 X120.951 Y187.806 Z6.484 E1.15244
+G1 X120.786 Y187.3 Z6.485 E0.08408
+G1 X120.336 Y186.491 Z6.486 E0.14625
+G2 X119.581 Y185.702 Z6.487 I-3.290 J2.393 E0.17292
+G1 X118.789 Y185.22 Z6.488 E0.14647
+G1 X118.294 Y185.034 Z6.489 E0.08354
+G1 X113.302 Y183.541 Z6.494 E0.82318
+G1 X111.456 Y184.479 Z6.496 E0.32713
+G1 X110.896 Y184.311 Z6.497 E0.09237
+G1 X109.866 Y182.512 Z6.499 E0.3275
+G1 X104.903 Y181.029 Z6.504 E0.81834
+G3 X100.685 Y176.414 Z6.511 I1.725 J-5.812 E1.03699
+G1 X96.431 Y155.545 Z6.533 E3.36481
+G1 X94.706 Y154.364 Z6.535 E0.33028
+G1 X94.589 Y153.79 Z6.536 E0.09255
+G1 X95.714 Y152.028 Z6.538 E0.33027
+G1 X91.461 Y131.156 Z6.56 E3.36524
+G3 X91.352 Y129.527 Z6.562 I5.874 J-1.211 E0.25863
+G1 X92.292 Y115.139 Z6.577 E2.27794
+G1 X90.908 Y113.546 Z6.579 E0.33339
+G1 X90.946 Y112.962 E0.09246
+G1 X92.528 Y111.561 Z6.582 E0.33385
+G1 X93.471 Y97.151 Z6.597 E2.28144
+G3 X94.608 Y94.015 Z6.600 I6.010 J0.405 E0.53383
+;TIME_ELAPSED:441.227199
+;LAYER:16
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.384 Y91.617 Z6.607 I4.854 J3.537 E1.03859 F4761
+G1 X113.17 Y93.608 Z6.62 E2.04435
+G1 X115.163 Y92.385 Z6.623 E0.36942
+G1 X115.741 Y92.474 E0.09239
+G1 X117.269 Y94.246 Z6.626 E0.36966
+G1 X130.367 Y96.288 Z6.639 E2.09429
+G1 X137.925 Y96.294 Z6.647 E1.19406
+G1 X139.708 Y94.76 Z6.649 E0.37159
+G1 X140.292 Y94.76 Z6.65 E0.09226
+G1 X142.074 Y96.297 Z6.653 E0.37178
+G1 X149.626 Y96.304 Z6.66 E1.19311
+G1 X162.734 Y94.282 Z6.674 E2.09537
+G1 X164.259 Y92.474 Z6.676 E0.37368
+G1 X164.837 Y92.385 Z6.677 E0.09239
+G1 X166.835 Y93.651 Z6.679 E0.37369
+G1 X179.635 Y91.676 Z6.693 E2.04615
+G3 X186.452 Y97.145 Z6.703 I0.896 J5.866 E1.55135
+G1 X187.357 Y111.286 Z6.718 E2.23865
+G1 X189.054 Y112.962 Z6.72 E0.37681
+G1 X189.092 Y113.546 Z6.721 E0.09246
+G1 X187.623 Y115.425 Z6.723 E0.37681
+G1 X188.525 Y129.543 Z6.738 E2.23499
+G3 X188.417 Y131.123 Z6.739 I-5.982 J0.385 E0.25085
+G1 X184.19 Y151.723 Z6.761 E3.32231
+G1 X185.412 Y153.79 Z6.764 E0.37936
+G1 X185.294 Y154.364 E0.09258
+G1 X183.354 Y155.785 Z6.767 E0.37992
+G1 X179.13 Y176.36 Z6.788 E3.31835
+G3 X175.042 Y180.830 Z6.795 I-5.763 J-1.166 E1.00490
+G1 X170.343 Y182.229 Z6.8 E0.77458
+G1 X169.104 Y184.311 Z6.802 E0.38276
+G1 X168.544 Y184.479 Z6.803 E0.09237
+G1 X166.368 Y183.412 Z6.806 E0.38288
+G1 X161.642 Y184.816 Z6.811 E0.77889
+G2 X158.825 Y187.748 Z6.815 I1.200 J3.972 E0.67092
+G1 X157.022 Y194.805 Z6.823 E1.15072
+G3 X156.381 Y196.353 I-5.701 J-1.454 E0.26550
+G1 X154.709 Y199.16 Z6.828 E0.51618
+G1 X155.225 Y201.539 Z6.83 E0.38459
+G1 X154.926 Y202.042 Z6.831 E0.09245
+G1 X152.587 Y202.722 Z6.833 E0.38483
+G1 X150.916 Y205.522 Z6.837 E0.51515
+G3 X145.900 Y208.370 Z6.843 I-5.012 J-2.987 E0.95265
+G1 X142.075 Y208.368 Z6.847 E0.6043
+G1 X140.292 Y210.042 Z6.849 E0.38638
+G1 X139.708 Y210.042 Z6.85 E0.09226
+G1 X137.926 Y208.364 Z6.853 E0.3867
+G1 X134.106 Y208.361 Z6.856 E0.60351
+G3 X129.098 Y205.509 Z6.863 I0.001 J-5.825 E0.95204
+G1 X127.433 Y202.71 Z6.866 E0.51452
+G1 X125.074 Y202.042 Z6.869 E0.38734
+G1 X124.775 Y201.539 E0.09245
+G1 X125.317 Y199.145 Z6.872 E0.38779
+G1 X123.649 Y196.336 Z6.875 E0.51613
+G3 X123.015 Y194.796 Z6.877 I5.124 J-3.010 E0.26388
+G1 X121.223 Y187.737 Z6.884 E1.1506
+G2 X118.373 Y184.765 Z6.889 I-4.065 J1.045 E0.67931
+G1 X113.65 Y183.353 Z6.894 E0.7788
+G1 X111.456 Y184.479 Z6.896 E0.3896
+G1 X110.896 Y184.311 Z6.897 E0.09237
+G1 X109.678 Y182.164 Z6.9 E0.38998
+G1 X104.983 Y180.759 Z6.905 E0.77424
+G3 X100.958 Y176.353 Z6.911 I1.647 J-5.546 E0.98997
+G1 X96.761 Y155.763 Z6.933 E3.31982
+G1 X94.706 Y154.364 Z6.935 E0.39275
+G1 X94.588 Y153.79 Z6.936 E0.09258
+G1 X95.933 Y151.698 Z6.938 E0.39292
+G1 X91.735 Y131.1 Z6.96 E3.32109
+G3 X91.631 Y129.546 Z6.962 I5.771 J-1.167 E0.24671
+G1 X92.553 Y115.437 Z6.976 E2.23377
+G1 X90.908 Y113.546 Z6.979 E0.39597
+G1 X90.946 Y112.962 Z6.98 E0.09246
+G1 X92.826 Y111.3 Z6.982 E0.39644
+G1 X93.75 Y97.169 Z6.997 E2.23726
+G3 X94.767 Y94.275 Z7.000 I5.707 J0.380 E0.49040
+;TIME_ELAPSED:447.580398
+;LAYER:17
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.341 Y91.893 Z7.007 I4.694 J3.271 E1.00857 F4765
+G1 X112.912 Y93.848 Z7.02 E2.00991
+G1 X115.163 Y92.385 Z7.022 E0.42414
+G1 X115.741 Y92.474 Z7.023 E0.09239
+G1 X117.443 Y94.553 Z7.026 E0.42448
+G1 X130.349 Y96.562 Z7.039 E2.06352
+G1 X137.707 Y96.566 Z7.047 E1.16246
+G1 X139.708 Y94.76 Z7.05 E0.42585
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.57 Z7.053 E0.42627
+G1 X149.647 Y96.575 Z7.061 E1.16183
+G1 X162.56 Y94.581 Z7.074 E2.06425
+G1 X164.259 Y92.474 Z7.077 E0.42761
+G1 X164.837 Y92.385 E0.09239
+G1 X167.092 Y93.882 Z7.08 E0.42761
+G1 X179.652 Y91.942 Z7.093 E2.00783
+G3 X186.189 Y97.163 Z7.103 I0.882 J5.598 E1.48577
+G1 X187.082 Y111.085 Z7.117 E2.204
+G1 X189.054 Y112.962 Z7.12 E0.43011
+G1 X189.092 Y113.546 Z7.121 E0.09246
+G1 X187.377 Y115.661 Z7.123 E0.43019
+G1 X188.267 Y129.562 Z7.138 E2.20066
+G3 X188.163 Y131.081 Z7.139 I-5.777 J0.368 E0.24100
+G1 X183.983 Y151.456 Z7.161 E3.286
+G1 X185.412 Y153.79 Z7.164 E0.43236
+G1 X185.294 Y154.364 E0.09258
+G1 X183.061 Y155.949 Z7.167 E0.43262
+G1 X178.877 Y176.343 Z7.188 E3.28907
+G3 X174.969 Y180.592 Z7.195 I-5.510 J-1.146 E0.95715
+G1 X170.482 Y181.928 Z7.199 E0.73964
+G1 X169.104 Y184.311 Z7.202 E0.43489
+G1 X168.544 Y184.479 Z7.203 E0.09237
+G1 X166.087 Y183.236 Z7.206 E0.43502
+G1 X161.572 Y184.578 Z7.211 E0.74415
+G2 X158.585 Y187.688 Z7.215 I1.271 J4.210 E0.71156
+G1 X156.784 Y194.748 Z7.223 E1.1511
+G3 X156.168 Y196.233 Z7.224 I-5.444 J-1.388 E0.25475
+G1 X154.61 Y198.846 Z7.227 E0.48063
+G1 X155.225 Y201.539 Z7.23 E0.43641
+G1 X154.926 Y202.042 Z7.231 E0.09245
+G1 X152.264 Y202.786 Z7.234 E0.43667
+G1 X150.711 Y205.389 Z7.237 E0.47887
+G3 X145.897 Y208.128 Z7.243 I-4.810 J-2.854 E0.91484
+G1 X142.293 Y208.126 Z7.247 E0.56938
+G1 X140.292 Y210.042 Z7.249 E0.43768
+G1 X139.708 Y210.042 Z7.25 E0.09226
+G1 X137.707 Y208.123 Z7.253 E0.43801
+G1 X134.105 Y208.121 Z7.257 E0.56906
+G3 X129.305 Y205.390 Z7.262 I0.003 J-5.590 E0.91200
+G1 X127.751 Y202.777 Z7.266 E0.4803
+G1 X125.074 Y202.042 Z7.268 E0.43858
+G1 X124.775 Y201.539 Z7.269 E0.09245
+G1 X125.41 Y198.835 Z7.272 E0.43881
+G1 X123.852 Y196.211 Z7.275 E0.48212
+G3 X123.248 Y194.747 Z7.277 I4.868 J-2.865 E0.25095
+G1 X121.452 Y187.678 Z7.284 E1.15228
+G2 X118.440 Y184.538 Z7.289 I-4.292 J1.102 E0.71807
+G1 X113.927 Y183.19 Z7.294 E0.74412
+G1 X111.456 Y184.479 Z7.297 E0.44031
+G1 X110.896 Y184.311 E0.09237
+G1 X109.534 Y181.876 Z7.3 E0.44078
+G1 X105.045 Y180.534 Z7.305 E0.74021
+G3 X101.183 Y176.299 Z7.311 I1.594 J-5.332 E0.95074
+G1 X97.028 Y155.931 Z7.332 E3.28413
+G1 X94.706 Y154.364 Z7.335 E0.44256
+G1 X94.588 Y153.79 Z7.336 E0.09258
+G1 X96.113 Y151.437 Z7.339 E0.44299
+G1 X91.952 Y131.04 Z7.36 E3.2888
+G3 X91.855 Y129.559 Z7.362 I5.523 J-1.105 E0.23494
+G1 X92.761 Y115.671 Z7.376 E2.19877
+G1 X90.908 Y113.546 Z7.379 E0.44543
+G1 X90.946 Y112.962 Z7.38 E0.09246
+G1 X93.062 Y111.095 Z7.383 E0.44582
+G1 X93.971 Y97.177 Z7.397 E2.20353
+G3 X94.983 Y94.348 Z7.400 I5.488 J0.368 E0.48056
+;TIME_ELAPSED:454.022184
+;LAYER:18
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.108 Z7.406 I4.480 J3.193 E0.96349 F4769
+G1 X112.88 Y94.055 Z7.419 E2.00691
+G1 X115.163 Y92.385 Z7.422 E0.44688
+G1 X115.741 Y92.474 Z7.423 E0.09239
+G1 X117.412 Y94.757 Z7.426 E0.44697
+G1 X130.33 Y96.76 Z7.439 E2.06525
+G1 X137.707 Y96.76 Z7.447 E1.16546
+G1 X139.708 Y94.76 Z7.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z7.453 E0.44696
+G1 X149.67 Y96.76 Z7.461 E1.16546
+G1 X162.588 Y94.757 Z7.474 E2.06525
+G1 X164.259 Y92.474 Z7.477 E0.44697
+G1 X164.837 Y92.385 Z7.478 E0.09239
+G1 X167.12 Y94.055 Z7.48 E0.44688
+G1 X179.673 Y92.11 Z7.494 E2.00686
+G3 X186.028 Y97.184 Z7.503 I0.865 J5.433 E1.44513
+G1 X186.928 Y111.096 Z7.517 E2.20249
+G1 X189.054 Y112.962 Z7.52 E0.4469
+G1 X189.092 Y113.546 Z7.521 E0.09246
+G1 X187.225 Y115.672 Z7.524 E0.44701
+G1 X188.123 Y129.561 Z7.538 E2.19885
+G3 X188.023 Y131.052 I-5.703 J0.366 E0.23654
+G1 X183.854 Y151.43 Z7.561 E3.28612
+G1 X185.412 Y153.79 Z7.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z7.567 E0.44672
+G1 X178.77 Y176.285 Z7.589 E3.28351
+G3 X174.931 Y180.486 Z7.595 I-5.402 J-1.082 E0.94427
+G1 X170.45 Y181.823 Z7.599 E0.73877
+G1 X169.104 Y184.311 Z7.602 E0.4469
+G1 X168.544 Y184.479 Z7.603 E0.09237
+G1 X166.056 Y183.134 Z7.606 E0.44683
+G1 X161.542 Y184.479 Z7.611 E0.74413
+G2 X158.486 Y187.662 Z7.615 I1.296 J4.303 E0.72819
+G1 X156.689 Y194.728 Z7.623 E1.15186
+G3 X156.085 Y196.183 Z7.625 I-5.209 J-1.309 E0.24965
+G1 X154.529 Y198.798 Z7.628 E0.48074
+G1 X155.225 Y201.539 Z7.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z7.634 E0.44682
+G1 X150.638 Y205.337 Z7.637 E0.4777
+G3 X145.891 Y208.042 Z7.643 I-4.739 J-2.799 E0.90266
+G1 X142.293 Y208.042 Z7.647 E0.56843
+G1 X140.292 Y210.042 Z7.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z7.653 E0.44696
+G1 X134.109 Y208.042 Z7.657 E0.56843
+G3 X129.362 Y205.339 Z7.663 I-0.005 J-5.511 E0.90243
+G1 X127.815 Y202.739 Z7.666 E0.47797
+G1 X125.074 Y202.042 Z7.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z7.672 E0.44678
+G1 X123.916 Y196.183 Z7.675 E0.48066
+G3 X123.313 Y194.728 Z7.677 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z7.684 E1.15194
+G2 X118.458 Y184.479 Z7.689 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z7.694 E0.74413
+G1 X111.456 Y184.479 Z7.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z7.7 E0.4469
+G1 X105.07 Y180.486 Z7.705 E0.73862
+G3 X101.230 Y176.286 Z7.711 I1.565 J-5.286 E0.94427
+G1 X97.065 Y155.923 Z7.733 E3.28367
+G1 X94.706 Y154.364 Z7.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z7.739 E0.44677
+G1 X91.978 Y131.052 Z7.76 E3.28608
+G3 X91.876 Y129.561 Z7.762 I5.516 J-1.126 E0.23657
+G1 X92.775 Y115.672 Z7.776 E2.19886
+G1 X90.908 Y113.546 Z7.779 E0.44701
+G1 X90.946 Y112.962 Z7.78 E0.09246
+G1 X93.072 Y111.096 Z7.783 E0.4469
+G1 X93.972 Y97.185 Z7.797 E2.20233
+G3 X94.975 Y94.357 Z7.800 I5.540 J0.373 E0.47979
+;TIME_ELAPSED:460.539792
+;LAYER:19
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z7.806 I4.487 J3.188 E0.96553 F4769
+G1 X112.88 Y94.055 Z7.819 E2.00688
+G1 X115.163 Y92.385 Z7.822 E0.44688
+G1 X115.741 Y92.474 Z7.823 E0.09239
+G1 X117.412 Y94.757 Z7.826 E0.44697
+G1 X130.33 Y96.76 Z7.839 E2.06525
+G1 X137.707 Y96.76 Z7.847 E1.16546
+G1 X139.708 Y94.76 Z7.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z7.853 E0.44696
+G1 X149.67 Y96.76 Z7.861 E1.16546
+G1 X162.588 Y94.757 Z7.874 E2.06525
+G1 X164.259 Y92.474 Z7.877 E0.44697
+G1 X164.837 Y92.385 Z7.878 E0.09239
+G1 X167.12 Y94.055 Z7.88 E0.44688
+G1 X179.673 Y92.109 Z7.894 E2.00688
+G3 X186.028 Y97.184 Z7.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z7.917 E2.20249
+G1 X189.054 Y112.962 Z7.92 E0.4469
+G1 X189.092 Y113.546 Z7.921 E0.09246
+G1 X187.225 Y115.672 Z7.924 E0.44701
+G1 X188.124 Y129.561 Z7.938 E2.19886
+G3 X188.023 Y131.052 Z7.939 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z7.961 E3.28612
+G1 X185.412 Y153.79 Z7.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z7.967 E0.44672
+G1 X178.77 Y176.286 Z7.989 E3.28367
+G3 X174.931 Y180.486 Z7.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z7.999 E0.73877
+G1 X169.104 Y184.311 Z8.002 E0.4469
+G1 X168.544 Y184.479 Z8.003 E0.09237
+G1 X166.056 Y183.134 Z8.006 E0.44683
+G1 X161.542 Y184.479 Z8.011 E0.74413
+G2 X158.486 Y187.662 Z8.015 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z8.023 E1.1519
+G3 X156.085 Y196.183 Z8.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z8.028 E0.48074
+G1 X155.225 Y201.539 Z8.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z8.034 E0.44682
+G1 X150.638 Y205.338 Z8.037 E0.47784
+G3 X145.891 Y208.042 Z8.043 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z8.047 E0.56843
+G1 X140.292 Y210.042 Z8.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z8.053 E0.44696
+G1 X134.109 Y208.042 Z8.057 E0.56843
+G3 X129.362 Y205.338 Z8.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z8.066 E0.47784
+G1 X125.074 Y202.042 Z8.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z8.072 E0.44678
+G1 X123.915 Y196.183 Z8.075 E0.48074
+G3 X123.312 Y194.728 Z8.077 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z8.084 E1.1519
+G2 X118.458 Y184.479 Z8.089 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z8.094 E0.74413
+G1 X111.456 Y184.479 Z8.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z8.1 E0.4469
+G1 X105.069 Y180.486 Z8.105 E0.73877
+G3 X101.230 Y176.286 Z8.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z8.133 E3.28367
+G1 X94.706 Y154.364 Z8.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z8.139 E0.44677
+G1 X91.977 Y131.052 Z8.16 E3.28612
+G3 X91.876 Y129.561 Z8.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z8.176 E2.19886
+G1 X90.908 Y113.546 Z8.179 E0.44701
+G1 X90.946 Y112.962 Z8.18 E0.09246
+G1 X93.072 Y111.096 Z8.183 E0.4469
+G1 X93.972 Y97.184 Z8.197 E2.20249
+G3 X94.975 Y94.357 Z8.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:467.057591
+;LAYER:20
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z8.206 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z8.219 E2.00688
+G1 X115.163 Y92.385 Z8.222 E0.44688
+G1 X115.741 Y92.474 Z8.223 E0.09239
+G1 X117.412 Y94.757 Z8.226 E0.44697
+G1 X130.33 Y96.76 Z8.239 E2.06525
+G1 X137.707 Y96.76 Z8.247 E1.16546
+G1 X139.708 Y94.76 Z8.25 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z8.253 E0.44696
+G1 X149.67 Y96.76 Z8.261 E1.16546
+G1 X162.588 Y94.757 Z8.274 E2.06525
+G1 X164.259 Y92.474 Z8.277 E0.44697
+G1 X164.837 Y92.385 Z8.278 E0.09239
+G1 X167.12 Y94.055 Z8.28 E0.44688
+G1 X179.673 Y92.109 Z8.294 E2.00688
+G3 X186.028 Y97.184 Z8.303 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z8.317 E2.20249
+G1 X189.054 Y112.962 Z8.32 E0.4469
+G1 X189.092 Y113.546 Z8.321 E0.09246
+G1 X187.225 Y115.672 Z8.324 E0.44701
+G1 X188.124 Y129.561 Z8.338 E2.19886
+G3 X188.023 Y131.052 Z8.339 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z8.361 E3.28612
+G1 X185.412 Y153.79 Z8.364 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z8.367 E0.44672
+G1 X178.77 Y176.286 Z8.389 E3.28367
+G3 X174.931 Y180.486 Z8.395 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z8.399 E0.73877
+G1 X169.104 Y184.311 Z8.402 E0.4469
+G1 X168.544 Y184.479 Z8.403 E0.09237
+G1 X166.056 Y183.134 Z8.406 E0.44683
+G1 X161.542 Y184.479 Z8.411 E0.74413
+G2 X158.486 Y187.662 Z8.415 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z8.423 E1.1519
+G3 X156.085 Y196.183 Z8.425 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z8.428 E0.48074
+G1 X155.225 Y201.539 Z8.431 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z8.434 E0.44682
+G1 X150.638 Y205.338 Z8.437 E0.47784
+G3 X145.891 Y208.042 Z8.443 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z8.447 E0.56843
+G1 X140.292 Y210.042 Z8.45 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z8.453 E0.44696
+G1 X134.109 Y208.042 Z8.457 E0.56843
+G3 X129.362 Y205.338 Z8.463 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z8.466 E0.47784
+G1 X125.074 Y202.042 Z8.469 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z8.472 E0.44678
+G1 X123.915 Y196.183 Z8.475 E0.48074
+G3 X123.312 Y194.728 Z8.477 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z8.484 E1.1519
+G2 X118.458 Y184.479 Z8.489 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z8.494 E0.74413
+G1 X111.456 Y184.479 Z8.497 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z8.5 E0.4469
+G1 X105.069 Y180.486 Z8.505 E0.73877
+G3 X101.230 Y176.286 Z8.511 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z8.533 E3.28367
+G1 X94.706 Y154.364 Z8.536 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z8.539 E0.44677
+G1 X91.977 Y131.052 Z8.56 E3.28612
+G3 X91.876 Y129.561 Z8.562 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z8.576 E2.19886
+G1 X90.908 Y113.546 Z8.579 E0.44701
+G1 X90.946 Y112.962 Z8.58 E0.09246
+G1 X93.072 Y111.096 Z8.583 E0.4469
+G1 X93.972 Y97.184 Z8.597 E2.20249
+G3 X94.975 Y94.357 Z8.600 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:473.575391
+;LAYER:21
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z8.606 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z8.619 E2.00688
+G1 X115.163 Y92.385 Z8.622 E0.44688
+G1 X115.741 Y92.474 Z8.623 E0.09239
+G1 X117.412 Y94.757 Z8.626 E0.44697
+G1 X130.33 Y96.76 Z8.639 E2.06525
+G1 X137.707 Y96.76 Z8.647 E1.16546
+G1 X139.708 Y94.76 Z8.65 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z8.653 E0.44696
+G1 X149.664 Y96.76 Z8.661 E1.16451
+G1 X162.588 Y94.757 Z8.674 E2.06618
+G1 X164.259 Y92.474 Z8.677 E0.44697
+G1 X164.837 Y92.385 Z8.678 E0.09239
+G1 X167.12 Y94.055 Z8.68 E0.44688
+G1 X179.673 Y92.109 Z8.694 E2.00688
+G3 X186.028 Y97.184 Z8.703 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z8.717 E2.20249
+G1 X189.054 Y112.962 Z8.72 E0.4469
+G1 X189.092 Y113.546 Z8.721 E0.09246
+G1 X187.225 Y115.672 Z8.724 E0.44701
+G1 X188.124 Y129.561 Z8.738 E2.19886
+G3 X188.023 Y131.052 Z8.739 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z8.761 E3.28612
+G1 X185.412 Y153.79 Z8.764 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z8.767 E0.44672
+G1 X178.77 Y176.286 Z8.789 E3.28367
+G3 X174.931 Y180.486 Z8.795 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z8.799 E0.73877
+G1 X169.104 Y184.311 Z8.802 E0.4469
+G1 X168.544 Y184.479 Z8.803 E0.09237
+G1 X166.056 Y183.134 Z8.806 E0.44683
+G1 X161.542 Y184.479 Z8.811 E0.74413
+G2 X158.486 Y187.662 Z8.815 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z8.823 E1.1519
+G3 X156.085 Y196.183 Z8.825 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z8.828 E0.48074
+G1 X155.225 Y201.539 Z8.831 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z8.834 E0.44682
+G1 X150.638 Y205.338 Z8.837 E0.47784
+G3 X145.891 Y208.042 Z8.843 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z8.847 E0.56843
+G1 X140.292 Y210.042 Z8.85 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z8.853 E0.44696
+G1 X134.109 Y208.042 Z8.857 E0.56843
+G3 X129.362 Y205.338 Z8.863 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z8.866 E0.47784
+G1 X125.074 Y202.042 Z8.869 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z8.872 E0.44678
+G1 X123.915 Y196.183 Z8.875 E0.48074
+G3 X123.312 Y194.728 Z8.877 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z8.884 E1.1519
+G2 X118.458 Y184.479 Z8.889 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z8.894 E0.74413
+G1 X111.456 Y184.479 Z8.897 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z8.9 E0.4469
+G1 X105.069 Y180.486 Z8.905 E0.73877
+G3 X101.230 Y176.286 Z8.911 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z8.933 E3.28367
+G1 X94.706 Y154.364 Z8.936 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z8.939 E0.44677
+G1 X91.977 Y131.052 Z8.96 E3.28612
+G3 X91.876 Y129.561 Z8.962 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z8.976 E2.19886
+G1 X90.908 Y113.546 Z8.979 E0.44701
+G1 X90.946 Y112.962 Z8.98 E0.09246
+G1 X93.072 Y111.096 Z8.983 E0.4469
+G1 X93.972 Y97.184 Z8.997 E2.20249
+G3 X94.975 Y94.357 Z9.000 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:480.093193
+;LAYER:22
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z9.006 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z9.019 E2.00688
+G1 X115.163 Y92.385 Z9.022 E0.44688
+G1 X115.741 Y92.474 Z9.023 E0.09239
+G1 X117.412 Y94.757 Z9.026 E0.44697
+G1 X130.33 Y96.76 Z9.039 E2.06525
+G1 X137.707 Y96.76 Z9.047 E1.16546
+G1 X139.708 Y94.76 Z9.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z9.053 E0.44696
+G1 X149.669 Y96.76 Z9.061 E1.1653
+G1 X162.588 Y94.757 Z9.074 E2.0654
+G1 X164.259 Y92.474 Z9.077 E0.44697
+G1 X164.837 Y92.385 Z9.078 E0.09239
+G1 X167.12 Y94.055 Z9.08 E0.44688
+G1 X179.673 Y92.109 Z9.094 E2.00688
+G3 X186.028 Y97.184 Z9.103 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z9.117 E2.20249
+G1 X189.054 Y112.962 Z9.12 E0.4469
+G1 X189.092 Y113.546 Z9.121 E0.09246
+G1 X187.225 Y115.672 Z9.124 E0.44701
+G1 X188.124 Y129.561 Z9.138 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z9.161 E3.28612
+G1 X185.412 Y153.79 Z9.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z9.167 E0.44672
+G1 X178.77 Y176.286 Z9.189 E3.28367
+G3 X174.931 Y180.486 Z9.195 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z9.199 E0.73877
+G1 X169.104 Y184.311 Z9.202 E0.4469
+G1 X168.544 Y184.479 Z9.203 E0.09237
+G1 X166.056 Y183.134 Z9.206 E0.44683
+G1 X161.542 Y184.479 Z9.211 E0.74413
+G2 X158.486 Y187.662 Z9.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z9.223 E1.1519
+G3 X156.085 Y196.183 Z9.225 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z9.228 E0.48074
+G1 X155.225 Y201.539 Z9.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z9.234 E0.44682
+G1 X150.638 Y205.338 Z9.237 E0.47784
+G3 X145.891 Y208.042 Z9.243 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z9.247 E0.56843
+G1 X140.292 Y210.042 Z9.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z9.253 E0.44696
+G1 X134.109 Y208.042 Z9.257 E0.56843
+G3 X129.362 Y205.338 Z9.263 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z9.266 E0.47784
+G1 X125.074 Y202.042 Z9.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z9.272 E0.44678
+G1 X123.915 Y196.183 Z9.275 E0.48074
+G3 X123.312 Y194.728 Z9.277 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z9.284 E1.1519
+G2 X118.458 Y184.479 Z9.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z9.294 E0.74413
+G1 X111.456 Y184.479 Z9.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z9.3 E0.4469
+G1 X105.069 Y180.486 Z9.305 E0.73877
+G3 X101.230 Y176.286 Z9.311 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z9.333 E3.28367
+G1 X94.706 Y154.364 Z9.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z9.339 E0.44677
+G1 X91.977 Y131.052 Z9.36 E3.28612
+G3 X91.876 Y129.561 Z9.362 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z9.376 E2.19886
+G1 X90.908 Y113.546 Z9.379 E0.44701
+G1 X90.946 Y112.962 Z9.38 E0.09246
+G1 X93.072 Y111.096 Z9.383 E0.4469
+G1 X93.972 Y97.184 Z9.397 E2.20249
+G3 X94.975 Y94.357 Z9.400 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:486.610993
+;LAYER:23
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z9.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z9.419 E2.00688
+G1 X115.163 Y92.385 Z9.422 E0.44688
+G1 X115.741 Y92.474 Z9.423 E0.09239
+G1 X117.412 Y94.757 Z9.426 E0.44697
+G1 X130.33 Y96.76 Z9.439 E2.06525
+G1 X137.707 Y96.76 Z9.447 E1.16546
+G1 X139.708 Y94.76 Z9.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z9.453 E0.44696
+G1 X149.67 Y96.76 Z9.461 E1.16546
+G1 X162.588 Y94.757 Z9.474 E2.06525
+G1 X164.259 Y92.474 Z9.477 E0.44697
+G1 X164.837 Y92.385 Z9.478 E0.09239
+G1 X167.12 Y94.055 Z9.48 E0.44688
+G1 X179.673 Y92.109 Z9.494 E2.00688
+G3 X186.028 Y97.184 Z9.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z9.517 E2.20249
+G1 X189.054 Y112.962 Z9.52 E0.4469
+G1 X189.092 Y113.546 Z9.521 E0.09246
+G1 X187.225 Y115.672 Z9.524 E0.44701
+G1 X188.124 Y129.561 Z9.538 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z9.561 E3.28612
+G1 X185.412 Y153.79 Z9.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z9.567 E0.44672
+G1 X178.77 Y176.286 Z9.589 E3.28367
+G3 X174.931 Y180.486 Z9.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z9.599 E0.73877
+G1 X169.104 Y184.311 Z9.602 E0.4469
+G1 X168.544 Y184.479 Z9.603 E0.09237
+G1 X166.056 Y183.134 Z9.606 E0.44683
+G1 X161.542 Y184.479 Z9.611 E0.74413
+G2 X158.486 Y187.662 Z9.615 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z9.623 E1.1519
+G3 X156.085 Y196.183 Z9.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z9.628 E0.48074
+G1 X155.225 Y201.539 Z9.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z9.634 E0.44682
+G1 X150.638 Y205.338 Z9.637 E0.47784
+G3 X145.891 Y208.042 Z9.643 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z9.647 E0.56843
+G1 X140.292 Y210.042 Z9.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z9.653 E0.44696
+G1 X134.109 Y208.042 Z9.657 E0.56843
+G3 X129.362 Y205.338 Z9.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z9.666 E0.47784
+G1 X125.074 Y202.042 Z9.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z9.672 E0.44678
+G1 X123.915 Y196.183 Z9.675 E0.48074
+G3 X123.312 Y194.728 Z9.677 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z9.684 E1.1519
+G2 X118.458 Y184.479 Z9.689 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z9.694 E0.74413
+G1 X111.456 Y184.479 Z9.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z9.7 E0.4469
+G1 X105.069 Y180.486 Z9.705 E0.73877
+G3 X101.230 Y176.286 Z9.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z9.733 E3.28367
+G1 X94.706 Y154.364 Z9.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z9.739 E0.44677
+G1 X91.977 Y131.052 Z9.76 E3.28612
+G3 X91.876 Y129.561 Z9.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z9.776 E2.19886
+G1 X90.908 Y113.546 Z9.779 E0.44701
+G1 X90.946 Y112.962 Z9.78 E0.09246
+G1 X93.072 Y111.096 Z9.783 E0.4469
+G1 X93.972 Y97.184 Z9.797 E2.20249
+G3 X94.975 Y94.357 Z9.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:493.128792
+;LAYER:24
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z9.806 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z9.819 E2.00688
+G1 X115.163 Y92.385 Z9.822 E0.44688
+G1 X115.741 Y92.474 Z9.823 E0.09239
+G1 X117.412 Y94.757 Z9.826 E0.44697
+G1 X130.33 Y96.76 Z9.839 E2.06525
+G1 X137.707 Y96.76 Z9.847 E1.16546
+G1 X139.708 Y94.76 Z9.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z9.853 E0.44696
+G1 X149.67 Y96.76 Z9.861 E1.16546
+G1 X162.588 Y94.757 Z9.874 E2.06525
+G1 X164.259 Y92.474 Z9.877 E0.44697
+G1 X164.837 Y92.385 Z9.878 E0.09239
+G1 X167.12 Y94.055 Z9.88 E0.44688
+G1 X179.673 Y92.109 Z9.894 E2.00688
+G3 X186.028 Y97.184 Z9.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z9.917 E2.20249
+G1 X189.054 Y112.962 Z9.92 E0.4469
+G1 X189.092 Y113.546 Z9.921 E0.09246
+G1 X187.225 Y115.672 Z9.924 E0.44701
+G1 X188.124 Y129.561 Z9.938 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z9.961 E3.28612
+G1 X185.412 Y153.79 Z9.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z9.967 E0.44672
+G1 X178.77 Y176.286 Z9.989 E3.28367
+G3 X174.931 Y180.486 Z9.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z9.999 E0.73877
+G1 X169.104 Y184.311 Z10.002 E0.4469
+G1 X168.544 Y184.479 Z10.003 E0.09237
+G1 X166.056 Y183.134 Z10.006 E0.44683
+G1 X161.542 Y184.479 Z10.011 E0.74413
+G2 X158.486 Y187.662 Z10.015 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z10.023 E1.1519
+G3 X156.085 Y196.183 Z10.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z10.028 E0.48074
+G1 X155.225 Y201.539 Z10.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z10.034 E0.44682
+G1 X150.638 Y205.338 Z10.037 E0.47784
+G3 X145.891 Y208.042 Z10.043 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z10.047 E0.56843
+G1 X140.292 Y210.042 Z10.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z10.053 E0.44696
+G1 X134.109 Y208.042 Z10.057 E0.56843
+G3 X129.362 Y205.338 Z10.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z10.066 E0.47784
+G1 X125.074 Y202.042 Z10.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z10.072 E0.44678
+G1 X123.915 Y196.183 Z10.075 E0.48074
+G3 X123.312 Y194.728 Z10.077 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z10.084 E1.1519
+G2 X118.458 Y184.479 Z10.089 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z10.094 E0.74413
+G1 X111.456 Y184.479 Z10.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z10.1 E0.4469
+G1 X105.069 Y180.486 Z10.105 E0.73877
+G3 X101.230 Y176.286 Z10.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z10.133 E3.28367
+G1 X94.706 Y154.364 Z10.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z10.139 E0.44677
+G1 X91.977 Y131.052 Z10.16 E3.28612
+G3 X91.876 Y129.561 Z10.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z10.176 E2.19886
+G1 X90.908 Y113.546 Z10.179 E0.44701
+G1 X90.946 Y112.962 Z10.18 E0.09246
+G1 X93.072 Y111.096 Z10.183 E0.4469
+G1 X93.972 Y97.184 Z10.197 E2.20249
+G3 X94.975 Y94.357 Z10.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:499.646592
+;LAYER:25
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z10.206 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z10.219 E2.00688
+G1 X115.163 Y92.385 Z10.222 E0.44688
+G1 X115.741 Y92.474 Z10.223 E0.09239
+G1 X117.412 Y94.757 Z10.226 E0.44697
+G1 X130.33 Y96.76 Z10.239 E2.06525
+G1 X137.707 Y96.76 Z10.247 E1.16546
+G1 X139.708 Y94.76 Z10.25 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z10.253 E0.44696
+G1 X149.67 Y96.76 Z10.261 E1.16546
+G1 X162.588 Y94.757 Z10.274 E2.06525
+G1 X164.259 Y92.474 Z10.277 E0.44697
+G1 X164.837 Y92.385 Z10.278 E0.09239
+G1 X167.12 Y94.055 Z10.28 E0.44688
+G1 X179.673 Y92.109 Z10.294 E2.00688
+G3 X186.028 Y97.184 Z10.303 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z10.317 E2.20249
+G1 X189.054 Y112.962 Z10.32 E0.4469
+G1 X189.092 Y113.546 Z10.321 E0.09246
+G1 X187.225 Y115.672 Z10.324 E0.44701
+G1 X188.124 Y129.561 Z10.338 E2.19886
+G3 X188.023 Y131.052 Z10.339 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z10.361 E3.28612
+G1 X185.412 Y153.79 Z10.364 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z10.367 E0.44672
+G1 X178.77 Y176.286 Z10.389 E3.28367
+G3 X174.931 Y180.486 Z10.395 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z10.399 E0.73877
+G1 X169.104 Y184.311 Z10.402 E0.4469
+G1 X168.544 Y184.479 Z10.403 E0.09237
+G1 X166.056 Y183.134 Z10.406 E0.44683
+G1 X161.542 Y184.479 Z10.411 E0.74413
+G2 X158.486 Y187.662 Z10.415 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z10.423 E1.1519
+G3 X156.085 Y196.183 Z10.425 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z10.428 E0.48074
+G1 X155.225 Y201.539 Z10.431 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z10.434 E0.44682
+G1 X150.638 Y205.338 Z10.437 E0.47784
+G3 X145.891 Y208.042 Z10.443 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z10.447 E0.56843
+G1 X140.292 Y210.042 Z10.45 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z10.453 E0.44696
+G1 X134.109 Y208.042 Z10.457 E0.56843
+G3 X129.362 Y205.338 Z10.463 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z10.466 E0.47784
+G1 X125.074 Y202.042 Z10.469 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z10.472 E0.44678
+G1 X123.915 Y196.183 Z10.475 E0.48074
+G3 X123.312 Y194.728 Z10.477 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z10.484 E1.1519
+G2 X118.458 Y184.479 Z10.489 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z10.494 E0.74413
+G1 X111.456 Y184.479 Z10.497 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z10.5 E0.4469
+G1 X105.069 Y180.486 Z10.505 E0.73877
+G3 X101.230 Y176.286 Z10.511 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z10.533 E3.28367
+G1 X94.706 Y154.364 Z10.536 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z10.539 E0.44677
+G1 X91.977 Y131.052 Z10.56 E3.28612
+G3 X91.876 Y129.561 Z10.562 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z10.576 E2.19886
+G1 X90.908 Y113.546 Z10.579 E0.44701
+G1 X90.946 Y112.962 Z10.58 E0.09246
+G1 X93.072 Y111.096 Z10.583 E0.4469
+G1 X93.972 Y97.184 Z10.597 E2.20249
+G3 X94.975 Y94.357 Z10.600 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:506.164391
+;LAYER:26
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z10.606 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z10.619 E2.00688
+G1 X115.163 Y92.385 Z10.622 E0.44688
+G1 X115.741 Y92.474 Z10.623 E0.09239
+G1 X117.412 Y94.757 Z10.626 E0.44697
+G1 X130.33 Y96.76 Z10.639 E2.06525
+G1 X137.707 Y96.76 Z10.647 E1.16546
+G1 X139.708 Y94.76 Z10.65 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z10.653 E0.44696
+G1 X149.67 Y96.76 Z10.661 E1.16546
+G1 X162.588 Y94.757 Z10.674 E2.06525
+G1 X164.259 Y92.474 Z10.677 E0.44697
+G1 X164.837 Y92.385 Z10.678 E0.09239
+G1 X167.12 Y94.055 Z10.68 E0.44688
+G1 X179.673 Y92.109 Z10.694 E2.00688
+G3 X186.028 Y97.184 Z10.703 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z10.717 E2.20249
+G1 X189.054 Y112.962 Z10.72 E0.4469
+G1 X189.092 Y113.546 Z10.721 E0.09246
+G1 X187.225 Y115.672 Z10.724 E0.44701
+G1 X188.124 Y129.561 Z10.738 E2.19886
+G3 X188.023 Y131.052 Z10.739 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z10.761 E3.28612
+G1 X185.412 Y153.79 Z10.764 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z10.767 E0.44672
+G1 X178.77 Y176.286 Z10.789 E3.28367
+G3 X174.931 Y180.486 Z10.795 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z10.799 E0.73877
+G1 X169.104 Y184.311 Z10.802 E0.4469
+G1 X168.544 Y184.479 Z10.803 E0.09237
+G1 X166.056 Y183.134 Z10.806 E0.44683
+G1 X161.542 Y184.479 Z10.811 E0.74413
+G2 X158.486 Y187.662 Z10.815 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z10.823 E1.1519
+G3 X156.085 Y196.183 Z10.825 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z10.828 E0.48074
+G1 X155.225 Y201.539 Z10.831 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z10.834 E0.44682
+G1 X150.638 Y205.338 Z10.837 E0.47784
+G3 X145.891 Y208.042 Z10.843 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z10.847 E0.56843
+G1 X140.292 Y210.042 Z10.85 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z10.853 E0.44696
+G1 X134.109 Y208.042 Z10.857 E0.56843
+G3 X129.362 Y205.338 Z10.863 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z10.866 E0.47784
+G1 X125.074 Y202.042 Z10.869 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z10.872 E0.44678
+G1 X123.915 Y196.183 Z10.875 E0.48074
+G3 X123.312 Y194.728 Z10.877 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z10.884 E1.1519
+G2 X118.458 Y184.479 Z10.889 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z10.894 E0.74413
+G1 X111.456 Y184.479 Z10.897 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z10.9 E0.4469
+G1 X105.069 Y180.486 Z10.905 E0.73877
+G3 X101.230 Y176.286 Z10.911 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z10.933 E3.28367
+G1 X94.706 Y154.364 Z10.936 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z10.939 E0.44677
+G1 X91.977 Y131.052 Z10.96 E3.28612
+G3 X91.876 Y129.561 Z10.962 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z10.976 E2.19886
+G1 X90.908 Y113.546 Z10.979 E0.44701
+G1 X90.946 Y112.962 Z10.98 E0.09246
+G1 X93.072 Y111.096 Z10.983 E0.4469
+G1 X93.972 Y97.184 Z10.997 E2.20249
+G3 X94.975 Y94.357 Z11.000 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:512.682191
+;LAYER:27
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z11.006 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z11.019 E2.00688
+G1 X115.163 Y92.385 Z11.022 E0.44688
+G1 X115.741 Y92.474 Z11.023 E0.09239
+G1 X117.412 Y94.757 Z11.026 E0.44697
+G1 X130.33 Y96.76 Z11.039 E2.06525
+G1 X137.707 Y96.76 Z11.047 E1.16546
+G1 X139.708 Y94.76 Z11.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z11.053 E0.44696
+G1 X149.67 Y96.76 Z11.061 E1.16546
+G1 X162.588 Y94.757 Z11.074 E2.06525
+G1 X164.259 Y92.474 Z11.077 E0.44697
+G1 X164.837 Y92.385 Z11.078 E0.09239
+G1 X167.12 Y94.055 Z11.08 E0.44688
+G1 X179.673 Y92.109 Z11.094 E2.00688
+G3 X186.028 Y97.184 Z11.103 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z11.117 E2.20249
+G1 X189.054 Y112.962 Z11.12 E0.4469
+G1 X189.092 Y113.546 Z11.121 E0.09246
+G1 X187.225 Y115.672 Z11.124 E0.44701
+G1 X188.124 Y129.561 Z11.138 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z11.161 E3.28612
+G1 X185.412 Y153.79 Z11.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z11.167 E0.44672
+G1 X178.77 Y176.286 Z11.189 E3.28367
+G3 X174.931 Y180.486 Z11.195 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z11.199 E0.73877
+G1 X169.104 Y184.311 Z11.202 E0.4469
+G1 X168.544 Y184.479 Z11.203 E0.09237
+G1 X166.056 Y183.134 Z11.206 E0.44683
+G1 X161.542 Y184.479 Z11.211 E0.74413
+G2 X158.486 Y187.662 Z11.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z11.223 E1.1519
+G3 X156.085 Y196.183 Z11.225 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z11.228 E0.48074
+G1 X155.225 Y201.539 Z11.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z11.234 E0.44682
+G1 X150.638 Y205.338 Z11.237 E0.47784
+G3 X145.891 Y208.042 Z11.243 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z11.247 E0.56843
+G1 X140.292 Y210.042 Z11.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z11.253 E0.44696
+G1 X134.109 Y208.042 Z11.257 E0.56843
+G3 X129.362 Y205.338 Z11.263 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z11.266 E0.47784
+G1 X125.074 Y202.042 Z11.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z11.272 E0.44678
+G1 X123.915 Y196.183 Z11.275 E0.48074
+G3 X123.312 Y194.728 Z11.277 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z11.284 E1.1519
+G2 X118.458 Y184.479 Z11.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z11.294 E0.74413
+G1 X111.456 Y184.479 Z11.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z11.3 E0.4469
+G1 X105.069 Y180.486 Z11.305 E0.73877
+G3 X101.230 Y176.286 Z11.311 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z11.333 E3.28367
+G1 X94.706 Y154.364 Z11.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z11.339 E0.44677
+G1 X91.977 Y131.052 Z11.36 E3.28612
+G3 X91.876 Y129.561 Z11.362 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z11.376 E2.19886
+G1 X90.908 Y113.546 Z11.379 E0.44701
+G1 X90.946 Y112.962 Z11.38 E0.09246
+G1 X93.072 Y111.096 Z11.383 E0.4469
+G1 X93.972 Y97.184 Z11.397 E2.20249
+G3 X94.975 Y94.357 Z11.400 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:519.199990
+;LAYER:28
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z11.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z11.419 E2.00688
+G1 X115.163 Y92.385 Z11.422 E0.44688
+G1 X115.741 Y92.474 Z11.423 E0.09239
+G1 X117.412 Y94.757 Z11.426 E0.44697
+G1 X130.33 Y96.76 Z11.439 E2.06525
+G1 X137.707 Y96.76 Z11.447 E1.16546
+G1 X139.708 Y94.76 Z11.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z11.453 E0.44696
+G1 X149.67 Y96.76 Z11.461 E1.16546
+G1 X162.588 Y94.757 Z11.474 E2.06525
+G1 X164.259 Y92.474 Z11.477 E0.44697
+G1 X164.837 Y92.385 Z11.478 E0.09239
+G1 X167.12 Y94.055 Z11.48 E0.44688
+G1 X179.673 Y92.109 Z11.494 E2.00688
+G3 X186.028 Y97.184 Z11.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z11.517 E2.20249
+G1 X189.054 Y112.962 Z11.52 E0.4469
+G1 X189.092 Y113.546 Z11.521 E0.09246
+G1 X187.225 Y115.672 Z11.524 E0.44701
+G1 X188.124 Y129.561 Z11.538 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z11.561 E3.28612
+G1 X185.412 Y153.79 Z11.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z11.567 E0.44672
+G1 X178.77 Y176.286 Z11.589 E3.28367
+G3 X174.931 Y180.486 Z11.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z11.599 E0.73877
+G1 X169.104 Y184.311 Z11.602 E0.4469
+G1 X168.544 Y184.479 Z11.603 E0.09237
+G1 X166.056 Y183.134 Z11.606 E0.44683
+G1 X161.542 Y184.479 Z11.611 E0.74413
+G2 X158.486 Y187.662 Z11.615 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z11.623 E1.1519
+G3 X156.085 Y196.183 Z11.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z11.628 E0.48074
+G1 X155.225 Y201.539 Z11.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z11.634 E0.44682
+G1 X150.638 Y205.338 Z11.637 E0.47784
+G3 X145.891 Y208.042 Z11.643 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z11.647 E0.56843
+G1 X140.292 Y210.042 Z11.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z11.653 E0.44696
+G1 X134.109 Y208.042 Z11.657 E0.56843
+G3 X129.362 Y205.338 Z11.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z11.666 E0.47784
+G1 X125.074 Y202.042 Z11.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z11.672 E0.44678
+G1 X123.915 Y196.183 Z11.675 E0.48074
+G3 X123.312 Y194.728 Z11.677 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z11.684 E1.1519
+G2 X118.458 Y184.479 Z11.689 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z11.694 E0.74413
+G1 X111.456 Y184.479 Z11.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z11.7 E0.4469
+G1 X105.069 Y180.486 Z11.705 E0.73877
+G3 X101.230 Y176.286 Z11.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z11.733 E3.28367
+G1 X94.706 Y154.364 Z11.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z11.739 E0.44677
+G1 X91.977 Y131.052 Z11.76 E3.28612
+G3 X91.876 Y129.561 Z11.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z11.776 E2.19886
+G1 X90.908 Y113.546 Z11.779 E0.44701
+G1 X90.946 Y112.962 Z11.78 E0.09246
+G1 X93.072 Y111.096 Z11.783 E0.4469
+G1 X93.972 Y97.184 Z11.797 E2.20249
+G3 X94.975 Y94.357 Z11.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:525.717790
+;LAYER:29
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z11.806 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z11.819 E2.00688
+G1 X115.163 Y92.385 Z11.822 E0.44688
+G1 X115.741 Y92.474 Z11.823 E0.09239
+G1 X117.412 Y94.757 Z11.826 E0.44697
+G1 X130.33 Y96.76 Z11.839 E2.06525
+G1 X137.707 Y96.76 Z11.847 E1.16546
+G1 X139.708 Y94.76 Z11.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z11.853 E0.44696
+G1 X149.67 Y96.76 Z11.861 E1.16546
+G1 X162.588 Y94.757 Z11.874 E2.06525
+G1 X164.259 Y92.474 Z11.877 E0.44697
+G1 X164.837 Y92.385 Z11.878 E0.09239
+G1 X167.12 Y94.055 Z11.88 E0.44688
+G1 X179.673 Y92.109 Z11.894 E2.00688
+G3 X186.028 Y97.184 Z11.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z11.917 E2.20249
+G1 X189.054 Y112.962 Z11.92 E0.4469
+G1 X189.092 Y113.546 Z11.921 E0.09246
+G1 X187.225 Y115.672 Z11.924 E0.44701
+G1 X188.124 Y129.561 Z11.938 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z11.961 E3.28612
+G1 X185.412 Y153.79 Z11.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z11.967 E0.44672
+G1 X178.77 Y176.286 Z11.989 E3.28367
+G3 X174.931 Y180.486 Z11.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z11.999 E0.73877
+G1 X169.104 Y184.311 Z12.002 E0.4469
+G1 X168.544 Y184.479 Z12.003 E0.09237
+G1 X166.056 Y183.134 Z12.006 E0.44683
+G1 X161.542 Y184.479 Z12.011 E0.74413
+G2 X158.486 Y187.662 Z12.015 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z12.023 E1.1519
+G3 X156.085 Y196.183 Z12.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z12.028 E0.48074
+G1 X155.225 Y201.539 Z12.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z12.034 E0.44682
+G1 X150.638 Y205.338 Z12.037 E0.47784
+G3 X145.891 Y208.042 Z12.043 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z12.047 E0.56843
+G1 X140.292 Y210.042 Z12.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z12.053 E0.44696
+G1 X134.109 Y208.042 Z12.057 E0.56843
+G3 X129.362 Y205.338 Z12.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z12.066 E0.47784
+G1 X125.074 Y202.042 Z12.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z12.072 E0.44678
+G1 X123.915 Y196.183 Z12.075 E0.48074
+G3 X123.312 Y194.728 Z12.077 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z12.084 E1.1519
+G2 X118.458 Y184.479 Z12.089 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z12.094 E0.74413
+G1 X111.456 Y184.479 Z12.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z12.1 E0.4469
+G1 X105.069 Y180.486 Z12.105 E0.73877
+G3 X101.230 Y176.286 Z12.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z12.133 E3.28367
+G1 X94.706 Y154.364 Z12.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z12.139 E0.44677
+G1 X91.977 Y131.052 Z12.16 E3.28612
+G3 X91.876 Y129.561 Z12.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z12.176 E2.19886
+G1 X90.908 Y113.546 Z12.179 E0.44701
+G1 X90.946 Y112.962 Z12.18 E0.09246
+G1 X93.072 Y111.096 Z12.183 E0.4469
+G1 X93.972 Y97.184 Z12.197 E2.20249
+G3 X94.975 Y94.357 Z12.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:532.235589
+;LAYER:30
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z12.206 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z12.219 E2.00688
+G1 X115.163 Y92.385 Z12.222 E0.44688
+G1 X115.741 Y92.474 Z12.223 E0.09239
+G1 X117.412 Y94.757 Z12.226 E0.44697
+G1 X130.33 Y96.76 Z12.239 E2.06525
+G1 X137.707 Y96.76 Z12.247 E1.16546
+G1 X139.708 Y94.76 Z12.25 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z12.253 E0.44696
+G1 X149.67 Y96.76 Z12.261 E1.16546
+G1 X162.588 Y94.757 Z12.274 E2.06525
+G1 X164.259 Y92.474 Z12.277 E0.44697
+G1 X164.837 Y92.385 Z12.278 E0.09239
+G1 X167.12 Y94.055 Z12.28 E0.44688
+G1 X179.673 Y92.109 Z12.294 E2.00688
+G3 X186.028 Y97.184 Z12.303 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z12.317 E2.20249
+G1 X189.054 Y112.962 Z12.32 E0.4469
+G1 X189.092 Y113.546 Z12.321 E0.09246
+G1 X187.225 Y115.672 Z12.324 E0.44701
+G1 X188.124 Y129.561 Z12.338 E2.19886
+G3 X188.023 Y131.052 Z12.339 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z12.361 E3.28612
+G1 X185.412 Y153.79 Z12.364 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z12.367 E0.44672
+G1 X178.77 Y176.286 Z12.389 E3.28367
+G3 X174.931 Y180.486 Z12.395 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z12.399 E0.73877
+G1 X169.104 Y184.311 Z12.402 E0.4469
+G1 X168.544 Y184.479 Z12.403 E0.09237
+G1 X166.056 Y183.134 Z12.406 E0.44683
+G1 X161.542 Y184.479 Z12.411 E0.74413
+G2 X158.486 Y187.662 Z12.415 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z12.423 E1.1519
+G3 X156.085 Y196.183 Z12.425 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z12.428 E0.48074
+G1 X155.225 Y201.539 Z12.431 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z12.434 E0.44682
+G1 X150.638 Y205.338 Z12.437 E0.47784
+G3 X145.891 Y208.042 Z12.443 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z12.447 E0.56843
+G1 X140.292 Y210.042 Z12.45 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z12.453 E0.44696
+G1 X134.109 Y208.042 Z12.457 E0.56843
+G3 X129.362 Y205.338 Z12.463 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z12.466 E0.47784
+G1 X125.074 Y202.042 Z12.469 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z12.472 E0.44678
+G1 X123.915 Y196.183 Z12.475 E0.48074
+G3 X123.312 Y194.728 Z12.477 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z12.484 E1.1519
+G2 X118.458 Y184.479 Z12.489 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z12.494 E0.74413
+G1 X111.456 Y184.479 Z12.497 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z12.5 E0.4469
+G1 X105.069 Y180.486 Z12.505 E0.73877
+G3 X101.230 Y176.286 Z12.511 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z12.533 E3.28367
+G1 X94.706 Y154.364 Z12.536 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z12.539 E0.44677
+G1 X91.977 Y131.052 Z12.56 E3.28612
+G3 X91.876 Y129.561 Z12.562 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z12.576 E2.19886
+G1 X90.908 Y113.546 Z12.579 E0.44701
+G1 X90.946 Y112.962 Z12.58 E0.09246
+G1 X93.072 Y111.096 Z12.583 E0.4469
+G1 X93.972 Y97.184 Z12.597 E2.20249
+G3 X94.975 Y94.357 Z12.600 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:538.753389
+;LAYER:31
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z12.606 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z12.619 E2.00688
+G1 X115.163 Y92.385 Z12.622 E0.44688
+G1 X115.741 Y92.474 Z12.623 E0.09239
+G1 X117.412 Y94.757 Z12.626 E0.44697
+G1 X130.33 Y96.76 Z12.639 E2.06525
+G1 X137.707 Y96.76 Z12.647 E1.16546
+G1 X139.708 Y94.76 Z12.65 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z12.653 E0.44696
+G1 X149.67 Y96.76 Z12.661 E1.16546
+G1 X162.588 Y94.757 Z12.674 E2.06525
+G1 X164.259 Y92.474 Z12.677 E0.44697
+G1 X164.837 Y92.385 Z12.678 E0.09239
+G1 X167.12 Y94.055 Z12.68 E0.44688
+G1 X179.673 Y92.109 Z12.694 E2.00688
+G3 X186.028 Y97.184 Z12.703 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z12.717 E2.20249
+G1 X189.054 Y112.962 Z12.72 E0.4469
+G1 X189.092 Y113.546 Z12.721 E0.09246
+G1 X187.225 Y115.672 Z12.724 E0.44701
+G1 X188.124 Y129.561 Z12.738 E2.19886
+G3 X188.023 Y131.052 Z12.739 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z12.761 E3.28612
+G1 X185.412 Y153.79 Z12.764 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z12.767 E0.44672
+G1 X178.77 Y176.286 Z12.789 E3.28367
+G3 X174.931 Y180.486 Z12.795 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z12.799 E0.73877
+G1 X169.104 Y184.311 Z12.802 E0.4469
+G1 X168.544 Y184.479 Z12.803 E0.09237
+G1 X166.056 Y183.134 Z12.806 E0.44683
+G1 X161.542 Y184.479 Z12.811 E0.74413
+G2 X158.486 Y187.662 Z12.815 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z12.823 E1.1519
+G3 X156.085 Y196.183 Z12.825 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z12.828 E0.48074
+G1 X155.225 Y201.539 Z12.831 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z12.834 E0.44682
+G1 X150.638 Y205.338 Z12.837 E0.47784
+G3 X145.891 Y208.042 Z12.843 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z12.847 E0.56843
+G1 X140.292 Y210.042 Z12.85 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z12.853 E0.44696
+G1 X134.109 Y208.042 Z12.857 E0.56843
+G3 X129.362 Y205.338 Z12.863 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z12.866 E0.47784
+G1 X125.074 Y202.042 Z12.869 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z12.872 E0.44678
+G1 X123.915 Y196.183 Z12.875 E0.48074
+G3 X123.312 Y194.728 Z12.877 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z12.884 E1.1519
+G2 X118.458 Y184.479 Z12.889 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z12.894 E0.74413
+G1 X111.456 Y184.479 Z12.897 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z12.9 E0.4469
+G1 X105.069 Y180.486 Z12.905 E0.73877
+G3 X101.230 Y176.286 Z12.911 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z12.933 E3.28367
+G1 X94.706 Y154.364 Z12.936 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z12.939 E0.44677
+G1 X91.977 Y131.052 Z12.96 E3.28612
+G3 X91.876 Y129.561 Z12.962 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z12.976 E2.19886
+G1 X90.908 Y113.546 Z12.979 E0.44701
+G1 X90.946 Y112.962 Z12.98 E0.09246
+G1 X93.072 Y111.096 Z12.983 E0.4469
+G1 X93.972 Y97.184 Z12.997 E2.20249
+G3 X94.975 Y94.357 Z13.000 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:545.271188
+;LAYER:32
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z13.006 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z13.019 E2.00688
+G1 X115.163 Y92.385 Z13.022 E0.44688
+G1 X115.741 Y92.474 Z13.023 E0.09239
+G1 X117.412 Y94.757 Z13.026 E0.44697
+G1 X130.33 Y96.76 Z13.039 E2.06525
+G1 X137.707 Y96.76 Z13.047 E1.16546
+G1 X139.708 Y94.76 Z13.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z13.053 E0.44696
+G1 X149.67 Y96.76 Z13.061 E1.16546
+G1 X162.588 Y94.757 Z13.074 E2.06525
+G1 X164.259 Y92.474 Z13.077 E0.44697
+G1 X164.837 Y92.385 Z13.078 E0.09239
+G1 X167.12 Y94.055 Z13.08 E0.44688
+G1 X179.673 Y92.109 Z13.094 E2.00688
+G3 X186.028 Y97.184 Z13.103 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z13.117 E2.20249
+G1 X189.054 Y112.962 Z13.12 E0.4469
+G1 X189.092 Y113.546 Z13.121 E0.09246
+G1 X187.225 Y115.672 Z13.124 E0.44701
+G1 X188.124 Y129.561 Z13.138 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z13.161 E3.28612
+G1 X185.412 Y153.79 Z13.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z13.167 E0.44672
+G1 X178.77 Y176.286 Z13.189 E3.28367
+G3 X174.931 Y180.486 Z13.195 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z13.199 E0.73877
+G1 X169.104 Y184.311 Z13.202 E0.4469
+G1 X168.544 Y184.479 Z13.203 E0.09237
+G1 X166.056 Y183.134 Z13.206 E0.44683
+G1 X161.542 Y184.479 Z13.211 E0.74413
+G2 X158.486 Y187.662 Z13.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z13.223 E1.1519
+G3 X156.085 Y196.183 Z13.225 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z13.228 E0.48074
+G1 X155.225 Y201.539 Z13.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z13.234 E0.44682
+G1 X150.638 Y205.338 Z13.237 E0.47784
+G3 X145.891 Y208.042 Z13.243 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z13.247 E0.56843
+G1 X140.292 Y210.042 Z13.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z13.253 E0.44696
+G1 X134.109 Y208.042 Z13.257 E0.56843
+G3 X129.362 Y205.338 Z13.263 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z13.266 E0.47784
+G1 X125.074 Y202.042 Z13.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z13.272 E0.44678
+G1 X123.915 Y196.183 Z13.275 E0.48074
+G3 X123.312 Y194.728 Z13.277 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z13.284 E1.1519
+G2 X118.458 Y184.479 Z13.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z13.294 E0.74413
+G1 X111.456 Y184.479 Z13.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z13.3 E0.4469
+G1 X105.069 Y180.486 Z13.305 E0.73877
+G3 X101.230 Y176.286 Z13.311 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z13.333 E3.28367
+G1 X94.706 Y154.364 Z13.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z13.339 E0.44677
+G1 X91.977 Y131.052 Z13.36 E3.28612
+G3 X91.876 Y129.561 Z13.362 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z13.376 E2.19886
+G1 X90.908 Y113.546 Z13.379 E0.44701
+G1 X90.946 Y112.962 Z13.38 E0.09246
+G1 X93.072 Y111.096 Z13.383 E0.4469
+G1 X93.972 Y97.184 Z13.397 E2.20249
+G3 X94.975 Y94.357 Z13.400 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:551.788988
+;LAYER:33
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z13.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z13.419 E2.00688
+G1 X115.163 Y92.385 Z13.422 E0.44688
+G1 X115.741 Y92.474 Z13.423 E0.09239
+G1 X117.412 Y94.757 Z13.426 E0.44697
+G1 X130.33 Y96.76 Z13.439 E2.06525
+G1 X137.707 Y96.76 Z13.447 E1.16546
+G1 X139.708 Y94.76 Z13.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z13.453 E0.44696
+G1 X149.67 Y96.76 Z13.461 E1.16546
+G1 X162.588 Y94.757 Z13.474 E2.06525
+G1 X164.259 Y92.474 Z13.477 E0.44697
+G1 X164.837 Y92.385 Z13.478 E0.09239
+G1 X167.12 Y94.055 Z13.48 E0.44688
+G1 X179.673 Y92.109 Z13.494 E2.00688
+G3 X186.028 Y97.184 Z13.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z13.517 E2.20249
+G1 X189.054 Y112.962 Z13.52 E0.4469
+G1 X189.092 Y113.546 Z13.521 E0.09246
+G1 X187.225 Y115.672 Z13.524 E0.44701
+G1 X188.124 Y129.561 Z13.538 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z13.561 E3.28612
+G1 X185.412 Y153.79 Z13.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z13.567 E0.44672
+G1 X178.77 Y176.286 Z13.589 E3.28367
+G3 X174.931 Y180.486 Z13.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z13.599 E0.73877
+G1 X169.104 Y184.311 Z13.602 E0.4469
+G1 X168.544 Y184.479 Z13.603 E0.09237
+G1 X166.056 Y183.134 Z13.606 E0.44683
+G1 X161.542 Y184.479 Z13.611 E0.74413
+G2 X158.486 Y187.662 Z13.615 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z13.623 E1.1519
+G3 X156.085 Y196.183 Z13.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z13.628 E0.48074
+G1 X155.225 Y201.539 Z13.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z13.634 E0.44682
+G1 X150.638 Y205.338 Z13.637 E0.47784
+G3 X145.891 Y208.042 Z13.643 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z13.647 E0.56843
+G1 X140.292 Y210.042 Z13.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z13.653 E0.44696
+G1 X134.109 Y208.042 Z13.657 E0.56843
+G3 X129.362 Y205.338 Z13.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z13.666 E0.47784
+G1 X125.074 Y202.042 Z13.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z13.672 E0.44678
+G1 X123.915 Y196.183 Z13.675 E0.48074
+G3 X123.312 Y194.728 Z13.677 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z13.684 E1.1519
+G2 X118.458 Y184.479 Z13.689 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z13.694 E0.74413
+G1 X111.456 Y184.479 Z13.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z13.7 E0.4469
+G1 X105.069 Y180.486 Z13.705 E0.73877
+G3 X101.230 Y176.286 Z13.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z13.733 E3.28367
+G1 X94.706 Y154.364 Z13.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z13.739 E0.44677
+G1 X91.977 Y131.052 Z13.76 E3.28612
+G3 X91.876 Y129.561 Z13.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z13.776 E2.19886
+G1 X90.908 Y113.546 Z13.779 E0.44701
+G1 X90.946 Y112.962 Z13.78 E0.09246
+G1 X93.072 Y111.096 Z13.783 E0.4469
+G1 X93.972 Y97.184 Z13.797 E2.20249
+G3 X94.975 Y94.357 Z13.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:558.306787
+;LAYER:34
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z13.806 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z13.819 E2.00688
+G1 X115.163 Y92.385 Z13.822 E0.44688
+G1 X115.741 Y92.474 Z13.823 E0.09239
+G1 X117.412 Y94.757 Z13.826 E0.44697
+G1 X130.33 Y96.76 Z13.839 E2.06525
+G1 X137.707 Y96.76 Z13.847 E1.16546
+G1 X139.708 Y94.76 Z13.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z13.853 E0.44696
+G1 X149.67 Y96.76 Z13.861 E1.16546
+G1 X162.588 Y94.757 Z13.874 E2.06525
+G1 X164.259 Y92.474 Z13.877 E0.44697
+G1 X164.837 Y92.385 Z13.878 E0.09239
+G1 X167.12 Y94.055 Z13.88 E0.44688
+G1 X179.673 Y92.109 Z13.894 E2.00688
+G3 X186.028 Y97.184 Z13.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z13.917 E2.20249
+G1 X189.054 Y112.962 Z13.92 E0.4469
+G1 X189.092 Y113.546 Z13.921 E0.09246
+G1 X187.225 Y115.672 Z13.924 E0.44701
+G1 X188.124 Y129.561 Z13.938 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z13.961 E3.28612
+G1 X185.412 Y153.79 Z13.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z13.967 E0.44672
+G1 X178.77 Y176.286 Z13.989 E3.28367
+G3 X174.931 Y180.486 Z13.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z13.999 E0.73877
+G1 X169.104 Y184.311 Z14.002 E0.4469
+G1 X168.544 Y184.479 Z14.003 E0.09237
+G1 X166.056 Y183.134 Z14.006 E0.44683
+G1 X161.542 Y184.479 Z14.011 E0.74413
+G2 X158.486 Y187.662 Z14.015 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z14.023 E1.1519
+G3 X156.085 Y196.183 Z14.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z14.028 E0.48074
+G1 X155.225 Y201.539 Z14.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z14.034 E0.44682
+G1 X150.638 Y205.338 Z14.037 E0.47784
+G3 X145.891 Y208.042 Z14.043 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z14.047 E0.56843
+G1 X140.292 Y210.042 Z14.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z14.053 E0.44696
+G1 X134.109 Y208.042 Z14.057 E0.56843
+G3 X129.362 Y205.338 Z14.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z14.066 E0.47784
+G1 X125.074 Y202.042 Z14.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z14.072 E0.44678
+G1 X123.915 Y196.183 Z14.075 E0.48074
+G3 X123.312 Y194.728 Z14.077 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z14.084 E1.1519
+G2 X118.458 Y184.479 Z14.089 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z14.094 E0.74413
+G1 X111.456 Y184.479 Z14.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z14.1 E0.4469
+G1 X105.069 Y180.486 Z14.105 E0.73877
+G3 X101.230 Y176.286 Z14.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z14.133 E3.28367
+G1 X94.706 Y154.364 Z14.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z14.139 E0.44677
+G1 X91.977 Y131.052 Z14.16 E3.28612
+G3 X91.876 Y129.561 Z14.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z14.176 E2.19886
+G1 X90.908 Y113.546 Z14.179 E0.44701
+G1 X90.946 Y112.962 Z14.18 E0.09246
+G1 X93.072 Y111.096 Z14.183 E0.4469
+G1 X93.972 Y97.184 Z14.197 E2.20249
+G3 X94.975 Y94.357 Z14.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:564.824587
+;LAYER:35
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z14.206 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z14.219 E2.00688
+G1 X115.163 Y92.385 Z14.222 E0.44688
+G1 X115.741 Y92.474 Z14.223 E0.09239
+G1 X117.412 Y94.757 Z14.226 E0.44697
+G1 X130.33 Y96.76 Z14.239 E2.06525
+G1 X137.707 Y96.76 Z14.247 E1.16546
+G1 X139.708 Y94.76 Z14.25 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z14.253 E0.44696
+G1 X149.676 Y96.76 Z14.261 E1.16641
+G1 X162.588 Y94.757 Z14.274 E2.06431
+G1 X164.259 Y92.474 Z14.277 E0.44697
+G1 X164.837 Y92.385 Z14.278 E0.09239
+G1 X167.12 Y94.055 Z14.28 E0.44688
+G1 X179.673 Y92.109 Z14.294 E2.00688
+G3 X186.028 Y97.184 Z14.303 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z14.317 E2.20249
+G1 X189.054 Y112.962 Z14.32 E0.4469
+G1 X189.092 Y113.546 Z14.321 E0.09246
+G1 X187.225 Y115.672 Z14.324 E0.44701
+G1 X188.124 Y129.561 Z14.338 E2.19886
+G3 X188.023 Y131.052 Z14.339 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z14.361 E3.28612
+G1 X185.412 Y153.79 Z14.364 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z14.367 E0.44672
+G1 X178.77 Y176.286 Z14.389 E3.28367
+G3 X174.931 Y180.486 Z14.395 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z14.399 E0.73877
+G1 X169.104 Y184.311 Z14.402 E0.4469
+G1 X168.544 Y184.479 Z14.403 E0.09237
+G1 X166.056 Y183.134 Z14.406 E0.44683
+G1 X161.542 Y184.479 Z14.411 E0.74413
+G2 X158.486 Y187.662 Z14.415 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z14.423 E1.1519
+G3 X156.085 Y196.183 Z14.425 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z14.428 E0.48074
+G1 X155.225 Y201.539 Z14.431 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z14.434 E0.44682
+G1 X150.638 Y205.338 Z14.437 E0.47784
+G3 X145.891 Y208.042 Z14.443 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z14.447 E0.56843
+G1 X140.292 Y210.042 Z14.45 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z14.453 E0.44696
+G1 X134.109 Y208.042 Z14.457 E0.56843
+G3 X129.362 Y205.338 Z14.463 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z14.466 E0.47784
+G1 X125.074 Y202.042 Z14.469 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z14.472 E0.44678
+G1 X123.915 Y196.183 Z14.475 E0.48074
+G3 X123.312 Y194.728 Z14.477 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z14.484 E1.1519
+G2 X118.458 Y184.479 Z14.489 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z14.494 E0.74413
+G1 X111.456 Y184.479 Z14.497 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z14.5 E0.4469
+G1 X105.069 Y180.486 Z14.505 E0.73877
+G3 X101.230 Y176.286 Z14.511 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z14.533 E3.28367
+G1 X94.706 Y154.364 Z14.536 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z14.539 E0.44677
+G1 X91.977 Y131.052 Z14.56 E3.28612
+G3 X91.876 Y129.561 Z14.562 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z14.576 E2.19886
+G1 X90.908 Y113.546 Z14.579 E0.44701
+G1 X90.946 Y112.962 Z14.58 E0.09246
+G1 X93.072 Y111.096 Z14.583 E0.4469
+G1 X93.972 Y97.184 Z14.597 E2.20249
+G3 X94.975 Y94.357 Z14.600 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:571.342384
+;LAYER:36
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z14.606 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z14.619 E2.00688
+G1 X115.163 Y92.385 Z14.622 E0.44688
+G1 X115.741 Y92.474 Z14.623 E0.09239
+G1 X117.412 Y94.757 Z14.626 E0.44697
+G1 X130.33 Y96.76 Z14.639 E2.06525
+G1 X137.707 Y96.76 Z14.647 E1.16546
+G1 X139.708 Y94.76 Z14.65 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z14.653 E0.44696
+G1 X149.676 Y96.759 Z14.661 E1.16641
+G1 X162.588 Y94.757 Z14.674 E2.06429
+G1 X164.259 Y92.474 Z14.677 E0.44697
+G1 X164.837 Y92.385 Z14.678 E0.09239
+G1 X167.12 Y94.055 Z14.68 E0.44688
+G1 X179.673 Y92.109 Z14.694 E2.00688
+G3 X186.028 Y97.184 Z14.703 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z14.717 E2.20249
+G1 X189.054 Y112.962 Z14.72 E0.4469
+G1 X189.092 Y113.546 Z14.721 E0.09246
+G1 X187.225 Y115.672 Z14.724 E0.44701
+G1 X188.124 Y129.561 Z14.738 E2.19886
+G3 X188.023 Y131.052 Z14.739 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z14.761 E3.28612
+G1 X185.412 Y153.79 Z14.764 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z14.767 E0.44672
+G1 X178.77 Y176.286 Z14.789 E3.28367
+G3 X174.931 Y180.486 Z14.795 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z14.799 E0.73877
+G1 X169.104 Y184.311 Z14.802 E0.4469
+G1 X168.544 Y184.479 Z14.803 E0.09237
+G1 X166.056 Y183.134 Z14.806 E0.44683
+G1 X161.542 Y184.479 Z14.811 E0.74413
+G2 X158.486 Y187.662 Z14.815 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z14.823 E1.1519
+G3 X156.085 Y196.183 Z14.825 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z14.828 E0.48074
+G1 X155.225 Y201.539 Z14.831 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z14.834 E0.44682
+G1 X150.638 Y205.338 Z14.837 E0.47784
+G3 X145.891 Y208.042 Z14.843 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z14.847 E0.56843
+G1 X140.292 Y210.042 Z14.85 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z14.853 E0.44696
+G1 X134.109 Y208.042 Z14.857 E0.56843
+G3 X129.362 Y205.338 Z14.863 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z14.866 E0.47784
+G1 X125.074 Y202.042 Z14.869 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z14.872 E0.44678
+G1 X123.915 Y196.183 Z14.875 E0.48074
+G3 X123.312 Y194.728 Z14.877 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z14.884 E1.1519
+G2 X118.458 Y184.479 Z14.889 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z14.894 E0.74413
+G1 X111.456 Y184.479 Z14.897 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z14.9 E0.4469
+G1 X105.069 Y180.486 Z14.905 E0.73877
+G3 X101.230 Y176.286 Z14.911 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z14.933 E3.28367
+G1 X94.706 Y154.364 Z14.936 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z14.939 E0.44677
+G1 X91.977 Y131.052 Z14.96 E3.28612
+G3 X91.876 Y129.561 Z14.962 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z14.976 E2.19886
+G1 X90.908 Y113.546 Z14.979 E0.44701
+G1 X90.946 Y112.962 Z14.98 E0.09246
+G1 X93.072 Y111.096 Z14.983 E0.4469
+G1 X93.972 Y97.184 Z14.997 E2.20249
+G3 X94.975 Y94.357 Z15.000 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:577.860189
+;LAYER:37
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z15.006 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z15.019 E2.00688
+G1 X115.163 Y92.385 Z15.022 E0.44688
+G1 X115.741 Y92.474 Z15.023 E0.09239
+G1 X117.412 Y94.757 Z15.026 E0.44697
+G1 X130.33 Y96.76 Z15.039 E2.06525
+G1 X137.707 Y96.76 Z15.047 E1.16546
+G1 X139.708 Y94.76 Z15.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z15.053 E0.44696
+G1 X149.669 Y96.76 Z15.061 E1.1653
+G1 X162.588 Y94.757 Z15.074 E2.0654
+G1 X164.259 Y92.474 Z15.077 E0.44697
+G1 X164.837 Y92.385 Z15.078 E0.09239
+G1 X167.12 Y94.055 Z15.08 E0.44688
+G1 X179.673 Y92.109 Z15.094 E2.00688
+G3 X186.028 Y97.184 Z15.103 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z15.117 E2.20249
+G1 X189.054 Y112.962 Z15.12 E0.4469
+G1 X189.092 Y113.546 Z15.121 E0.09246
+G1 X187.225 Y115.672 Z15.124 E0.44701
+G1 X188.124 Y129.561 Z15.138 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z15.161 E3.28612
+G1 X185.412 Y153.79 Z15.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z15.167 E0.44672
+G1 X178.77 Y176.286 Z15.189 E3.28367
+G3 X174.931 Y180.486 Z15.195 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z15.199 E0.73877
+G1 X169.104 Y184.311 Z15.202 E0.4469
+G1 X168.544 Y184.479 Z15.203 E0.09237
+G1 X166.056 Y183.134 Z15.206 E0.44683
+G1 X161.542 Y184.479 Z15.211 E0.74413
+G2 X158.486 Y187.662 Z15.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z15.223 E1.1519
+G3 X156.085 Y196.183 Z15.225 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z15.228 E0.48074
+G1 X155.225 Y201.539 Z15.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z15.234 E0.44682
+G1 X150.638 Y205.338 Z15.237 E0.47784
+G3 X145.891 Y208.042 Z15.243 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z15.247 E0.56843
+G1 X140.292 Y210.042 Z15.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z15.253 E0.44696
+G1 X134.109 Y208.042 Z15.257 E0.56843
+G3 X129.362 Y205.338 Z15.263 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z15.266 E0.47784
+G1 X125.074 Y202.042 Z15.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z15.272 E0.44678
+G1 X123.915 Y196.183 Z15.275 E0.48074
+G3 X123.312 Y194.728 Z15.277 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z15.284 E1.1519
+G2 X118.458 Y184.479 Z15.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z15.294 E0.74413
+G1 X111.456 Y184.479 Z15.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z15.3 E0.4469
+G1 X105.069 Y180.486 Z15.305 E0.73877
+G3 X101.230 Y176.286 Z15.311 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z15.333 E3.28367
+G1 X94.706 Y154.364 Z15.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z15.339 E0.44677
+G1 X91.977 Y131.052 Z15.36 E3.28612
+G3 X91.876 Y129.561 Z15.362 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z15.376 E2.19886
+G1 X90.908 Y113.546 Z15.379 E0.44701
+G1 X90.946 Y112.962 Z15.38 E0.09246
+G1 X93.072 Y111.096 Z15.383 E0.4469
+G1 X93.972 Y97.184 Z15.397 E2.20249
+G3 X94.975 Y94.357 Z15.400 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:584.377989
+;LAYER:38
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z15.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z15.419 E2.00688
+G1 X115.163 Y92.385 Z15.422 E0.44688
+G1 X115.741 Y92.474 Z15.423 E0.09239
+G1 X117.412 Y94.757 Z15.426 E0.44697
+G1 X130.33 Y96.76 Z15.439 E2.06525
+G1 X137.707 Y96.76 Z15.447 E1.16546
+G1 X139.708 Y94.76 Z15.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z15.453 E0.44696
+G1 X149.671 Y96.76 Z15.461 E1.16562
+G1 X162.588 Y94.757 Z15.474 E2.06509
+G1 X164.259 Y92.474 Z15.477 E0.44697
+G1 X164.837 Y92.385 Z15.478 E0.09239
+G1 X167.12 Y94.055 Z15.48 E0.44688
+G1 X179.673 Y92.109 Z15.494 E2.00688
+G3 X186.028 Y97.184 Z15.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z15.517 E2.20249
+G1 X189.054 Y112.962 Z15.52 E0.4469
+G1 X189.092 Y113.546 Z15.521 E0.09246
+G1 X187.225 Y115.672 Z15.524 E0.44701
+G1 X188.124 Y129.561 Z15.538 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z15.561 E3.28612
+G1 X185.412 Y153.79 Z15.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z15.567 E0.44672
+G1 X178.77 Y176.286 Z15.589 E3.28367
+G3 X174.931 Y180.486 Z15.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z15.599 E0.73877
+G1 X169.104 Y184.311 Z15.602 E0.4469
+G1 X168.544 Y184.479 Z15.603 E0.09237
+G1 X166.056 Y183.134 Z15.606 E0.44683
+G1 X161.542 Y184.479 Z15.611 E0.74413
+G2 X158.486 Y187.662 Z15.615 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z15.623 E1.1519
+G3 X156.085 Y196.183 Z15.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z15.628 E0.48074
+G1 X155.225 Y201.539 Z15.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z15.634 E0.44682
+G1 X150.638 Y205.338 Z15.637 E0.47784
+G3 X145.891 Y208.042 Z15.643 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z15.647 E0.56843
+G1 X140.292 Y210.042 Z15.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z15.653 E0.44696
+G1 X134.109 Y208.042 Z15.657 E0.56843
+G3 X129.362 Y205.338 Z15.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z15.666 E0.47784
+G1 X125.074 Y202.042 Z15.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z15.672 E0.44678
+G1 X123.915 Y196.183 Z15.675 E0.48074
+G3 X123.312 Y194.728 Z15.677 I4.730 J-2.813 E0.24961
+G1 X121.507 Y187.639 Z15.684 E1.15569
+G2 X118.458 Y184.479 Z15.689 I-4.343 J1.139 E0.72439
+G1 X113.944 Y183.134 Z15.694 E0.74413
+G1 X111.456 Y184.479 Z15.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z15.7 E0.4469
+G1 X105.069 Y180.486 Z15.705 E0.73877
+G3 X101.230 Y176.286 Z15.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z15.733 E3.28367
+G1 X94.706 Y154.364 Z15.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z15.739 E0.44677
+G1 X91.977 Y131.052 Z15.76 E3.28612
+G3 X91.876 Y129.561 Z15.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z15.776 E2.19886
+G1 X90.908 Y113.546 Z15.779 E0.44701
+G1 X90.946 Y112.962 Z15.78 E0.09246
+G1 X93.072 Y111.096 Z15.783 E0.4469
+G1 X93.972 Y97.184 Z15.797 E2.20249
+G3 X94.975 Y94.357 Z15.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:590.895788
+;LAYER:39
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z15.806 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z15.819 E2.00688
+G1 X115.163 Y92.385 Z15.822 E0.44688
+G1 X115.741 Y92.474 Z15.823 E0.09239
+G1 X117.412 Y94.757 Z15.826 E0.44697
+G1 X130.331 Y96.76 Z15.839 E2.0654
+G1 X137.707 Y96.76 Z15.847 E1.1653
+G1 X139.708 Y94.76 Z15.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z15.853 E0.44696
+G1 X149.67 Y96.76 Z15.861 E1.16546
+G1 X162.588 Y94.757 Z15.874 E2.06525
+G1 X164.259 Y92.474 Z15.877 E0.44697
+G1 X164.837 Y92.385 Z15.878 E0.09239
+G1 X167.12 Y94.055 Z15.88 E0.44688
+G1 X179.673 Y92.109 Z15.894 E2.00688
+G3 X186.028 Y97.184 Z15.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z15.917 E2.20249
+G1 X189.054 Y112.962 Z15.92 E0.4469
+G1 X189.092 Y113.546 Z15.921 E0.09246
+G1 X187.225 Y115.672 Z15.924 E0.44701
+G1 X188.124 Y129.561 Z15.938 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z15.961 E3.28612
+G1 X185.412 Y153.79 Z15.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z15.967 E0.44672
+G1 X178.77 Y176.286 Z15.989 E3.28367
+G3 X174.931 Y180.486 Z15.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z15.999 E0.73877
+G1 X169.104 Y184.311 Z16.002 E0.4469
+G1 X168.544 Y184.479 Z16.003 E0.09237
+G1 X166.056 Y183.134 Z16.006 E0.44683
+G1 X161.541 Y184.479 Z16.011 E0.74428
+G2 X158.486 Y187.662 Z16.015 I1.302 J4.307 E0.72803
+G1 X156.688 Y194.728 Z16.023 E1.1519
+G3 X156.085 Y196.183 Z16.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z16.028 E0.48074
+G1 X155.225 Y201.539 Z16.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z16.034 E0.44682
+G1 X150.638 Y205.338 Z16.037 E0.47784
+G3 X145.895 Y208.041 Z16.043 I-4.737 J-2.799 E0.90195
+G1 X142.293 Y208.042 Z16.047 E0.56906
+G1 X140.292 Y210.042 Z16.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z16.053 E0.44696
+G1 X134.109 Y208.042 Z16.057 E0.56843
+G3 X129.362 Y205.338 Z16.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z16.066 E0.47784
+G1 X125.074 Y202.042 Z16.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z16.072 E0.44678
+G1 X123.915 Y196.183 Z16.075 E0.48074
+G3 X123.313 Y194.728 Z16.077 I4.666 J-2.783 E0.24956
+G1 X121.513 Y187.661 Z16.084 E1.15213
+G2 X118.460 Y184.480 Z16.089 I-4.352 J1.121 E0.72759
+G1 X113.944 Y183.134 Z16.094 E0.74448
+G1 X111.456 Y184.479 Z16.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z16.1 E0.4469
+G1 X105.069 Y180.486 Z16.105 E0.73877
+G3 X101.230 Y176.286 Z16.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z16.133 E3.28367
+G1 X94.706 Y154.364 Z16.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z16.139 E0.44677
+G1 X91.977 Y131.052 Z16.16 E3.28612
+G3 X91.876 Y129.561 Z16.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z16.176 E2.19886
+G1 X90.908 Y113.546 Z16.179 E0.44701
+G1 X90.946 Y112.962 Z16.18 E0.09246
+G1 X93.072 Y111.096 Z16.183 E0.4469
+G1 X93.972 Y97.184 Z16.197 E2.20249
+G3 X94.975 Y94.357 Z16.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:597.413569
+;LAYER:40
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.320 Y92.104 Z16.206 I4.495 J3.198 E0.96447 F4763
+G1 X113.165 Y93.847 Z16.22 E2.04792
+G1 X115.163 Y92.385 Z16.222 E0.39114
+G1 X115.741 Y92.474 Z16.223 E0.09239
+G1 X117.203 Y94.471 Z16.225 E0.39101
+G1 X130.35 Y96.736 Z16.239 E2.10764
+G1 X137.956 Y96.512 Z16.247 E1.20216
+G1 X139.708 Y94.76 Z16.25 E0.39144
+G1 X140.292 Y94.76 E0.09226
+G1 X142.042 Y96.51 Z16.253 E0.39099
+G1 X149.645 Y96.723 Z16.26 E1.20164
+G1 X162.795 Y94.473 Z16.274 E2.1077
+G1 X164.259 Y92.474 Z16.277 E0.39145
+G1 X164.837 Y92.385 E0.09239
+G1 X166.834 Y93.846 Z16.28 E0.39092
+G1 X179.669 Y92.051 Z16.293 E2.04748
+G3 X186.092 Y97.180 Z16.303 I0.872 J5.495 E1.46025
+G1 X187.192 Y111.328 Z16.317 E2.24193
+G1 X189.054 Y112.962 Z16.32 E0.39138
+G1 X189.092 Y113.546 Z16.321 E0.09246
+G1 X187.459 Y115.406 Z16.323 E0.39104
+G1 X188.209 Y129.556 Z16.338 E2.23864
+G3 X188.108 Y131.069 I-8.146 J0.216 E0.24008
+G1 X184.048 Y151.725 Z16.361 E3.32579
+G1 X185.412 Y153.79 Z16.364 E0.39099
+G1 X185.294 Y154.364 E0.09258
+G1 X183.231 Y155.728 Z16.367 E0.39072
+G1 X178.885 Y176.31 Z16.388 E3.32336
+G3 X174.965 Y180.602 Z16.395 I-5.522 J-1.107 E0.96439
+G1 X170.283 Y182.132 Z16.4 E0.77818
+G1 X169.104 Y184.311 Z16.402 E0.39141
+G1 X168.544 Y184.479 Z16.403 E0.09237
+G1 X166.367 Y183.303 Z16.405 E0.39091
+G1 X161.57 Y184.607 Z16.411 E0.78536
+G2 X158.619 Y187.686 Z16.415 I1.276 J4.176 E0.70339
+G1 X156.822 Y194.761 Z16.423 E1.15324
+G3 X156.205 Y196.254 Z16.424 I-5.343 J-1.334 E0.25602
+G1 X154.615 Y199.139 Z16.428 E0.52043
+G1 X155.225 Y201.539 Z16.43 E0.39122
+G1 X154.926 Y202.042 Z16.431 E0.09245
+G1 X152.528 Y202.651 Z16.434 E0.39088
+G3 X150.404 Y205.951 Z16.438 I-73.182 J-44.769 E0.62003
+G3 X145.893 Y208.193 Z16.443 I-4.507 J-3.409 E0.82432
+G1 X142.044 Y208.29 Z16.447 E0.60828
+G1 X140.292 Y210.042 Z16.449 E0.39144
+G1 X139.708 Y210.042 Z16.45 E0.09226
+G1 X137.958 Y208.292 Z16.453 E0.39099
+G1 X134.108 Y208.201 Z16.457 E0.60841
+G3 X129.225 Y205.427 Z16.463 I-0.013 J-5.661 E0.92779
+G1 X127.473 Y202.652 Z16.466 E0.51848
+G1 X125.074 Y202.042 Z16.469 E0.39107
+G1 X124.775 Y201.539 E0.09245
+G1 X125.384 Y199.141 Z16.472 E0.39088
+G3 X123.513 Y195.794 Z16.476 I69.426 J-41.006 E0.60581
+G3 X123.145 Y194.770 Z16.477 I5.183 J-2.441 E0.17211
+G1 X121.341 Y187.701 Z16.484 E1.15259
+G2 X118.412 Y184.655 Z16.489 I-4.173 J1.081 E0.69725
+G1 X113.634 Y183.302 Z16.494 E0.78454
+G1 X111.456 Y184.479 Z16.497 E0.39112
+G1 X110.896 Y184.311 E0.09237
+G1 X109.719 Y182.134 Z16.5 E0.39098
+G1 X105.015 Y180.668 Z16.505 E0.77842
+G3 X101.042 Y176.331 Z16.511 I1.618 J-5.470 E0.97575
+G1 X96.772 Y155.729 Z16.533 E3.324
+G1 X94.706 Y154.364 Z16.535 E0.3912
+G1 X94.588 Y153.79 Z16.536 E0.09258
+G1 X95.951 Y151.726 Z16.539 E0.39077
+G1 X91.759 Y131.099 Z16.56 E3.32539
+G3 X91.650 Y129.546 Z16.562 I5.677 J-1.179 E0.24660
+G1 X92.542 Y115.407 Z16.576 E2.2382
+G1 X90.908 Y113.546 Z16.579 E0.39126
+G1 X90.946 Y112.962 Z16.58 E0.09246
+G1 X92.806 Y111.33 Z16.582 E0.39093
+G1 X93.725 Y97.168 Z16.597 E2.2421
+G3 X94.763 Y94.221 Z16.600 I5.780 J0.380 E0.49951
+;TIME_ELAPSED:603.840527
+;LAYER:41
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.346 Y91.856 Z16.607 I4.703 J3.329 E1.00809 F4760
+G1 X113.485 Y93.613 Z16.62 E2.09425
+G1 X115.163 Y92.385 Z16.622 E0.32851
+G1 X115.741 Y92.474 Z16.623 E0.09239
+G1 X116.968 Y94.152 Z16.625 E0.32841
+G1 X130.334 Y96.479 Z16.639 E2.1434
+G1 X138.236 Y96.232 Z16.647 E1.24901
+G1 X139.708 Y94.76 Z16.65 E0.32888
+G1 X140.292 Y94.76 E0.09226
+G1 X141.762 Y96.23 Z16.652 E0.32844
+G1 X149.616 Y96.468 Z16.66 E1.24139
+G1 X163.03 Y94.154 Z16.674 E2.15052
+G1 X164.259 Y92.474 Z16.677 E0.32885
+G1 X164.837 Y92.385 E0.09239
+G1 X166.514 Y93.612 Z16.679 E0.32829
+G1 X179.643 Y91.796 Z16.693 E2.09394
+G3 X186.350 Y97.191 Z16.703 I0.901 J5.746 E1.52991
+G1 X187.49 Y111.589 Z16.718 E2.2818
+G1 X189.054 Y112.962 Z16.72 E0.32879
+G1 X189.092 Y113.546 Z16.721 E0.09246
+G1 X187.72 Y115.108 Z16.723 E0.32845
+G1 X188.469 Y129.54 Z16.738 E2.28312
+G3 X188.363 Y131.122 Z16.739 I-5.861 J0.402 E0.25117
+G1 X184.267 Y152.055 Z16.762 E3.36983
+G1 X185.412 Y153.79 Z16.764 E0.32841
+G1 X185.294 Y154.364 E0.09258
+G1 X183.56 Y155.509 Z16.766 E0.32828
+G1 X179.142 Y176.369 Z16.788 E3.36869
+G3 X175.044 Y180.854 Z16.795 I-5.783 J-1.169 E1.00785
+G1 X170.095 Y182.481 Z16.8 E0.82304
+G1 X169.104 Y184.311 Z16.803 E0.32878
+G1 X168.544 Y184.479 E0.09237
+G1 X166.716 Y183.491 Z16.805 E0.32828
+G1 X161.646 Y184.863 Z16.811 E0.8298
+G1 X161.13 Y185.059 E0.0872
+G1 X160.312 Y185.561 Z16.812 E0.15163
+G2 X159.515 Y186.389 Z16.814 I2.526 J3.229 E0.18202
+G1 X159.052 Y187.228 Z16.815 E0.15139
+G1 X158.878 Y187.751 E0.08708
+G1 X157.08 Y194.826 Z16.823 E1.15328
+G3 X156.435 Y196.391 Z16.824 I-5.663 J-1.419 E0.26828
+G1 X154.713 Y199.522 Z16.828 E0.56453
+G1 X155.225 Y201.539 Z16.83 E0.32876
+G1 X154.926 Y202.042 Z16.831 E0.09245
+G1 X152.911 Y202.553 Z16.833 E0.32842
+G3 X150.624 Y206.104 Z16.837 I-88.802 J-54.681 E0.66731
+G3 X145.893 Y208.461 Z16.843 I-4.729 J-3.566 E0.86522
+G1 X141.764 Y208.57 Z16.847 E0.65255
+G1 X140.292 Y210.042 Z16.849 E0.32888
+G1 X139.708 Y210.042 Z16.85 E0.09226
+G1 X138.238 Y208.572 Z16.852 E0.32844
+G1 X134.106 Y208.47 Z16.856 E0.653
+G3 X128.995 Y205.568 Z16.863 I-0.015 J-5.926 E0.97110
+G1 X127.09 Y202.554 Z16.866 E0.56331
+G1 X125.074 Y202.042 Z16.869 E0.32861
+G1 X124.775 Y201.539 E0.09245
+G1 X125.285 Y199.524 Z16.871 E0.32838
+G3 X123.270 Y195.912 Z16.876 I81.059 J-47.588 E0.65345
+G3 X122.882 Y194.836 I5.347 J-2.536 E0.18091
+G1 X121.078 Y187.773 Z16.884 E1.15168
+G2 X119.659 Y185.602 Z16.887 I-3.956 J1.036 E0.41681
+G1 X118.844 Y185.106 Z16.888 E0.15073
+G1 X118.335 Y184.915 Z16.889 E0.08589
+G1 X113.285 Y183.49 Z16.894 E0.82898
+G1 X111.456 Y184.479 Z16.896 E0.32849
+G1 X110.896 Y184.311 Z16.897 E0.09237
+G1 X109.907 Y182.483 Z16.899 E0.32836
+G1 X104.931 Y180.928 Z16.904 E0.82363
+G3 X100.776 Y176.391 Z16.911 I1.701 J-5.729 E1.02051
+G1 X96.442 Y155.511 Z16.933 E3.36905
+G1 X94.706 Y154.364 Z16.935 E0.32872
+G1 X94.588 Y153.79 Z16.936 E0.09258
+G1 X95.732 Y152.056 Z16.938 E0.3282
+G1 X91.488 Y131.155 Z16.96 E3.36944
+G3 X91.374 Y129.528 Z16.962 I5.895 J-1.231 E0.25838
+G1 X92.281 Y115.109 Z16.977 E2.2825
+G1 X90.908 Y113.546 Z16.979 E0.32867
+G1 X90.945 Y112.963 E0.09229
+G1 X92.508 Y111.591 Z16.982 E0.32857
+G1 X93.444 Y97.177 Z16.996 E2.282
+G3 X94.589 Y93.991 Z17.000 I6.053 J0.377 E0.54190
+;TIME_ELAPSED:610.185787
+;LAYER:42
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.391 Y91.579 Z17.007 I4.872 J3.536 E1.04379 F4757
+G1 X113.805 Y93.379 Z17.021 E2.13822
+G1 X115.163 Y92.385 Z17.023 E0.26588
+G1 X115.741 Y92.474 E0.09239
+G1 X116.734 Y93.832 Z17.025 E0.26578
+G1 X130.396 Y96.203 Z17.039 E2.19066
+G1 X138.516 Y95.952 Z17.048 E1.28346
+G1 X139.708 Y94.76 Z17.05 E0.26632
+G1 X140.292 Y94.76 E0.09226
+G1 X141.482 Y95.95 Z17.052 E0.26588
+G1 X149.562 Y96.188 Z17.06 E1.27708
+G1 X163.264 Y93.834 Z17.075 E2.19643
+G1 X164.259 Y92.474 Z17.076 E0.26622
+G1 X164.837 Y92.385 Z17.077 E0.09239
+G1 X166.194 Y93.378 Z17.079 E0.26566
+G1 X179.601 Y91.519 Z17.093 E2.13838
+G3 X186.630 Y97.166 Z17.103 I0.943 J6.024 E1.60226
+G1 X187.787 Y111.851 Z17.119 E2.32721
+G1 X189.053 Y112.962 Z17.12 E0.26611
+G1 X189.092 Y113.546 Z17.121 E0.09247
+G1 X187.982 Y114.811 Z17.123 E0.26588
+G1 X188.748 Y129.522 Z17.138 E2.32728
+G3 X188.638 Y131.178 Z17.140 I-6.197 J0.420 E0.26291
+G1 X184.485 Y152.386 Z17.162 E3.4142
+G1 X185.411 Y153.789 Z17.164 E0.26558
+G1 X185.294 Y154.364 E0.0927
+G1 X183.892 Y155.291 Z17.166 E0.26554
+G1 X179.416 Y176.431 Z17.188 E3.41386
+G3 X175.121 Y181.124 Z17.195 I-6.061 J-1.235 E1.05530
+G1 X169.906 Y182.829 Z17.201 E0.86681
+G1 X169.104 Y184.311 Z17.203 E0.26622
+G1 X168.544 Y184.479 E0.09237
+G1 X167.064 Y183.68 Z17.205 E0.26572
+G1 X161.724 Y185.132 Z17.211 E0.87428
+G2 X159.149 Y187.819 Z17.215 I1.117 J3.648 E0.61323
+G1 X157.357 Y194.873 Z17.222 E1.14983
+G3 X156.676 Y196.534 Z17.224 I-5.913 J-1.454 E0.28455
+G1 X154.81 Y199.906 Z17.228 E0.60886
+G1 X155.225 Y201.539 Z17.23 E0.26619
+G1 X154.926 Y202.042 Z17.231 E0.09245
+G1 X153.296 Y202.456 Z17.232 E0.26569
+G3 X150.866 Y206.248 Z17.237 I-88.665 J-54.144 E0.71155
+G3 X145.894 Y208.741 Z17.243 I-4.970 J-3.707 E0.91087
+G1 X141.484 Y208.85 Z17.248 E0.69693
+G1 X140.292 Y210.042 Z17.249 E0.26632
+G1 X139.708 Y210.042 Z17.25 E0.09226
+G1 X138.518 Y208.852 Z17.252 E0.26588
+G1 X134.105 Y208.75 Z17.256 E0.69738
+G3 X128.756 Y205.716 Z17.263 I-0.013 J-6.209 E1.01587
+G1 X126.705 Y202.457 Z17.267 E0.60835
+G1 X125.074 Y202.042 Z17.269 E0.26589
+G1 X124.775 Y201.539 E0.09245
+G1 X125.188 Y199.908 Z17.271 E0.26581
+G3 X123.015 Y196.030 Z17.276 I83.382 J-49.270 E0.70232
+G3 X122.611 Y194.905 Z17.277 I5.484 J-2.604 E0.18908
+G1 X120.805 Y187.836 Z17.284 E1.15267
+G1 X120.64 Y187.34 Z17.285 E0.08258
+G2 X118.256 Y185.184 Z17.288 I-3.487 J1.460 E0.52383
+G1 X112.937 Y183.679 Z17.294 E0.87332
+G1 X111.456 Y184.479 Z17.296 E0.26593
+G1 X110.896 Y184.311 Z17.297 E0.09237
+G1 X110.096 Y182.831 Z17.298 E0.26579
+G1 X104.857 Y181.198 Z17.304 E0.86696
+G3 X100.502 Y176.448 Z17.311 I1.777 J-6.001 E1.06910
+G1 X96.11 Y155.293 Z17.333 E3.41346
+G1 X94.706 Y154.364 Z17.335 E0.26597
+G1 X94.588 Y153.79 Z17.336 E0.09258
+G1 X95.514 Y152.387 Z17.337 E0.26558
+G1 X91.213 Y131.211 Z17.36 E3.41381
+G3 X91.094 Y129.510 Z17.362 I6.236 J-1.291 E0.27011
+G1 X92.019 Y114.812 Z17.377 E2.32667
+G1 X90.908 Y113.546 Z17.379 E0.26611
+G1 X90.946 Y112.963 E0.0923
+G1 X92.211 Y111.853 Z17.381 E0.26588
+G1 X93.166 Y97.132 Z17.396 E2.3306
+G3 X94.378 Y93.804 Z17.400 I6.317 J0.416 E0.56696
+;TIME_ELAPSED:616.437543
+;LAYER:43
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.434 Y91.301 Z17.407 I5.091 J3.739 E1.08802 F4753
+G1 X114.125 Y93.145 Z17.422 E2.18251
+G1 X115.163 Y92.385 Z17.423 E0.20325
+G1 X115.741 Y92.474 E0.09239
+G1 X116.5 Y93.512 Z17.425 E0.20315
+G1 X130.348 Y95.914 Z17.439 E2.22045
+G1 X138.796 Y95.672 Z17.448 E1.33521
+G1 X139.708 Y94.76 Z17.45 E0.20376
+G1 X140.292 Y94.76 E0.09226
+G1 X141.202 Y95.67 Z17.451 E0.20332
+G1 X149.549 Y95.908 Z17.46 E1.31924
+G1 X163.498 Y93.514 Z17.475 E2.23596
+G1 X164.258 Y92.475 Z17.476 E0.20337
+G1 X164.837 Y92.385 Z17.477 E0.09257
+G1 X165.874 Y93.144 Z17.478 E0.20303
+G1 X179.558 Y91.242 Z17.492 E2.18266
+G3 X186.909 Y97.154 Z17.504 I0.985 J6.301 E1.67676
+G1 X188.085 Y112.111 Z17.519 E2.37029
+G1 X189.054 Y112.962 Z17.52 E0.20374
+G1 X189.092 Y113.546 Z17.521 E0.09246
+G1 X188.243 Y114.513 Z17.522 E0.2033
+G1 X189.028 Y129.504 Z17.538 E2.37161
+G3 X188.912 Y131.237 Z17.540 I-6.558 J0.431 E0.27512
+G1 X184.704 Y152.716 Z17.563 E3.45788
+G1 X185.412 Y153.789 Z17.564 E0.2031
+G1 X185.295 Y154.364 E0.0927
+G1 X184.222 Y155.072 Z17.566 E0.2031
+G1 X179.689 Y176.49 Z17.589 E3.45869
+G3 X175.204 Y181.392 Z17.596 I-6.327 J-1.286 E1.10220
+G1 X169.718 Y183.178 Z17.602 E0.91148
+G1 X169.104 Y184.311 Z17.603 E0.20359
+G1 X168.544 Y184.479 Z17.604 E0.09237
+G1 X167.412 Y183.867 Z17.605 E0.2033
+G1 X161.803 Y185.4 Z17.611 E0.91864
+G2 X159.421 Y187.887 Z17.615 I1.040 J3.380 E0.56736
+G1 X157.625 Y194.959 Z17.622 E1.15274
+G3 X156.916 Y196.677 Z17.624 I-6.204 J-1.555 E0.29456
+G1 X154.907 Y200.291 Z17.629 E0.65325
+G1 X155.225 Y201.539 Z17.63 E0.20347
+G1 X154.926 Y202.042 Z17.631 E0.09245
+G1 X153.679 Y202.358 Z17.632 E0.20324
+G3 X151.098 Y206.406 Z17.637 I-96.278 J-58.540 E0.75848
+G3 X145.896 Y209.021 Z17.643 I-5.196 J-3.856 E0.95378
+G1 X141.204 Y209.13 Z17.648 E0.74147
+G1 X140.292 Y210.042 Z17.649 E0.20376
+G1 X139.708 Y210.042 Z17.65 E0.09226
+G1 X138.798 Y209.132 Z17.651 E0.20332
+G1 X134.103 Y209.03 Z17.656 E0.74192
+G3 X128.517 Y205.861 Z17.663 I-0.010 J-6.489 E1.06115
+G1 X126.322 Y202.359 Z17.668 E0.65296
+G1 X125.074 Y202.042 Z17.669 E0.20343
+G1 X124.775 Y201.539 E0.09245
+G1 X125.091 Y200.293 Z17.671 E0.20308
+G3 X122.762 Y196.150 Z17.676 I79.066 J-47.173 E0.75090
+G3 X122.339 Y194.974 Z17.677 I5.819 J-2.757 E0.19768
+G1 X120.533 Y187.903 Z17.685 E1.15298
+G2 X118.177 Y185.452 Z17.688 I-3.366 J0.877 E0.56041
+G1 X112.589 Y183.867 Z17.694 E0.91765
+G1 X111.457 Y184.478 Z17.696 E0.20323
+G1 X110.896 Y184.311 E0.09247
+G1 X110.284 Y183.18 Z17.698 E0.20316
+G1 X104.771 Y181.465 Z17.704 E0.91215
+G3 X100.228 Y176.508 Z17.711 I1.872 J-6.276 E1.11532
+G1 X95.78 Y155.074 Z17.734 E3.45841
+G1 X94.706 Y154.364 Z17.735 E0.2034
+G1 X94.589 Y153.79 Z17.736 E0.09255
+G1 X95.295 Y152.717 Z17.737 E0.20292
+G1 X90.939 Y131.267 Z17.76 E3.45797
+G3 X90.815 Y129.491 Z17.762 I6.454 J-1.343 E0.28205
+G1 X91.758 Y114.514 Z17.777 E2.37084
+G1 X90.909 Y113.547 Z17.779 E0.2033
+G1 X90.946 Y112.962 E0.09261
+G1 X91.913 Y112.113 Z17.78 E0.2033
+G1 X92.885 Y97.14 Z17.796 E2.3705
+G3 X94.168 Y93.616 Z17.800 I6.600 J0.407 E0.60063
+;TIME_ELAPSED:622.580445
+;LAYER:44
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.477 Y91.024 Z17.807 I5.307 J3.943 E1.13182 F4750
+G1 X114.443 Y92.911 Z17.822 E2.22648
+G1 X115.163 Y92.385 Z17.823 E0.14087
+G1 X115.741 Y92.474 Z17.824 E0.09239
+G1 X116.267 Y93.193 Z17.825 E0.14074
+G1 X130.416 Y95.639 Z17.84 E2.2685
+G1 X139.076 Y95.392 Z17.849 E1.36871
+G1 X139.708 Y94.76 Z17.85 E0.1412
+G1 X140.292 Y94.76 E0.09226
+G1 X140.922 Y95.39 Z17.851 E0.14076
+G1 X149.537 Y95.629 Z17.86 E1.36157
+G1 X163.731 Y93.195 Z17.875 E2.27518
+G1 X164.257 Y92.475 Z17.876 E0.14087
+G1 X164.837 Y92.385 Z17.877 E0.09273
+G1 X165.556 Y92.91 Z17.878 E0.14065
+G1 X179.514 Y90.966 Z17.892 E2.22645
+G3 X187.189 Y97.136 Z17.904 I1.030 J6.578 E1.75006
+G1 X188.383 Y112.373 Z17.92 E2.41461
+G1 X189.054 Y112.962 Z17.921 E0.14106
+G1 X189.091 Y113.546 E0.09245
+G1 X188.505 Y114.216 Z17.922 E0.14062
+G1 X189.307 Y129.485 Z17.938 E2.41561
+G3 X189.186 Y131.293 Z17.940 I-6.598 J0.466 E0.28707
+G1 X184.922 Y153.047 Z17.963 E3.50222
+G1 X185.412 Y153.79 Z17.964 E0.14061
+G1 X185.294 Y154.364 Z17.965 E0.09258
+G1 X184.552 Y154.854 Z17.966 E0.14048
+G1 X179.963 Y176.549 Z17.989 E3.50334
+G3 X175.288 Y181.660 Z17.996 I-6.609 J-1.352 E1.14883
+G1 X169.529 Y183.526 Z18.002 E0.95641
+G1 X169.104 Y184.311 Z18.003 E0.14103
+G1 X168.544 Y184.478 Z18.004 E0.09232
+G1 X167.761 Y184.057 Z18.005 E0.14045
+G1 X161.883 Y185.669 Z18.011 E0.96293
+G2 X159.692 Y187.955 Z18.015 I0.963 J3.116 E0.52163
+G1 X157.9 Y195.011 Z18.022 E1.15014
+G3 X157.149 Y196.833 Z18.024 I-6.497 J-1.612 E0.31237
+G1 X155.005 Y200.674 Z18.029 E0.69496
+G1 X155.225 Y201.539 Z18.03 E0.14101
+G1 X154.926 Y202.042 Z18.031 E0.09245
+G1 X154.064 Y202.261 E0.14051
+G3 X151.330 Y206.563 Z18.037 I-99.087 J-59.952 E0.80531
+G3 X145.897 Y209.301 Z18.043 I-5.428 J-4.012 E0.99650
+G1 X140.924 Y209.41 Z18.049 E0.78585
+G1 X140.292 Y210.042 E0.1412
+G1 X139.708 Y210.042 Z18.05 E0.09226
+G1 X139.078 Y209.412 Z18.051 E0.14076
+G1 X134.103 Y209.31 Z18.056 E0.78614
+G3 X128.265 Y205.984 Z18.063 I-0.010 J-6.769 E1.11031
+G1 X125.937 Y202.262 Z18.068 E0.69357
+G1 X125.074 Y202.042 Z18.069 E0.1407
+G1 X124.775 Y201.539 Z18.07 E0.09245
+G1 X124.993 Y200.676 Z18.071 E0.14062
+G1 X122.821 Y196.852 Z18.075 E0.69479
+G3 X122.068 Y195.043 Z18.077 I5.705 J-3.436 E0.31055
+G1 X120.262 Y187.971 Z18.085 E1.15313
+G2 X118.097 Y185.721 Z18.088 I-3.094 J0.811 E0.51468
+G1 X112.24 Y184.056 Z18.094 E0.96198
+G1 X111.457 Y184.479 Z18.095 E0.1406
+G1 X110.896 Y184.312 Z18.096 E0.09247
+G1 X110.473 Y183.528 Z18.097 E0.14074
+G1 X104.69 Y181.733 Z18.103 E0.95663
+G3 X99.954 Y176.566 Z18.111 I1.937 J-6.529 E1.16257
+G1 X95.45 Y154.856 Z18.134 E3.5029
+G1 X94.706 Y154.364 Z18.135 E0.14092
+G1 X94.588 Y153.79 Z18.136 E0.09258
+G1 X95.077 Y153.048 E0.14039
+G1 X90.666 Y131.327 Z18.16 E3.50165
+G3 X90.535 Y129.473 Z18.162 I6.742 J-1.408 E0.29444
+G1 X91.496 Y114.217 Z18.177 E2.41501
+G1 X90.908 Y113.547 Z18.178 E0.14083
+G1 X90.945 Y112.963 Z18.179 E0.09245
+G1 X91.615 Y112.375 Z18.18 E0.14083
+G1 X92.605 Y97.122 Z18.196 E2.41483
+G3 X93.957 Y93.429 Z18.200 I6.927 J0.442 E0.62982
+;TIME_ELAPSED:628.592483
+;LAYER:45
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.520 Y90.747 Z18.208 I5.518 J4.132 E1.17624 F4747
+G1 X114.763 Y92.677 Z18.223 E2.27076
+G1 X115.163 Y92.385 E0.07824
+G1 X115.742 Y92.474 Z18.224 E0.09255
+G1 X116.033 Y92.873 E0.07802
+G1 X130.447 Y95.36 Z18.24 E2.31085
+G1 X139.357 Y95.111 Z18.249 E1.4082
+G1 X139.708 Y94.76 Z18.25 E0.07842
+G1 X140.292 Y94.76 E0.09226
+G1 X140.641 Y95.109 Z18.251 E0.07798
+G1 X149.566 Y95.345 Z18.26 E1.41052
+G1 X163.964 Y92.874 Z18.275 E2.30793
+G1 X164.256 Y92.475 Z18.276 E0.07811
+G1 X164.837 Y92.385 E0.09288
+G1 X165.236 Y92.676 Z18.277 E0.07802
+G1 X179.47 Y90.689 Z18.292 E2.27057
+G3 X187.469 Y97.118 Z18.304 I1.074 J6.855 E1.82395
+G1 X188.68 Y112.635 Z18.32 E2.45892
+G1 X189.053 Y112.962 Z18.321 E0.07837
+G1 X189.092 Y113.546 E0.09247
+G1 X188.766 Y113.917 Z18.322 E0.07803
+G1 X189.587 Y129.467 Z18.338 E2.4601
+G3 X189.460 Y131.349 Z18.340 I-6.907 J0.479 E0.29884
+G1 X185.139 Y153.377 Z18.364 E3.54643
+G1 X185.412 Y153.79 E0.07821
+G1 X185.294 Y154.364 Z18.365 E0.09258
+G1 X184.883 Y154.635 E0.07778
+G1 X180.237 Y176.606 Z18.389 E3.54786
+G3 X175.363 Y181.930 Z18.397 I-6.875 J-1.401 E1.19737
+G1 X169.341 Y183.874 Z18.403 E0.99973
+G1 X169.105 Y184.31 Z18.404 E0.07833
+G1 X168.544 Y184.479 E0.09256
+G1 X168.109 Y184.244 Z18.405 E0.07811
+G1 X161.962 Y185.938 Z18.412 E1.00734
+G2 X159.966 Y188.018 Z18.415 I0.881 J2.843 E0.47476
+G1 X158.168 Y195.093 Z18.422 E1.15328
+G3 X157.394 Y196.969 Z18.424 I-6.850 J-1.728 E0.32163
+G1 X155.102 Y201.059 Z18.429 E0.7407
+G1 X155.225 Y201.539 Z18.43 E0.07828
+G1 X154.926 Y202.042 E0.09245
+G1 X154.448 Y202.163 Z18.431 E0.0779
+G3 X151.575 Y206.704 Z18.437 I-110.445 J-66.697 E0.84896
+G3 X145.898 Y209.582 Z18.443 I-5.677 J-4.161 E1.04284
+G1 X140.643 Y209.691 Z18.449 E0.83039
+G1 X140.292 Y210.042 E0.07842
+G1 X139.708 Y210.042 Z18.45 E0.09226
+G1 X139.359 Y209.693 Z18.451 E0.07798
+G1 X134.101 Y209.591 Z18.456 E0.83085
+G3 X128.030 Y206.138 Z18.464 I-0.008 J-7.050 E1.15387
+G1 X125.553 Y202.164 Z18.469 E0.73981
+G1 X125.074 Y202.042 E0.07809
+G1 X124.775 Y201.539 Z18.47 E0.09245
+G1 X124.896 Y201.061 E0.0779
+G1 X122.574 Y196.986 Z18.475 E0.74097
+G3 X121.796 Y195.112 Z18.477 I5.960 J-3.573 E0.32156
+G1 X119.99 Y188.039 Z18.485 E1.15328
+G2 X118.018 Y185.990 Z18.488 I-2.823 J0.743 E0.46870
+G1 X111.892 Y184.243 Z18.495 E1.00641
+G1 X111.456 Y184.479 E0.07833
+G1 X110.896 Y184.311 Z18.496 E0.09237
+G1 X110.661 Y183.876 E0.07811
+G1 X104.62 Y182.004 Z18.503 E0.99917
+G3 X99.680 Y176.623 Z18.511 I2.007 J-6.800 E1.21178
+G1 X95.119 Y154.637 Z18.534 E3.54743
+G1 X94.706 Y154.364 Z18.535 E0.07821
+G1 X94.588 Y153.79 E0.09258
+G1 X94.86 Y153.378 Z18.536 E0.078
+G1 X90.391 Y131.383 Z18.559 E3.5459
+G3 X90.256 Y129.455 Z18.561 I6.999 J-1.459 E0.30619
+G1 X91.235 Y113.918 Z18.578 E2.45949
+G1 X90.909 Y113.547 E0.07803
+G1 X90.946 Y112.963 Z18.579 E0.09245
+G1 X91.318 Y112.637 E0.07814
+G1 X92.327 Y97.103 Z18.596 E2.45932
+G3 X93.749 Y93.240 Z18.600 I7.159 J0.442 E0.65936
+;TIME_ELAPSED:634.446014
+;LAYER:46
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.564 Y90.470 Z18.608 I5.720 J4.305 E1.22000 F4743
+G1 X115.084 Y92.443 Z18.623 E2.31503
+G1 X115.163 Y92.385 Z18.624 E0.01548
+G1 X115.742 Y92.473 E0.09252
+G1 X115.8 Y92.552 E0.01548
+G1 X130.48 Y95.081 Z18.64 E2.35339
+G1 X139.637 Y94.831 Z18.649 E1.44721
+G1 X139.707 Y94.761 Z18.65 E0.01564
+G1 X140.292 Y94.76 E0.09242
+G1 X140.361 Y94.829 E0.01542
+G1 X149.568 Y95.063 Z18.66 E1.45504
+G1 X164.198 Y92.556 Z18.675 E2.34502
+G1 X164.257 Y92.475 Z18.676 E0.01583
+G1 X164.836 Y92.386 E0.09255
+G1 X164.915 Y92.442 E0.0153
+G1 X179.427 Y90.412 Z18.692 E2.31501
+G3 X187.749 Y97.099 Z18.704 I1.117 J7.132 E1.89715
+G1 X188.978 Y112.895 Z18.721 E2.50308
+G1 X189.053 Y112.961 E0.01578
+G1 X189.092 Y113.547 Z18.722 E0.09278
+G1 X189.027 Y113.62 E0.01544
+G1 X189.866 Y129.449 Z18.738 E2.50427
+G3 X189.735 Y131.405 Z18.740 I-7.121 J0.505 E0.31057
+G1 X185.358 Y153.708 Z18.764 E3.59077
+G1 X185.412 Y153.79 E0.01551
+G1 X185.295 Y154.364 Z18.765 E0.09255
+G1 X185.214 Y154.418 E0.01538
+G1 X180.511 Y176.665 Z18.789 E3.59239
+G3 X175.438 Y182.200 Z18.797 I-7.155 J-1.466 E1.24541
+G1 X169.153 Y184.224 Z18.804 E1.04316
+G1 X169.105 Y184.311 E0.0157
+G1 X168.543 Y184.479 Z18.805 E0.09267
+G1 X168.457 Y184.432 E0.01548
+G1 X162.042 Y186.207 Z18.812 E1.05156
+G2 X160.243 Y188.068 Z18.815 I0.797 J2.570 E0.42608
+G1 X158.437 Y195.171 Z18.822 E1.15788
+G3 X157.639 Y197.107 Z18.824 I-7.199 J-1.835 E0.33184
+G1 X155.2 Y201.444 Z18.83 E0.7861
+G1 X155.224 Y201.54 E0.01563
+G1 X154.926 Y202.042 E0.09223
+G1 X154.831 Y202.065 E0.01544
+G3 X151.805 Y206.863 Z18.836 I-112.046 J-67.312 E0.89620
+G3 X145.899 Y209.862 Z18.844 I-5.909 J-4.321 E1.08539
+G1 X140.363 Y209.971 Z18.849 E0.87478
+G1 X140.293 Y210.041 E0.01564
+G1 X139.708 Y210.042 Z18.85 E0.09242
+G1 X139.639 Y209.973 E0.01542
+G1 X134.1 Y209.871 Z18.856 E0.87523
+G3 X127.790 Y206.284 Z18.864 I-0.007 J-7.332 E1.19908
+G1 X125.17 Y202.066 Z18.869 E0.78447
+G1 X125.074 Y202.042 E0.01563
+G1 X124.775 Y201.538 Z18.87 E0.09258
+G1 X124.798 Y201.445 E0.01514
+G1 X122.331 Y197.125 Z18.875 E0.78595
+G3 X121.525 Y195.181 Z18.877 I6.246 J-3.729 E0.33349
+G1 X119.712 Y188.09 Z18.885 E1.15631
+G2 X117.959 Y186.264 Z18.888 I-2.542 J0.686 E0.41673
+G1 X111.544 Y184.432 Z18.895 E1.054
+G1 X111.458 Y184.478 E0.01541
+G1 X110.898 Y184.312 E0.09228
+G1 X110.85 Y184.226 Z18.896 E0.01556
+G1 X104.532 Y182.27 Z18.903 E1.04489
+G3 X99.402 Y176.664 Z18.911 I2.101 J-7.073 E1.26064
+G1 X94.789 Y154.419 Z18.935 E3.58916
+G1 X94.706 Y154.364 E0.01573
+G1 X94.588 Y153.79 E0.09258
+G1 X94.641 Y153.709 E0.01529
+G1 X90.117 Y131.439 Z18.959 E3.5902
+G3 X89.976 Y129.437 Z18.961 I7.298 J-1.520 E0.31794
+G1 X90.974 Y113.621 Z18.978 E2.50367
+G1 X90.908 Y113.547 E0.01567
+G1 X90.946 Y112.962 Z18.979 E0.09262
+G1 X91.02 Y112.897 E0.01556
+G1 X92.047 Y97.085 Z18.995 E2.50333
+G3 X93.558 Y93.027 Z19.000 I7.450 J0.464 E0.69382
+;TIME_ELAPSED:640.096190
+;LAYER:47
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.607 Y90.197 Z19.008 I5.905 J4.514 E1.25894 F4744
+G1 X130.471 Y94.822 Z19.04 E4.77433
+G1 X149.519 Y94.819 Z19.06 E3.00931
+G1 X179.391 Y90.183 Z19.092 E4.77585
+G3 X187.974 Y97.083 Z19.104 I1.147 J7.361 E1.95708
+G1 X190.074 Y129.435 Z19.138 E5.12191
+G3 X189.936 Y131.446 Z19.141 I-7.325 J0.508 E0.31935
+G1 X180.688 Y176.703 Z19.189 E7.29771
+G3 X175.488 Y182.370 Z19.197 I-7.323 J-1.500 E1.27576
+G1 X162.1 Y186.366 Z19.212 E2.20732
+G2 X160.394 Y188.141 Z19.215 I0.734 J2.413 E0.40589
+G1 X158.596 Y195.212 Z19.222 E1.15267
+G3 X157.770 Y197.202 Z19.225 I-7.367 J-1.891 E0.34145
+G1 X152.326 Y206.356 Z19.236 E1.68262
+G3 X145.900 Y210.014 Z19.244 I-6.429 J-3.821 E1.22151
+G1 X134.101 Y210.017 Z19.256 E1.86407
+G3 X127.671 Y206.360 Z19.264 I-0.001 J-7.480 E1.22193
+G1 X122.223 Y197.207 Z19.275 E1.68281
+G3 X121.395 Y195.214 Z19.278 I6.317 J-3.793 E0.34202
+G1 X119.594 Y188.145 Z19.285 E1.15248
+G2 X117.897 Y186.379 Z19.288 I-2.423 J0.630 E0.40383
+G1 X104.506 Y182.388 Z19.303 E2.20755
+G3 X99.292 Y176.707 Z19.311 I2.129 J-7.187 E1.27905
+G1 X90.027 Y131.453 Z19.359 E7.29779
+G3 X89.887 Y129.432 Z19.361 I7.359 J-1.525 E0.32093
+G1 X91.975 Y97.081 Z19.395 E5.12163
+G3 X93.489 Y93.003 Z19.400 I7.519 J0.471 E0.69687
+;TIME_ELAPSED:645.026296
+;LAYER:48
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.618 Y90.129 Z19.408 I5.975 J4.542 E1.27438 F4745
+G1 X130.481 Y94.76 Z19.44 E4.77432
+G1 X149.519 Y94.76 Z19.46 E3.00773
+G1 X179.382 Y90.129 Z19.492 E4.77432
+G3 X188.026 Y97.080 Z19.505 I1.153 J7.416 E1.97121
+G1 X190.12 Y129.431 Z19.538 E5.12169
+G3 X189.981 Y131.455 Z19.541 I-7.455 J0.505 E0.32138
+G1 X180.724 Y176.711 Z19.589 E7.29784
+G3 X175.499 Y182.404 Z19.597 I-7.359 J-1.510 E1.28180
+G1 X162.109 Y186.398 Z19.612 E2.20753
+G2 X160.426 Y188.150 Z19.615 I0.721 J2.377 E0.40057
+G1 X158.626 Y195.22 Z19.622 E1.15259
+G3 X157.796 Y197.218 Z19.625 I-7.331 J-1.874 E0.34288
+G1 X152.35 Y206.373 Z19.636 E1.68292
+G3 X145.900 Y210.042 Z19.644 I-6.452 J-3.838 E1.22578
+G1 X134.1 Y210.042 Z19.656 E1.86423
+G3 X127.650 Y206.373 Z19.664 I0.002 J-7.508 E1.22578
+G1 X122.204 Y197.218 Z19.675 E1.68292
+G3 X121.374 Y195.220 Z19.678 I6.369 J-3.817 E0.34288
+G1 X119.574 Y188.15 Z19.685 E1.15259
+G2 X117.891 Y186.398 Z19.688 I-2.404 J0.625 E0.40057
+G1 X104.501 Y182.404 Z19.703 E2.20753
+G3 X99.276 Y176.711 Z19.711 I2.129 J-7.198 E1.28180
+G1 X90.019 Y131.455 Z19.759 E7.29784
+G3 X89.880 Y129.431 Z19.761 I7.420 J-1.526 E0.32138
+G1 X91.974 Y97.08 Z19.795 E5.12169
+G3 X93.489 Y93.003 Z19.800 I7.503 J0.468 E0.69683
+;TIME_ELAPSED:649.958795
+;LAYER:49
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.618 Y90.130 Z19.808 I5.975 J4.544 E1.27421 F4745
+G1 X115.091 Y92.377 Z19.824 E2.31392
+G3 X130.480 Y94.766 Z19.840 I-203.289 J1360.269 E2.46039
+G1 X139.637 Y94.768 Z19.85 E1.44668
+G3 X140.363 Y94.768 I0.363 J2.866 E0.11484
+G1 X149.523 Y94.77 Z19.86 E1.44715
+G1 X164.193 Y92.498 Z19.875 E2.34528
+G3 X164.909 Y92.387 Z19.876 I0.630 J1.697 E0.11483
+G1 X179.386 Y90.144 Z19.892 E2.31445
+G3 X188.007 Y97.078 Z19.905 I1.149 J7.398 E1.96596
+G1 X189.028 Y112.893 Z19.921 E2.50375
+G1 X189.054 Y112.961 E0.0115
+G1 X189.091 Y113.547 Z19.922 E0.09276
+G1 X189.075 Y113.617 E0.01134
+G1 X190.097 Y129.451 Z19.938 E2.50675
+G3 X189.957 Y131.452 Z19.941 I-7.536 J0.478 E0.31774
+G1 X185.399 Y153.716 Z19.964 E3.59035
+G1 X185.413 Y153.79 E0.0119
+G1 X185.295 Y154.364 Z19.965 E0.09258
+G1 X185.254 Y154.426 E0.01174
+G1 X180.696 Y176.683 Z19.989 E3.58927
+G3 X175.491 Y182.370 Z19.997 I-7.325 J-1.479 E1.27923
+G1 X169.163 Y184.257 Z20.004 E1.04324
+G1 X169.106 Y184.311 E0.0124
+G1 X168.543 Y184.478 Z20.005 E0.09278
+G1 X168.466 Y184.465 E0.01234
+G1 X162.085 Y186.368 Z20.012 E1.05198
+G2 X160.395 Y188.124 Z20.015 I0.747 J2.410 E0.40149
+G1 X158.585 Y195.224 Z20.022 E1.15757
+G3 X157.771 Y197.183 Z20.025 I-7.225 J-1.853 E0.33616
+G1 X155.228 Y201.457 Z20.03 E0.78571
+G1 X155.227 Y201.538 E0.0128
+G1 X154.927 Y202.041 E0.09253
+G1 X154.857 Y202.08 E0.01266
+G1 X152.315 Y206.353 Z20.036 E0.7855
+G3 X145.902 Y209.999 Z20.044 I-6.415 J-3.821 E1.21857
+G1 X140.363 Y209.999 Z20.05 E0.87508
+G1 X140.293 Y210.042 E0.01298
+G1 X139.707 Y210.042 E0.09258
+G1 X139.637 Y209.999 E0.01298
+G1 X134.1 Y209.998 Z20.056 E0.87477
+G3 X127.692 Y206.353 Z20.064 I0.005 J-7.463 E1.21774
+G1 X125.151 Y202.08 Z20.069 E0.78542
+G1 X125.075 Y202.044 E0.01329
+G1 X124.774 Y201.539 Z20.07 E0.09288
+G1 X124.778 Y201.454 E0.01344
+G1 X122.227 Y197.162 Z20.075 E0.7888
+G3 X121.422 Y195.210 Z20.078 I6.336 J-3.755 E0.33460
+G1 X119.623 Y188.138 Z20.085 E1.15286
+G2 X117.923 Y186.356 Z20.088 I-2.461 J0.646 E0.40584
+G1 X111.537 Y184.449 Z20.095 E1.05292
+G1 X111.455 Y184.479 E0.01379
+G1 X110.895 Y184.312 Z20.096 E0.09232
+G1 X110.842 Y184.242 E0.01387
+G1 X104.51 Y182.351 Z20.103 E1.04402
+G3 X99.329 Y176.701 Z20.111 I2.117 J-7.142 E1.27157
+G1 X94.775 Y154.421 Z20.135 E3.5927
+G1 X94.706 Y154.365 E0.01404
+G1 X94.588 Y153.791 E0.09258
+G1 X94.63 Y153.711 Z20.136 E0.01428
+G1 X90.074 Y131.411 Z20.159 E3.59586
+G3 X89.944 Y129.436 Z20.161 I7.333 J-1.474 E0.31351
+G1 X90.97 Y113.62 Z20.178 E2.50395
+G1 X90.908 Y113.548 E0.01501
+G1 X90.945 Y112.962 Z20.179 E0.09276
+G1 X91.017 Y112.896 E0.01543
+G1 X92.044 Y97.083 Z20.195 E2.50349
+G3 X93.561 Y93.025 Z20.200 I7.403 J0.455 E0.69434
+;TIME_ELAPSED:655.294245
+;LAYER:50
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.607 Y90.204 Z20.208 I5.898 J4.522 E1.25772 F4746
+G1 X114.803 Y92.416 Z20.223 E2.26983
+G3 X116.074 Y92.614 Z20.225 I0.349 J1.939 E0.20651
+G1 X130.468 Y94.857 Z20.24 E2.30149
+G1 X139.357 Y94.864 Z20.249 E1.40434
+G1 X139.708 Y94.76 Z20.25 E0.05784
+G1 X140.292 Y94.76 E0.09226
+G1 X140.642 Y94.865 Z20.251 E0.05773
+G1 X149.533 Y94.871 Z20.26 E1.40465
+G1 X163.931 Y92.649 Z20.275 E2.30161
+G1 X164.258 Y92.476 Z20.276 E0.05845
+G1 X164.837 Y92.386 E0.09257
+G1 X165.201 Y92.454 Z20.277 E0.0585
+G1 X179.412 Y90.26 Z20.292 E2.27173
+G3 X187.881 Y97.080 Z20.304 I1.119 J7.279 E1.93148
+G1 X188.876 Y112.622 Z20.321 E2.46044
+G1 X189.054 Y112.962 E0.06063
+G1 X189.092 Y113.547 Z20.322 E0.09262
+G1 X188.96 Y113.905 E0.06028
+G1 X189.953 Y129.44 Z20.338 E2.45932
+G3 X189.817 Y131.413 Z20.340 I-7.349 J0.485 E0.31327
+G1 X185.302 Y153.411 Z20.364 E3.54782
+G1 X185.412 Y153.79 E0.06235
+G1 X185.294 Y154.364 Z20.365 E0.09258
+G1 X185.044 Y154.67 E0.06243
+G1 X180.53 Y176.65 Z20.389 E3.545
+G3 X175.457 Y182.199 Z20.397 I-7.162 J-1.454 E1.24712
+G1 X169.38 Y184.008 Z20.404 E1.00171
+G1 X169.105 Y184.311 E0.06465
+G1 X168.544 Y184.478 Z20.405 E0.09247
+G1 X168.147 Y184.375 E0.0648
+G1 X162.05 Y186.189 Z20.412 E1.00497
+G2 X160.212 Y188.097 Z20.415 I0.784 J2.595 E0.43688
+G1 X158.41 Y195.159 Z20.422 E1.15144
+G3 X157.611 Y197.083 Z20.424 I-7.070 J-1.808 E0.33013
+G1 X155.207 Y201.12 Z20.429 E0.74231
+G1 X155.226 Y201.539 Z20.43 E0.06626
+G1 X154.926 Y202.041 E0.09239
+G1 X154.548 Y202.225 Z20.431 E0.06642
+G1 X152.145 Y206.257 Z20.436 E0.74155
+G3 X145.904 Y209.801 Z20.444 I-6.245 J-3.731 E1.18533
+G1 X140.644 Y209.798 Z20.449 E0.831
+G1 X140.292 Y210.042 E0.06767
+G1 X139.708 Y210.042 Z20.45 E0.09226
+G1 X139.357 Y209.797 Z20.451 E0.06763
+G1 X134.102 Y209.793 Z20.456 E0.83022
+G3 X127.872 Y206.245 Z20.464 I0.006 J-7.254 E1.18428
+G1 X125.476 Y202.214 Z20.469 E0.74085
+G1 X125.075 Y202.043 E0.06887
+G1 X124.775 Y201.54 Z20.47 E0.09253
+G1 X124.819 Y201.107 E0.06876
+G1 X122.372 Y196.98 Z20.475 E0.758
+G3 X121.632 Y195.160 Z20.477 I6.125 J-3.551 E0.31128
+G1 X119.837 Y188.085 Z20.485 E1.15316
+G2 X117.967 Y186.138 Z20.488 I-2.679 J0.701 E0.44509
+G1 X111.871 Y184.314 Z20.495 E1.00527
+G1 X111.455 Y184.478 E0.07064
+G1 X110.896 Y184.312 Z20.496 E0.09213
+G1 X110.639 Y183.946 E0.07065
+G1 X104.582 Y182.133 Z20.503 E0.99887
+G3 X99.559 Y176.656 Z20.511 I2.048 J-6.920 E1.23277
+G1 X95.073 Y154.647 Z20.534 E3.5486
+G1 X94.706 Y154.364 Z20.535 E0.07322
+G1 X94.588 Y153.79 E0.09258
+G1 X94.816 Y153.388 Z20.536 E0.07301
+G1 X90.333 Y131.388 Z20.559 E3.54711
+G3 X90.203 Y129.453 Z20.561 I7.136 J-1.451 E0.30719
+G1 X91.22 Y113.918 Z20.578 E2.45956
+G1 X90.908 Y113.547 E0.07658
+G1 X90.945 Y112.963 Z20.579 E0.09245
+G1 X91.304 Y112.635 E0.07682
+G1 X92.32 Y97.102 Z20.596 E2.45924
+G3 X93.748 Y93.243 Z20.600 I7.147 J0.451 E0.65907
+;TIME_ELAPSED:660.718963
+;LAYER:51
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.563 Y90.481 Z20.608 I5.716 J4.314 E1.21952 F4749
+G1 X114.483 Y92.65 Z20.623 E2.2257
+G1 X115.163 Y92.385 Z20.624 E0.1153
+G1 X115.742 Y92.473 E0.09252
+G1 X116.308 Y92.932 Z20.625 E0.11513
+G1 X130.438 Y95.136 Z20.64 E2.25933
+G1 X139.077 Y95.143 Z20.649 E1.36484
+G1 X139.708 Y94.76 Z20.65 E0.11662
+G1 X140.292 Y94.76 E0.09226
+G1 X140.923 Y95.145 Z20.651 E0.11678
+G1 X149.54 Y95.152 Z20.66 E1.36136
+G1 X163.697 Y92.968 Z20.675 E2.26306
+G1 X164.257 Y92.474 Z20.676 E0.11798
+G1 X164.837 Y92.385 E0.0927
+G1 X165.521 Y92.688 Z20.677 E0.11819
+G1 X179.456 Y90.538 Z20.692 E2.22758
+G3 X187.602 Y97.097 Z20.704 I1.077 J7.001 E1.85770
+G1 X188.579 Y112.36 Z20.72 E2.41627
+G1 X189.053 Y112.962 Z20.721 E0.12105
+G1 X189.091 Y113.546 E0.09246
+G1 X188.698 Y114.202 Z20.722 E0.12081
+G1 X189.674 Y129.458 Z20.738 E2.41516
+G3 X189.543 Y131.357 Z20.740 I-7.109 J0.464 E0.30152
+G1 X185.084 Y153.08 Z20.763 E3.50348
+G1 X185.412 Y153.79 Z20.764 E0.12356
+G1 X185.294 Y154.364 Z20.765 E0.09258
+G1 X184.713 Y154.888 E0.12361
+G1 X180.249 Y176.62 Z20.789 E3.50503
+G3 X175.377 Y181.931 Z20.796 I-6.875 J-1.417 E1.19518
+G1 X169.569 Y183.66 Z20.803 E0.95738
+G1 X169.104 Y184.311 Z20.804 E0.12639
+G1 X168.544 Y184.479 E0.09237
+G1 X167.8 Y184.186 Z20.805 E0.12633
+G1 X161.97 Y185.92 Z20.811 E0.96093
+G2 X159.941 Y188.029 Z20.815 I0.868 J2.866 E0.48263
+G1 X158.137 Y195.095 Z20.822 E1.15213
+G3 X157.360 Y196.958 Z20.824 I-6.785 J-1.736 E0.31988
+G1 X155.109 Y200.736 Z20.829 E0.69478
+G1 X155.225 Y201.539 Z20.83 E0.12818
+G1 X154.926 Y202.042 E0.09245
+G1 X154.164 Y202.322 Z20.831 E0.12826
+G1 X151.908 Y206.109 Z20.836 E0.69641
+G3 X145.904 Y209.521 Z20.843 I-6.010 J-3.588 E1.14054
+G1 X140.924 Y209.518 Z20.849 E0.78677
+G1 X140.292 Y210.042 E0.1297
+G1 X139.708 Y210.042 Z20.85 E0.09226
+G1 X139.077 Y209.517 Z20.851 E0.12968
+G1 X134.102 Y209.513 Z20.856 E0.78598
+G3 X128.114 Y206.106 Z20.864 I0.010 J-6.983 E1.13787
+G1 X125.859 Y202.31 Z20.868 E0.69755
+G1 X125.075 Y202.042 Z20.869 E0.1309
+G1 X124.775 Y201.539 Z20.87 E0.09253
+G1 X124.916 Y200.722 E0.13098
+G1 X122.671 Y196.94 Z20.875 E0.69484
+G3 X121.900 Y195.080 Z20.877 I6.039 J-3.593 E0.31907
+G1 X120.108 Y188.016 Z20.885 E1.15136
+G2 X118.047 Y185.869 Z20.888 I-2.952 J0.771 E0.49066
+G1 X112.219 Y184.126 Z20.894 E0.96104
+G1 X111.456 Y184.479 Z20.895 E0.13282
+G1 X110.896 Y184.311 Z20.896 E0.09237
+G1 X110.45 Y183.597 Z20.897 E0.133
+G1 X104.662 Y181.864 Z20.903 E0.95453
+G3 X99.832 Y176.595 Z20.911 I1.961 J-6.646 E1.18581
+G1 X95.403 Y154.865 Z20.934 E3.50361
+G1 X94.706 Y154.364 Z20.935 E0.13561
+G1 X94.588 Y153.79 E0.09258
+G1 X95.034 Y153.057 Z20.936 E0.13556
+G1 X90.607 Y131.331 Z20.959 E3.50293
+G3 X90.483 Y129.471 Z20.961 I6.831 J-1.390 E0.29528
+G1 X91.481 Y114.214 Z20.977 E2.41554
+G1 X90.908 Y113.547 Z20.978 E0.13892
+G1 X90.946 Y112.963 Z20.979 E0.09246
+G1 X91.601 Y112.373 Z20.98 E0.13927
+G1 X92.601 Y97.12 Z20.996 E2.41493
+G3 X93.996 Y93.374 Z21.000 I6.883 J0.430 E0.64054
+;TIME_ELAPSED:666.506108
+;LAYER:52
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.520 Y90.758 Z21.008 I5.467 J4.191 E1.16464 F4751
+G1 X114.163 Y92.884 Z21.022 E2.18141
+G1 X115.163 Y92.385 Z21.023 E0.17656
+G1 X115.742 Y92.474 Z21.024 E0.09255
+G1 X116.542 Y93.252 Z21.025 E0.1763
+G1 X130.413 Y95.415 Z21.04 E2.2179
+G1 X138.797 Y95.422 Z21.048 E1.32455
+G1 X139.708 Y94.76 Z21.05 E0.17791
+G1 X140.292 Y94.76 E0.09226
+G1 X141.203 Y95.426 Z21.051 E0.17828
+G1 X149.552 Y95.432 Z21.06 E1.31902
+G1 X163.463 Y93.287 Z21.075 E2.22371
+G1 X164.258 Y92.474 Z21.076 E0.17965
+G1 X164.837 Y92.385 E0.09255
+G1 X165.841 Y92.922 Z21.078 E0.17988
+G1 X179.499 Y90.815 Z21.092 E2.18329
+G3 X187.323 Y97.115 Z21.104 I1.032 J6.726 E1.78405
+G1 X188.282 Y112.099 Z21.119 E2.3721
+G1 X189.054 Y112.962 Z21.121 E0.18293
+G1 X189.092 Y113.546 E0.09246
+G1 X188.437 Y114.5 Z21.122 E0.18282
+G1 X189.394 Y129.476 Z21.138 E2.37082
+G3 X189.268 Y131.308 Z21.140 I-6.813 J0.452 E0.29089
+G1 X184.867 Y152.75 Z21.163 E3.45815
+G1 X185.412 Y153.79 Z21.164 E0.1855
+G1 X185.294 Y154.364 Z21.165 E0.09258
+G1 X184.382 Y155.106 Z21.166 E0.18575
+G1 X179.977 Y176.56 Z21.189 E3.46013
+G3 X175.297 Y181.662 Z21.196 I-6.609 J-1.365 E1.14800
+G1 X169.757 Y183.312 Z21.202 E0.91324
+G1 X169.104 Y184.311 Z21.203 E0.18855
+G1 X168.544 Y184.479 Z21.204 E0.09237
+G1 X167.451 Y183.997 Z21.205 E0.18872
+G1 X161.89 Y185.651 Z21.211 E0.9166
+G2 X159.669 Y187.961 Z21.215 I0.947 J3.133 E0.52848
+G1 X157.865 Y195.027 Z21.222 E1.15213
+G3 X157.130 Y196.796 Z21.224 I-6.561 J-1.689 E0.30355
+G1 X155.012 Y200.354 Z21.229 E0.65417
+G1 X155.225 Y201.539 Z21.23 E0.19021
+G1 X154.926 Y202.042 Z21.231 E0.09245
+G1 X153.78 Y202.419 Z21.232 E0.1906
+G1 X151.668 Y205.965 Z21.236 E0.65206
+G3 X145.902 Y209.241 Z21.243 I-5.770 J-3.444 E1.09526
+G1 X141.204 Y209.238 Z21.248 E0.74222
+G1 X140.292 Y210.042 Z21.249 E0.19208
+G1 X139.708 Y210.042 Z21.25 E0.09226
+G1 X138.797 Y209.236 Z21.251 E0.19217
+G1 X134.104 Y209.233 Z21.256 E0.74143
+G3 X128.340 Y205.939 Z21.263 I0.007 J-6.702 E1.09682
+G1 X126.243 Y202.409 Z21.268 E0.64867
+G1 X125.074 Y202.042 Z21.269 E0.19357
+G1 X124.775 Y201.539 Z21.27 E0.09245
+G1 X125.014 Y200.339 Z21.271 E0.19331
+G1 X122.902 Y196.78 Z21.275 E0.65382
+G3 X122.175 Y195.022 Z21.277 I5.674 J-3.376 E0.30146
+G1 X120.38 Y187.949 Z21.285 E1.15286
+G2 X118.127 Y185.600 Z21.288 I-3.225 J0.839 E0.53658
+G1 X112.568 Y183.937 Z21.294 E0.9167
+G1 X111.456 Y184.479 Z21.296 E0.19544
+G1 X110.896 Y184.311 E0.09237
+G1 X110.262 Y183.248 Z21.298 E0.19554
+G1 X104.728 Y181.592 Z21.304 E0.9126
+G3 X100.107 Y176.538 Z21.311 I1.911 J-6.387 E1.13584
+G1 X95.733 Y155.083 Z21.334 E3.45931
+G1 X94.707 Y154.365 Z21.335 E0.19784
+G1 X94.588 Y153.79 Z21.336 E0.09277
+G1 X95.253 Y152.726 Z21.337 E0.19823
+G1 X90.879 Y131.264 Z21.36 E3.46039
+G3 X90.762 Y129.489 Z21.362 I6.610 J-1.327 E0.28175
+G1 X91.743 Y114.513 Z21.377 E2.37106
+G1 X90.908 Y113.546 Z21.379 E0.20185
+G1 X90.946 Y112.962 E0.09246
+G1 X91.9 Y112.112 Z21.381 E0.20186
+G1 X92.88 Y97.139 Z21.396 E2.37058
+G3 X94.050 Y93.762 Z21.400 I6.742 J0.444 E0.57113
+;TIME_ELAPSED:672.488727
+;LAYER:53
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.460 Y91.033 Z21.408 I5.417 J3.831 E1.15790 F4755
+G1 X113.843 Y93.117 Z21.422 E2.1398
+G1 X115.163 Y92.385 Z21.423 E0.23846
+G1 X115.741 Y92.473 Z21.424 E0.09237
+G1 X116.776 Y93.572 Z21.425 E0.2385
+G1 X130.377 Y95.693 Z21.44 E2.17473
+G1 X138.517 Y95.702 Z21.448 E1.286
+G1 X139.708 Y94.76 Z21.45 E0.2399
+G1 X140.292 Y94.76 E0.09226
+G1 X141.483 Y95.706 Z21.452 E0.24029
+G1 X149.571 Y95.712 Z21.46 E1.27779
+G1 X163.229 Y93.607 Z21.475 E2.18325
+G1 X164.258 Y92.474 Z21.476 E0.2418
+G1 X164.837 Y92.385 Z21.477 E0.09255
+G1 X166.161 Y93.157 Z21.478 E0.24213
+G1 X179.544 Y91.092 Z21.492 E2.13934
+G3 X187.043 Y97.134 Z21.504 I0.987 J6.450 E1.71089
+G1 X187.985 Y111.838 Z21.519 E2.32778
+G1 X189.054 Y112.962 Z21.521 E0.24506
+G1 X189.092 Y113.546 E0.09246
+G1 X188.175 Y114.798 Z21.523 E0.24518
+G1 X189.115 Y129.494 Z21.538 E2.3265
+G3 X188.995 Y131.244 Z21.540 I-6.662 J0.422 E0.27784
+G1 X184.648 Y152.419 Z21.562 E3.41511
+G1 X185.412 Y153.79 Z21.564 E0.24796
+G1 X185.295 Y154.364 Z21.565 E0.09255
+G1 X184.051 Y155.325 Z21.566 E0.24835
+G1 X179.701 Y176.509 Z21.589 E3.4166
+G3 X175.217 Y181.394 Z21.596 I-6.337 J-1.317 E1.09958
+G1 X169.946 Y182.963 Z21.601 E0.86885
+G1 X169.104 Y184.311 Z21.603 E0.2511
+G1 X168.544 Y184.479 Z21.604 E0.09237
+G1 X167.102 Y183.81 Z21.605 E0.25114
+G1 X161.811 Y185.383 Z21.611 E0.87206
+G2 X159.398 Y187.893 Z21.615 I1.022 J3.397 E0.57430
+G1 X157.594 Y194.957 Z21.622 E1.15183
+G3 X156.889 Y196.654 Z21.624 I-6.246 J-1.600 E0.29119
+G1 X154.915 Y199.969 Z21.628 E0.60954
+G1 X155.225 Y201.539 Z21.63 E0.25283
+G1 X154.926 Y202.042 Z21.631 E0.09245
+G1 X153.396 Y202.517 Z21.632 E0.2531
+G1 X151.43 Y205.816 Z21.636 E0.60673
+G3 X145.900 Y208.961 Z21.643 I-5.528 J-3.286 E1.05095
+G1 X141.484 Y208.959 Z21.648 E0.69767
+G1 X140.292 Y210.042 Z21.649 E0.25444
+G1 X139.708 Y210.042 Z21.65 E0.09226
+G1 X138.517 Y208.956 Z21.652 E0.25464
+G1 X134.106 Y208.953 Z21.656 E0.69688
+G3 X128.583 Y205.799 Z21.663 I0.005 J-6.421 E1.05091
+G1 X126.626 Y202.507 Z21.667 E0.60505
+G1 X125.074 Y202.042 Z21.669 E0.25596
+G1 X124.775 Y201.539 E0.09245
+G1 X125.111 Y199.954 Z21.671 E0.25597
+G1 X123.143 Y196.638 Z21.675 E0.6092
+G3 X122.446 Y194.952 Z21.677 I5.480 J-3.252 E0.28911
+G1 X120.651 Y187.88 Z21.685 E1.1527
+G2 X118.206 Y185.331 Z21.688 I-3.496 J0.907 E0.58236
+G1 X112.916 Y183.75 Z21.694 E0.87227
+G1 X111.456 Y184.479 Z21.696 E0.25781
+G1 X110.896 Y184.311 E0.09237
+G1 X110.074 Y182.899 Z21.698 E0.25812
+G1 X104.799 Y181.32 Z21.704 E0.86991
+G3 X100.381 Y176.482 Z21.711 I1.841 J-6.117 E1.08659
+G1 X96.064 Y155.302 Z21.733 E3.41494
+G1 X94.706 Y154.365 Z21.735 E0.26066
+G1 X94.588 Y153.79 Z21.736 E0.09274
+G1 X95.472 Y152.395 Z21.737 E0.26091
+G1 X91.156 Y131.22 Z21.76 E3.41413
+G3 X91.042 Y129.507 Z21.762 I6.283 J-1.278 E0.27195
+G1 X92.003 Y114.811 Z21.777 E2.32672
+G1 X90.908 Y113.546 Z21.779 E0.26433
+G1 X90.945 Y112.963 E0.09229
+G1 X92.198 Y111.851 Z21.781 E0.26467
+G1 X93.16 Y97.158 Z21.796 E2.32625
+G3 X94.376 Y93.807 Z21.800 I6.285 J0.384 E0.57086
+;TIME_ELAPSED:678.621499
+;LAYER:54
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.416 Y91.309 Z21.807 I5.086 J3.745 E1.08490 F4758
+G1 X113.524 Y93.351 Z21.821 E2.09585
+G1 X115.163 Y92.385 Z21.823 E0.30057
+G1 X115.741 Y92.474 E0.09239
+G1 X117.01 Y93.892 Z21.825 E0.30063
+G1 X130.358 Y95.973 Z21.839 E2.13427
+G1 X138.237 Y95.982 Z21.848 E1.24477
+G1 X139.708 Y94.76 Z21.85 E0.30213
+G1 X140.292 Y94.76 E0.09226
+G1 X141.763 Y95.986 Z21.852 E0.30253
+G1 X149.612 Y95.992 Z21.86 E1.24003
+G1 X162.995 Y93.927 Z21.874 E2.13934
+G1 X164.258 Y92.475 Z21.876 E0.30403
+G1 X164.837 Y92.385 Z21.877 E0.09257
+G1 X166.48 Y93.391 Z21.879 E0.30436
+G1 X179.588 Y91.369 Z21.893 E2.09537
+G3 X186.761 Y97.126 Z21.903 I0.944 J6.171 E1.63296
+G1 X187.687 Y111.576 Z21.918 E2.28758
+G1 X189.053 Y112.962 Z21.92 E0.30744
+G1 X189.092 Y113.546 Z21.921 E0.09247
+G1 X187.913 Y115.095 Z21.923 E0.30754
+G1 X188.836 Y129.512 Z21.938 E2.28234
+G3 X188.719 Y131.196 Z21.940 I-6.333 J0.406 E0.26738
+G1 X184.43 Y152.088 Z21.962 E3.36947
+G1 X185.412 Y153.79 Z21.964 E0.31044
+G1 X185.294 Y154.364 E0.09258
+G1 X183.72 Y155.543 Z21.966 E0.31069
+G1 X179.428 Y176.447 Z21.988 E3.37143
+G3 X175.131 Y181.128 Z21.995 I-6.067 J-1.256 E1.05380
+G1 X170.134 Y182.615 Z22.001 E0.82367
+G1 X169.104 Y184.311 Z22.003 E0.31349
+G1 X168.544 Y184.479 E0.09237
+G1 X166.755 Y183.621 Z22.005 E0.31346
+G1 X161.731 Y185.115 Z22.011 E0.82807
+G1 X161.24 Y185.298 E0.08278
+G1 X160.474 Y185.765 Z22.012 E0.14173
+G2 X159.726 Y186.541 Z22.013 I2.457 J3.116 E0.17067
+G1 X159.29 Y187.327 Z22.014 E0.142
+G1 X159.126 Y187.824 Z22.015 E0.08268
+G1 X157.322 Y194.889 Z22.022 E1.15198
+G3 X156.648 Y196.511 Z22.024 I-5.996 J-1.541 E0.27832
+G1 X154.817 Y199.586 Z22.028 E0.56541
+G1 X155.225 Y201.539 Z22.03 E0.31521
+G1 X154.926 Y202.042 Z22.031 E0.09245
+G1 X153.012 Y202.614 Z22.033 E0.3156
+G1 X151.186 Y205.678 Z22.036 E0.56351
+G3 X145.900 Y208.681 Z22.043 I-5.284 J-3.147 E1.00419
+G1 X141.764 Y208.679 Z22.047 E0.65343
+G1 X140.292 Y210.042 Z22.049 E0.31694
+G1 X139.708 Y210.042 Z22.05 E0.09226
+G1 X138.237 Y208.676 Z22.052 E0.31715
+G1 X134.107 Y208.673 Z22.056 E0.65248
+G3 X128.824 Y205.656 Z22.063 I0.005 J-6.143 E1.00523
+G1 X127.009 Y202.603 Z22.067 E0.56113
+G1 X125.074 Y202.042 Z22.069 E0.31829
+G1 X124.775 Y201.539 E0.09245
+G1 X125.209 Y199.571 Z22.071 E0.31839
+G1 X123.384 Y196.495 Z22.075 E0.56506
+G3 X122.718 Y194.883 Z22.077 I5.235 J-3.106 E0.27640
+G1 X120.922 Y187.812 Z22.084 E1.15259
+G1 X120.757 Y187.309 Z22.085 E0.08363
+G1 X120.312 Y186.51 Z22.086 E0.14449
+G2 X118.285 Y185.063 Z22.089 I-3.229 J2.379 E0.40017
+G1 X113.264 Y183.561 Z22.094 E0.82798
+G1 X111.456 Y184.479 Z22.096 E0.32035
+G1 X110.896 Y184.311 Z22.097 E0.09237
+G1 X109.886 Y182.55 Z22.099 E0.32072
+G1 X104.892 Y181.055 Z22.104 E0.82357
+G3 X100.655 Y176.420 Z22.111 I1.743 J-5.847 E1.04177
+G1 X96.394 Y155.52 Z22.133 E3.36983
+G1 X94.706 Y154.364 Z22.135 E0.32322
+G1 X94.588 Y153.79 Z22.136 E0.09258
+G1 X95.69 Y152.064 Z22.138 E0.32352
+G1 X91.428 Y131.152 Z22.16 E3.37171
+G3 X91.321 Y129.525 Z22.162 I6.183 J-1.224 E0.25824
+G1 X92.265 Y115.108 Z22.177 E2.28256
+G1 X90.908 Y113.546 Z22.179 E0.32689
+G1 X90.946 Y112.963 E0.0923
+G1 X92.496 Y111.589 Z22.182 E0.32724
+G1 X93.439 Y97.177 Z22.197 E2.28176
+G3 X94.530 Y94.063 Z22.200 I6.120 J0.396 E0.52752
+;TIME_ELAPSED:684.868226
+;LAYER:55
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.388 Y91.587 Z22.207 I4.938 J3.516 E1.05704 F4762
+G1 X113.204 Y93.584 Z22.22 E2.04918
+G1 X115.162 Y92.386 Z22.223 E0.36264
+G1 X115.742 Y92.473 E0.09266
+G1 X117.244 Y94.211 Z22.226 E0.36291
+G1 X130.357 Y96.257 Z22.239 E2.09673
+G1 X137.957 Y96.263 Z22.247 E1.20069
+G1 X139.708 Y94.76 Z22.25 E0.36457
+G1 X140.292 Y94.76 E0.09226
+G1 X142.043 Y96.267 Z22.253 E0.36498
+G1 X149.636 Y96.272 Z22.26 E1.19959
+G1 X162.76 Y94.246 Z22.274 E2.09797
+G1 X164.257 Y92.474 Z22.276 E0.36648
+G1 X164.837 Y92.386 Z22.277 E0.09268
+G1 X166.8 Y93.626 Z22.279 E0.36682
+G1 X179.631 Y91.645 Z22.293 E2.05113
+G3 X186.483 Y97.143 Z22.303 I0.900 J5.897 E1.55916
+G1 X187.39 Y111.315 Z22.318 E2.24355
+G1 X189.054 Y112.962 Z22.32 E0.36989
+G1 X189.092 Y113.546 Z22.321 E0.09246
+G1 X187.651 Y115.393 Z22.323 E0.3701
+G1 X188.557 Y129.54 Z22.338 E2.2396
+G3 X188.447 Y131.129 I-6.139 J0.373 E0.25226
+G1 X184.213 Y151.758 Z22.361 E3.32702
+G1 X185.412 Y153.79 Z22.364 E0.37275
+G1 X185.294 Y154.364 E0.09258
+G1 X183.39 Y155.761 Z22.367 E0.37309
+G1 X179.155 Y176.384 Z22.388 E3.32613
+G3 X175.051 Y180.859 Z22.395 I-5.786 J-1.187 E1.00706
+G1 X170.323 Y182.267 Z22.4 E0.77937
+G1 X169.104 Y184.311 Z22.403 E0.37599
+G1 X168.544 Y184.479 E0.09237
+G1 X166.406 Y183.433 Z22.406 E0.37603
+G1 X161.653 Y184.846 Z22.411 E0.78339
+G2 X158.854 Y187.756 Z22.415 I1.184 J3.940 E0.66604
+G1 X157.051 Y194.82 Z22.423 E1.15179
+G3 X156.405 Y196.373 Z22.424 I-5.762 J-1.486 E0.26650
+G1 X154.72 Y199.202 Z22.428 E0.52021
+G1 X155.225 Y201.539 Z22.43 E0.37773
+G1 X154.926 Y202.042 Z22.431 E0.09245
+G1 X152.628 Y202.712 Z22.433 E0.37817
+G1 X150.943 Y205.538 Z22.437 E0.51981
+G3 X145.898 Y208.401 Z22.443 I-5.043 J-3.011 E0.95797
+G1 X142.044 Y208.399 Z22.447 E0.60888
+G1 X140.292 Y210.042 Z22.449 E0.37946
+G1 X139.708 Y210.042 Z22.45 E0.09226
+G1 X137.957 Y208.396 Z22.452 E0.37967
+G1 X134.109 Y208.393 Z22.456 E0.60793
+G3 X129.073 Y205.528 Z22.463 I0.005 J-5.867 E0.95693
+G1 X127.393 Y202.702 Z22.466 E0.5194
+G1 X125.074 Y202.042 Z22.469 E0.38092
+G1 X124.775 Y201.539 E0.09245
+G1 X125.307 Y199.186 Z22.472 E0.38112
+G1 X123.624 Y196.352 Z22.475 E0.52073
+G3 X122.989 Y194.815 Z22.477 I4.985 J-2.959 E0.26354
+G1 X121.194 Y187.744 Z22.484 E1.15255
+G2 X118.364 Y184.794 Z22.489 I-4.037 J1.041 E0.67448
+G1 X113.613 Y183.373 Z22.494 E0.78344
+G1 X111.456 Y184.479 Z22.496 E0.38296
+G1 X110.896 Y184.311 Z22.497 E0.09237
+G1 X109.697 Y182.201 Z22.499 E0.38341
+G1 X104.971 Y180.786 Z22.505 E0.77939
+G3 X100.929 Y176.364 Z22.511 I1.659 J-5.575 E0.99378
+G1 X96.725 Y155.738 Z22.533 E3.32561
+G1 X94.707 Y154.365 Z22.535 E0.38561
+G1 X94.589 Y153.79 Z22.536 E0.09274
+G1 X95.908 Y151.734 Z22.538 E0.38592
+G1 X91.703 Y131.097 Z22.56 E3.32735
+G3 X91.601 Y129.544 Z22.562 I5.844 J-1.164 E0.24650
+G1 X92.526 Y115.406 Z22.576 E2.23838
+G1 X90.908 Y113.546 Z22.579 E0.38948
+G1 X90.946 Y112.962 E0.09246
+G1 X92.794 Y111.328 Z22.582 E0.38972
+G1 X93.719 Y97.195 Z22.597 E2.23759
+G3 X94.793 Y94.185 Z22.600 I5.738 J0.351 E0.51136
+;TIME_ELAPSED:691.213716
+;LAYER:56
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.365 Y91.866 Z22.607 I4.668 J3.364 E1.00303 F4765
+G1 X112.917 Y93.82 Z22.62 E2.00692
+G1 X115.162 Y92.385 Z22.622 E0.42094
+G1 X115.741 Y92.473 Z22.623 E0.09252
+G1 X117.448 Y94.525 Z22.626 E0.42169
+G1 X130.34 Y96.534 Z22.639 E2.06133
+G1 X137.707 Y96.539 Z22.647 E1.16388
+G1 X139.708 Y94.76 Z22.649 E0.423
+G1 X140.292 Y94.76 Z22.65 E0.09226
+G1 X142.293 Y96.543 Z22.653 E0.42342
+G1 X149.651 Y96.547 Z22.66 E1.16246
+G1 X162.556 Y94.556 Z22.674 E2.06293
+G1 X164.258 Y92.474 Z22.677 E0.42485
+G1 X164.837 Y92.385 E0.09255
+G1 X167.088 Y93.858 Z22.68 E0.425
+G1 X179.646 Y91.919 Z22.693 E2.00749
+G3 X186.213 Y97.180 Z22.703 I0.886 J5.623 E1.49508
+G1 X187.104 Y111.083 Z22.717 E2.20098
+G1 X189.054 Y112.962 Z22.72 E0.42782
+G1 X189.092 Y113.546 Z22.721 E0.09246
+G1 X187.398 Y115.66 Z22.723 E0.42798
+G1 X188.288 Y129.559 Z22.738 E2.20034
+G3 X188.182 Y131.084 Z22.739 I-5.871 J0.358 E0.24197
+G1 X184 Y151.46 Z22.761 E3.28622
+G1 X185.412 Y153.79 Z22.763 E0.43042
+G1 X185.295 Y154.364 Z22.764 E0.09255
+G1 X183.078 Y155.952 Z22.767 E0.43084
+G1 X178.896 Y176.324 Z22.788 E3.2856
+G3 X174.975 Y180.606 Z22.795 I-5.527 J-1.125 E0.96300
+G1 X170.487 Y181.943 Z22.799 E0.73983
+G1 X169.104 Y184.311 Z22.802 E0.43324
+G1 X168.544 Y184.479 Z22.803 E0.09237
+G1 X166.091 Y183.251 Z22.806 E0.43339
+G1 X161.577 Y184.593 Z22.81 E0.744
+G2 X158.598 Y187.691 Z22.815 I1.258 J4.191 E0.70932
+G1 X156.794 Y194.761 Z22.823 E1.15275
+G3 X156.172 Y196.251 Z22.824 I-5.382 J-1.372 E0.25588
+G1 X154.622 Y198.853 Z22.827 E0.47849
+G1 X155.225 Y201.539 Z22.83 E0.43491
+G1 X154.926 Y202.042 Z22.831 E0.09245
+G1 X152.275 Y202.792 Z22.834 E0.43526
+G1 X150.714 Y205.41 Z22.837 E0.48155
+G3 X145.897 Y208.140 Z22.843 I-4.816 J-2.882 E0.91421
+G1 X142.294 Y208.138 Z22.846 E0.56922
+G1 X140.292 Y210.042 Z22.849 E0.43649
+G1 X139.708 Y210.042 Z22.85 E0.09226
+G1 X137.707 Y208.134 Z22.853 E0.43681
+G1 X134.108 Y208.132 Z22.856 E0.56859
+G3 X129.284 Y205.376 Z22.862 I0.004 J-5.607 E0.91786
+G1 X127.743 Y202.782 Z22.866 E0.47668
+G1 X125.074 Y202.042 Z22.868 E0.43757
+G1 X124.775 Y201.539 Z22.869 E0.09245
+G1 X125.402 Y198.839 Z22.872 E0.43791
+G1 X123.845 Y196.218 Z22.875 E0.48163
+G3 X123.239 Y194.751 Z22.877 I4.775 J-2.831 E0.25153
+G1 X121.444 Y187.68 Z22.884 E1.15255
+G2 X118.438 Y184.546 Z22.889 I-4.285 J1.102 E0.71662
+G1 X113.925 Y183.198 Z22.894 E0.74412
+G1 X111.456 Y184.479 Z22.897 E0.43944
+G1 X110.896 Y184.311 E0.09237
+G1 X109.532 Y181.883 Z22.9 E0.43997
+G1 X105.046 Y180.541 Z22.905 E0.73976
+G3 X101.176 Y176.298 Z22.911 I1.588 J-5.335 E0.95278
+G1 X97.024 Y155.932 Z22.932 E3.28372
+G1 X94.706 Y154.365 Z22.935 E0.44204
+G1 X94.588 Y153.79 Z22.936 E0.09274
+G1 X96.108 Y151.438 Z22.939 E0.44243
+G1 X91.952 Y131.055 Z22.96 E3.28648
+G3 X91.852 Y129.559 Z22.962 I5.513 J-1.120 E0.23735
+G1 X92.76 Y115.671 Z22.976 E2.19879
+G1 X90.908 Y113.546 Z22.979 E0.44533
+G1 X90.946 Y112.962 Z22.98 E0.09246
+G1 X93.061 Y111.095 Z22.983 E0.4457
+G1 X93.97 Y97.18 Z22.997 E2.20306
+G3 X94.980 Y94.352 Z23.000 I5.471 J0.360 E0.48033
+;TIME_ELAPSED:697.643631
+;LAYER:57
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z23.006 I4.484 J3.195 E0.96430 F4769
+G1 X112.88 Y94.055 Z23.019 E2.00688
+G1 X115.163 Y92.385 Z23.022 E0.44688
+G1 X115.741 Y92.474 Z23.023 E0.09239
+G1 X117.412 Y94.757 Z23.026 E0.44697
+G1 X130.33 Y96.76 Z23.039 E2.06525
+G1 X137.707 Y96.76 Z23.047 E1.16546
+G1 X139.708 Y94.76 Z23.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z23.053 E0.44696
+G1 X149.672 Y96.76 Z23.061 E1.16578
+G1 X162.588 Y94.757 Z23.074 E2.06493
+G1 X164.259 Y92.474 Z23.077 E0.44697
+G1 X164.837 Y92.385 Z23.078 E0.09239
+G1 X167.12 Y94.055 Z23.08 E0.44688
+G1 X179.673 Y92.11 Z23.094 E2.00686
+G3 X186.027 Y97.184 Z23.103 I0.866 J5.431 E1.44518
+G1 X186.928 Y111.096 Z23.117 E2.2025
+G1 X189.054 Y112.962 Z23.12 E0.4469
+G1 X189.092 Y113.546 Z23.121 E0.09246
+G1 X187.225 Y115.672 Z23.124 E0.44701
+G1 X188.123 Y129.561 Z23.138 E2.19885
+G3 X188.023 Y131.052 I-5.576 J0.375 E0.23657
+G1 X183.854 Y151.43 Z23.161 E3.28612
+G1 X185.412 Y153.79 Z23.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z23.167 E0.44672
+G1 X178.77 Y176.285 Z23.189 E3.28351
+G3 X174.931 Y180.486 Z23.195 I-5.402 J-1.082 E0.94427
+G1 X170.45 Y181.823 Z23.199 E0.73877
+G1 X169.104 Y184.311 Z23.202 E0.4469
+G1 X168.544 Y184.479 Z23.203 E0.09237
+G1 X166.056 Y183.134 Z23.206 E0.44683
+G1 X161.542 Y184.479 Z23.211 E0.74413
+G2 X158.486 Y187.662 Z23.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z23.223 E1.1519
+G3 X156.085 Y196.182 Z23.225 I-5.273 J-1.335 E0.24946
+G1 X154.529 Y198.798 Z23.228 E0.48087
+G1 X155.225 Y201.539 Z23.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z23.234 E0.44682
+G1 X150.638 Y205.337 Z23.237 E0.4777
+G3 X145.891 Y208.042 Z23.243 I-4.743 J-2.805 E0.90260
+G1 X142.293 Y208.042 Z23.247 E0.56843
+G1 X140.292 Y210.042 Z23.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z23.253 E0.44696
+G1 X134.109 Y208.042 Z23.257 E0.56843
+G3 X129.363 Y205.338 Z23.263 I-0.007 J-5.505 E0.90248
+G1 X127.815 Y202.739 Z23.266 E0.47792
+G1 X125.074 Y202.042 Z23.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z23.272 E0.44678
+G1 X123.916 Y196.183 Z23.275 E0.48066
+G3 X123.312 Y194.728 Z23.277 I4.665 J-2.790 E0.24967
+G1 X121.514 Y187.662 Z23.284 E1.1519
+G2 X118.458 Y184.479 Z23.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z23.294 E0.74413
+G1 X111.456 Y184.479 Z23.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z23.3 E0.4469
+G1 X105.07 Y180.486 Z23.305 E0.73862
+G3 X101.230 Y176.286 Z23.311 I1.562 J-5.283 E0.94424
+G1 X97.065 Y155.923 Z23.333 E3.28367
+G1 X94.706 Y154.364 Z23.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z23.339 E0.44677
+G1 X91.978 Y131.052 Z23.36 E3.28608
+G3 X91.876 Y129.561 Z23.362 I5.516 J-1.126 E0.23657
+G1 X92.775 Y115.672 Z23.376 E2.19886
+G1 X90.908 Y113.546 Z23.379 E0.44701
+G1 X90.946 Y112.962 Z23.38 E0.09246
+G1 X93.072 Y111.096 Z23.383 E0.4469
+G1 X93.971 Y97.184 Z23.397 E2.20248
+G3 X94.975 Y94.357 Z23.400 I5.493 J0.359 E0.47971
+;TIME_ELAPSED:704.161262
+;LAYER:58
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z23.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z23.419 E2.00688
+G1 X115.163 Y92.385 Z23.422 E0.44688
+G1 X115.741 Y92.474 Z23.423 E0.09239
+G1 X117.412 Y94.757 Z23.426 E0.44697
+G1 X130.33 Y96.76 Z23.439 E2.06525
+G1 X137.707 Y96.76 Z23.447 E1.16546
+G1 X139.708 Y94.76 Z23.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z23.453 E0.44696
+G1 X149.67 Y96.76 Z23.461 E1.16546
+G1 X162.588 Y94.757 Z23.474 E2.06525
+G1 X164.259 Y92.474 Z23.477 E0.44697
+G1 X164.837 Y92.385 Z23.478 E0.09239
+G1 X167.12 Y94.055 Z23.48 E0.44688
+G1 X179.673 Y92.109 Z23.494 E2.00688
+G3 X186.028 Y97.184 Z23.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z23.517 E2.20249
+G1 X189.054 Y112.962 Z23.52 E0.4469
+G1 X189.092 Y113.546 Z23.521 E0.09246
+G1 X187.225 Y115.672 Z23.524 E0.44701
+G1 X188.124 Y129.561 Z23.538 E2.19886
+G3 X188.023 Y131.052 Z23.539 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z23.561 E3.28612
+G1 X185.412 Y153.79 Z23.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z23.567 E0.44672
+G1 X178.77 Y176.286 Z23.589 E3.28367
+G3 X174.931 Y180.486 Z23.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z23.599 E0.73877
+G1 X169.104 Y184.311 Z23.602 E0.4469
+G1 X168.544 Y184.479 Z23.603 E0.09237
+G1 X166.056 Y183.134 Z23.606 E0.44683
+G1 X161.542 Y184.479 Z23.611 E0.74413
+G2 X158.486 Y187.662 Z23.615 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z23.623 E1.1519
+G3 X156.085 Y196.183 Z23.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z23.628 E0.48074
+G1 X155.225 Y201.539 Z23.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z23.634 E0.44682
+G1 X150.638 Y205.338 Z23.637 E0.47784
+G3 X145.891 Y208.042 Z23.643 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z23.647 E0.56843
+G1 X140.292 Y210.042 Z23.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z23.653 E0.44696
+G1 X134.109 Y208.042 Z23.657 E0.56843
+G3 X129.362 Y205.338 Z23.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z23.666 E0.47784
+G1 X125.074 Y202.042 Z23.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z23.672 E0.44678
+G1 X123.915 Y196.183 Z23.675 E0.48074
+G3 X123.312 Y194.728 Z23.677 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z23.684 E1.1519
+G2 X118.458 Y184.479 Z23.689 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z23.694 E0.74413
+G1 X111.456 Y184.479 Z23.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z23.7 E0.4469
+G1 X105.069 Y180.486 Z23.705 E0.73877
+G3 X101.230 Y176.286 Z23.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z23.733 E3.28367
+G1 X94.706 Y154.364 Z23.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z23.739 E0.44677
+G1 X91.977 Y131.052 Z23.76 E3.28612
+G3 X91.876 Y129.561 Z23.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z23.776 E2.19886
+G1 X90.908 Y113.546 Z23.779 E0.44701
+G1 X90.946 Y112.962 Z23.78 E0.09246
+G1 X93.072 Y111.096 Z23.783 E0.4469
+G1 X93.972 Y97.184 Z23.797 E2.20249
+G3 X94.975 Y94.357 Z23.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:710.679061
+;LAYER:59
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z23.806 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z23.819 E2.00688
+G1 X115.163 Y92.385 Z23.822 E0.44688
+G1 X115.741 Y92.474 Z23.823 E0.09239
+G1 X117.412 Y94.757 Z23.826 E0.44697
+G1 X130.33 Y96.76 Z23.839 E2.06525
+G1 X137.707 Y96.76 Z23.847 E1.16546
+G1 X139.708 Y94.76 Z23.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z23.853 E0.44696
+G1 X149.67 Y96.76 Z23.861 E1.16546
+G1 X162.588 Y94.757 Z23.874 E2.06525
+G1 X164.259 Y92.474 Z23.877 E0.44697
+G1 X164.837 Y92.385 Z23.878 E0.09239
+G1 X167.12 Y94.055 Z23.88 E0.44688
+G1 X179.673 Y92.109 Z23.894 E2.00688
+G3 X186.028 Y97.184 Z23.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z23.917 E2.20249
+G1 X189.054 Y112.962 Z23.92 E0.4469
+G1 X189.092 Y113.546 Z23.921 E0.09246
+G1 X187.225 Y115.672 Z23.924 E0.44701
+G1 X188.124 Y129.561 Z23.938 E2.19886
+G3 X188.023 Y131.052 Z23.939 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z23.961 E3.28612
+G1 X185.412 Y153.79 Z23.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z23.967 E0.44672
+G1 X178.77 Y176.286 Z23.989 E3.28367
+G3 X174.931 Y180.486 Z23.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z23.999 E0.73877
+G1 X169.104 Y184.311 Z24.002 E0.4469
+G1 X168.544 Y184.479 Z24.003 E0.09237
+G1 X166.056 Y183.134 Z24.006 E0.44683
+G1 X161.542 Y184.479 Z24.011 E0.74413
+G2 X158.486 Y187.662 Z24.015 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z24.023 E1.1519
+G3 X156.085 Y196.183 Z24.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z24.028 E0.48074
+G1 X155.225 Y201.539 Z24.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z24.034 E0.44682
+G1 X150.638 Y205.338 Z24.037 E0.47784
+G3 X145.891 Y208.042 Z24.043 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z24.047 E0.56843
+G1 X140.292 Y210.042 Z24.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z24.053 E0.44696
+G1 X134.109 Y208.042 Z24.057 E0.56843
+G3 X129.362 Y205.338 Z24.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z24.066 E0.47784
+G1 X125.074 Y202.042 Z24.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z24.072 E0.44678
+G1 X123.915 Y196.183 Z24.075 E0.48074
+G3 X123.312 Y194.728 Z24.077 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z24.084 E1.1519
+G2 X118.458 Y184.479 Z24.089 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z24.094 E0.74413
+G1 X111.456 Y184.479 Z24.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z24.1 E0.4469
+G1 X105.069 Y180.486 Z24.105 E0.73877
+G3 X101.230 Y176.286 Z24.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z24.133 E3.28367
+G1 X94.706 Y154.364 Z24.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z24.139 E0.44677
+G1 X91.977 Y131.052 Z24.16 E3.28612
+G3 X91.876 Y129.561 Z24.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z24.176 E2.19886
+G1 X90.908 Y113.546 Z24.179 E0.44701
+G1 X90.946 Y112.962 Z24.18 E0.09246
+G1 X93.072 Y111.096 Z24.183 E0.4469
+G1 X93.972 Y97.184 Z24.197 E2.20249
+G3 X94.975 Y94.357 Z24.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:717.196861
+;LAYER:60
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z24.206 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z24.219 E2.00688
+G1 X115.163 Y92.385 Z24.222 E0.44688
+G1 X115.741 Y92.474 Z24.223 E0.09239
+G1 X117.412 Y94.757 Z24.226 E0.44697
+G1 X130.33 Y96.76 Z24.239 E2.06525
+G1 X137.707 Y96.76 Z24.247 E1.16546
+G1 X139.708 Y94.76 Z24.25 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z24.253 E0.44696
+G1 X149.67 Y96.76 Z24.261 E1.16546
+G1 X162.588 Y94.757 Z24.274 E2.06525
+G1 X164.259 Y92.474 Z24.277 E0.44697
+G1 X164.837 Y92.385 Z24.278 E0.09239
+G1 X167.12 Y94.055 Z24.28 E0.44688
+G1 X179.673 Y92.109 Z24.294 E2.00688
+G3 X186.028 Y97.184 Z24.303 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z24.317 E2.20249
+G1 X189.054 Y112.962 Z24.32 E0.4469
+G1 X189.092 Y113.546 Z24.321 E0.09246
+G1 X187.225 Y115.672 Z24.324 E0.44701
+G1 X188.124 Y129.561 Z24.338 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z24.361 E3.28612
+G1 X185.412 Y153.79 Z24.364 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z24.367 E0.44672
+G1 X178.77 Y176.286 Z24.389 E3.28367
+G3 X174.931 Y180.486 Z24.395 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z24.399 E0.73877
+G1 X169.104 Y184.311 Z24.402 E0.4469
+G1 X168.544 Y184.479 Z24.403 E0.09237
+G1 X166.056 Y183.134 Z24.406 E0.44683
+G1 X161.542 Y184.479 Z24.411 E0.74413
+G2 X158.486 Y187.662 Z24.415 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z24.423 E1.1519
+G3 X156.085 Y196.183 Z24.425 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z24.428 E0.48074
+G1 X155.225 Y201.539 Z24.431 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z24.434 E0.44682
+G1 X150.638 Y205.338 Z24.437 E0.47784
+G3 X145.891 Y208.042 Z24.443 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z24.447 E0.56843
+G1 X140.292 Y210.042 Z24.45 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z24.453 E0.44696
+G1 X134.109 Y208.042 Z24.457 E0.56843
+G3 X129.362 Y205.338 Z24.463 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z24.466 E0.47784
+G1 X125.074 Y202.042 Z24.469 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z24.472 E0.44678
+G1 X123.915 Y196.183 Z24.475 E0.48074
+G3 X123.312 Y194.728 Z24.477 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z24.484 E1.1519
+G2 X118.458 Y184.479 Z24.489 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z24.494 E0.74413
+G1 X111.456 Y184.479 Z24.497 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z24.5 E0.4469
+G1 X105.069 Y180.486 Z24.505 E0.73877
+G3 X101.230 Y176.286 Z24.511 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z24.533 E3.28367
+G1 X94.706 Y154.364 Z24.536 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z24.539 E0.44677
+G1 X91.977 Y131.052 Z24.56 E3.28612
+G3 X91.876 Y129.561 Z24.562 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z24.576 E2.19886
+G1 X90.908 Y113.546 Z24.579 E0.44701
+G1 X90.946 Y112.962 Z24.58 E0.09246
+G1 X93.072 Y111.096 Z24.583 E0.4469
+G1 X93.972 Y97.184 Z24.597 E2.20249
+G3 X94.975 Y94.357 Z24.600 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:723.714660
+;LAYER:61
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z24.606 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z24.619 E2.00688
+G1 X115.163 Y92.385 Z24.622 E0.44688
+G1 X115.741 Y92.474 Z24.623 E0.09239
+G1 X117.412 Y94.757 Z24.626 E0.44697
+G1 X130.33 Y96.76 Z24.639 E2.06525
+G1 X137.707 Y96.76 Z24.647 E1.16546
+G1 X139.708 Y94.76 Z24.65 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z24.653 E0.44696
+G1 X149.67 Y96.76 Z24.661 E1.16546
+G1 X162.588 Y94.757 Z24.674 E2.06525
+G1 X164.259 Y92.474 Z24.677 E0.44697
+G1 X164.837 Y92.385 Z24.678 E0.09239
+G1 X167.12 Y94.055 Z24.68 E0.44688
+G1 X179.673 Y92.109 Z24.694 E2.00688
+G3 X186.028 Y97.184 Z24.703 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z24.717 E2.20249
+G1 X189.054 Y112.962 Z24.72 E0.4469
+G1 X189.092 Y113.546 Z24.721 E0.09246
+G1 X187.225 Y115.672 Z24.724 E0.44701
+G1 X188.124 Y129.561 Z24.738 E2.19886
+G3 X188.023 Y131.052 Z24.739 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z24.761 E3.28612
+G1 X185.412 Y153.79 Z24.764 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z24.767 E0.44672
+G1 X178.77 Y176.286 Z24.789 E3.28367
+G3 X174.931 Y180.486 Z24.795 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z24.799 E0.73877
+G1 X169.104 Y184.311 Z24.802 E0.4469
+G1 X168.544 Y184.479 Z24.803 E0.09237
+G1 X166.056 Y183.134 Z24.806 E0.44683
+G1 X161.542 Y184.479 Z24.811 E0.74413
+G2 X158.486 Y187.662 Z24.815 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z24.823 E1.1519
+G3 X156.085 Y196.183 Z24.825 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z24.828 E0.48074
+G1 X155.225 Y201.539 Z24.831 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z24.834 E0.44682
+G1 X150.638 Y205.338 Z24.837 E0.47784
+G3 X145.891 Y208.042 Z24.843 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z24.847 E0.56843
+G1 X140.292 Y210.042 Z24.85 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z24.853 E0.44696
+G1 X134.109 Y208.042 Z24.857 E0.56843
+G3 X129.362 Y205.338 Z24.863 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z24.866 E0.47784
+G1 X125.074 Y202.042 Z24.869 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z24.872 E0.44678
+G1 X123.915 Y196.183 Z24.875 E0.48074
+G3 X123.312 Y194.728 Z24.877 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z24.884 E1.1519
+G2 X118.458 Y184.479 Z24.889 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z24.894 E0.74413
+G1 X111.456 Y184.479 Z24.897 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z24.9 E0.4469
+G1 X105.069 Y180.486 Z24.905 E0.73877
+G3 X101.230 Y176.286 Z24.911 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z24.933 E3.28367
+G1 X94.706 Y154.364 Z24.936 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z24.939 E0.44677
+G1 X91.977 Y131.052 Z24.96 E3.28612
+G3 X91.876 Y129.561 Z24.962 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z24.976 E2.19886
+G1 X90.908 Y113.546 Z24.979 E0.44701
+G1 X90.946 Y112.962 Z24.98 E0.09246
+G1 X93.072 Y111.096 Z24.983 E0.4469
+G1 X93.972 Y97.184 Z24.997 E2.20249
+G3 X94.975 Y94.357 Z25.000 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:730.232460
+;LAYER:62
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z25.006 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z25.019 E2.00688
+G1 X115.163 Y92.385 Z25.022 E0.44688
+G1 X115.741 Y92.474 Z25.023 E0.09239
+G1 X117.412 Y94.757 Z25.026 E0.44697
+G1 X130.33 Y96.76 Z25.039 E2.06525
+G1 X137.707 Y96.76 Z25.047 E1.16546
+G1 X139.708 Y94.76 Z25.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z25.053 E0.44696
+G1 X149.67 Y96.76 Z25.061 E1.16546
+G1 X162.588 Y94.757 Z25.074 E2.06525
+G1 X164.259 Y92.474 Z25.077 E0.44697
+G1 X164.837 Y92.385 Z25.078 E0.09239
+G1 X167.12 Y94.055 Z25.08 E0.44688
+G1 X179.673 Y92.109 Z25.094 E2.00688
+G3 X186.028 Y97.184 Z25.103 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z25.117 E2.20249
+G1 X189.054 Y112.962 Z25.12 E0.4469
+G1 X189.092 Y113.546 Z25.121 E0.09246
+G1 X187.225 Y115.672 Z25.124 E0.44701
+G1 X188.124 Y129.561 Z25.138 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z25.161 E3.28612
+G1 X185.412 Y153.79 Z25.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z25.167 E0.44672
+G1 X178.77 Y176.286 Z25.189 E3.28367
+G3 X174.931 Y180.486 Z25.195 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z25.199 E0.73877
+G1 X169.104 Y184.311 Z25.202 E0.4469
+G1 X168.544 Y184.479 Z25.203 E0.09237
+G1 X166.056 Y183.134 Z25.206 E0.44683
+G1 X161.542 Y184.479 Z25.211 E0.74413
+G2 X158.486 Y187.662 Z25.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z25.223 E1.1519
+G3 X156.085 Y196.183 Z25.225 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z25.228 E0.48074
+G1 X155.225 Y201.539 Z25.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z25.234 E0.44682
+G1 X150.638 Y205.338 Z25.237 E0.47784
+G3 X145.891 Y208.042 Z25.243 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z25.247 E0.56843
+G1 X140.292 Y210.042 Z25.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z25.253 E0.44696
+G1 X134.109 Y208.042 Z25.257 E0.56843
+G3 X129.362 Y205.338 Z25.263 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z25.266 E0.47784
+G1 X125.074 Y202.042 Z25.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z25.272 E0.44678
+G1 X123.915 Y196.183 Z25.275 E0.48074
+G3 X123.312 Y194.728 Z25.277 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z25.284 E1.1519
+G2 X118.458 Y184.479 Z25.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z25.294 E0.74413
+G1 X111.456 Y184.479 Z25.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z25.3 E0.4469
+G1 X105.069 Y180.486 Z25.305 E0.73877
+G3 X101.230 Y176.286 Z25.311 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z25.333 E3.28367
+G1 X94.706 Y154.364 Z25.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z25.339 E0.44677
+G1 X91.977 Y131.052 Z25.36 E3.28612
+G3 X91.876 Y129.561 Z25.362 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z25.376 E2.19886
+G1 X90.908 Y113.546 Z25.379 E0.44701
+G1 X90.946 Y112.962 Z25.38 E0.09246
+G1 X93.072 Y111.096 Z25.383 E0.4469
+G1 X93.972 Y97.184 Z25.397 E2.20249
+G3 X94.975 Y94.357 Z25.400 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:736.750259
+;LAYER:63
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z25.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z25.419 E2.00688
+G1 X115.163 Y92.385 Z25.422 E0.44688
+G1 X115.741 Y92.474 Z25.423 E0.09239
+G1 X117.412 Y94.757 Z25.426 E0.44697
+G1 X130.33 Y96.76 Z25.439 E2.06525
+G1 X137.707 Y96.76 Z25.447 E1.16546
+G1 X139.708 Y94.76 Z25.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z25.453 E0.44696
+G1 X149.67 Y96.76 Z25.461 E1.16546
+G1 X162.588 Y94.757 Z25.474 E2.06525
+G1 X164.259 Y92.474 Z25.477 E0.44697
+G1 X164.837 Y92.385 Z25.478 E0.09239
+G1 X167.12 Y94.055 Z25.48 E0.44688
+G1 X179.673 Y92.109 Z25.494 E2.00688
+G3 X186.028 Y97.184 Z25.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z25.517 E2.20249
+G1 X189.054 Y112.962 Z25.52 E0.4469
+G1 X189.092 Y113.546 Z25.521 E0.09246
+G1 X187.225 Y115.672 Z25.524 E0.44701
+G1 X188.124 Y129.561 Z25.538 E2.19886
+G3 X188.023 Y131.052 Z25.539 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z25.561 E3.28612
+G1 X185.412 Y153.79 Z25.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z25.567 E0.44672
+G1 X178.77 Y176.286 Z25.589 E3.28367
+G3 X174.931 Y180.486 Z25.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z25.599 E0.73877
+G1 X169.104 Y184.311 Z25.602 E0.4469
+G1 X168.544 Y184.479 Z25.603 E0.09237
+G1 X166.056 Y183.134 Z25.606 E0.44683
+G1 X161.542 Y184.479 Z25.611 E0.74413
+G2 X158.486 Y187.662 Z25.615 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z25.623 E1.1519
+G3 X156.085 Y196.183 Z25.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z25.628 E0.48074
+G1 X155.225 Y201.539 Z25.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z25.634 E0.44682
+G1 X150.638 Y205.338 Z25.637 E0.47784
+G3 X145.891 Y208.042 Z25.643 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z25.647 E0.56843
+G1 X140.292 Y210.042 Z25.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z25.653 E0.44696
+G1 X134.109 Y208.042 Z25.657 E0.56843
+G3 X129.362 Y205.338 Z25.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z25.666 E0.47784
+G1 X125.074 Y202.042 Z25.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z25.672 E0.44678
+G1 X123.915 Y196.183 Z25.675 E0.48074
+G3 X123.312 Y194.728 Z25.677 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z25.684 E1.1519
+G2 X118.458 Y184.479 Z25.689 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z25.694 E0.74413
+G1 X111.456 Y184.479 Z25.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z25.7 E0.4469
+G1 X105.069 Y180.486 Z25.705 E0.73877
+G3 X101.230 Y176.286 Z25.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z25.733 E3.28367
+G1 X94.706 Y154.364 Z25.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z25.739 E0.44677
+G1 X91.977 Y131.052 Z25.76 E3.28612
+G3 X91.876 Y129.561 Z25.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z25.776 E2.19886
+G1 X90.908 Y113.546 Z25.779 E0.44701
+G1 X90.946 Y112.962 Z25.78 E0.09246
+G1 X93.072 Y111.096 Z25.783 E0.4469
+G1 X93.972 Y97.184 Z25.797 E2.20249
+G3 X94.975 Y94.357 Z25.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:743.268059
+;LAYER:64
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z25.806 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z25.819 E2.00688
+G1 X115.163 Y92.385 Z25.822 E0.44688
+G1 X115.741 Y92.474 Z25.823 E0.09239
+G1 X117.412 Y94.757 Z25.826 E0.44697
+G1 X130.33 Y96.76 Z25.839 E2.06525
+G1 X137.707 Y96.76 Z25.847 E1.16546
+G1 X139.708 Y94.76 Z25.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z25.853 E0.44696
+G1 X149.67 Y96.76 Z25.861 E1.16546
+G1 X162.588 Y94.757 Z25.874 E2.06525
+G1 X164.259 Y92.474 Z25.877 E0.44697
+G1 X164.837 Y92.385 Z25.878 E0.09239
+G1 X167.12 Y94.055 Z25.88 E0.44688
+G1 X179.673 Y92.109 Z25.894 E2.00688
+G3 X186.028 Y97.184 Z25.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z25.917 E2.20249
+G1 X189.054 Y112.962 Z25.92 E0.4469
+G1 X189.092 Y113.546 Z25.921 E0.09246
+G1 X187.225 Y115.672 Z25.924 E0.44701
+G1 X188.124 Y129.561 Z25.938 E2.19886
+G3 X188.023 Y131.052 Z25.939 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z25.961 E3.28612
+G1 X185.412 Y153.79 Z25.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z25.967 E0.44672
+G1 X178.77 Y176.286 Z25.989 E3.28367
+G3 X174.931 Y180.486 Z25.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z25.999 E0.73877
+G1 X169.104 Y184.311 Z26.002 E0.4469
+G1 X168.544 Y184.479 Z26.003 E0.09237
+G1 X166.056 Y183.134 Z26.006 E0.44683
+G1 X161.542 Y184.479 Z26.011 E0.74413
+G2 X158.486 Y187.662 Z26.015 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z26.023 E1.1519
+G3 X156.085 Y196.183 Z26.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z26.028 E0.48074
+G1 X155.225 Y201.539 Z26.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z26.034 E0.44682
+G1 X150.638 Y205.338 Z26.037 E0.47784
+G3 X145.891 Y208.042 Z26.043 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z26.047 E0.56843
+G1 X140.292 Y210.042 Z26.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z26.053 E0.44696
+G1 X134.109 Y208.042 Z26.057 E0.56843
+G3 X129.362 Y205.338 Z26.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z26.066 E0.47784
+G1 X125.074 Y202.042 Z26.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z26.072 E0.44678
+G1 X123.915 Y196.183 Z26.075 E0.48074
+G3 X123.312 Y194.728 Z26.077 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z26.084 E1.1519
+G2 X118.458 Y184.479 Z26.089 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z26.094 E0.74413
+G1 X111.456 Y184.479 Z26.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z26.1 E0.4469
+G1 X105.069 Y180.486 Z26.105 E0.73877
+G3 X101.230 Y176.286 Z26.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z26.133 E3.28367
+G1 X94.706 Y154.364 Z26.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z26.139 E0.44677
+G1 X91.977 Y131.052 Z26.16 E3.28612
+G3 X91.876 Y129.561 Z26.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z26.176 E2.19886
+G1 X90.908 Y113.546 Z26.179 E0.44701
+G1 X90.946 Y112.962 Z26.18 E0.09246
+G1 X93.072 Y111.096 Z26.183 E0.4469
+G1 X93.972 Y97.184 Z26.197 E2.20249
+G3 X94.975 Y94.357 Z26.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:749.785858
+;LAYER:65
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z26.206 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z26.219 E2.00688
+G1 X115.163 Y92.385 Z26.222 E0.44688
+G1 X115.741 Y92.474 Z26.223 E0.09239
+G1 X117.412 Y94.757 Z26.226 E0.44697
+G1 X130.33 Y96.76 Z26.239 E2.06525
+G1 X137.707 Y96.76 Z26.247 E1.16546
+G1 X139.708 Y94.76 Z26.25 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z26.253 E0.44696
+G1 X149.67 Y96.76 Z26.261 E1.16546
+G1 X162.588 Y94.757 Z26.274 E2.06525
+G1 X164.259 Y92.474 Z26.277 E0.44697
+G1 X164.837 Y92.385 Z26.278 E0.09239
+G1 X167.12 Y94.055 Z26.28 E0.44688
+G1 X179.673 Y92.109 Z26.294 E2.00688
+G3 X186.028 Y97.184 Z26.303 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z26.317 E2.20249
+G1 X189.054 Y112.962 Z26.32 E0.4469
+G1 X189.092 Y113.546 Z26.321 E0.09246
+G1 X187.225 Y115.672 Z26.324 E0.44701
+G1 X188.124 Y129.561 Z26.338 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z26.361 E3.28612
+G1 X185.412 Y153.79 Z26.364 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z26.367 E0.44672
+G1 X178.77 Y176.286 Z26.389 E3.28367
+G3 X174.931 Y180.486 Z26.395 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z26.399 E0.73877
+G1 X169.104 Y184.311 Z26.402 E0.4469
+G1 X168.544 Y184.479 Z26.403 E0.09237
+G1 X166.056 Y183.134 Z26.406 E0.44683
+G1 X161.542 Y184.479 Z26.411 E0.74413
+G2 X158.486 Y187.662 Z26.415 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z26.423 E1.1519
+G3 X156.085 Y196.183 Z26.425 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z26.428 E0.48074
+G1 X155.225 Y201.539 Z26.431 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z26.434 E0.44682
+G1 X150.638 Y205.338 Z26.437 E0.47784
+G3 X145.891 Y208.042 Z26.443 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z26.447 E0.56843
+G1 X140.292 Y210.042 Z26.45 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z26.453 E0.44696
+G1 X134.109 Y208.042 Z26.457 E0.56843
+G3 X129.362 Y205.338 Z26.463 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z26.466 E0.47784
+G1 X125.074 Y202.042 Z26.469 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z26.472 E0.44678
+G1 X123.915 Y196.183 Z26.475 E0.48074
+G3 X123.312 Y194.728 Z26.477 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z26.484 E1.1519
+G2 X118.458 Y184.479 Z26.489 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z26.494 E0.74413
+G1 X111.456 Y184.479 Z26.497 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z26.5 E0.4469
+G1 X105.069 Y180.486 Z26.505 E0.73877
+G3 X101.230 Y176.286 Z26.511 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z26.533 E3.28367
+G1 X94.706 Y154.364 Z26.536 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z26.539 E0.44677
+G1 X91.977 Y131.052 Z26.56 E3.28612
+G3 X91.876 Y129.561 Z26.562 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z26.576 E2.19886
+G1 X90.908 Y113.546 Z26.579 E0.44701
+G1 X90.946 Y112.962 Z26.58 E0.09246
+G1 X93.072 Y111.096 Z26.583 E0.4469
+G1 X93.972 Y97.184 Z26.597 E2.20249
+G3 X94.975 Y94.357 Z26.600 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:756.303658
+;LAYER:66
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z26.606 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z26.619 E2.00688
+G1 X115.163 Y92.385 Z26.622 E0.44688
+G1 X115.741 Y92.474 Z26.623 E0.09239
+G1 X117.412 Y94.757 Z26.626 E0.44697
+G1 X130.33 Y96.76 Z26.639 E2.06525
+G1 X137.707 Y96.76 Z26.647 E1.16546
+G1 X139.708 Y94.76 Z26.65 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z26.653 E0.44696
+G1 X149.67 Y96.76 Z26.661 E1.16546
+G1 X162.588 Y94.757 Z26.674 E2.06525
+G1 X164.259 Y92.474 Z26.677 E0.44697
+G1 X164.837 Y92.385 Z26.678 E0.09239
+G1 X167.12 Y94.055 Z26.68 E0.44688
+G1 X179.673 Y92.109 Z26.694 E2.00688
+G3 X186.028 Y97.184 Z26.703 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z26.717 E2.20249
+G1 X189.054 Y112.962 Z26.72 E0.4469
+G1 X189.092 Y113.546 Z26.721 E0.09246
+G1 X187.225 Y115.672 Z26.724 E0.44701
+G1 X188.124 Y129.561 Z26.738 E2.19886
+G3 X188.023 Y131.052 Z26.739 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z26.761 E3.28612
+G1 X185.412 Y153.79 Z26.764 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z26.767 E0.44672
+G1 X178.77 Y176.286 Z26.789 E3.28367
+G3 X174.931 Y180.486 Z26.795 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z26.799 E0.73877
+G1 X169.104 Y184.311 Z26.802 E0.4469
+G1 X168.544 Y184.479 Z26.803 E0.09237
+G1 X166.056 Y183.134 Z26.806 E0.44683
+G1 X161.542 Y184.479 Z26.811 E0.74413
+G2 X158.486 Y187.662 Z26.815 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z26.823 E1.1519
+G3 X156.085 Y196.183 Z26.825 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z26.828 E0.48074
+G1 X155.225 Y201.539 Z26.831 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z26.834 E0.44682
+G1 X150.638 Y205.338 Z26.837 E0.47784
+G3 X145.891 Y208.042 Z26.843 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z26.847 E0.56843
+G1 X140.292 Y210.042 Z26.85 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z26.853 E0.44696
+G1 X134.109 Y208.042 Z26.857 E0.56843
+G3 X129.362 Y205.338 Z26.863 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z26.866 E0.47784
+G1 X125.074 Y202.042 Z26.869 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z26.872 E0.44678
+G1 X123.915 Y196.183 Z26.875 E0.48074
+G3 X123.312 Y194.728 Z26.877 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z26.884 E1.1519
+G2 X118.458 Y184.479 Z26.889 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z26.894 E0.74413
+G1 X111.456 Y184.479 Z26.897 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z26.9 E0.4469
+G1 X105.069 Y180.486 Z26.905 E0.73877
+G3 X101.230 Y176.286 Z26.911 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z26.933 E3.28367
+G1 X94.706 Y154.364 Z26.936 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z26.939 E0.44677
+G1 X91.977 Y131.052 Z26.96 E3.28612
+G3 X91.876 Y129.561 Z26.962 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z26.976 E2.19886
+G1 X90.908 Y113.546 Z26.979 E0.44701
+G1 X90.946 Y112.962 Z26.98 E0.09246
+G1 X93.072 Y111.096 Z26.983 E0.4469
+G1 X93.972 Y97.184 Z26.997 E2.20249
+G3 X94.975 Y94.357 Z27.000 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:762.821457
+;LAYER:67
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z27.006 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z27.019 E2.00688
+G1 X115.163 Y92.385 Z27.022 E0.44688
+G1 X115.741 Y92.474 Z27.023 E0.09239
+G1 X117.412 Y94.757 Z27.026 E0.44697
+G1 X130.33 Y96.76 Z27.039 E2.06525
+G1 X137.707 Y96.76 Z27.047 E1.16546
+G1 X139.708 Y94.76 Z27.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z27.053 E0.44696
+G1 X149.67 Y96.76 Z27.061 E1.16546
+G1 X162.588 Y94.757 Z27.074 E2.06525
+G1 X164.259 Y92.474 Z27.077 E0.44697
+G1 X164.837 Y92.385 Z27.078 E0.09239
+G1 X167.12 Y94.055 Z27.08 E0.44688
+G1 X179.673 Y92.109 Z27.094 E2.00688
+G3 X186.028 Y97.184 Z27.103 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z27.117 E2.20249
+G1 X189.054 Y112.962 Z27.12 E0.4469
+G1 X189.092 Y113.546 Z27.121 E0.09246
+G1 X187.225 Y115.672 Z27.124 E0.44701
+G1 X188.124 Y129.561 Z27.138 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z27.161 E3.28612
+G1 X185.412 Y153.79 Z27.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z27.167 E0.44672
+G1 X178.77 Y176.286 Z27.189 E3.28367
+G3 X174.931 Y180.486 Z27.195 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z27.199 E0.73877
+G1 X169.104 Y184.311 Z27.202 E0.4469
+G1 X168.544 Y184.479 Z27.203 E0.09237
+G1 X166.056 Y183.134 Z27.206 E0.44683
+G1 X161.542 Y184.479 Z27.211 E0.74413
+G2 X158.486 Y187.662 Z27.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z27.223 E1.1519
+G3 X156.085 Y196.183 Z27.225 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z27.228 E0.48074
+G1 X155.225 Y201.539 Z27.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z27.234 E0.44682
+G1 X150.638 Y205.338 Z27.237 E0.47784
+G3 X145.891 Y208.042 Z27.243 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z27.247 E0.56843
+G1 X140.292 Y210.042 Z27.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z27.253 E0.44696
+G1 X134.109 Y208.042 Z27.257 E0.56843
+G3 X129.362 Y205.338 Z27.263 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z27.266 E0.47784
+G1 X125.074 Y202.042 Z27.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z27.272 E0.44678
+G1 X123.915 Y196.183 Z27.275 E0.48074
+G3 X123.312 Y194.728 Z27.277 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z27.284 E1.1519
+G2 X118.458 Y184.479 Z27.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z27.294 E0.74413
+G1 X111.456 Y184.479 Z27.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z27.3 E0.4469
+G1 X105.069 Y180.486 Z27.305 E0.73877
+G3 X101.230 Y176.286 Z27.311 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z27.333 E3.28367
+G1 X94.706 Y154.364 Z27.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z27.339 E0.44677
+G1 X91.977 Y131.052 Z27.36 E3.28612
+G3 X91.876 Y129.561 Z27.362 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z27.376 E2.19886
+G1 X90.908 Y113.546 Z27.379 E0.44701
+G1 X90.946 Y112.962 Z27.38 E0.09246
+G1 X93.072 Y111.096 Z27.383 E0.4469
+G1 X93.972 Y97.184 Z27.397 E2.20249
+G3 X94.975 Y94.357 Z27.400 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:769.339257
+;LAYER:68
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z27.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z27.419 E2.00688
+G1 X115.163 Y92.385 Z27.422 E0.44688
+G1 X115.741 Y92.474 Z27.423 E0.09239
+G1 X117.412 Y94.757 Z27.426 E0.44697
+G1 X130.33 Y96.76 Z27.439 E2.06525
+G1 X137.707 Y96.76 Z27.447 E1.16546
+G1 X139.708 Y94.76 Z27.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z27.453 E0.44696
+G1 X149.67 Y96.76 Z27.461 E1.16546
+G1 X162.588 Y94.757 Z27.474 E2.06525
+G1 X164.259 Y92.474 Z27.477 E0.44697
+G1 X164.837 Y92.385 Z27.478 E0.09239
+G1 X167.12 Y94.055 Z27.48 E0.44688
+G1 X179.673 Y92.109 Z27.494 E2.00688
+G3 X186.028 Y97.184 Z27.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z27.517 E2.20249
+G1 X189.054 Y112.962 Z27.52 E0.4469
+G1 X189.092 Y113.546 Z27.521 E0.09246
+G1 X187.225 Y115.672 Z27.524 E0.44701
+G1 X188.124 Y129.561 Z27.538 E2.19886
+G3 X188.023 Y131.052 Z27.539 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z27.561 E3.28612
+G1 X185.412 Y153.79 Z27.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z27.567 E0.44672
+G1 X178.77 Y176.286 Z27.589 E3.28367
+G3 X174.931 Y180.486 Z27.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z27.599 E0.73877
+G1 X169.104 Y184.311 Z27.602 E0.4469
+G1 X168.544 Y184.479 Z27.603 E0.09237
+G1 X166.056 Y183.134 Z27.606 E0.44683
+G1 X161.542 Y184.479 Z27.611 E0.74413
+G2 X158.486 Y187.662 Z27.615 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z27.623 E1.1519
+G3 X156.085 Y196.183 Z27.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z27.628 E0.48074
+G1 X155.225 Y201.539 Z27.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z27.634 E0.44682
+G1 X150.638 Y205.338 Z27.637 E0.47784
+G3 X145.891 Y208.042 Z27.643 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z27.647 E0.56843
+G1 X140.292 Y210.042 Z27.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z27.653 E0.44696
+G1 X134.109 Y208.042 Z27.657 E0.56843
+G3 X129.362 Y205.338 Z27.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z27.666 E0.47784
+G1 X125.074 Y202.042 Z27.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z27.672 E0.44678
+G1 X123.915 Y196.183 Z27.675 E0.48074
+G3 X123.312 Y194.728 Z27.677 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z27.684 E1.1519
+G2 X118.458 Y184.479 Z27.689 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z27.694 E0.74413
+G1 X111.456 Y184.479 Z27.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z27.7 E0.4469
+G1 X105.069 Y180.486 Z27.705 E0.73877
+G3 X101.230 Y176.286 Z27.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z27.733 E3.28367
+G1 X94.706 Y154.364 Z27.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z27.739 E0.44677
+G1 X91.977 Y131.052 Z27.76 E3.28612
+G3 X91.876 Y129.561 Z27.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z27.776 E2.19886
+G1 X90.908 Y113.546 Z27.779 E0.44701
+G1 X90.946 Y112.962 Z27.78 E0.09246
+G1 X93.072 Y111.096 Z27.783 E0.4469
+G1 X93.972 Y97.184 Z27.797 E2.20249
+G3 X94.975 Y94.357 Z27.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:775.857056
+;LAYER:69
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z27.806 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z27.819 E2.00688
+G1 X115.163 Y92.385 Z27.822 E0.44688
+G1 X115.741 Y92.474 Z27.823 E0.09239
+G1 X117.412 Y94.757 Z27.826 E0.44697
+G1 X130.33 Y96.76 Z27.839 E2.06525
+G1 X137.707 Y96.76 Z27.847 E1.16546
+G1 X139.708 Y94.76 Z27.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z27.853 E0.44696
+G1 X149.67 Y96.76 Z27.861 E1.16546
+G1 X162.588 Y94.757 Z27.874 E2.06525
+G1 X164.259 Y92.474 Z27.877 E0.44697
+G1 X164.837 Y92.385 Z27.878 E0.09239
+G1 X167.12 Y94.055 Z27.88 E0.44688
+G1 X179.673 Y92.109 Z27.894 E2.00688
+G3 X186.028 Y97.184 Z27.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z27.917 E2.20249
+G1 X189.054 Y112.962 Z27.92 E0.4469
+G1 X189.092 Y113.546 Z27.921 E0.09246
+G1 X187.225 Y115.672 Z27.924 E0.44701
+G1 X188.124 Y129.561 Z27.938 E2.19886
+G3 X188.023 Y131.052 Z27.939 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z27.961 E3.28612
+G1 X185.412 Y153.79 Z27.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z27.967 E0.44672
+G1 X178.77 Y176.286 Z27.989 E3.28367
+G3 X174.931 Y180.486 Z27.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z27.999 E0.73877
+G1 X169.104 Y184.311 Z28.002 E0.4469
+G1 X168.544 Y184.479 Z28.003 E0.09237
+G1 X166.056 Y183.134 Z28.006 E0.44683
+G1 X161.542 Y184.479 Z28.011 E0.74413
+G2 X158.486 Y187.662 Z28.015 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z28.023 E1.1519
+G3 X156.085 Y196.183 Z28.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z28.028 E0.48074
+G1 X155.225 Y201.539 Z28.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z28.034 E0.44682
+G1 X150.638 Y205.338 Z28.037 E0.47784
+G3 X145.891 Y208.042 Z28.043 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z28.047 E0.56843
+G1 X140.292 Y210.042 Z28.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z28.053 E0.44696
+G1 X134.109 Y208.042 Z28.057 E0.56843
+G3 X129.362 Y205.338 Z28.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z28.066 E0.47784
+G1 X125.074 Y202.042 Z28.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z28.072 E0.44678
+G1 X123.915 Y196.183 Z28.075 E0.48074
+G3 X123.312 Y194.728 Z28.077 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z28.084 E1.1519
+G2 X118.458 Y184.479 Z28.089 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z28.094 E0.74413
+G1 X111.456 Y184.479 Z28.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z28.1 E0.4469
+G1 X105.069 Y180.486 Z28.105 E0.73877
+G3 X101.230 Y176.286 Z28.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z28.133 E3.28367
+G1 X94.706 Y154.364 Z28.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z28.139 E0.44677
+G1 X91.977 Y131.052 Z28.16 E3.28612
+G3 X91.876 Y129.561 Z28.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z28.176 E2.19886
+G1 X90.908 Y113.546 Z28.179 E0.44701
+G1 X90.946 Y112.962 Z28.18 E0.09246
+G1 X93.072 Y111.096 Z28.183 E0.4469
+G1 X93.972 Y97.184 Z28.197 E2.20249
+G3 X94.975 Y94.357 Z28.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:782.374856
+;LAYER:70
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z28.206 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z28.219 E2.00688
+G1 X115.163 Y92.385 Z28.222 E0.44688
+G1 X115.741 Y92.474 Z28.223 E0.09239
+G1 X117.412 Y94.757 Z28.226 E0.44697
+G1 X130.33 Y96.76 Z28.239 E2.06525
+G1 X137.707 Y96.76 Z28.247 E1.16546
+G1 X139.708 Y94.76 Z28.25 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z28.253 E0.44696
+G1 X149.67 Y96.76 Z28.261 E1.16546
+G1 X162.588 Y94.757 Z28.274 E2.06525
+G1 X164.259 Y92.474 Z28.277 E0.44697
+G1 X164.837 Y92.385 Z28.278 E0.09239
+G1 X167.12 Y94.055 Z28.28 E0.44688
+G1 X179.673 Y92.109 Z28.294 E2.00688
+G3 X186.028 Y97.184 Z28.303 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z28.317 E2.20249
+G1 X189.054 Y112.962 Z28.32 E0.4469
+G1 X189.092 Y113.546 Z28.321 E0.09246
+G1 X187.225 Y115.672 Z28.324 E0.44701
+G1 X188.124 Y129.561 Z28.338 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z28.361 E3.28612
+G1 X185.412 Y153.79 Z28.364 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z28.367 E0.44672
+G1 X178.77 Y176.286 Z28.389 E3.28367
+G3 X174.931 Y180.486 Z28.395 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z28.399 E0.73877
+G1 X169.104 Y184.311 Z28.402 E0.4469
+G1 X168.544 Y184.479 Z28.403 E0.09237
+G1 X166.056 Y183.134 Z28.406 E0.44683
+G1 X161.542 Y184.479 Z28.411 E0.74413
+G2 X158.486 Y187.662 Z28.415 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z28.423 E1.1519
+G3 X156.085 Y196.183 Z28.425 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z28.428 E0.48074
+G1 X155.225 Y201.539 Z28.431 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z28.434 E0.44682
+G1 X150.638 Y205.338 Z28.437 E0.47784
+G3 X145.891 Y208.042 Z28.443 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z28.447 E0.56843
+G1 X140.292 Y210.042 Z28.45 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z28.453 E0.44696
+G1 X134.109 Y208.042 Z28.457 E0.56843
+G3 X129.362 Y205.338 Z28.463 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z28.466 E0.47784
+G1 X125.074 Y202.042 Z28.469 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z28.472 E0.44678
+G1 X123.915 Y196.183 Z28.475 E0.48074
+G3 X123.312 Y194.728 Z28.477 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z28.484 E1.1519
+G2 X118.458 Y184.479 Z28.489 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z28.494 E0.74413
+G1 X111.456 Y184.479 Z28.497 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z28.5 E0.4469
+G1 X105.069 Y180.486 Z28.505 E0.73877
+G3 X101.230 Y176.286 Z28.511 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z28.533 E3.28367
+G1 X94.706 Y154.364 Z28.536 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z28.539 E0.44677
+G1 X91.977 Y131.052 Z28.56 E3.28612
+G3 X91.876 Y129.561 Z28.562 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z28.576 E2.19886
+G1 X90.908 Y113.546 Z28.579 E0.44701
+G1 X90.946 Y112.962 Z28.58 E0.09246
+G1 X93.072 Y111.096 Z28.583 E0.4469
+G1 X93.972 Y97.184 Z28.597 E2.20249
+G3 X94.975 Y94.357 Z28.600 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:788.892655
+;LAYER:71
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z28.606 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z28.619 E2.00688
+G1 X115.163 Y92.385 Z28.622 E0.44688
+G1 X115.741 Y92.474 Z28.623 E0.09239
+G1 X117.412 Y94.757 Z28.626 E0.44697
+G1 X130.33 Y96.76 Z28.639 E2.06525
+G1 X137.707 Y96.76 Z28.647 E1.16546
+G1 X139.708 Y94.76 Z28.65 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z28.653 E0.44696
+G1 X149.67 Y96.76 Z28.661 E1.16546
+G1 X162.588 Y94.757 Z28.674 E2.06525
+G1 X164.259 Y92.474 Z28.677 E0.44697
+G1 X164.837 Y92.385 Z28.678 E0.09239
+G1 X167.12 Y94.055 Z28.68 E0.44688
+G1 X179.673 Y92.109 Z28.694 E2.00688
+G3 X186.028 Y97.184 Z28.703 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z28.717 E2.20249
+G1 X189.054 Y112.962 Z28.72 E0.4469
+G1 X189.092 Y113.546 Z28.721 E0.09246
+G1 X187.225 Y115.672 Z28.724 E0.44701
+G1 X188.124 Y129.561 Z28.738 E2.19886
+G3 X188.023 Y131.052 Z28.739 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z28.761 E3.28612
+G1 X185.412 Y153.79 Z28.764 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z28.767 E0.44672
+G1 X178.77 Y176.286 Z28.789 E3.28367
+G3 X174.931 Y180.486 Z28.795 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z28.799 E0.73877
+G1 X169.104 Y184.311 Z28.802 E0.4469
+G1 X168.544 Y184.479 Z28.803 E0.09237
+G1 X166.056 Y183.134 Z28.806 E0.44683
+G1 X161.542 Y184.479 Z28.811 E0.74413
+G2 X158.486 Y187.662 Z28.815 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z28.823 E1.1519
+G3 X156.085 Y196.183 Z28.825 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z28.828 E0.48074
+G1 X155.225 Y201.539 Z28.831 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z28.834 E0.44682
+G1 X150.638 Y205.338 Z28.837 E0.47784
+G3 X145.891 Y208.042 Z28.843 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z28.847 E0.56843
+G1 X140.292 Y210.042 Z28.85 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z28.853 E0.44696
+G1 X134.109 Y208.042 Z28.857 E0.56843
+G3 X129.362 Y205.338 Z28.863 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z28.866 E0.47784
+G1 X125.074 Y202.042 Z28.869 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z28.872 E0.44678
+G1 X123.915 Y196.183 Z28.875 E0.48074
+G3 X123.312 Y194.728 Z28.877 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z28.884 E1.1519
+G2 X118.458 Y184.479 Z28.889 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z28.894 E0.74413
+G1 X111.456 Y184.479 Z28.897 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z28.9 E0.4469
+G1 X105.069 Y180.486 Z28.905 E0.73877
+G3 X101.230 Y176.286 Z28.911 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z28.933 E3.28367
+G1 X94.706 Y154.364 Z28.936 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z28.939 E0.44677
+G1 X91.977 Y131.052 Z28.96 E3.28612
+G3 X91.876 Y129.561 Z28.962 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z28.976 E2.19886
+G1 X90.908 Y113.546 Z28.979 E0.44701
+G1 X90.946 Y112.962 Z28.98 E0.09246
+G1 X93.072 Y111.096 Z28.983 E0.4469
+G1 X93.972 Y97.184 Z28.997 E2.20249
+G3 X94.975 Y94.357 Z29.000 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:795.410455
+;LAYER:72
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z29.006 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z29.019 E2.00688
+G1 X115.163 Y92.385 Z29.022 E0.44688
+G1 X115.741 Y92.474 Z29.023 E0.09239
+G1 X117.412 Y94.757 Z29.026 E0.44697
+G1 X130.33 Y96.76 Z29.039 E2.06525
+G1 X137.707 Y96.76 Z29.047 E1.16546
+G1 X139.708 Y94.76 Z29.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z29.053 E0.44696
+G1 X149.67 Y96.76 Z29.061 E1.16546
+G1 X162.588 Y94.757 Z29.074 E2.06525
+G1 X164.259 Y92.474 Z29.077 E0.44697
+G1 X164.837 Y92.385 Z29.078 E0.09239
+G1 X167.12 Y94.055 Z29.08 E0.44688
+G1 X179.673 Y92.109 Z29.094 E2.00688
+G3 X186.028 Y97.184 Z29.103 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z29.117 E2.20249
+G1 X189.054 Y112.962 Z29.12 E0.4469
+G1 X189.092 Y113.546 Z29.121 E0.09246
+G1 X187.225 Y115.672 Z29.124 E0.44701
+G1 X188.124 Y129.561 Z29.138 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z29.161 E3.28612
+G1 X185.412 Y153.79 Z29.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z29.167 E0.44672
+G1 X178.77 Y176.286 Z29.189 E3.28367
+G3 X174.931 Y180.486 Z29.195 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z29.199 E0.73877
+G1 X169.104 Y184.311 Z29.202 E0.4469
+G1 X168.544 Y184.479 Z29.203 E0.09237
+G1 X166.056 Y183.134 Z29.206 E0.44683
+G1 X161.542 Y184.479 Z29.211 E0.74413
+G2 X158.486 Y187.662 Z29.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z29.223 E1.1519
+G3 X156.085 Y196.183 Z29.225 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z29.228 E0.48074
+G1 X155.225 Y201.539 Z29.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z29.234 E0.44682
+G1 X150.638 Y205.338 Z29.237 E0.47784
+G3 X145.891 Y208.042 Z29.243 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z29.247 E0.56843
+G1 X140.292 Y210.042 Z29.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z29.253 E0.44696
+G1 X134.109 Y208.042 Z29.257 E0.56843
+G3 X129.362 Y205.338 Z29.263 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z29.266 E0.47784
+G1 X125.074 Y202.042 Z29.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z29.272 E0.44678
+G1 X123.915 Y196.183 Z29.275 E0.48074
+G3 X123.312 Y194.728 Z29.277 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z29.284 E1.1519
+G2 X118.458 Y184.479 Z29.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z29.294 E0.74413
+G1 X111.456 Y184.479 Z29.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z29.3 E0.4469
+G1 X105.069 Y180.486 Z29.305 E0.73877
+G3 X101.230 Y176.286 Z29.311 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z29.333 E3.28367
+G1 X94.706 Y154.364 Z29.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z29.339 E0.44677
+G1 X91.977 Y131.052 Z29.36 E3.28612
+G3 X91.876 Y129.561 Z29.362 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z29.376 E2.19886
+G1 X90.908 Y113.546 Z29.379 E0.44701
+G1 X90.946 Y112.962 Z29.38 E0.09246
+G1 X93.072 Y111.096 Z29.383 E0.4469
+G1 X93.972 Y97.184 Z29.397 E2.20249
+G3 X94.975 Y94.357 Z29.400 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:801.928254
+;LAYER:73
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z29.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z29.419 E2.00688
+G1 X115.163 Y92.385 Z29.422 E0.44688
+G1 X115.741 Y92.474 Z29.423 E0.09239
+G1 X117.412 Y94.757 Z29.426 E0.44697
+G1 X130.33 Y96.76 Z29.439 E2.06525
+G1 X137.707 Y96.76 Z29.447 E1.16546
+G1 X139.708 Y94.76 Z29.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z29.453 E0.44696
+G1 X149.67 Y96.76 Z29.461 E1.16546
+G1 X162.588 Y94.757 Z29.474 E2.06525
+G1 X164.259 Y92.474 Z29.477 E0.44697
+G1 X164.837 Y92.385 Z29.478 E0.09239
+G1 X167.12 Y94.055 Z29.48 E0.44688
+G1 X179.673 Y92.109 Z29.494 E2.00688
+G3 X186.028 Y97.184 Z29.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z29.517 E2.20249
+G1 X189.054 Y112.962 Z29.52 E0.4469
+G1 X189.092 Y113.546 Z29.521 E0.09246
+G1 X187.225 Y115.672 Z29.524 E0.44701
+G1 X188.124 Y129.561 Z29.538 E2.19886
+G3 X188.023 Y131.052 Z29.539 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z29.561 E3.28612
+G1 X185.412 Y153.79 Z29.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z29.567 E0.44672
+G1 X178.77 Y176.286 Z29.589 E3.28367
+G3 X174.931 Y180.486 Z29.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z29.599 E0.73877
+G1 X169.104 Y184.311 Z29.602 E0.4469
+G1 X168.544 Y184.479 Z29.603 E0.09237
+G1 X166.056 Y183.134 Z29.606 E0.44683
+G1 X161.542 Y184.479 Z29.611 E0.74413
+G2 X158.486 Y187.662 Z29.615 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z29.623 E1.1519
+G3 X156.085 Y196.183 Z29.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z29.628 E0.48074
+G1 X155.225 Y201.539 Z29.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z29.634 E0.44682
+G1 X150.638 Y205.338 Z29.637 E0.47784
+G3 X145.891 Y208.042 Z29.643 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z29.647 E0.56843
+G1 X140.292 Y210.042 Z29.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z29.653 E0.44696
+G1 X134.109 Y208.042 Z29.657 E0.56843
+G3 X129.362 Y205.338 Z29.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z29.666 E0.47784
+G1 X125.074 Y202.042 Z29.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z29.672 E0.44678
+G1 X123.915 Y196.183 Z29.675 E0.48074
+G3 X123.312 Y194.728 Z29.677 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z29.684 E1.1519
+G2 X118.458 Y184.479 Z29.689 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z29.694 E0.74413
+G1 X111.456 Y184.479 Z29.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z29.7 E0.4469
+G1 X105.069 Y180.486 Z29.705 E0.73877
+G3 X101.230 Y176.286 Z29.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z29.733 E3.28367
+G1 X94.706 Y154.364 Z29.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z29.739 E0.44677
+G1 X91.977 Y131.052 Z29.76 E3.28612
+G3 X91.876 Y129.561 Z29.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z29.776 E2.19886
+G1 X90.908 Y113.546 Z29.779 E0.44701
+G1 X90.946 Y112.962 Z29.78 E0.09246
+G1 X93.072 Y111.096 Z29.783 E0.4469
+G1 X93.972 Y97.184 Z29.797 E2.20249
+G3 X94.975 Y94.357 Z29.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:808.446054
+;LAYER:74
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z29.806 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z29.819 E2.00688
+G1 X115.163 Y92.385 Z29.822 E0.44688
+G1 X115.741 Y92.474 Z29.823 E0.09239
+G1 X117.412 Y94.757 Z29.826 E0.44697
+G1 X130.33 Y96.76 Z29.839 E2.06525
+G1 X137.707 Y96.76 Z29.847 E1.16546
+G1 X139.708 Y94.76 Z29.85 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z29.853 E0.44696
+G1 X149.676 Y96.76 Z29.861 E1.16641
+G1 X162.588 Y94.757 Z29.874 E2.06431
+G1 X164.259 Y92.474 Z29.877 E0.44697
+G1 X164.837 Y92.385 Z29.878 E0.09239
+G1 X167.12 Y94.055 Z29.88 E0.44688
+G1 X179.673 Y92.109 Z29.894 E2.00688
+G3 X186.028 Y97.184 Z29.903 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z29.917 E2.20249
+G1 X189.054 Y112.962 Z29.92 E0.4469
+G1 X189.092 Y113.546 Z29.921 E0.09246
+G1 X187.225 Y115.672 Z29.924 E0.44701
+G1 X188.124 Y129.561 Z29.938 E2.19886
+G3 X188.023 Y131.052 Z29.939 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z29.961 E3.28612
+G1 X185.412 Y153.79 Z29.964 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z29.967 E0.44672
+G1 X178.77 Y176.286 Z29.989 E3.28367
+G3 X174.931 Y180.486 Z29.995 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z29.999 E0.73877
+G1 X169.104 Y184.311 Z30.002 E0.4469
+G1 X168.544 Y184.479 Z30.003 E0.09237
+G1 X166.056 Y183.134 Z30.006 E0.44683
+G1 X161.542 Y184.479 Z30.011 E0.74413
+G2 X158.486 Y187.662 Z30.015 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z30.023 E1.1519
+G3 X156.085 Y196.183 Z30.025 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z30.028 E0.48074
+G1 X155.225 Y201.539 Z30.031 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z30.034 E0.44682
+G1 X150.638 Y205.338 Z30.037 E0.47784
+G3 X145.891 Y208.042 Z30.043 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z30.047 E0.56843
+G1 X140.292 Y210.042 Z30.05 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z30.053 E0.44696
+G1 X134.109 Y208.042 Z30.057 E0.56843
+G3 X129.362 Y205.338 Z30.063 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z30.066 E0.47784
+G1 X125.074 Y202.042 Z30.069 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z30.072 E0.44678
+G1 X123.915 Y196.183 Z30.075 E0.48074
+G3 X123.312 Y194.728 Z30.077 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z30.084 E1.1519
+G2 X118.458 Y184.479 Z30.089 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z30.094 E0.74413
+G1 X111.456 Y184.479 Z30.097 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z30.1 E0.4469
+G1 X105.069 Y180.486 Z30.105 E0.73877
+G3 X101.230 Y176.286 Z30.111 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z30.133 E3.28367
+G1 X94.706 Y154.364 Z30.136 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z30.139 E0.44677
+G1 X91.977 Y131.052 Z30.16 E3.28612
+G3 X91.876 Y129.561 Z30.162 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z30.176 E2.19886
+G1 X90.908 Y113.546 Z30.179 E0.44701
+G1 X90.946 Y112.962 Z30.18 E0.09246
+G1 X93.072 Y111.096 Z30.183 E0.4469
+G1 X93.972 Y97.184 Z30.197 E2.20249
+G3 X94.975 Y94.357 Z30.200 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:814.963851
+;LAYER:75
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z30.206 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z30.219 E2.00688
+G1 X115.163 Y92.385 Z30.222 E0.44688
+G1 X115.741 Y92.474 Z30.223 E0.09239
+G1 X117.412 Y94.757 Z30.226 E0.44697
+G1 X130.33 Y96.76 Z30.239 E2.06525
+G1 X137.707 Y96.76 Z30.247 E1.16546
+G1 X139.708 Y94.76 Z30.25 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z30.253 E0.44696
+G1 X149.676 Y96.759 Z30.261 E1.16641
+G1 X162.588 Y94.757 Z30.274 E2.06429
+G1 X164.259 Y92.474 Z30.277 E0.44697
+G1 X164.837 Y92.385 Z30.278 E0.09239
+G1 X167.12 Y94.055 Z30.28 E0.44688
+G1 X179.673 Y92.109 Z30.294 E2.00688
+G3 X186.028 Y97.184 Z30.303 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z30.317 E2.20249
+G1 X189.054 Y112.962 Z30.32 E0.4469
+G1 X189.092 Y113.546 Z30.321 E0.09246
+G1 X187.225 Y115.672 Z30.324 E0.44701
+G1 X188.124 Y129.561 Z30.338 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z30.361 E3.28612
+G1 X185.412 Y153.79 Z30.364 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z30.367 E0.44672
+G1 X178.77 Y176.286 Z30.389 E3.28367
+G3 X174.931 Y180.486 Z30.395 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z30.399 E0.73877
+G1 X169.104 Y184.311 Z30.402 E0.4469
+G1 X168.544 Y184.479 Z30.403 E0.09237
+G1 X166.056 Y183.134 Z30.406 E0.44683
+G1 X161.542 Y184.479 Z30.411 E0.74413
+G2 X158.486 Y187.662 Z30.415 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z30.423 E1.1519
+G3 X156.085 Y196.183 Z30.425 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z30.428 E0.48074
+G1 X155.225 Y201.539 Z30.431 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z30.434 E0.44682
+G1 X150.638 Y205.338 Z30.437 E0.47784
+G3 X145.891 Y208.042 Z30.443 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z30.447 E0.56843
+G1 X140.292 Y210.042 Z30.45 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z30.453 E0.44696
+G1 X134.109 Y208.042 Z30.457 E0.56843
+G3 X129.362 Y205.338 Z30.463 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z30.466 E0.47784
+G1 X125.074 Y202.042 Z30.469 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z30.472 E0.44678
+G1 X123.915 Y196.183 Z30.475 E0.48074
+G3 X123.312 Y194.728 Z30.477 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z30.484 E1.1519
+G2 X118.458 Y184.479 Z30.489 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z30.494 E0.74413
+G1 X111.456 Y184.479 Z30.497 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z30.5 E0.4469
+G1 X105.069 Y180.486 Z30.505 E0.73877
+G3 X101.230 Y176.286 Z30.511 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z30.533 E3.28367
+G1 X94.706 Y154.364 Z30.536 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z30.539 E0.44677
+G1 X91.977 Y131.052 Z30.56 E3.28612
+G3 X91.876 Y129.561 Z30.562 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z30.576 E2.19886
+G1 X90.908 Y113.546 Z30.579 E0.44701
+G1 X90.946 Y112.962 Z30.58 E0.09246
+G1 X93.072 Y111.096 Z30.583 E0.4469
+G1 X93.972 Y97.184 Z30.597 E2.20249
+G3 X94.975 Y94.357 Z30.600 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:821.481656
+;LAYER:76
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z30.606 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z30.619 E2.00688
+G1 X115.163 Y92.385 Z30.622 E0.44688
+G1 X115.741 Y92.474 Z30.623 E0.09239
+G1 X117.412 Y94.757 Z30.626 E0.44697
+G1 X130.33 Y96.76 Z30.639 E2.06525
+G1 X137.707 Y96.76 Z30.647 E1.16546
+G1 X139.708 Y94.76 Z30.65 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z30.653 E0.44696
+G1 X149.669 Y96.76 Z30.661 E1.1653
+G1 X162.588 Y94.757 Z30.674 E2.0654
+G1 X164.259 Y92.474 Z30.677 E0.44697
+G1 X164.837 Y92.385 Z30.678 E0.09239
+G1 X167.12 Y94.055 Z30.68 E0.44688
+G1 X179.673 Y92.109 Z30.694 E2.00688
+G3 X186.028 Y97.184 Z30.703 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z30.717 E2.20249
+G1 X189.054 Y112.962 Z30.72 E0.4469
+G1 X189.092 Y113.546 Z30.721 E0.09246
+G1 X187.225 Y115.672 Z30.724 E0.44701
+G1 X188.124 Y129.561 Z30.738 E2.19886
+G3 X188.023 Y131.052 Z30.739 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z30.761 E3.28612
+G1 X185.412 Y153.79 Z30.764 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z30.767 E0.44672
+G1 X178.77 Y176.286 Z30.789 E3.28367
+G3 X174.931 Y180.486 Z30.795 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z30.799 E0.73877
+G1 X169.104 Y184.311 Z30.802 E0.4469
+G1 X168.544 Y184.479 Z30.803 E0.09237
+G1 X166.056 Y183.134 Z30.806 E0.44683
+G1 X161.542 Y184.479 Z30.811 E0.74413
+G2 X158.486 Y187.662 Z30.815 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z30.823 E1.1519
+G3 X156.085 Y196.183 Z30.825 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z30.828 E0.48074
+G1 X155.225 Y201.539 Z30.831 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z30.834 E0.44682
+G1 X150.638 Y205.338 Z30.837 E0.47784
+G3 X145.891 Y208.042 Z30.843 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z30.847 E0.56843
+G1 X140.292 Y210.042 Z30.85 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z30.853 E0.44696
+G1 X134.109 Y208.042 Z30.857 E0.56843
+G3 X129.362 Y205.338 Z30.863 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z30.866 E0.47784
+G1 X125.074 Y202.042 Z30.869 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z30.872 E0.44678
+G1 X123.915 Y196.183 Z30.875 E0.48074
+G3 X123.312 Y194.728 Z30.877 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z30.884 E1.1519
+G2 X118.458 Y184.479 Z30.889 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z30.894 E0.74413
+G1 X111.456 Y184.479 Z30.897 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z30.9 E0.4469
+G1 X105.069 Y180.486 Z30.905 E0.73877
+G3 X101.230 Y176.286 Z30.911 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z30.933 E3.28367
+G1 X94.706 Y154.364 Z30.936 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z30.939 E0.44677
+G1 X91.977 Y131.052 Z30.96 E3.28612
+G3 X91.876 Y129.561 Z30.962 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z30.976 E2.19886
+G1 X90.908 Y113.546 Z30.979 E0.44701
+G1 X90.946 Y112.962 Z30.98 E0.09246
+G1 X93.072 Y111.096 Z30.983 E0.4469
+G1 X93.972 Y97.184 Z30.997 E2.20249
+G3 X94.975 Y94.357 Z31.000 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:827.999456
+;LAYER:77
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z31.006 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z31.019 E2.00688
+G1 X115.163 Y92.385 Z31.022 E0.44688
+G1 X115.741 Y92.474 Z31.023 E0.09239
+G1 X117.412 Y94.757 Z31.026 E0.44697
+G1 X130.33 Y96.76 Z31.039 E2.06525
+G1 X137.707 Y96.76 Z31.047 E1.16546
+G1 X139.708 Y94.76 Z31.05 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z31.053 E0.44696
+G1 X149.67 Y96.76 Z31.061 E1.16546
+G1 X162.588 Y94.757 Z31.074 E2.06525
+G1 X164.259 Y92.474 Z31.077 E0.44697
+G1 X164.837 Y92.385 Z31.078 E0.09239
+G1 X167.12 Y94.055 Z31.08 E0.44688
+G1 X179.673 Y92.109 Z31.094 E2.00688
+G3 X186.028 Y97.184 Z31.103 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z31.117 E2.20249
+G1 X189.054 Y112.962 Z31.12 E0.4469
+G1 X189.092 Y113.546 Z31.121 E0.09246
+G1 X187.225 Y115.672 Z31.124 E0.44701
+G1 X188.124 Y129.561 Z31.138 E2.19886
+G3 X188.023 Y131.052 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z31.161 E3.28612
+G1 X185.412 Y153.79 Z31.164 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z31.167 E0.44672
+G1 X178.77 Y176.286 Z31.189 E3.28367
+G3 X174.931 Y180.486 Z31.195 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z31.199 E0.73877
+G1 X169.104 Y184.311 Z31.202 E0.4469
+G1 X168.544 Y184.479 Z31.203 E0.09237
+G1 X166.056 Y183.134 Z31.206 E0.44683
+G1 X161.542 Y184.479 Z31.211 E0.74413
+G2 X158.486 Y187.662 Z31.215 I1.296 J4.303 E0.72819
+G1 X156.688 Y194.728 Z31.223 E1.1519
+G3 X156.085 Y196.183 Z31.225 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z31.228 E0.48074
+G1 X155.225 Y201.539 Z31.231 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z31.234 E0.44682
+G1 X150.638 Y205.338 Z31.237 E0.47784
+G3 X145.891 Y208.042 Z31.243 I-4.740 J-2.802 E0.90259
+G1 X142.293 Y208.042 Z31.247 E0.56843
+G1 X140.292 Y210.042 Z31.25 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z31.253 E0.44696
+G1 X134.109 Y208.042 Z31.257 E0.56843
+G3 X129.362 Y205.338 Z31.263 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z31.266 E0.47784
+G1 X125.074 Y202.042 Z31.269 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z31.272 E0.44678
+G1 X123.915 Y196.183 Z31.275 E0.48074
+G3 X123.312 Y194.728 Z31.277 I4.730 J-2.813 E0.24961
+G1 X121.514 Y187.662 Z31.284 E1.1519
+G2 X118.458 Y184.479 Z31.289 I-4.352 J1.120 E0.72819
+G1 X113.944 Y183.134 Z31.294 E0.74413
+G1 X111.456 Y184.479 Z31.297 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z31.3 E0.4469
+G1 X105.069 Y180.486 Z31.305 E0.73877
+G3 X101.230 Y176.286 Z31.311 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z31.333 E3.28367
+G1 X94.706 Y154.364 Z31.336 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z31.339 E0.44677
+G1 X91.977 Y131.052 Z31.36 E3.28612
+G3 X91.876 Y129.561 Z31.362 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z31.376 E2.19886
+G1 X90.908 Y113.546 Z31.379 E0.44701
+G1 X90.946 Y112.962 Z31.38 E0.09246
+G1 X93.072 Y111.096 Z31.383 E0.4469
+G1 X93.972 Y97.184 Z31.397 E2.20249
+G3 X94.975 Y94.357 Z31.400 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:834.517255
+;LAYER:78
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.327 Y92.109 Z31.406 I4.487 J3.188 E0.96553
+G1 X112.88 Y94.055 Z31.419 E2.00688
+G1 X115.163 Y92.385 Z31.422 E0.44688
+G1 X115.741 Y92.474 Z31.423 E0.09239
+G1 X117.412 Y94.757 Z31.426 E0.44697
+G1 X130.332 Y96.76 Z31.439 E2.06556
+G1 X137.707 Y96.76 Z31.447 E1.16514
+G1 X139.708 Y94.76 Z31.45 E0.44696
+G1 X140.292 Y94.76 E0.09226
+G1 X142.293 Y96.76 Z31.453 E0.44696
+G1 X149.67 Y96.76 Z31.461 E1.16546
+G1 X162.588 Y94.757 Z31.474 E2.06525
+G1 X164.259 Y92.474 Z31.477 E0.44697
+G1 X164.837 Y92.385 Z31.478 E0.09239
+G1 X167.12 Y94.055 Z31.48 E0.44688
+G1 X179.673 Y92.109 Z31.494 E2.00688
+G3 X186.028 Y97.184 Z31.503 I0.865 J5.433 E1.44522
+G1 X186.928 Y111.096 Z31.517 E2.20249
+G1 X189.054 Y112.962 Z31.52 E0.4469
+G1 X189.092 Y113.546 Z31.521 E0.09246
+G1 X187.225 Y115.672 Z31.524 E0.44701
+G1 X188.124 Y129.561 Z31.538 E2.19886
+G3 X188.023 Y131.052 Z31.539 I-5.535 J0.374 E0.23658
+G1 X183.854 Y151.43 Z31.561 E3.28612
+G1 X185.412 Y153.79 Z31.564 E0.44677
+G1 X185.294 Y154.364 E0.09258
+G1 X182.935 Y155.923 Z31.567 E0.44672
+G1 X178.77 Y176.286 Z31.589 E3.28367
+G3 X174.931 Y180.486 Z31.595 I-5.399 J-1.080 E0.94417
+G1 X170.45 Y181.823 Z31.599 E0.73877
+G1 X169.104 Y184.311 Z31.602 E0.4469
+G1 X168.544 Y184.479 Z31.603 E0.09237
+G1 X166.056 Y183.134 Z31.606 E0.44683
+G1 X161.537 Y184.48 Z31.611 E0.74493
+G2 X158.486 Y187.662 Z31.615 I1.302 J4.302 E0.72738
+G1 X156.688 Y194.728 Z31.623 E1.1519
+G3 X156.085 Y196.183 Z31.625 I-5.266 J-1.330 E0.24961
+G1 X154.529 Y198.798 Z31.628 E0.48074
+G1 X155.225 Y201.539 Z31.631 E0.44678
+G1 X154.926 Y202.042 E0.09245
+G1 X152.185 Y202.739 Z31.634 E0.44682
+G1 X150.638 Y205.338 Z31.637 E0.47784
+G3 X145.899 Y208.041 Z31.643 I-4.737 J-2.799 E0.90132
+G1 X142.293 Y208.042 Z31.647 E0.5697
+G1 X140.292 Y210.042 Z31.65 E0.44696
+G1 X139.708 Y210.042 E0.09226
+G1 X137.707 Y208.042 Z31.653 E0.44696
+G1 X134.109 Y208.042 Z31.657 E0.56843
+G3 X129.362 Y205.338 Z31.663 I-0.008 J-5.505 E0.90259
+G1 X127.815 Y202.739 Z31.666 E0.47784
+G1 X125.074 Y202.042 Z31.669 E0.44682
+G1 X124.775 Y201.539 E0.09245
+G1 X125.471 Y198.798 Z31.672 E0.44678
+G1 X123.915 Y196.183 Z31.675 E0.48074
+G3 X123.312 Y194.728 Z31.677 I4.730 J-2.813 E0.24961
+G1 X121.513 Y187.659 Z31.684 E1.1524
+G2 X118.460 Y184.480 Z31.689 I-4.350 J1.122 E0.72731
+G1 X113.944 Y183.134 Z31.694 E0.74448
+G1 X111.456 Y184.479 Z31.697 E0.44683
+G1 X110.896 Y184.311 E0.09237
+G1 X109.55 Y181.823 Z31.7 E0.4469
+G1 X105.069 Y180.486 Z31.705 E0.73877
+G3 X101.230 Y176.286 Z31.711 I1.560 J-5.280 E0.94417
+G1 X97.065 Y155.923 Z31.733 E3.28367
+G1 X94.706 Y154.364 Z31.736 E0.44672
+G1 X94.588 Y153.79 E0.09258
+G1 X96.146 Y151.43 Z31.739 E0.44677
+G1 X91.977 Y131.052 Z31.76 E3.28612
+G3 X91.876 Y129.561 Z31.762 I5.434 J-1.117 E0.23658
+G1 X92.775 Y115.672 Z31.776 E2.19886
+G1 X90.908 Y113.546 Z31.779 E0.44701
+G1 X90.946 Y112.962 Z31.78 E0.09246
+G1 X93.072 Y111.096 Z31.783 E0.4469
+G1 X93.972 Y97.184 Z31.797 E2.20249
+G3 X94.975 Y94.357 Z31.800 I5.506 J0.362 E0.47969
+;TIME_ELAPSED:841.054459
+;LAYER:79
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.318 Y92.105 Z31.806 I4.492 J3.194 E0.96413 F4764
+G1 X113.131 Y93.872 Z31.82 E2.04343
+G1 X115.163 Y92.385 Z31.822 E0.3978
+G1 X115.741 Y92.474 Z31.823 E0.09239
+G1 X117.228 Y94.505 Z31.825 E0.39768
+G1 X130.314 Y96.735 Z31.839 E2.09721
+G1 X137.926 Y96.542 Z31.847 E1.20297
+G1 X139.708 Y94.76 Z31.85 E0.39814
+G1 X140.292 Y94.76 E0.09226
+G1 X142.072 Y96.54 Z31.853 E0.3977
+G1 X149.648 Y96.727 Z31.861 E1.19726
+G1 X162.77 Y94.507 Z31.874 E2.10255
+G1 X164.259 Y92.474 Z31.877 E0.39812
+G1 X164.837 Y92.385 E0.09239
+G1 X166.868 Y93.871 Z31.88 E0.39758
+G1 X179.67 Y92.058 Z31.893 E2.04271
+G3 X186.084 Y97.181 Z31.903 I0.871 J5.486 E1.45839
+G1 X187.16 Y111.3 Z31.917 E2.23707
+G1 X189.054 Y112.962 Z31.92 E0.3981
+G1 X189.092 Y113.546 Z31.921 E0.09246
+G1 X187.431 Y115.438 Z31.923 E0.39775
+G1 X188.199 Y129.557 Z31.938 E2.2339
+G3 X188.097 Y131.071 Z31.939 I-8.130 J0.213 E0.24024
+G1 X184.025 Y151.689 Z31.961 E3.32027
+G1 X185.411 Y153.789 Z31.964 E0.39752
+G1 X185.294 Y154.364 E0.0927
+G1 X183.195 Y155.751 Z31.967 E0.39747
+G1 X178.869 Y176.314 Z31.988 E3.31977
+G3 X174.961 Y180.588 Z31.995 I-5.506 J-1.111 E0.96075
+G1 X170.303 Y182.094 Z32 E0.7734
+G1 X169.104 Y184.311 Z32.002 E0.3982
+G1 X168.544 Y184.479 Z32.003 E0.09237
+G1 X166.33 Y183.282 Z32.006 E0.39763
+G1 X161.567 Y184.592 Z32.011 E0.78043
+G2 X158.603 Y187.685 Z32.015 I1.275 J4.189 E0.70668
+G1 X156.812 Y194.735 Z32.023 E1.14918
+G3 X156.191 Y196.246 I-5.421 J-1.345 E0.25891
+G1 X154.605 Y199.097 Z32.028 E0.51542
+G1 X155.225 Y201.539 Z32.03 E0.39804
+G1 X154.926 Y202.042 Z32.031 E0.09245
+G1 X152.487 Y202.662 Z32.034 E0.39758
+G3 X150.385 Y205.947 Z32.038 I-62.756 J-37.841 E0.61617
+G3 X145.891 Y208.174 Z32.043 I-4.487 J-3.406 E0.82064
+G1 X142.074 Y208.26 Z32.047 E0.60318
+G1 X140.292 Y210.042 Z32.049 E0.39814
+G1 X139.708 Y210.042 Z32.05 E0.09226
+G1 X137.928 Y208.262 Z32.053 E0.3977
+G1 X134.108 Y208.182 Z32.057 E0.60364
+G3 X129.275 Y205.467 Z32.063 I-0.017 J-5.628 E0.91510
+G1 X127.514 Y202.663 Z32.066 E0.52311
+G1 X125.074 Y202.042 Z32.069 E0.39777
+G1 X124.775 Y201.539 E0.09245
+G1 X125.394 Y199.1 Z32.072 E0.39754
+G3 X123.531 Y195.784 Z32.076 I64.628 J-38.490 E0.60092
+G3 X123.165 Y194.765 I5.096 J-2.406 E0.17126
+G1 X121.363 Y187.701 Z32.084 E1.15175
+G2 X118.418 Y184.633 Z32.089 I-4.204 J1.088 E0.70170
+G1 X113.671 Y183.281 Z32.094 E0.77978
+G1 X111.456 Y184.479 Z32.097 E0.39784
+G1 X110.896 Y184.311 E0.09237
+G1 X109.698 Y182.097 Z32.1 E0.3977
+G1 X105.021 Y180.646 Z32.105 E0.77364
+G3 X101.066 Y176.330 Z32.111 I1.609 J-5.445 E0.97113
+G1 X96.807 Y155.753 Z32.133 E3.31978
+G1 X94.706 Y154.364 Z32.135 E0.39791
+G1 X94.588 Y153.79 Z32.136 E0.09258
+G1 X95.974 Y151.69 Z32.139 E0.39752
+G1 X91.787 Y131.097 Z32.16 E3.31997
+G3 X91.678 Y129.549 Z32.162 I5.644 J-1.175 E0.24581
+G1 X92.57 Y115.439 Z32.176 E2.23363
+G1 X90.908 Y113.546 Z32.179 E0.39798
+G1 X90.946 Y112.962 Z32.18 E0.09246
+G1 X92.838 Y111.302 Z32.182 E0.39765
+G1 X93.755 Y97.17 Z32.197 E2.23735
+G3 X94.766 Y94.275 Z32.200 I5.725 J0.375 E0.49016
+;TIME_ELAPSED:847.492047
+;LAYER:80
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.341 Y91.886 Z32.207 I4.695 J3.257 E1.00939 F4760
+G1 X113.45 Y93.637 Z32.22 E2.08943
+G1 X115.163 Y92.385 Z32.222 E0.33521
+G1 X115.741 Y92.474 Z32.223 E0.09239
+G1 X116.993 Y94.186 Z32.225 E0.33508
+G1 X130.329 Y96.509 Z32.239 E2.13862
+G1 X138.206 Y96.262 Z32.247 E1.24507
+G1 X139.708 Y94.76 Z32.25 E0.33559
+G1 X140.292 Y94.76 E0.09226
+G1 X141.792 Y96.26 Z32.252 E0.33514
+G1 X149.623 Y96.498 Z32.26 E1.23776
+G1 X163.005 Y94.188 Z32.274 E2.14543
+G1 X164.259 Y92.474 Z32.277 E0.33552
+G1 X164.837 Y92.385 E0.09239
+G1 X166.549 Y93.636 Z32.279 E0.33499
+G1 X179.648 Y91.826 Z32.293 E2.08912
+G3 X186.318 Y97.166 Z32.303 I0.896 J5.717 E1.51766
+G1 X187.458 Y111.56 Z32.318 E2.28117
+G1 X189.054 Y112.962 Z32.32 E0.33562
+G1 X189.092 Y113.546 Z32.321 E0.09246
+G1 X187.692 Y115.14 Z32.323 E0.33517
+G1 X188.438 Y129.543 Z32.338 E2.27852
+G3 X188.333 Y131.118 I-5.800 J0.404 E0.25008
+G1 X184.244 Y152.019 Z32.361 E3.36466
+G1 X185.412 Y153.789 Z32.364 E0.33503
+G1 X185.295 Y154.364 E0.0927
+G1 X183.525 Y155.532 Z32.366 E0.33503
+G1 X179.112 Y176.369 Z32.388 E3.36497
+G3 X175.032 Y180.826 Z32.395 I-5.754 J-1.171 E1.00228
+G1 X170.115 Y182.443 Z32.4 E0.81774
+G1 X169.104 Y184.311 Z32.403 E0.33557
+G1 X168.544 Y184.479 E0.09237
+G1 X166.678 Y183.471 Z32.405 E0.33506
+G1 X161.637 Y184.834 Z32.411 E0.825
+G2 X159.492 Y186.370 Z32.414 I1.221 J3.971 E0.42390
+G1 X159.023 Y187.218 Z32.415 E0.1531
+G1 X158.848 Y187.744 E0.08758
+G1 X157.053 Y194.81 Z32.423 E1.15178
+G3 X156.409 Y196.376 I-5.625 J-1.398 E0.26836
+G1 X154.702 Y199.481 Z32.428 E0.55979
+G1 X155.225 Y201.539 Z32.43 E0.33547
+G1 X154.926 Y202.042 Z32.431 E0.09245
+G1 X152.871 Y202.564 Z32.433 E0.33497
+G3 X150.601 Y206.085 Z32.437 I-92.761 J-57.311 E0.66187
+G3 X145.892 Y208.431 Z32.443 I-4.704 J-3.544 E0.86111
+G1 X141.794 Y208.54 Z32.447 E0.64765
+G1 X140.292 Y210.042 Z32.449 E0.33559
+G1 X139.708 Y210.042 Z32.45 E0.09226
+G1 X138.208 Y208.542 Z32.452 E0.33514
+G1 X134.107 Y208.44 Z32.456 E0.6481
+G3 X129.025 Y205.559 Z32.463 I-0.015 J-5.896 E0.96511
+G1 X127.13 Y202.565 Z32.466 E0.55979
+G1 X125.074 Y202.042 Z32.469 E0.33516
+G1 X124.775 Y201.539 E0.09245
+G1 X125.296 Y199.483 Z32.471 E0.33509
+G3 X123.296 Y195.897 Z32.476 I80.836 J-47.435 E0.64871
+G3 X122.912 Y194.829 I5.441 J-2.560 E0.17950
+G1 X121.106 Y187.761 Z32.484 E1.15252
+G2 X118.344 Y184.886 Z32.489 I-3.940 J1.021 E0.65778
+G1 X113.323 Y183.47 Z32.494 E0.82419
+G1 X111.456 Y184.479 Z32.496 E0.33528
+G1 X110.896 Y184.311 Z32.497 E0.09237
+G1 X109.887 Y182.445 Z32.499 E0.33514
+G1 X104.946 Y180.901 Z32.504 E0.81783
+G3 X100.806 Y176.386 Z32.511 I1.690 J-5.705 E1.01619
+G1 X96.477 Y155.534 Z32.533 E3.36456
+G1 X94.706 Y154.364 Z32.535 E0.33534
+G1 X94.588 Y153.789 Z32.536 E0.09274
+G1 X95.755 Y152.02 Z32.538 E0.33481
+G1 X91.517 Y131.149 Z32.56 E3.36461
+G3 X91.404 Y129.530 Z32.562 I5.879 J-1.224 E0.25711
+G1 X92.309 Y115.141 Z32.577 E2.27775
+G1 X90.908 Y113.546 Z32.579 E0.33539
+G1 X90.946 Y112.962 E0.09246
+G1 X92.54 Y111.562 Z32.582 E0.33517
+G1 X93.476 Y97.152 Z32.597 E2.28137
+G3 X94.608 Y94.015 Z32.600 I5.981 J0.386 E0.53372
+;TIME_ELAPSED:853.846595
+;LAYER:81
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.386 Y91.609 Z32.607 I4.861 J3.532 E1.03974 F4757
+G1 X113.769 Y93.404 Z32.621 E2.13326
+G1 X115.163 Y92.385 Z32.623 E0.2728
+G1 X115.741 Y92.474 E0.09239
+G1 X116.76 Y93.867 Z32.625 E0.27267
+G1 X130.391 Y96.233 Z32.639 E2.1857
+G1 X138.486 Y95.982 Z32.648 E1.27951
+G1 X139.708 Y94.76 Z32.65 E0.27303
+G1 X140.292 Y94.76 E0.09226
+G1 X141.512 Y95.98 Z32.652 E0.27258
+G1 X149.598 Y96.218 Z32.66 E1.27803
+G1 X163.238 Y93.869 Z32.675 E2.18665
+G1 X164.258 Y92.475 Z32.676 E0.27289
+G1 X164.837 Y92.385 Z32.677 E0.09257
+G1 X166.23 Y93.403 Z32.679 E0.27258
+G1 X179.606 Y91.549 Z32.693 E2.13342
+G3 X186.599 Y97.174 Z32.703 I0.939 J5.992 E1.59506
+G1 X187.756 Y111.822 Z32.718 E2.32138
+G1 X189.054 Y112.962 Z32.72 E0.27293
+G1 X189.092 Y113.546 Z32.721 E0.09246
+G1 X187.954 Y114.843 Z32.723 E0.2726
+G1 X188.718 Y129.524 Z32.738 E2.32253
+G3 X188.608 Y131.172 Z32.740 I-6.258 J0.410 E0.26163
+G1 X184.462 Y152.35 Z32.762 E3.40933
+G1 X185.412 Y153.789 Z32.764 E0.27242
+G1 X185.294 Y154.364 E0.09273
+G1 X183.855 Y155.314 Z32.766 E0.27242
+G1 X179.386 Y176.425 Z32.788 E3.40915
+G3 X175.112 Y181.095 Z32.795 I-6.029 J-1.227 E1.05017
+G1 X169.927 Y182.792 Z32.801 E0.86191
+G1 X169.104 Y184.311 Z32.803 E0.27294
+G1 X168.544 Y184.479 E0.09237
+G1 X167.027 Y183.659 Z32.805 E0.27244
+G1 X161.725 Y185.1 Z32.811 E0.86803
+G2 X159.120 Y187.813 Z32.815 I1.120 J3.682 E0.62000
+G1 X157.322 Y194.888 Z32.823 E1.15328
+G3 X156.649 Y196.519 I-5.852 J-1.460 E0.27964
+G1 X154.799 Y199.866 Z32.828 E0.60418
+G1 X155.225 Y201.539 Z32.83 E0.27274
+G1 X154.926 Y202.042 Z32.831 E0.09245
+G1 X153.254 Y202.466 Z32.833 E0.27251
+G3 X150.841 Y206.232 Z32.837 I-101.419 J-62.326 E0.70665
+G3 X145.893 Y208.711 Z32.843 I-4.947 J-3.696 E0.90620
+G1 X141.514 Y208.82 Z32.848 E0.69203
+G1 X140.292 Y210.042 Z32.849 E0.27303
+G1 X139.708 Y210.042 Z32.85 E0.09226
+G1 X138.488 Y208.822 Z32.852 E0.27258
+G1 X134.106 Y208.72 Z32.856 E0.69248
+G3 X128.772 Y205.681 Z32.863 I-0.009 J-6.184 E1.01457
+G1 X126.747 Y202.467 Z32.867 E0.60015
+G1 X125.074 Y202.042 Z32.869 E0.27271
+G1 X124.775 Y201.539 E0.09245
+G1 X125.199 Y199.868 Z32.871 E0.27236
+G3 X123.044 Y196.019 Z32.876 I78.949 J-46.730 E0.69693
+G3 X122.640 Y194.898 Z32.877 I5.649 J-2.669 E0.18847
+G1 X120.836 Y187.834 Z32.884 E1.15183
+G1 X120.669 Y187.33 Z32.885 E0.08388
+G2 X118.264 Y185.155 Z32.888 I-3.514 J1.469 E0.52855
+G1 X112.975 Y183.658 Z32.894 E0.86841
+G1 X111.456 Y184.479 Z32.896 E0.27279
+G1 X110.896 Y184.311 Z32.897 E0.09237
+G1 X110.075 Y182.794 Z32.898 E0.27251
+G1 X104.865 Y181.169 Z32.904 E0.86221
+G3 X100.531 Y176.442 Z32.911 I1.776 J-5.979 E1.06386
+G1 X96.147 Y155.316 Z32.933 E3.40871
+G1 X94.706 Y154.364 Z32.935 E0.27285
+G1 X94.589 Y153.79 Z32.936 E0.09255
+G1 X95.537 Y152.351 Z32.938 E0.27224
+G1 X91.243 Y131.205 Z32.96 E3.40895
+G3 X91.125 Y129.512 Z32.962 I6.217 J-1.284 E0.26885
+G1 X92.047 Y114.844 Z32.977 E2.32191
+G1 X90.908 Y113.546 Z32.979 E0.27282
+G1 X90.946 Y112.962 E0.09246
+G1 X92.242 Y111.824 Z32.981 E0.27248
+G1 X93.195 Y97.16 Z32.996 E2.32159
+G3 X94.396 Y93.829 Z33.000 I6.297 J0.388 E0.56687
+;TIME_ELAPSED:860.109015
+;LAYER:82
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.429 Y91.331 Z33.007 I5.072 J3.715 E1.08423 F4754
+G1 X114.089 Y93.17 Z33.021 E2.17755
+G1 X115.163 Y92.385 Z33.023 E0.21017
+G1 X115.741 Y92.474 E0.09239
+G1 X116.526 Y93.547 Z33.025 E0.21004
+G1 X130.344 Y95.944 Z33.039 E2.21565
+G1 X138.766 Y95.702 Z33.048 E1.33111
+G1 X139.708 Y94.76 Z33.05 E0.21047
+G1 X140.292 Y94.76 E0.09226
+G1 X141.232 Y95.7 Z33.052 E0.21002
+G1 X149.556 Y95.938 Z33.06 E1.31561
+G1 X163.472 Y93.549 Z33.075 E2.23069
+G1 X164.257 Y92.475 Z33.076 E0.21017
+G1 X164.837 Y92.385 Z33.077 E0.09273
+G1 X165.91 Y93.169 Z33.078 E0.20995
+G1 X179.562 Y91.272 Z33.093 E2.17754
+G3 X186.879 Y97.156 Z33.103 I0.980 J6.273 E1.66895
+G1 X188.053 Y112.083 Z33.119 E2.36554
+G1 X189.054 Y112.962 Z33.12 E0.21046
+G1 X189.092 Y113.546 Z33.121 E0.09246
+G1 X188.214 Y114.545 Z33.122 E0.21012
+G1 X188.997 Y129.506 Z33.138 E2.36686
+G3 X188.882 Y131.231 Z33.140 I-6.465 J0.435 E0.27387
+G1 X184.679 Y152.681 Z33.162 E3.45324
+G1 X185.412 Y153.79 Z33.164 E0.21002
+G1 X185.294 Y154.364 E0.09258
+G1 X184.186 Y155.096 Z33.166 E0.2098
+G1 X179.659 Y176.484 Z33.189 E3.45386
+G3 X175.196 Y181.363 Z33.196 I-6.299 J-1.281 E1.09695
+G1 X169.738 Y183.139 Z33.202 E0.90679
+G1 X169.104 Y184.311 Z33.203 E0.21051
+G1 X168.544 Y184.479 Z33.204 E0.09237
+G1 X167.375 Y183.847 Z33.205 E0.20995
+G1 X161.796 Y185.371 Z33.211 E0.9137
+G2 X159.391 Y187.881 Z33.215 I1.045 J3.408 E0.57278
+G1 X157.594 Y194.957 Z33.222 E1.15339
+G3 X156.890 Y196.662 Z33.224 I-6.242 J-1.579 E0.29233
+G1 X154.897 Y200.248 Z33.229 E0.64815
+G1 X155.225 Y201.539 Z33.23 E0.21044
+G1 X154.926 Y202.042 Z33.231 E0.09245
+G1 X153.638 Y202.369 Z33.232 E0.20994
+G3 X151.071 Y206.392 Z33.237 I-106.364 J-65.038 E0.75396
+G3 X145.895 Y208.991 Z33.243 I-5.173 J-3.849 E0.94865
+G1 X141.234 Y209.1 Z33.248 E0.73657
+G1 X140.292 Y210.042 Z33.249 E0.21047
+G1 X139.708 Y210.042 Z33.25 E0.09226
+G1 X138.768 Y209.102 Z33.251 E0.21002
+G1 X134.105 Y209 Z33.256 E0.73686
+G3 X128.539 Y205.838 Z33.263 I-0.009 J-6.463 E1.05782
+G1 X126.363 Y202.37 Z33.267 E0.64682
+G1 X125.074 Y202.042 Z33.269 E0.21013
+G1 X124.775 Y201.539 E0.09245
+G1 X125.101 Y200.25 Z33.271 E0.21006
+G3 X122.790 Y196.136 Z33.276 I79.944 J-47.614 E0.74550
+G3 X122.369 Y194.967 I5.783 J-2.743 E0.19653
+G1 X120.563 Y187.897 Z33.285 E1.15283
+G2 X118.185 Y185.423 Z33.288 I-3.395 J0.883 E0.56572
+G1 X112.627 Y183.846 Z33.294 E0.91275
+G1 X111.456 Y184.479 Z33.296 E0.2103
+G1 X110.896 Y184.311 E0.09237
+G1 X110.264 Y183.141 Z33.298 E0.21009
+G1 X104.779 Y181.436 Z33.304 E0.90745
+G3 X100.258 Y176.502 Z33.311 I1.858 J-6.241 E1.11004
+G1 X95.816 Y155.098 Z33.334 E3.45358
+G1 X94.706 Y154.364 Z33.335 E0.21024
+G1 X94.588 Y153.79 Z33.336 E0.09258
+G1 X95.32 Y152.682 Z33.337 E0.2098
+G1 X90.97 Y131.265 Z33.36 E3.45267
+G3 X90.845 Y129.493 Z33.362 I6.507 J-1.349 E0.28142
+G1 X91.787 Y114.546 Z33.377 E2.3661
+G1 X90.908 Y113.546 Z33.379 E0.21034
+G1 X90.946 Y112.962 E0.09246
+G1 X91.945 Y112.085 Z33.381 E0.21002
+G1 X92.915 Y97.143 Z33.396 E2.36559
+G3 X94.195 Y93.632 Z33.400 I6.597 J0.416 E0.59855
+;TIME_ELAPSED:866.264985
+;LAYER:83
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.471 Y91.054 Z33.407 I5.277 J3.918 E1.12584 F4750
+G1 X114.409 Y92.937 Z33.422 E2.22201
+G1 X115.163 Y92.385 Z33.423 E0.14763
+G1 X115.741 Y92.473 Z33.424 E0.09237
+G1 X116.293 Y93.227 Z33.425 E0.14763
+G1 X130.412 Y95.669 Z33.44 E2.26372
+G1 X139.046 Y95.422 Z33.449 E1.36461
+G1 X139.708 Y94.76 Z33.45 E0.14791
+G1 X140.292 Y94.76 E0.09226
+G1 X140.952 Y95.42 Z33.451 E0.14746
+G1 X149.543 Y95.659 Z33.46 E1.35778
+G1 X163.705 Y93.229 Z33.475 E2.27009
+G1 X164.257 Y92.474 Z33.476 E0.14776
+G1 X164.837 Y92.385 Z33.477 E0.0927
+G1 X165.59 Y92.936 Z33.478 E0.14741
+G1 X179.518 Y90.996 Z33.492 E2.22167
+G3 X187.159 Y97.139 Z33.504 I1.026 J6.547 E1.74234
+G1 X188.35 Y112.345 Z33.52 E2.40969
+G1 X189.054 Y112.962 Z33.521 E0.14789
+G1 X189.092 Y113.546 E0.09246
+G1 X188.476 Y114.247 Z33.522 E0.14743
+G1 X189.277 Y129.487 Z33.538 E2.41103
+G3 X189.156 Y131.287 Z33.540 I-6.549 J0.464 E0.28581
+G1 X184.898 Y153.012 Z33.563 E3.49754
+G1 X185.411 Y153.789 Z33.564 E0.1471
+G1 X185.294 Y154.364 Z33.565 E0.0927
+G1 X184.517 Y154.878 Z33.566 E0.14718
+G1 X179.932 Y176.546 Z33.589 E3.49903
+G3 X175.284 Y181.629 Z33.596 I-6.575 J-1.346 E1.14225
+G1 X169.55 Y183.488 Z33.602 E0.95231
+G1 X169.104 Y184.311 Z33.603 E0.14789
+G1 X168.544 Y184.479 Z33.604 E0.09237
+G1 X167.723 Y184.036 Z33.605 E0.14738
+G1 X161.875 Y185.64 Z33.611 E0.95802
+G2 X159.662 Y187.948 Z33.615 I0.969 J3.144 E0.52673
+G1 X157.87 Y195.004 Z33.622 E1.15014
+G3 X157.131 Y196.805 Z33.624 I-6.591 J-1.652 E0.30853
+G1 X154.994 Y200.633 Z33.629 E0.69263
+G1 X155.225 Y201.539 Z33.63 E0.14771
+G1 X154.926 Y202.042 E0.09245
+G1 X154.021 Y202.271 Z33.631 E0.14748
+G3 X151.304 Y206.546 Z33.637 I-98.350 J-59.506 E0.80027
+G3 X145.897 Y209.271 Z33.643 I-5.407 J-4.001 E0.99169
+G1 X140.954 Y209.38 Z33.648 E0.78111
+G1 X140.292 Y210.042 Z33.649 E0.14791
+G1 X139.708 Y210.042 Z33.65 E0.09226
+G1 X139.048 Y209.382 Z33.651 E0.14746
+G1 X134.103 Y209.28 Z33.656 E0.78141
+G3 X128.303 Y205.989 Z33.663 I-0.009 J-6.741 E1.10157
+G1 X125.98 Y202.272 Z33.668 E0.69248
+G1 X125.074 Y202.042 Z33.669 E0.14768
+G1 X124.775 Y201.539 Z33.67 E0.09245
+G1 X125.004 Y200.635 Z33.671 E0.14733
+G1 X122.839 Y196.823 Z33.675 E0.69259
+G3 X122.098 Y195.036 Z33.677 I5.690 J-3.406 E0.30657
+G1 X120.292 Y187.964 Z33.685 E1.15313
+G2 X118.106 Y185.691 Z33.688 I-3.130 J0.822 E0.51961
+G1 X112.278 Y184.035 Z33.694 E0.95719
+G1 X111.456 Y184.479 Z33.695 E0.1476
+G1 X110.896 Y184.311 Z33.696 E0.09237
+G1 X110.452 Y183.49 Z33.697 E0.14746
+G1 X104.691 Y181.701 Z33.703 E0.95303
+G3 X99.985 Y176.564 Z33.711 I1.934 J-6.496 E1.15543
+G1 X95.485 Y154.88 Z33.734 E3.49875
+G1 X94.707 Y154.365 Z33.735 E0.1474
+G1 X94.588 Y153.79 Z33.736 E0.09277
+G1 X95.101 Y153.013 E0.1471
+G1 X90.696 Y131.321 Z33.76 E3.49697
+G3 X90.566 Y129.475 Z33.761 I6.725 J-1.401 E0.29318
+G1 X91.525 Y114.248 Z33.777 E2.41041
+G1 X90.909 Y113.547 Z33.778 E0.14743
+G1 X90.946 Y112.962 Z33.779 E0.09261
+G1 X91.648 Y112.347 Z33.78 E0.14745
+G1 X92.636 Y97.124 Z33.796 E2.41008
+G3 X94.018 Y93.395 Z33.800 I6.903 J0.438 E0.63711
+;TIME_ELAPSED:872.293606
+;LAYER:84
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.515 Y90.777 Z33.808 I5.456 J4.170 E1.16088 F4747
+G1 X114.729 Y92.703 Z33.823 E2.26613
+G1 X115.163 Y92.385 E0.085
+G1 X115.741 Y92.474 Z33.824 E0.09239
+G1 X116.058 Y92.908 E0.08491
+G1 X130.461 Y95.39 Z33.84 E2.30901
+G1 X139.326 Y95.142 Z33.849 E1.40109
+G1 X139.708 Y94.76 E0.08535
+G1 X140.292 Y94.76 Z33.85 E0.09226
+G1 X140.672 Y95.14 Z33.851 E0.0849
+G1 X149.529 Y95.379 Z33.86 E1.39979
+G1 X163.939 Y92.909 Z33.875 E2.30978
+G1 X164.258 Y92.474 Z33.876 E0.08522
+G1 X164.837 Y92.385 E0.09255
+G1 X165.27 Y92.702 Z33.877 E0.08478
+G1 X179.475 Y90.719 Z33.892 E2.26595
+G3 X187.438 Y97.120 Z33.904 I1.069 J6.824 E1.81591
+G1 X188.648 Y112.605 Z33.92 E2.45387
+G1 X189.054 Y112.962 Z33.921 E0.08541
+G1 X189.092 Y113.547 E0.09262
+G1 X188.737 Y113.95 Z33.922 E0.08485
+G1 X189.556 Y129.469 Z33.938 E2.45519
+G3 X189.430 Y131.342 Z33.940 I-6.907 J0.476 E0.29739
+G1 X185.116 Y153.341 Z33.963 E3.54172
+G1 X185.412 Y153.789 Z33.964 E0.08483
+G1 X185.295 Y154.364 Z33.965 E0.0927
+G1 X184.847 Y154.66 E0.08483
+G1 X180.208 Y176.599 Z33.989 E3.54269
+G3 X175.364 Y181.897 Z33.997 I-6.840 J-1.390 E1.19068
+G1 X169.362 Y183.837 Z34.003 E0.99653
+G1 X169.104 Y184.311 Z34.004 E0.08526
+G1 X168.544 Y184.479 E0.09237
+G1 X168.071 Y184.223 Z34.005 E0.08497
+G1 X161.953 Y185.909 Z34.011 E1.00259
+G2 X159.934 Y188.016 Z34.015 I0.888 J2.872 E0.48068
+G1 X158.138 Y195.09 Z34.022 E1.15305
+G3 X157.364 Y196.961 Z34.024 I-6.965 J-1.786 E0.32087
+G1 X155.092 Y201.016 Z34.029 E0.73434
+G1 X155.225 Y201.539 Z34.03 E0.08526
+G1 X154.926 Y202.042 E0.09245
+G1 X154.406 Y202.174 Z34.031 E0.08476
+G3 X151.549 Y206.687 Z34.037 I-113.984 J-68.998 E0.84387
+G3 X145.898 Y209.551 Z34.043 I-5.649 J-4.139 E1.03802
+G1 X140.674 Y209.66 Z34.049 E0.8255
+G1 X140.292 Y210.042 E0.08535
+G1 X139.708 Y210.042 Z34.05 E0.09226
+G1 X139.328 Y209.662 Z34.051 E0.0849
+G1 X134.101 Y209.56 Z34.056 E0.82595
+G3 X128.060 Y206.128 Z34.064 I-0.006 J-7.022 E1.14777
+G1 X125.595 Y202.175 Z34.069 E0.73599
+G1 X125.074 Y202.042 E0.08495
+G1 X124.775 Y201.539 Z34.07 E0.09245
+G1 X124.906 Y201.018 E0.08487
+G1 X122.606 Y196.979 Z34.075 E0.73431
+G3 X121.824 Y195.101 Z34.077 I6.029 J-3.612 E0.32237
+G1 X120.02 Y188.033 Z34.085 E1.15244
+G2 X118.027 Y185.961 Z34.088 I-2.855 J0.751 E0.47387
+G1 X111.93 Y184.223 Z34.095 E1.00161
+G1 X111.457 Y184.478 E0.08489
+G1 X110.896 Y184.311 Z34.096 E0.09247
+G1 X110.64 Y183.839 E0.08483
+G1 X104.618 Y181.971 Z34.103 E0.99611
+G3 X99.710 Y176.616 Z34.111 I2.008 J-6.767 E1.20487
+G1 X95.155 Y154.662 Z34.134 E3.54229
+G1 X94.706 Y154.365 Z34.135 E0.08505
+G1 X94.588 Y153.789 E0.09289
+G1 X94.883 Y153.342 Z34.136 E0.08461
+G1 X90.42 Y131.373 Z34.159 E3.54168
+G3 X90.286 Y129.457 Z34.161 I7.072 J-1.457 E0.30425
+G1 X91.264 Y113.951 Z34.178 E2.45459
+G1 X90.908 Y113.547 E0.08507
+G1 X90.946 Y112.962 Z34.179 E0.09262
+G1 X91.35 Y112.607 E0.08497
+G1 X92.357 Y97.106 Z34.196 E2.4541
+G3 X93.771 Y93.261 Z34.200 I7.136 J0.442 E0.65615
+;TIME_ELAPSED:878.165145
+;LAYER:85
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.559 Y90.501 Z34.208 I5.697 J4.283 E1.21532 F4744
+G1 X115.048 Y92.469 Z34.223 E2.31007
+G1 X115.162 Y92.386 Z34.224 E0.02228
+G1 X115.741 Y92.473 E0.0925
+G1 X115.824 Y92.587 E0.02228
+G1 X130.442 Y95.108 Z34.24 E2.34353
+G1 X139.606 Y94.862 Z34.249 E1.4483
+G1 X139.707 Y94.761 Z34.25 E0.02257
+G1 X140.292 Y94.76 E0.09242
+G1 X140.392 Y94.86 E0.02234
+G1 X149.568 Y95.094 Z34.26 E1.45015
+G1 X164.173 Y92.589 Z34.275 E2.34107
+G1 X164.258 Y92.474 Z34.276 E0.02259
+G1 X164.837 Y92.385 E0.09255
+G1 X164.951 Y92.468 E0.02228
+G1 X179.432 Y90.443 Z34.292 E2.31005
+G3 X187.718 Y97.102 Z34.304 I1.112 J7.102 E1.88923
+G1 X188.946 Y112.867 Z34.321 E2.49819
+G1 X189.054 Y112.962 E0.02272
+G1 X189.092 Y113.547 E0.09262
+G1 X188.999 Y113.652 Z34.322 E0.02216
+G1 X189.836 Y129.451 Z34.338 E2.49952
+G3 X189.705 Y131.399 Z34.340 I-7.286 J0.488 E0.30928
+G1 X185.335 Y153.672 Z34.364 E3.58591
+G1 X185.412 Y153.789 E0.02213
+G1 X185.294 Y154.364 Z34.365 E0.09274
+G1 X185.177 Y154.441 E0.02213
+G1 X180.481 Y176.659 Z34.389 E3.58767
+G3 X175.429 Y182.171 Z34.397 I-7.125 J-1.459 E1.24016
+G1 X169.173 Y184.185 Z34.404 E1.03831
+G1 X169.104 Y184.311 E0.0227
+G1 X168.543 Y184.479 Z34.405 E0.09252
+G1 X168.419 Y184.412 E0.02227
+G1 X162.032 Y186.178 Z34.412 E1.04692
+G2 X160.214 Y188.057 Z34.415 I0.811 J2.603 E0.43029
+G1 X158.408 Y195.164 Z34.422 E1.15849
+G3 X157.608 Y197.096 Z34.424 I-7.014 J-1.773 E0.33140
+G1 X155.189 Y201.401 Z34.43 E0.78015
+G1 X155.225 Y201.539 E0.02253
+G1 X154.927 Y202.041 E0.09223
+G1 X154.791 Y202.076 E0.02219
+G3 X151.779 Y206.846 Z34.436 I-118.261 J-71.340 E0.89127
+G3 X145.899 Y209.831 Z34.444 I-5.882 J-4.303 E1.08054
+G1 X140.394 Y209.94 Z34.449 E0.86988
+G1 X140.293 Y210.041 E0.02257
+G1 X139.708 Y210.042 Z34.45 E0.09242
+G1 X139.608 Y209.942 E0.02234
+G1 X134.1 Y209.84 Z34.456 E0.87033
+G3 X127.821 Y206.274 Z34.464 I-0.009 J-7.296 E1.19286
+G1 X125.21 Y202.076 Z34.469 E0.78104
+G1 X125.074 Y202.042 E0.02215
+G1 X124.775 Y201.538 Z34.47 E0.09258
+G1 X124.809 Y201.402 E0.02215
+G1 X122.36 Y197.113 Z34.475 E0.78028
+G3 X121.554 Y195.173 Z34.477 I6.210 J-3.717 E0.33293
+G1 X119.748 Y188.101 Z34.485 E1.15313
+G2 X117.975 Y186.238 Z34.488 I-2.585 J0.685 E0.42353
+G1 X111.582 Y184.411 Z34.495 E1.05044
+G1 X111.457 Y184.479 E0.02248
+G1 X110.897 Y184.312 Z34.496 E0.09232
+G1 X110.829 Y184.187 E0.02248
+G1 X104.538 Y182.239 Z34.503 E1.04045
+G3 X99.436 Y176.677 Z34.511 I2.089 J-7.037 E1.25181
+G1 X94.825 Y154.444 Z34.535 E3.58724
+G1 X94.706 Y154.365 E0.02257
+G1 X94.589 Y153.79 E0.0927
+G1 X94.664 Y153.673 Z34.536 E0.02196
+G1 X90.147 Y131.433 Z34.559 E3.58534
+G3 X90.007 Y129.439 Z34.561 I7.278 J-1.513 E0.31668
+G1 X91.002 Y113.653 Z34.578 E2.49891
+G1 X90.908 Y113.547 E0.02238
+G1 X90.945 Y112.963 Z34.579 E0.09245
+G1 X91.052 Y112.869 E0.0225
+G1 X92.078 Y97.087 Z34.595 E2.49859
+G3 X93.586 Y93.041 Z34.600 I7.414 J0.459 E0.69190
+;TIME_ELAPSED:883.840667
+;LAYER:86
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.602 Y90.227 Z34.608 I5.877 J4.499 E1.25279 F4744
+G1 X130.466 Y94.849 Z34.64 E4.77426
+G1 X149.519 Y94.846 Z34.66 E3.0101
+G1 X179.395 Y90.207 Z34.692 E4.77654
+G3 X187.951 Y97.086 Z34.704 I1.145 J7.336 E1.95115
+G1 X190.053 Y129.437 Z34.738 E5.12177
+G3 X189.917 Y131.442 Z34.740 I-7.332 J0.510 E0.31836
+G1 X180.672 Y176.699 Z34.789 E7.29762
+G3 X175.484 Y182.354 Z34.797 I-7.306 J-1.495 E1.27300
+G1 X162.092 Y186.353 Z34.812 E2.20806
+G2 X160.381 Y188.138 Z34.815 I0.751 J2.432 E0.40753
+G1 X158.582 Y195.208 Z34.822 E1.15255
+G3 X157.758 Y197.195 Z34.824 I-7.240 J-1.838 E0.34091
+G1 X152.315 Y206.349 Z34.836 E1.68254
+G3 X145.900 Y210.002 Z34.844 I-6.419 J-3.814 E1.21951
+G1 X134.101 Y210.006 Z34.856 E1.86407
+G3 X127.681 Y206.356 Z34.864 I-0.001 J-7.470 E1.21990
+G1 X122.231 Y197.202 Z34.875 E1.68311
+G3 X121.404 Y195.212 Z34.878 I6.327 J-3.796 E0.34153
+G1 X119.602 Y188.14 Z34.885 E1.15298
+G2 X117.900 Y186.371 Z34.888 I-2.436 J0.641 E0.40467
+G1 X104.509 Y182.38 Z34.903 E2.20755
+G3 X99.299 Y176.706 Z34.911 I2.118 J-7.174 E1.27785
+G1 X90.03 Y131.453 Z34.959 E7.29776
+G3 X89.890 Y129.432 Z34.961 I7.359 J-1.525 E0.32094
+G1 X91.976 Y97.081 Z34.995 E5.12161
+G3 X93.489 Y93.003 Z35.000 I7.508 J0.466 E0.69685
+;TIME_ELAPSED:888.769757
+;LAYER:87
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.618 Y90.129 Z35.008 I5.975 J4.542 E1.27438 F4745
+G1 X130.481 Y94.76 Z35.04 E4.77432
+G1 X149.519 Y94.76 Z35.06 E3.00773
+G1 X179.382 Y90.129 Z35.092 E4.77432
+G3 X188.026 Y97.080 Z35.105 I1.153 J7.416 E1.97121
+G1 X190.12 Y129.431 Z35.138 E5.12169
+G3 X189.981 Y131.455 Z35.141 I-7.455 J0.505 E0.32138
+G1 X180.724 Y176.711 Z35.189 E7.29784
+G3 X175.499 Y182.404 Z35.197 I-7.359 J-1.510 E1.28180
+G1 X162.109 Y186.398 Z35.212 E2.20753
+G2 X160.426 Y188.150 Z35.215 I0.721 J2.377 E0.40057
+G1 X158.626 Y195.22 Z35.222 E1.15259
+G3 X157.796 Y197.218 Z35.225 I-7.331 J-1.874 E0.34288
+G1 X152.35 Y206.373 Z35.236 E1.68292
+G3 X145.900 Y210.042 Z35.244 I-6.452 J-3.838 E1.22578
+G1 X134.1 Y210.042 Z35.256 E1.86423
+G3 X127.650 Y206.373 Z35.264 I0.002 J-7.508 E1.22578
+G1 X122.204 Y197.218 Z35.275 E1.68292
+G3 X121.374 Y195.220 Z35.278 I6.369 J-3.817 E0.34288
+G1 X119.574 Y188.15 Z35.285 E1.15259
+G2 X117.891 Y186.398 Z35.288 I-2.404 J0.625 E0.40057
+G1 X104.501 Y182.404 Z35.303 E2.20753
+G3 X99.276 Y176.711 Z35.311 I2.129 J-7.198 E1.28180
+G1 X90.019 Y131.455 Z35.359 E7.29784
+G3 X89.880 Y129.431 Z35.361 I7.420 J-1.526 E0.32138
+G1 X91.974 Y97.08 Z35.395 E5.12169
+G3 X93.489 Y93.003 Z35.400 I7.503 J0.468 E0.69683
+;TIME_ELAPSED:893.702256
+;LAYER:88
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.619 Y90.129 Z35.408 I5.976 J4.545 E1.27445 F4745
+G1 X130.481 Y94.764 Z35.44 E4.77426
+G1 X149.52 Y94.765 Z35.46 E3.00789
+G1 X179.382 Y90.138 Z35.492 E4.77407
+G3 X188.015 Y97.078 Z35.505 I1.154 J7.404 E1.96851
+G1 X190.107 Y129.442 Z35.539 E5.12372
+G3 X189.967 Y131.454 Z35.541 I-7.340 J0.500 E0.31952
+G1 X180.706 Y176.707 Z35.589 E7.2975
+G3 X175.501 Y182.383 Z35.597 I-7.337 J-1.504 E1.27744
+G1 X162.097 Y186.381 Z35.612 E2.20983
+G2 X160.409 Y188.136 Z35.615 I0.735 J2.396 E0.40136
+G1 X158.605 Y195.215 Z35.622 E1.15412
+G3 X157.786 Y197.192 Z35.625 I-7.317 J-1.873 E0.33912
+G1 X152.331 Y206.361 Z35.636 E1.68555
+G3 X145.903 Y210.018 Z35.644 I-6.431 J-3.826 E1.22166
+G1 X134.1 Y210.018 Z35.656 E1.86471
+G3 X127.669 Y206.355 Z35.664 I0.007 J-7.490 E1.22262
+G1 X122.213 Y197.181 Z35.675 E1.68631
+G3 X121.401 Y195.215 Z35.678 I6.355 J-3.775 E0.33706
+G1 X119.601 Y188.143 Z35.685 E1.1529
+G2 X117.909 Y186.374 Z35.688 I-2.437 J0.637 E0.40349
+G1 X104.509 Y182.376 Z35.703 E2.20923
+G3 X99.302 Y176.685 Z35.711 I2.119 J-7.167 E1.27992
+G1 X90.052 Y131.445 Z35.759 E7.29514
+G3 X89.916 Y129.434 Z35.761 I7.348 J-1.507 E0.31930
+G1 X92.013 Y97.081 Z35.795 E5.12204
+G3 X93.534 Y93.008 Z35.800 I7.440 J0.458 E0.69675
+;TIME_ELAPSED:898.633892
+;LAYER:89
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.596 Y90.173 Z35.808 I5.926 J4.548 E1.26098 F4741
+G1 X130.478 Y94.827 Z35.84 E4.77784
+G1 X149.527 Y94.841 Z35.86 E3.00947
+G1 X179.408 Y90.23 Z35.892 E4.77665
+G3 X187.912 Y97.078 Z35.905 I1.123 J7.310 E1.93959
+G1 X189.984 Y129.438 Z35.939 E5.12289
+G3 X189.847 Y131.419 Z35.941 I-7.213 J0.496 E0.31456
+G1 X180.554 Y176.683 Z35.989 E7.30022
+G3 X175.466 Y182.228 Z35.998 I-7.189 J-1.490 E1.24795
+G1 X162.058 Y186.218 Z36.012 E2.21008
+G2 X160.242 Y188.105 Z36.015 I0.776 J2.564 E0.43187
+G1 X158.438 Y195.172 Z36.023 E1.15229
+G3 X157.635 Y197.104 Z36.025 I-7.116 J-1.825 E0.33155
+G1 X152.172 Y206.273 Z36.036 E1.6862
+G3 X145.904 Y209.831 Z36.044 I-6.268 J-3.743 E1.19039
+G1 X134.103 Y209.824 Z36.056 E1.86439
+G3 X127.845 Y206.261 Z36.064 I0.007 J-7.290 E1.18950
+G1 X122.395 Y197.086 Z36.075 E1.68596
+G3 X121.602 Y195.167 Z36.078 I6.225 J-3.696 E0.32904
+G1 X119.807 Y188.093 Z36.085 E1.15301
+G2 X117.963 Y186.169 Z36.088 I-2.646 J0.690 E0.43930
+G1 X104.57 Y182.162 Z36.103 E2.20857
+G3 X99.528 Y176.657 Z36.111 I2.065 J-6.952 E1.23841
+G1 X90.303 Y131.393 Z36.16 E7.29807
+G3 X90.172 Y129.451 Z36.162 I7.143 J-1.457 E0.30832
+G1 X92.289 Y97.1 Z36.196 E5.12193
+G3 X93.728 Y93.218 Z36.200 I7.178 J0.453 E0.66318
+;TIME_ELAPSED:903.555669
+;LAYER:90
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.567 Y90.450 Z36.208 I5.736 J4.340 E1.22341 F4736
+G1 X130.442 Y95.105 Z36.24 E4.77678
+G1 X149.54 Y95.121 Z36.26 E3.01721
+G1 X179.44 Y90.508 Z36.292 E4.77966
+G3 X187.633 Y97.095 Z36.304 I1.090 J7.033 E1.86759
+G1 X189.705 Y129.456 Z36.339 E5.12305
+G3 X189.572 Y131.370 Z36.341 I-7.091 J0.469 E0.30390
+G1 X180.279 Y176.627 Z36.389 E7.29914
+G3 X175.386 Y181.960 Z36.397 I-6.902 J-1.422 E1.20022
+G1 X161.978 Y185.949 Z36.412 E2.21003
+G2 X159.970 Y188.036 Z36.415 I0.859 J2.836 E0.47743
+G1 X158.167 Y195.103 Z36.423 E1.15225
+G3 X157.389 Y196.968 Z36.425 I-6.865 J-1.769 E0.32022
+G1 X151.937 Y206.12 Z36.436 E1.683
+G3 X145.904 Y209.551 Z36.444 I-6.033 J-3.589 E1.14648
+G1 X134.103 Y209.544 Z36.456 E1.86439
+G3 X128.074 Y206.099 Z36.464 I0.008 J-7.012 E1.14729
+G1 X122.644 Y196.957 Z36.475 E1.67987
+G3 X121.873 Y195.098 Z36.477 I5.977 J-3.568 E0.31892
+G1 X120.078 Y188.024 Z36.485 E1.15301
+G2 X118.040 Y185.899 Z36.488 I-2.923 J0.764 E0.48535
+G1 X104.65 Y181.894 Z36.503 E2.20803
+G3 X99.802 Y176.600 Z36.511 I1.975 J-6.675 E1.19085
+G1 X90.577 Y131.337 Z36.56 E7.29791
+G3 X90.452 Y129.469 Z36.562 I6.847 J-1.396 E0.29654
+G1 X92.57 Y97.118 Z36.596 E5.12194
+G3 X93.939 Y93.404 Z36.600 I6.877 J0.425 E0.63413
+;TIME_ELAPSED:908.461238
+;LAYER:91
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.508 Y90.725 Z36.608 I5.522 J4.147 E1.17637 F4729
+G1 X130.412 Y95.384 Z36.64 E4.7814
+G1 X149.552 Y95.401 Z36.66 E3.02385
+G1 X179.496 Y90.784 Z36.692 E4.78663
+G3 X187.353 Y97.113 Z36.704 I1.036 J6.755 E1.79190
+G1 X189.426 Y129.484 Z36.739 E5.12463
+G3 X189.300 Y131.303 Z36.741 I-6.893 J0.436 E0.28879
+G1 X180.006 Y176.566 Z36.79 E7.3001
+G3 X175.306 Y181.691 Z36.797 I-6.637 J-1.369 E1.15315
+G1 X161.9 Y185.681 Z36.812 E2.20977
+G2 X159.699 Y187.968 Z36.816 I0.936 J3.103 E0.52352
+G1 X157.895 Y195.033 Z36.823 E1.15198
+G3 X157.145 Y196.831 Z36.825 I-6.719 J-1.747 E0.30870
+G1 X151.689 Y205.988 Z36.837 E1.684
+G3 X145.902 Y209.271 Z36.844 I-5.788 J-3.460 E1.09886
+G1 X134.105 Y209.264 Z36.857 E1.86376
+G3 X128.329 Y205.978 Z36.864 I0.004 J-6.726 E1.09766
+G1 X122.885 Y196.814 Z36.875 E1.68398
+G3 X122.144 Y195.029 Z36.877 I5.728 J-3.424 E0.30627
+G1 X120.35 Y187.955 Z36.885 E1.15297
+G2 X118.117 Y185.630 Z36.889 I-3.195 J0.834 E0.53146
+G1 X104.73 Y181.625 Z36.903 E2.20757
+G3 X100.075 Y176.539 Z36.911 I1.910 J-6.422 E1.14381
+G1 X90.849 Y131.27 Z36.96 E7.29887
+G3 X90.732 Y129.487 Z36.962 I6.544 J-1.325 E0.28303
+G1 X92.85 Y97.137 Z36.996 E5.12178
+G3 X94.023 Y93.746 Z37.000 I6.776 J0.445 E0.57340
+;TIME_ELAPSED:913.348431
+;LAYER:92
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.480 Y91.004 Z37.008 I5.449 J3.858 E1.16644 F4725
+G1 X130.376 Y95.662 Z37.04 E4.78013
+G1 X149.569 Y95.681 Z37.06 E3.03222
+G1 X179.539 Y91.061 Z37.093 E4.79076
+G3 X187.074 Y97.133 Z37.104 I0.991 J6.482 E1.71890
+G1 X189.145 Y129.492 Z37.139 E5.12272
+G3 X189.025 Y131.250 Z37.141 I-6.689 J0.427 E0.27910
+G1 X179.733 Y176.503 Z37.19 E7.29849
+G3 X175.226 Y181.423 Z37.197 I-6.370 J-1.311 E1.10664
+G1 X161.82 Y185.412 Z37.212 E2.20973
+G2 X159.427 Y187.900 Z37.216 I1.018 J3.374 E0.56934
+G1 X157.624 Y194.964 Z37.224 E1.15179
+G3 X156.907 Y196.682 Z37.226 I-6.340 J-1.637 E0.29498
+G1 X151.457 Y205.831 Z37.237 E1.68243
+G3 X145.900 Y208.991 Z37.244 I-5.554 J-3.301 E1.05605
+G1 X134.107 Y208.984 Z37.256 E1.86313
+G3 X128.563 Y205.825 Z37.264 I0.002 J-6.448 E1.05427
+G1 X123.123 Y196.667 Z37.275 E1.68285
+G3 X122.415 Y194.959 Z37.277 I5.524 J-3.290 E0.29298
+G1 X120.62 Y187.887 Z37.285 E1.1527
+G2 X118.196 Y185.361 Z37.289 I-3.462 J0.897 E0.57735
+G1 X104.799 Y181.353 Z37.303 E2.20922
+G3 X100.350 Y176.483 Z37.311 I1.839 J-6.147 E1.09421
+G1 X91.126 Y131.226 Z37.36 E7.29695
+G3 X91.011 Y129.505 Z37.362 I6.303 J-1.285 E0.27322
+G1 X93.129 Y97.156 Z37.396 E5.12162
+G3 X94.355 Y93.784 Z37.400 I6.327 J0.391 E0.57461
+;TIME_ELAPSED:918.222885
+;LAYER:93
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.437 Y91.280 Z37.407 I5.109 J3.771 E1.09184 F4718
+G1 X130.37 Y95.942 Z37.44 E4.786
+G1 X149.609 Y95.961 Z37.46 E3.03949
+G1 X179.582 Y91.338 Z37.493 E4.7913
+G3 X186.795 Y97.151 Z37.504 I0.947 J6.206 E1.64553
+G1 X188.866 Y129.51 Z37.539 E5.12272
+G3 X188.749 Y131.202 I-6.273 J0.416 E0.26866
+G1 X179.457 Y176.453 Z37.59 E7.29818
+G3 X175.146 Y181.155 Z37.597 I-6.090 J-1.256 E1.05780
+G1 X161.74 Y185.144 Z37.612 E2.20973
+G1 X161.251 Y185.325 E0.08238
+G1 X160.494 Y185.788 Z37.613 E0.14019
+G2 X159.750 Y186.561 I2.408 J3.062 E0.16990
+G1 X159.319 Y187.337 Z37.615 E0.14024
+G1 X159.156 Y187.831 Z37.616 E0.08218
+G1 X157.352 Y194.896 Z37.624 E1.15198
+G3 X156.664 Y196.545 Z37.626 I-6.091 J-1.573 E0.28311
+G1 X151.207 Y205.703 Z37.637 E1.68422
+G3 X145.902 Y208.711 Z37.644 I-5.304 J-3.172 E1.00710
+G1 X134.106 Y208.703 Z37.657 E1.8636
+G3 X128.810 Y205.693 Z37.663 I0.003 J-6.170 E1.00622
+G1 X123.366 Y196.528 Z37.675 E1.68412
+G3 X122.687 Y194.890 Z37.677 I5.267 J-3.143 E0.28100
+G1 X120.892 Y187.819 Z37.684 E1.15255
+G2 X120.491 Y186.856 Z37.686 I-3.329 J0.821 E0.16529
+G1 X119.949 Y186.121 E0.14428
+G1 X119.541 Y185.748 Z37.687 E0.08734
+G1 X118.768 Y185.277 Z37.688 E0.14301
+G1 X118.277 Y185.093 Z37.689 E0.08284
+G1 X104.88 Y181.084 Z37.704 E2.20927
+G3 X100.624 Y176.427 Z37.711 I1.757 J-5.879 E1.04648
+G1 X91.398 Y131.158 Z37.76 E7.29887
+G3 X91.291 Y129.523 Z37.762 I5.988 J-1.213 E0.25954
+G1 X93.409 Y97.174 Z37.796 E5.12162
+G3 X94.501 Y94.050 Z37.800 I6.154 J0.398 E0.52908
+;TIME_ELAPSED:923.078121
+;LAYER:94
+;TYPE:WALL-OUTER
+;MESH:Box.3mf
+G3 X100.378 Y91.555 Z37.804 I4.964 J3.525 E1.06117 F4462
+G1 X130.368 Y96.227 Z37.823 E4.79514
+G1 X149.624 Y96.242 Z37.834 E3.04217
+G1 X179.626 Y91.615 Z37.853 E4.79592
+G3 X186.512 Y97.142 Z37.859 I0.906 J5.924 E1.56742
+G1 X188.587 Y129.538 Z37.879 E5.12859
+G3 X188.477 Y131.135 Z37.880 I-6.083 J0.383 E0.25355
+G1 X179.184 Y176.391 Z37.908 E7.29898
+G3 X175.058 Y180.888 Z37.912 I-5.813 J-1.192 E1.01222
+G1 X161.661 Y184.875 Z37.921 E2.20827
+G2 X158.884 Y187.763 Z37.923 I1.177 J3.910 E0.66092
+G1 X157.08 Y194.827 Z37.928 E1.15183
+G3 X156.433 Y196.383 Z37.929 I-5.830 J-1.511 E0.26702
+G1 X150.973 Y205.55 Z37.935 E1.68568
+G3 X145.900 Y208.431 Z37.939 I-5.074 J-3.027 E0.96351
+G1 X134.108 Y208.423 Z37.946 E1.86297
+G3 X129.047 Y205.544 Z37.950 I-0.001 J-5.887 E0.96174
+G1 X123.597 Y196.367 Z37.956 E1.68623
+G3 X122.958 Y194.821 I5.021 J-2.980 E0.26508
+G1 X121.164 Y187.751 Z37.962 E1.15236
+G2 X118.356 Y184.824 Z37.964 I-4.004 J1.031 E0.66910
+G1 X104.96 Y180.816 Z37.973 E2.20907
+G3 X100.897 Y176.365 Z37.977 I1.679 J-5.613 E0.99972
+G1 X91.672 Y131.103 Z38.005 E7.29776
+G3 X91.570 Y129.542 I5.776 J-1.161 E0.24778
+G1 X93.688 Y97.193 Z38.026 E5.12162
+G3 X100.350 Y91.830 Z38.028 I5.773 J0.352 E1.46926
+G1 X130.346 Y96.48 E4.31599
+G1 X149.645 Y96.48 E2.43917
+G1 X179.649 Y91.829 E3.59761
+G3 X185.227 Y94.159 I0.888 J5.716 E0.75330
+G3 X186.307 Y97.167 I-4.720 J3.393 E0.35790
+G1 X188.404 Y129.542 E3.33158
+G3 X188.297 Y131.107 I-6.011 J0.375 E0.16150
+G1 X179.041 Y176.354 E3.64821
+G3 X175.010 Y180.754 I-5.670 J-1.148 E0.49505
+G1 X161.622 Y184.748 E0.99325
+G2 X158.758 Y187.731 I1.217 J4.035 E0.30711
+G1 X156.962 Y194.79 E0.4603
+G3 X156.325 Y196.325 I-5.629 J-1.436 E0.10534
+G1 X150.874 Y205.491 E0.67393
+G3 X149.038 Y207.395 I-4.981 J-2.966 E0.16857
+G3 X145.893 Y208.321 I-3.116 J-4.780 E0.18372
+G1 X134.107 Y208.322 E0.65171
+G3 X130.968 Y207.399 I-0.025 J-5.713 E0.18334
+G3 X129.127 Y205.490 I3.078 J-4.811 E0.12677
+G1 X123.675 Y196.325 E0.50543
+G3 X123.041 Y194.795 I4.893 J-2.924 E0.07874
+G1 X121.243 Y187.73 E0.28794
+G2 X118.379 Y184.749 I-4.082 J1.055 E0.17056
+G1 X104.983 Y180.752
+;TIME_ELAPSED:931.972706
+G1 F2700 E-0.4
+M204 P4000
+M204 T4000
+M82 ;absolute extrusion mode
+M107
+M0
+M83 ;relative extrusion mode
+M104 S0
+;End of Gcode
+;SETTING_3 {"global_quality": "[general]\\nversion = 4\\nname = Railcore PLA Dra
+;SETTING_3 ft 0.5 noz Vase Mode\\ndefinition = custom\\n\\n[metadata]\\ntype = q
+;SETTING_3 uality_changes\\nquality_type = normal\\nsetting_version = 21\\n\\n[v
+;SETTING_3 alues]\\nacceleration_enabled = True\\nadaptive_layer_height_variatio
+;SETTING_3 n_step = 0.05\\nadhesion_type = skirt\\narcwelder_allow_3d_arcs = Tru
+;SETTING_3 e\\narcwelder_allow_travel_arcs = True\\narcwelder_enable = True\\nbr
+;SETTING_3 idge_settings_enabled = True\\nlayer_height = 0.4\\nlayer_height_0 = 
+;SETTING_3 0.2\\nmachine_firmware_retract = False\\nmagic_spiralize = True\\nmat
+;SETTING_3 erial_bed_temperature = 0\\nmaterial_linear_advance_enable = True\\nr
+;SETTING_3 etraction_combing = noskin\\nspeed_slowdown_layers = 1\\nsupport_enab
+;SETTING_3 le = False\\nsupport_structure = normal\\nsupport_type = buildplate\\
+;SETTING_3 n\\n", "extruder_quality": ["[general]\\nversion = 4\\nname = Railcor
+;SETTING_3 e PLA Draft 0.5 noz Vase Mode\\ndefinition = custom\\n\\n[metadata]\\
+;SETTING_3 ntype = quality_changes\\nquality_type = normal\\nintent_category = d
+;SETTING_3 efault\\nposition = 0\\nsetting_version = 21\\n\\n[values]\\naccelera
+;SETTING_3 tion_print = 6000\\nacceleration_wall_0 = 800\\nalternate_extra_perim
+;SETTING_3 eter = False\\nbottom_layers = 3\\nbrim_gap = 0.08\\nbrim_line_count 
+;SETTING_3 = 6\\ncool_fan_enabled = True\\ncool_fan_full_at_height = 0.6\\ncool_
+;SETTING_3 fan_speed = =100.0 if cool_fan_enabled else 0.0\\ncool_fan_speed_max 
+;SETTING_3 = =cool_fan_speed\\ncool_min_layer_time = 5\\ncool_min_layer_time_fan
+;SETTING_3 _speed_max = 5\\ncool_min_speed = 20\\ndefault_material_print_tempera
+;SETTING_3 ture = 220\\nfill_outline_gaps = True\\ngradual_infill_steps = 1\\nin
+;SETTING_3 fill_before_walls = False\\ninfill_line_width = =line_width\\ninfill_
+;SETTING_3 overlap = 15\\ninfill_pattern = grid\\ninfill_sparse_density = 18\\ni
+;SETTING_3 nitial_layer_line_width_factor = 120\\nline_width = 1\\nmaterial_diam
+;SETTING_3 eter = 1.75\\nmaterial_flow = =extruderValueFromContainer(extruder_nr
+;SETTING_3 ,\\"material_flow\\",4)\\nmaterial_flow_layer_0 = 110\\nmaterial_init
+;SETTING_3 ial_print_temperature = =max(-273.15, material_print_temperature - 10
+;SETTING_3 )\\nmaterial_linear_advance_factor = =extruderValueFromContainer(extr
+;SETTING_3 uder_nr,\\"material_linear_advance_factor\\",4)\\nmaterial_print_temp
+;SETTING_3 erature = 215\\nmaterial_print_temperature_layer_0 = =material_print_
+;SETTING_3 temperature\\noptimize_wall_printing_order = True\\nretract_at_layer_
+;SETTING_3 change = True\\nretraction_amount = 0.4\\nretraction_enable = True\\n
+;SETTING_3 retraction_hop = 0.2\\nretraction_hop_enabled = True\\nretraction_hop
+;SETTING_3 _only_when_collides = True\\nretraction_prime_speed = 25\\nretraction
+;SETTING_3 _retract_speed = 45\\nretraction_speed = 30\\nskin_line_width = =line
+;SETTING_3 _width\\nskin_overlap = 15\\nskirt_brim_minimal_length = 100\\nskirt_
+;SETTING_3 brim_speed = 60\\nskirt_gap = 2\\nskirt_line_count = 1\\nspeed_equali
+;SETTING_3 ze_flow_width_factor = =100 if (True) else 0\\nspeed_print = 80\\nspe
+;SETTING_3 ed_print_layer_0 = 60\\nspeed_topbottom = 80\\nspeed_travel = 200\\ns
+;SETTING_3 peed_travel_layer_0 = 200\\nspeed_wall = 80\\nspeed_wall_0 = =speed_w
+;SETTING_3 all\\nspeed_wall_x = 80\\nsupport_angle = 65\\nsupport_infill_rate = 
+;SETTING_3 20\\nsupport_line_width = 0.4\\nsupport_tree_collision_resolution = 0
+;SETTING_3 .05\\nsupport_xy_distance = 0.3\\ntop_bottom_pattern = zigzag\\ntop_l
+;SETTING_3 ayers = 3\\ntravel_avoid_other_parts = True\\nwall_line_count = =1 if
+;SETTING_3  magic_spiralize else max(1, round((wall_thickness - wall_line_width_
+;SETTING_3 0) / wall_line_width_x) + 1) if wall_thickness != 0 else 0\\nwall_lin
+;SETTING_3 e_width = =line_width\\nxy_offset_layer_0 = -0.1\\nz_seam_corner = z_
+;SETTING_3 seam_corner_weighted\\nz_seam_type = shortest\\nzig_zaggify_infill = 
+;SETTING_3 True\\n\\n"]}

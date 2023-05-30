@@ -1,0 +1,8 @@
+G1 X150 Y150					; Move to center
+G1 X100							; Move 50mm 
+G4 S2 							; Pause 2s
+M956 P0 S1000 A0 F"X.csv"		; Collect 1000 samples (S1000) immediately (A0) 
+G4 P10							; Pause 10ms
+G1 X150 F20000					; Fast move back to center
+
+
