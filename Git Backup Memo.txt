@@ -29,3 +29,7 @@ sudo chmod 777 -R /opt/dsf/sd
 
 # not recommended, haven't found a better way
 
+
+### Pin reassignment for fried uart Pi ###
+
+"TransferReadyPin": 24
