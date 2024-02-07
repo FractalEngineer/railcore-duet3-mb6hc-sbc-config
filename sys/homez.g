@@ -10,7 +10,8 @@ G1 Z5 F800 H2			; lift Z relative to current position
 G90						; absolute positioning
 G1 X150 Y150 F6000		; go to first probe point
 G30						; home Z by probing the bed
-G1 Z2 F200				; lift Z a little off the bed
+G1 Z5 F200				; lift Z a little off the bed
+G90
 
 
 ; homez.g

@@ -1,0 +1,31 @@
+# On new setup:
+
+### Change screen res to 1024 x 600 ###
+https://forums.raspberrypi.com/viewtopic.php?t=14914
+
+sudo nano /boot/config.txt
+
+disable_overscan=1
+hdmi_cvt=1024 600 60 3 0 0 0
+
+
+
+### Bring config files from the Github Repo ###
+
+# Rename sd folder to sd_bak 
+# Create sd folder
+
+cd /opt/dsf/sd
+
+git init .
+git remote add origin https://github.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config.git
+git fetch origin
+git checkout master
+
+
+### Enable permission to new folders ###
+
+sudo chmod 777 -R /opt/dsf/sd
+
+# not recommended, haven't found a better way
+
