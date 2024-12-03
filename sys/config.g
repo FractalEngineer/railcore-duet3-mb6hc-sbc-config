@@ -27,7 +27,7 @@ G4 S2                                       ; wait for expansion boards to start
 ; Debugging
 M111 S0										; Debug (S0 is off; S1 is on)
 M929 P"eventlog.txt" S1						; start logging to file eventlog.txt
-M915 X Y S10 F0 R1							; log motor stalls
+M915 X Y S10 F0 R0							; log motor stalls
 
 
 ; Stepper Configuration and Trinamic Drive Tuning
@@ -51,8 +51,8 @@ M208 X-35 Y0 Z0 S1 							; Set axis minima and low homing switch positions (adj
 
 
 ; Stealthchop parameters
-M915 P0:1	S3 F1 H153 T20000 R0				
-M915 P2:3:4 S3 F1 H1652 T1 R0
+M915 P0:1	S3 F1 H153 ;T20000 R0				
+M915 P2:3:4 S3 F1 H1652 ;T1 R0
 ;M915 P5 	S3 F1 H540 T1 R0
 ;M915 P124.0 S3 F1 H540 T1 R0
 
@@ -118,13 +118,14 @@ M574 Y1 S1 P"124.io2.in"					; Map the Y endstop to toolboard io1.in
 ; Euclid Probe
 M574 Z1 S2                                              ; configure Z-probe endstop for low end on Z
 M558 K0 P8 C"124.io0.in" H8 F300 T9000 A3 S0.01         ; Define Euclid input
-G31 K0 P500 X25.0 Y0.0 Z1.623                            ; Set offset for Smorb V3 Euclid
+G31 K0 P500 X25.0 Y0.0 Z1.486                            ; Set offset for Smorb V3 Euclid
 
 ; Thermistors
 M308 S0 P"temp0" Y"thermistor" A"Keenovo" T100000 B4240 H0 L0 						; Bed thermistor - connected to temp0
 ;M308 S1 P"temp1" Y"thermistor" A"Mosquito" T4606017 B5848 C5.548428e-8 H0 L0		; Dyze 500c thermistor - connected to e0_heat
 ;M308 S1 P"temp1" Y"thermistor" A"BiquH2" T100000 B3950 C0 H0 L0					; Biqu H2 Chinesium HT-NTC100K thermistor - connected to e0_heat
-M308 S1 P"124.temp0" Y"thermistor" A"Smorb" T100000 B4138 C0 H0 L0                  ; Smorb ATC Semitec 104NT-4-R025H42G 
+;M308 S1 P"124.temp0" Y"thermistor" A"Smorb" T100000 B4138 C0 H0 L0                  ; Smorb ATC Semitec 104NT-4-R025H42G 
+M308 S1 P"124.temp0" Y"thermistor" A"Smorb"  T100000 B4681 C6.483003e-8 H0 L0                  ; Smorb ATC Semitec 104NT-4-R025H42G 
 
 ; M308 S3 P"124.io1.in" Y"thermistor" A"Extruder Temp" T100000 B4092                  ; Smorb extruder temp (not supported)
 
@@ -139,7 +140,7 @@ M307 H0 A158.5 C366.7 D2.1 S1.0 V24.0 B0 		; Keenovo duet 3 configuration
 ;M307 H1 R3.573 C131.3:99.7 D5.74 S1.00 V29.4           	; Mosquito 205deg 29.4V
 ;M307 H1 R3.368 K0.543:0.000 D7.05 E1.35 S1.00 B0 V29.3      ; Mosquito new model 215c 29.3V
 ;M307 H1 R4.724 C172.5:109.0 D7.70 S1.00 V29.4	; Biqu H2 205deg 29.4V
-M307 H1 R5.101 K0.652:0.000 D5.68 E1.35 S1.00 B0 V29.3      ; Smorb temp 215c 29.3V
+M307 H1 R4.017 K0.408:0.270 D6.28 E1.35 S1.00 B0 V29.4      ; Smorb temp 215c 29.3V
 
 
 
@@ -150,7 +151,7 @@ M143 H1 P1 S350 A0							; raise a heater fault if it exceeds 350C
 
 ; Define Bed
 M140 H0
-M557 X30:295 Y5:285 P12:12 					; Sets mesh leveling probing area /!\ Accounts for probe offset 
+M557 X30:295 Y5:285 P15:15 					; Sets mesh leveling probing area /!\ Accounts for probe offset 
 
 
 ; Fans
@@ -173,7 +174,7 @@ M308 S2 Y"drivers" A"DRIVERS" 				; Configure sensor 2 as temperature warning an
 M308 S3 Y"mcu-temp" A"MCU"					; Configure sensor 3 as thermistor on pin e1temp for left stepper
 M950 F2 C"out6" Q250 						; Create fan 2 on pin fan2 and set its frequency                        
 ;M106 P2 C"ElectroBox" H1 S0.8 T75			; Set fan 2 value
-M106 P2 C"ElectroBox" H1 X0.7 T30:75			; Set fan 2 value
+M106 P2 C"ElectroBox" H1 X0.7 T-30:50			; Set fan 2 value
 M308 S4 P"124.temp1" Y"thermistor" A"Chamber Temp" T100000 B4092                    ; Toolboard temp
 
 

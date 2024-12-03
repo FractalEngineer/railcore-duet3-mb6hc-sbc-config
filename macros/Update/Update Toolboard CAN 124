@@ -1,0 +1,3 @@
+;download firmware file from https://github.com/gloomyandy/RRFBuild/tree/v3.6-dev/releases
+
+M997 B124

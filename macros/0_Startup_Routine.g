@@ -8,6 +8,6 @@ G28				; Homes all axes
 G32				; True Level 1
 ;G28	Z			; Home Z
 ;G32				; True Level 2 just to be sure
-;G28 Z				; Home Z
+G28 Z				; Home Z
 G1 X-37 Y150 F3000	; move to purge bucket
 G29 S1				; Load Mesh Map

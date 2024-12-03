@@ -9720,3 +9720,434 @@ M307 H1 R5.101 K0.652:0.000 D5.68 E1.35 S1.00 B0 V29.3
 2024-02-07 00:48:01 Event logging started
 2024-02-07 00:48:02 Event logging stopped
 2024-02-07 00:48:02 Event logging started
+2024-04-18 22:45:10 Event logging started
+2024-04-18 22:45:12 Event logging stopped
+2024-04-18 22:45:12 Event logging started
+2024-04-18 22:48:44 Warning: Driver 0.3 warning: phase A may be disconnected
+2024-04-18 23:03:17 Event logging stopped
+2024-04-18 23:04:30 Event logging started
+2024-04-18 23:04:30 Connection to SBC established!
+2024-04-18 23:04:30 Error: in file daemon.g line 11:  line 0: array index out of bounds
+2024-04-18 23:03:42 Event logging started
+2024-04-18 23:03:43 Event logging stopped
+2024-04-18 23:03:43 Event logging started
+2024-04-19 00:44:49 Event logging stopped
+2024-04-19 00:45:10 Event logging started
+2024-04-19 00:45:12 Event logging stopped
+2024-04-19 00:45:12 Event logging started
+2024-04-20 02:41:16 Event logging started
+2024-04-20 02:41:17 Event logging stopped
+2024-04-20 02:41:17 Event logging started
+2024-04-20 02:51:04 Event logging stopped
+2024-04-20 02:53:18 Event logging started
+2024-04-20 02:53:19 Event logging stopped
+2024-04-20 02:53:20 Event logging started
+2024-04-21 19:09:06 Error: in file macro line 1: G1: insufficient axes homed
+2024-04-21 19:12:17 Error: G28: G28 may not be used within a homing file
+2024-04-21 19:13:30 Error: Some computed corrections exceed configured limit of 7.50mm: -9.665 -9.660 -9.662
+2024-04-21 19:13:53 Warning: G29: the height map was loaded when the current Z=0 datum was not determined by probing. This may result in a height offset.
+2024-04-21 19:21:05 Error: G28: G28 may not be used within a homing file
+2024-04-21 19:22:19 Error: Some computed corrections exceed configured limit of 7.50mm: -9.642 -9.644 -9.655
+2024-04-21 19:22:42 Warning: G29: the height map was loaded when the current Z=0 datum was not determined by probing. This may result in a height offset.
+2024-04-21 19:22:48 Error: G28: G28 may not be used within a homing file
+2024-04-21 19:31:10 Resume state saved
+2024-04-21 19:32:10 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 215deg.gcode, print time was 0h 0m
+2024-04-21 19:33:31 Resume state saved
+2024-04-21 19:33:37 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 215deg.gcode, print time was 0h 0m
+2024-04-21 19:39:19 Resume state saved
+2024-04-21 19:39:26 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2024-04-21 19:51:24 Resume state saved
+2024-04-21 19:51:38 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 2m
+2024-04-21 20:30:48 Auto tuning heater 1 completed after 3 idle and 10 tuning cycles in 492 seconds. This heater needs the following M307 command:
+M307 H1 R4.017 K0.408:0.270 D6.28 E1.35 S1.00 B0 V29.4
+2024-04-21 20:58:13 Warning: M307: Heater 1 predicted maximum temperature at full power is 569°C
+2024-04-21 21:02:37 Resume state saved
+2024-04-21 21:02:43 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.48mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2024-04-21 21:16:19 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 9m
+2024-04-21 22:17:30 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2024-04-21 23:16:56 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2024-04-22 00:17:38 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2024-04-22 01:18:50 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 57m
+2024-04-22 02:18:04 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2024-04-22 03:20:39 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2024-04-22 04:21:41 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 58m
+2024-04-22 17:48:50 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 58m
+2024-04-22 20:19:27 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 58m
+2024-04-22 21:37:05 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 58m
+2024-04-22 22:38:06 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 58m
+2024-04-22 23:38:58 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 58m
+2024-04-23 00:40:41 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 58m
+2024-04-23 19:41:56 Error: Failed to switch off remote heater 1: Board 124 does not have heater 1
+2024-04-23 19:41:59 Event logging stopped
+2024-04-23 19:42:13 Event logging started
+2024-04-23 19:42:15 Event logging stopped
+2024-04-23 19:42:15 Event logging started
+2024-04-23 20:16:37 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 0h 7m
+2024-04-23 22:06:26 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 8m
+2024-04-24 01:02:52 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 8m
+2024-04-25 19:50:14 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 8m
+2024-04-25 22:47:29 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2024-04-26 01:45:06 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 8m
+2024-04-26 20:15:32 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2024-04-27 21:47:20 Warning: Driver 0.3 warning: phase A may be disconnected
+2024-04-27 21:49:05 Error: G30: Z probe readings not consistent
+2024-04-27 21:51:13 Error: M564: Z probe readings not consistent
+2024-04-27 21:51:14 Error: G90: Z probe readings not consistent
+2024-04-27 22:13:50 Warning: Driver 0.3 warning: phase A may be disconnected
+2024-04-27 23:25:45 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2024-04-28 06:28:13 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 8m
+2024-04-28 08:01:07 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2024-04-28 09:29:26 Event logging started
+2024-04-28 09:29:28 Event logging stopped
+2024-04-28 09:29:28 Event logging started
+2024-04-28 10:04:15 Warning: Lost connection to Duet (Timeout while waiting for transfer ready pin)
+2024-04-28 10:04:16 Warning: SPI connection has been reset
+2024-04-28 10:04:16 Connection to SBC established!
+2024-04-28 10:16:12 Event logging stopped
+2024-04-28 10:16:36 Event logging started
+2024-04-28 10:16:37 Event logging stopped
+2024-04-28 10:16:37 Event logging started
+2024-05-02 20:56:31 Event logging started
+2024-05-02 20:56:32 Event logging stopped
+2024-05-02 20:56:32 Event logging started
+2024-05-02 20:58:16 Warning: SPI connection has been reset
+2024-05-02 20:58:16 Connection to SBC established!
+2024-05-02 21:00:47 Warning: Driver 1 stalled at Z height 9.62
+2024-05-02 21:42:15 Warning: Driver 1 stalled at Z height 0.25
+2024-05-02 21:42:15 Warning: Driver 1 stalled at Z height 0.30
+2024-05-02 21:42:15 Warning: Driver 1 stalled at Z height 0.30
+2024-05-02 21:42:15 Warning: Driver 1 stalled at Z height 0.30
+2024-05-02 21:42:16 Warning: Driver 1 stalled at Z height 0.30
+2024-05-02 21:42:16 Warning: Driver 1 stalled at Z height 0.30
+2024-05-02 21:42:16 Warning: Driver 1 stalled at Z height 0.30
+2024-05-02 21:42:16 Warning: Driver 1 stalled at Z height 0.30
+2024-05-02 21:42:17 Warning: Driver 1 stalled at Z height 0.35
+2024-05-02 21:42:17 Warning: Driver 1 stalled at Z height 0.35
+2024-05-02 21:42:17 Warning: Driver 1 stalled at Z height 0.35
+2024-05-02 21:42:17 Warning: Driver 1 stalled at Z height 0.35
+2024-05-02 21:42:18 Warning: Driver 1 stalled at Z height 0.35
+2024-05-02 21:42:18 Warning: Driver 1 stalled at Z height 0.35
+2024-05-02 21:42:18 Warning: Driver 1 stalled at Z height 0.35
+2024-05-02 21:42:36 Warning: Driver 0 stalled at Z height 0.65
+2024-05-02 21:43:01 Warning: Driver 1 stalled at Z height 0.95
+2024-05-02 21:43:01 Warning: Driver 1 stalled at Z height 0.95
+2024-05-02 21:54:24 Warning: Driver 1 stalled at Z height 9.65
+2024-05-02 21:54:24 Warning: Driver 1 stalled at Z height 9.65
+2024-05-02 21:56:04 Warning: Driver 1 stalled at Z height 10.85
+2024-05-02 21:56:04 Warning: Driver 1 stalled at Z height 10.85
+2024-05-02 21:56:41 Warning: Driver 1 stalled at Z height 11.45
+2024-05-02 21:56:52 Warning: Driver 0 stalled at Z height 11.45
+2024-05-02 21:56:54 Warning: Driver 1 stalled at Z height 11.45
+2024-05-02 21:56:55 Warning: Driver 1 stalled at Z height 11.45
+2024-05-02 21:57:20 Warning: Driver 1 stalled at Z height 11.75
+2024-05-02 21:58:25 Finished printing file 0:/gcodes/Lipo_Strap.gcode, print time was 0h 16m
+2024-05-08 20:26:26 Event logging stopped
+2024-05-22 14:20:49 Event logging started
+2024-05-22 14:20:50 Event logging stopped
+2024-05-22 14:20:50 Event logging started
+2024-05-22 14:22:38 Warning: SPI connection has been reset
+2024-05-22 14:22:40 Connection to SBC established!
+2024-05-22 14:22:51 Warning: SPI connection has been reset
+2024-05-22 14:22:51 Connection to SBC established!
+2024-05-22 15:01:32 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-05-22 15:01:36 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-05-22 15:01:39 Resume state saved
+2024-05-22 15:01:40 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-05-22 15:02:07 Cancelled printing file 0:/gcodes/coin pouch 2.gcode, print time was 0h 0m
+2024-05-22 15:02:07 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-05-22 15:11:38 Resume state saved
+2024-05-22 15:11:40 Cancelled printing file 0:/gcodes/coin pouch 2.gcode, print time was 0h 8m
+2024-05-22 15:30:27 Event logging stopped
+2024-05-22 15:30:44 Event logging started
+2024-05-22 15:30:45 Event logging stopped
+2024-05-22 15:30:45 Event logging started
+2024-05-22 15:51:54 Event logging stopped
+2024-05-26 02:19:21 Event logging started
+2024-05-26 02:19:21 Event logging stopped
+2024-05-26 02:19:21 Event logging started
+2024-05-26 02:29:27 Resume state saved
+2024-05-26 02:30:11 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2024-05-26 02:36:49 Finished printing file 0:/gcodes/magnet_sock.gcode, print time was 0h 5m
+2024-05-26 04:41:16 Finished printing file 0:/gcodes/coin pouch 2.gcode, print time was 1h 26m
+2024-05-28 00:18:28 Finished printing file 0:/gcodes/ministraight_threaded_231012.gcode, print time was 1h 8m
+2024-05-28 01:43:23 Resume state saved
+2024-05-28 01:43:27 Cancelled printing file 0:/gcodes/BNC_Dust_Cap_v0.gcode, print time was 0h 1m
+2024-05-28 01:43:32 Error: M25: Cannot pause print, because no file is being printed!
+2024-05-28 03:23:36 Finished printing file 0:/gcodes/BNC_Dust_Cap_v0.gcode, print time was 1h 39m
+2024-05-30 05:39:26 Event logging started
+2024-05-30 05:39:27 Event logging stopped
+2024-05-30 05:39:27 Event logging started
+2024-05-30 19:56:20 Error: G30: Probe was not triggered during probing move
+2024-05-30 19:56:33 Error: Compensation or calibration cancelled due to probing errors
+2024-05-30 19:57:46 Error: in file macro line 12: G1: insufficient axes homed
+2024-05-30 20:04:38 Resume state saved
+2024-05-30 20:04:42 Cancelled printing file 0:/gcodes/RMP_Case_2023_10_Stand.gcode, print time was 0h 1m
+2024-05-30 20:10:20 Resume state saved
+2024-05-30 20:10:24 Cancelled printing file 0:/gcodes/RMP_Case_2023_10_Stand.gcode, print time was 0h 3m
+2024-05-30 21:25:02 Resume state saved
+2024-05-30 21:25:23 Cancelled printing file 0:/gcodes/RMP_Case_2023_10_Stand.gcode, print time was 1h 14m
+2024-05-30 23:21:28 Finished printing file 0:/gcodes/RMP_Case_2023_10_Stand.gcode, print time was 1h 51m
+2024-06-02 01:25:25 Error: M32: Cannot set file to print, because a file is already being printed
+2024-06-02 04:00:53 Finished printing file 0:/gcodes/sFeeder.gcode, print time was 2h 36m
+2024-06-02 22:03:40 Finished printing file 0:/gcodes/euclid_noshort_cover.gcode, print time was 0h 4m
+2024-06-02 22:08:59 Finished printing file 0:/gcodes/euclid_noshort_cover.gcode, print time was 0h 4m
+2024-06-02 23:09:33 Finished printing file 0:/gcodes/euclid_noshort_cover.gcode, print time was 0h 59m
+2024-06-06 16:30:09 Event logging started
+2024-06-06 16:30:10 Event logging stopped
+2024-06-06 16:30:10 Event logging started
+2024-06-06 16:45:51 Event logging stopped
+2024-06-07 00:22:00 Event logging started
+2024-06-07 00:22:01 Event logging stopped
+2024-06-07 00:22:01 Event logging started
+2024-06-07 00:35:26 Resume state saved
+2024-06-07 00:35:30 Cancelled printing file 0:/gcodes/top_vent.gcode, print time was 0h 3m
+2024-06-07 01:28:29 Finished printing file 0:/gcodes/top_vent.gcode, print time was 0h 50m
+2024-06-07 02:08:43 Finished printing file 0:/gcodes/lifter.gcode, print time was 0h 38m
+2024-06-07 02:27:14 Finished printing file 0:/gcodes/pcb_holder.gcode, print time was 0h 15m
+2024-06-07 03:01:39 Finished printing file 0:/gcodes/Untitled.gcode, print time was 0h 21m
+2024-06-07 05:18:49 Resume state saved
+2024-06-07 05:18:59 Cancelled printing file 0:/gcodes/box.gcode, print time was 0h 8m
+2024-06-07 07:38:56 Finished printing file 0:/gcodes/box.gcode, print time was 2h 19m
+2024-06-08 02:04:16 Finished printing file 0:/gcodes/boostybaby_test_jig.gcode, print time was 0h 6m
+2024-06-09 16:48:33 Warning: SPI connection has been reset
+2024-06-09 16:48:34 Connection to SBC established!
+2024-06-09 23:09:14 Event logging started
+2024-06-09 23:09:15 Event logging stopped
+2024-06-09 23:09:15 Event logging started
+2024-06-12 00:04:07 Error: M564: Z probe readings not consistent
+2024-06-12 00:04:08 Error: G90: Z probe readings not consistent
+2024-06-12 00:12:41 Finished printing file 0:/gcodes/boostybaby_test_jig_B.gcode, print time was 0h 4m
+2024-06-12 00:22:06 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-06-12 00:22:10 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-06-12 20:47:34 Finished printing file 0:/gcodes/boostybaby_test_jig_B.gcode, print time was 0h 4m
+2024-06-12 21:19:25 Finished printing file 0:/gcodes/boostybaby_test_jig_A.gcode, print time was 0h 11m
+2024-06-12 21:52:04 Resume state saved
+2024-06-12 21:52:06 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 1m
+2024-06-12 21:52:59 Event logging stopped
+2024-06-12 21:53:12 Event logging started
+2024-06-12 21:53:13 Event logging stopped
+2024-06-12 21:53:13 Event logging started
+2024-06-12 22:39:28 Resume state saved
+2024-06-12 22:39:33 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2024-06-12 22:47:33 Resume state saved
+2024-06-12 22:47:35 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2024-06-12 23:03:36 Finished printing file 0:/gcodes/boostybaby_test_jig_A.gcode, print time was 0h 12m
+2024-06-12 23:20:16 Warning: SPI connection has been reset
+2024-06-12 23:20:17 Connection to SBC established!
+2024-06-12 23:20:59 Event logging stopped
+2024-06-12 23:31:02 Event logging started
+2024-06-12 23:31:04 Event logging stopped
+2024-06-12 23:31:04 Event logging started
+2024-06-12 23:33:37 Event logging stopped
+2024-06-14 17:12:42 Event logging started
+2024-06-14 17:12:43 Event logging stopped
+2024-06-14 17:12:43 Event logging started
+2024-06-16 17:37:07 Finished printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 10m
+2024-06-16 17:40:33 Resume state saved
+2024-06-16 17:40:35 Cancelled printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 0m
+2024-06-16 17:42:40 Resume state saved
+2024-06-16 17:42:43 Cancelled printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 0m
+2024-06-16 17:55:37 Finished printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 11m
+2024-06-16 18:37:45 Finished printing file 0:/gcodes/Fractal/Box.gcode, print time was 0h 27m
+2024-06-16 19:27:51 Finished printing file 0:/gcodes/Fractal/Box.gcode, print time was 0h 27m
+2024-06-16 19:31:49 Resume state saved
+2024-06-16 19:31:51 Cancelled printing file 0:/gcodes/Box.gcode, print time was 0h 0m
+2024-06-16 19:33:45 Resume state saved
+2024-06-16 19:33:48 Cancelled printing file 0:/gcodes/Box.gcode, print time was 0h 1m
+2024-06-16 19:54:30 Finished printing file 0:/gcodes/Box.gcode, print time was 0h 19m
+2024-06-16 20:18:10 Finished printing file 0:/gcodes/Box.gcode, print time was 0h 22m
+2024-06-16 20:20:47 Resume state saved
+2024-06-16 20:20:50 Cancelled printing file 0:/gcodes/Cap_Rev-01.gcode, print time was 0h 0m
+2024-06-16 20:22:41 Resume state saved
+2024-06-16 20:22:58 Cancelled printing file 0:/gcodes/Cap_Rev-01.gcode, print time was 0h 0m
+2024-06-16 20:42:34 Finished printing file 0:/gcodes/Cap_Rev-01.gcode, print time was 0h 14m
+2024-06-16 21:06:16 Finished printing file 0:/gcodes/Box.gcode, print time was 0h 22m
+2024-06-16 21:50:08 Finished printing file 0:/gcodes/Box.gcode, print time was 0h 22m
+2024-06-16 22:52:28 Finished printing file 0:/gcodes/Cap_Rev-01.gcode, print time was 0h 59m
+2024-06-16 23:17:19 Finished printing file 0:/gcodes/Box.gcode, print time was 0h 22m
+2024-06-17 23:16:20 Finished printing file 0:/gcodes/heating_element_template_A.gcode, print time was 0h 1m
+2024-06-22 20:22:21 Event logging started
+2024-06-22 20:22:22 Event logging stopped
+2024-06-22 20:22:22 Event logging started
+2024-07-04 20:23:02 Error: M997: M997: Cannot convert P parameter to String (value 124)
+2024-07-04 20:26:11 Event logging stopped
+2024-07-04 20:26:25 Event logging started
+2024-07-04 20:26:26 Event logging stopped
+2024-07-04 20:26:26 Event logging started
+2024-07-04 20:54:31 Finished printing file 0:/gcodes/Peanut_Mount.gcode, print time was 0h 12m
+2024-07-28 14:49:55 Event logging started
+2024-07-28 14:49:56 Event logging stopped
+2024-07-28 14:49:56 Event logging started
+2024-07-28 16:16:29 Resume state saved
+2024-07-28 16:16:35 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 2m
+2024-07-28 16:22:20 Resume state saved
+2024-07-28 16:22:30 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2024-07-28 17:05:14 Finished printing file 0:/gcodes/Peanut_Mount.gcode, print time was 0h 37m
+2024-07-28 17:47:08 Finished printing file 0:/gcodes/Peanut_Mount.gcode, print time was 0h 37m
+2024-07-28 23:24:01 Finished printing file 0:/gcodes/Peanut_Mount.gcode, print time was 5h 29m
+2024-07-29 05:05:16 Finished printing file 0:/gcodes/Peanut_Mount.gcode, print time was 5h 32m
+2024-07-30 02:01:05 Finished printing file 0:/gcodes/Peanut_Mount.gcode, print time was 5h 32m
+2024-07-30 07:12:00 Warning: SPI connection has been reset
+2024-07-30 07:12:00 Connection to SBC established!
+2024-07-30 18:28:51 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 9m
+2024-07-30 22:14:39 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 8m
+2024-07-31 00:58:59 Event logging started
+2024-07-31 00:59:00 Event logging stopped
+2024-07-31 00:59:00 Event logging started
+2024-07-31 01:45:52 Event logging started
+2024-07-31 01:45:53 Event logging stopped
+2024-07-31 01:45:53 Event logging started
+2024-07-31 01:49:13 Warning: SPI connection has been reset
+2024-07-31 01:49:14 Connection to SBC established!
+2024-07-31 02:11:59 Event logging stopped
+2024-08-05 06:53:43 Event logging started
+2024-08-05 06:53:44 Event logging stopped
+2024-08-05 06:53:44 Event logging started
+2024-08-06 19:44:34 Finished printing file 0:/gcodes/Fractal/Box.gcode, print time was 0h 26m
+2024-08-06 21:02:18 Finished printing file 0:/gcodes/Cap_Rev-01.gcode, print time was 1h 15m
+2024-08-06 21:05:06 Warning: Driver 0.3 warning: phase A may be disconnected
+2024-08-06 21:14:41 Resume state saved
+2024-08-06 21:14:45 Cancelled printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 0m
+2024-08-06 21:16:29 Resume state saved
+2024-08-06 21:16:35 Cancelled printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 0m
+2024-08-06 21:34:36 Finished printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 16m
+2024-08-07 20:26:13 Resume state saved
+2024-08-07 20:26:16 Cancelled printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 1m
+2024-08-07 20:46:07 Finished printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 17m
+2024-08-07 21:08:17 Finished printing file 0:/gcodes/Motor_Spacer.gcode, print time was 0h 18m
+2024-08-07 21:11:45 Resume state saved
+2024-08-07 21:12:08 Cancelled printing file 0:/gcodes/Motor_spacer_set.gcode, print time was 0h 0m
+2024-08-07 21:28:44 Finished printing file 0:/gcodes/Motor_spacer_set.gcode, print time was 0h 15m
+2024-08-07 21:31:41 Resume state saved
+2024-08-07 21:31:43 Cancelled printing file 0:/gcodes/Motor_spacer_set.gcode, print time was 0h 0m
+2024-08-07 21:52:54 Finished printing file 0:/gcodes/Motor_spacer_set.gcode, print time was 0h 20m
+2024-08-08 01:43:34 Finished printing file 0:/gcodes/Motor_spacer_set_45x.gcode, print time was 3h 47m
+2024-08-08 07:41:06 Finished printing file 0:/gcodes/Motor_spacer_set_45x.gcode, print time was 4h 59m
+2024-08-09 00:34:23 Finished printing file 0:/gcodes/Motor_spacer_set_45x.gcode, print time was 4h 59m
+2024-08-09 00:45:51 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-08-10 00:03:16 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-08-10 00:03:20 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-08-10 00:15:46 Finished printing file 0:/gcodes/Lipo_Strap_v2.gcode, print time was 0h 10m
+2024-08-10 20:26:16 Finished printing file 0:/gcodes/Lipo_Strap_v3.gcode, print time was 0h 10m
+2024-08-10 22:42:50 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 0h 11m
+2024-08-10 23:05:53 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 0h 9m
+2024-08-10 23:25:05 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 0h 9m
+2024-08-11 02:00:02 Resume state saved
+2024-08-11 02:00:05 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 2m
+2024-08-11 02:08:44 Resume state saved
+2024-08-11 02:09:04 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2024-08-11 02:23:09 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 0h 10m
+2024-08-11 05:57:01 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 2h 58m
+2024-08-11 06:37:15 Resume state saved
+2024-08-11 06:37:27 Cancelled printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 0h 10m
+2024-08-11 06:59:38 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 0h 21m
+2024-08-11 08:42:37 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 1h 33m
+2024-08-11 19:13:34 Warning: SPI connection has been reset
+2024-08-11 19:13:34 Connection to SBC established!
+2024-08-11 20:01:39 Resume state saved
+2024-08-11 20:01:42 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2024-08-11 20:07:43 Resume state saved
+2024-08-11 20:08:06 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2024-08-11 20:18:51 Finished printing file 0:/gcodes/Lipo_Pad.gcode, print time was 0h 8m
+2024-08-11 21:28:36 Finished printing file 0:/gcodes/Lipo_Pad.gcode, print time was 0h 58m
+2024-08-12 03:13:58 Finished printing file 0:/gcodes/Lipo_Pad_160x.gcode, print time was 5h 41m
+2024-08-12 03:24:00 Finished printing file 0:/gcodes/M2_grommet_cutting_tool.gcode, print time was 0h 2m
+2024-08-12 03:30:18 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-08-12 03:30:22 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2024-08-12 06:21:45 Warning: SPI connection has been reset
+2024-08-12 06:21:45 Connection to SBC established!
+2024-08-12 11:24:36 Warning: SPI connection has been reset
+2024-08-12 11:24:36 Connection to SBC established!
+2024-08-12 11:24:55 Warning: SPI connection has been reset
+2024-08-12 11:24:55 Connection to SBC established!
+2024-08-13 17:54:18 Event logging started
+2024-08-13 17:54:18 Event logging stopped
+2024-08-13 17:54:18 Event logging started
+2024-08-13 18:10:45 Event logging started
+2024-08-13 18:11:29 Event logging stopped
+2024-08-13 18:11:29 Event logging started
+2024-08-14 00:05:23 Event logging started
+2024-08-14 00:05:24 Event logging stopped
+2024-08-14 00:05:24 Event logging started
+2024-10-29 02:21:27 Event logging started
+2024-10-29 02:21:27 Event logging stopped
+2024-10-29 02:21:27 Event logging started
+2024-10-29 02:25:21 Warning: SPI connection has been reset
+2024-10-29 02:25:21 Connection to SBC established!
+2024-10-29 02:48:45 Event logging stopped
+2024-10-29 02:48:59 Event logging started
+2024-10-29 02:49:00 Event logging stopped
+2024-10-29 02:49:00 Event logging started
+2024-10-29 04:18:09 Event logging stopped
+2024-10-29 08:18:00 Event logging started
+2024-10-29 08:18:03 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+2024-10-29 08:18:07 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+2024-10-29 08:18:07 Error: G31: invalid Z probe index
+2024-10-29 08:18:11 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+2024-10-29 08:18:11 Error: M307: Heater 1 not found
+2024-10-29 08:18:11 Error: M570: Heater 1 not found
+2024-10-29 08:18:11 Error: M143: Heater 1 does not exist
+2024-10-29 08:18:13 Error: M106: Fan number 0 not found
+2024-10-29 08:18:14 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+2024-10-29 08:18:15 Error: M106: Fan number 1 not found
+2024-10-29 08:18:17 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+2024-10-29 08:18:21 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+2024-10-29 08:18:21 Error: M106: Fan number 5 not found
+2024-10-29 08:18:23 Event logging stopped
+2024-10-29 08:18:23 Event logging started
+2024-10-29 08:18:23 Error: Heater 1 not found
+2024-10-29 08:18:24 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+2024-10-29 08:18:24 Error: in file daemon.g line 11:  line 0: array index out of bounds
+2024-10-29 08:18:28 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+2024-10-29 08:18:31 Error: Received firmware update request for missing file 'Duet3Firmware_FLY36RRF.uf2'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2024-10-29 08:18:38 Event logging started
+2024-10-29 08:18:39 Event logging stopped
+2024-10-29 08:18:39 Event logging started
+2024-10-29 08:20:51 Warning: SPI connection has been reset
+2024-10-29 08:20:51 Connection to SBC established!
+2024-10-29 08:25:56 Event logging stopped
+2024-10-29 08:26:13 Event logging started
+2024-10-29 08:26:14 Event logging stopped
+2024-10-29 08:26:14 Event logging started
+2024-10-31 20:07:19 Event logging started
+2024-10-31 20:07:20 Event logging stopped
+2024-10-31 20:07:20 Event logging started
+2024-10-31 20:24:01 Error: M564: Z probe readings not consistent
+2024-10-31 20:24:03 Error: G90: Z probe readings not consistent
+2024-10-31 20:24:57 Error: G30: Z probe readings not consistent
+2024-10-31 20:27:51 Warning: Driver 0.3 warning: phase A may be disconnected
+2024-10-31 20:31:58 Warning: Driver 0.3 warning: phase A may be disconnected
+2024-10-31 20:42:13 Resume state saved
+2024-10-31 20:42:16 Cancelled printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 0m
+2024-10-31 21:04:21 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 16m
+2024-10-31 22:44:26 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 1h 36m
+2024-10-31 23:05:39 Resume state saved
+2024-10-31 23:05:43 Cancelled printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 0m
+2024-10-31 23:08:49 Resume state saved
+2024-10-31 23:08:54 Cancelled printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 0m
+2024-11-01 02:22:02 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 3h 11m
+2024-11-01 05:34:13 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 3h 11m
+2024-11-01 08:46:54 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 3h 11m
+2024-11-01 08:50:02 Resume state saved
+2024-11-01 08:50:06 Cancelled printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 0m
+2024-11-01 08:52:39 Event logging stopped
+2024-12-02 01:27:28 Event logging started
+2024-12-02 01:27:29 Event logging stopped
+2024-12-02 01:27:29 Event logging started
+2024-12-02 01:30:07 Warning: SPI connection has been reset
+2024-12-02 01:30:08 Connection to SBC established!
+2024-12-02 01:59:55 Event logging stopped
+2024-12-02 02:00:11 Event logging started
+2024-12-02 02:00:12 Event logging stopped
+2024-12-02 02:00:12 Event logging started
+2024-12-02 02:09:25 Event logging stopped
+2024-12-02 02:09:39 Event logging started
+2024-12-02 02:09:40 Event logging stopped
+2024-12-02 02:09:40 Event logging started
+2024-12-02 02:17:36 Event logging stopped
+2024-12-02 02:17:51 Event logging started
+2024-12-02 02:17:52 Event logging stopped
+2024-12-02 02:17:52 Event logging started
+2024-12-02 02:46:48 Event logging started
+2024-12-02 02:46:49 Event logging stopped
+2024-12-02 02:46:49 Event logging started

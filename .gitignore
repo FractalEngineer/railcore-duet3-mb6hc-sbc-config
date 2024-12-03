@@ -1,0 +1,5 @@
+/sys/accelerometer
+/gcodes
+*.bin
+*.uf2
+*.bak

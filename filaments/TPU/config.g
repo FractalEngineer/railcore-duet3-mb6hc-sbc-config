@@ -1,9 +1,9 @@
 ;TPU config.g
 
-G10 S215 R80                 ; Heat up the current tool to 210C enough for PLA
-M140 S30 R40 	               ; Standby and initial Temp for bed as "off" (-273 = "off")
-M207 S0.4 F1500 T1500 Z0      ; Firmware Retraction 1.2mm , speed 25m/s , deretract 60mm/s, Z-hop 0
-M572 D0 S0.4                ; Pressure advance compensation (if needed to be changed)
+;G10 S215 R80                 ; Heat up the current tool to 210C enough for PLA
+;M140 S30 R40 	               ; Standby and initial Temp for bed as "off" (-273 = "off")
+;M207 S0.4 F1500 T1500 Z0      ; Firmware Retraction 1.2mm , speed 25m/s , deretract 60mm/s, Z-hop 0
+;M572 D0 S0.4                ; Pressure advance compensation (if needed to be changed)
 ;M572 D0 S0
 ;M204 P1400 T4000             ; General maximum acceleration P(print) T(travel)
 
