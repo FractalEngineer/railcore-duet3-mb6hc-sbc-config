@@ -12,7 +12,13 @@ hdmi_cvt=1024 600 60 3 0 0 0
 
 ### Bring config files from the Github Repo ###
 
+#Enable Permissions to folder structure
+sudo chmod 777 -R /opt/dsf/
+
 # Rename sd folder to sd_bak 
+cd /opt/dsf
+sudo mv sd sd-bak
+
 # Create sd folder
 
 cd /opt/dsf/sd
@@ -25,7 +31,7 @@ git checkout master
 
 ### Enable permission to new folders ###
 
-sudo chmod 777 -R /opt/dsf/sd
+sudo chmod 777 -R /opt/dsf/
 
 # not recommended, haven't found a better way
 
