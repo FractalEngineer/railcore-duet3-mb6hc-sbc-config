@@ -2,6 +2,7 @@
 ; Clean up and shut down after a print
 ; M0 in slicer to invoke
 
+M82                                         ; absolute extrusion mode
 M400                                        ; wait for moves to finish
 M104 S0                                     ; turn off temperature
 M140 S0                                     ; turn off heatbed

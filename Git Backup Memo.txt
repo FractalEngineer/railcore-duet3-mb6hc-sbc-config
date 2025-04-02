@@ -16,18 +16,12 @@ hdmi_cvt=1024 600 60 3 0 0 0
 sudo chmod 777 -R /opt/dsf/
 
 # Rename sd folder to sd_bak 
-cd /opt/dsf
-sudo mv sd sd-bak
+cp -r /opt/dsf/sd /opt/dsf/sd_backup
 
 # Create sd folder
 
-cd /opt/dsf/sd
-
-git init .
-git remote add origin https://github.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config.git
-git fetch origin
-git checkout master
-
+cd /opt/dsf
+git clone https://github.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config sd
 
 ### Enable permission to new folders ###
 
