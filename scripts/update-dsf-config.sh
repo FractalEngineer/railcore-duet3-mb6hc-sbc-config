@@ -51,7 +51,7 @@ if (( EUID != 0 )); then
     exit 1
 fi
 
-for required_command in git sudo systemctl find cp install chown chmod id date test; do
+for required_command in git sudo systemctl find cp install chown chmod id date test sync; do
     if ! command -v "${required_command}" >/dev/null 2>&1; then
         echo "Required command not found: ${required_command}" >&2
         exit 1
@@ -102,6 +102,38 @@ validate_runtime_writes() {
     fi
 }
 
+validate_git_repository() {
+    if ! run_as_dsf git -C "${sd_dir}" fsck --no-dangling >/dev/null 2>&1; then
+        echo "Git object corruption detected in ${sd_dir}." >&2
+        return 1
+    fi
+}
+
+validate_checkout() {
+    local required_file
+    local blank_system_files
+
+    for required_file in "${required_files[@]}"; do
+        if [[ ! -s "${sd_dir}/${required_file}" ]]; then
+            echo "Required file is missing or empty: ${required_file}" >&2
+            return 1
+        fi
+    done
+
+    blank_system_files="$(find "${sd_dir}/sys" -maxdepth 1 -type f -name '*.g' -size 0 -print)"
+    if [[ -n "${blank_system_files}" ]]; then
+        echo "Empty system G-code files detected:" >&2
+        echo "${blank_system_files}" >&2
+        return 1
+    fi
+
+    if [[ -e "${sd_dir}/sys/heightmap.csv" && \
+            ! -s "${sd_dir}/sys/heightmap.csv" ]]; then
+        echo "The height map exists but is empty." >&2
+        return 1
+    fi
+}
+
 is_runtime_path() {
     local candidate="$1"
     local runtime_path
@@ -123,9 +155,7 @@ is_runtime_path() {
 restore_runtime_files() {
     local runtime_path
     for runtime_path in "${runtime_paths[@]}"; do
-        if [[ -f "${backup_dir}/${runtime_path}" && \
-                ( "${runtime_path}" != "sys/config-override.g" || \
-                  -s "${backup_dir}/${runtime_path}" ) ]]; then
+        if [[ -s "${backup_dir}/${runtime_path}" ]]; then
             install -D -o dsf -g dsf -m 0644 \
                 "${backup_dir}/${runtime_path}" "${sd_dir}/${runtime_path}"
         fi
@@ -188,6 +218,7 @@ trap finish EXIT
 run_as_dsf git -C "${sd_dir}" config core.fileMode false
 normalize_permissions
 validate_runtime_writes
+validate_git_repository
 
 working_tree_status="$(run_as_dsf git -C "${sd_dir}" status --porcelain=v1 --untracked-files=normal)"
 if [[ -n "${working_tree_status}" ]]; then
@@ -233,24 +264,15 @@ done
 
 run_as_dsf git -C "${sd_dir}" pull --ff-only
 
-for required_file in "${required_files[@]}"; do
-    if [[ ! -s "${sd_dir}/${required_file}" ]]; then
-        echo "Required file is missing or empty after pull: ${required_file}" >&2
-        exit 1
-    fi
-done
-
-blank_system_files="$(find "${sd_dir}/sys" -maxdepth 1 -type f -name '*.g' -size 0 -print)"
-if [[ -n "${blank_system_files}" ]]; then
-    echo "Empty system G-code files detected after pull:" >&2
-    echo "${blank_system_files}" >&2
-    exit 1
-fi
+validate_checkout
 
 run_as_dsf git -C "${sd_dir}" diff --check
 restore_runtime_files
 normalize_permissions
 validate_runtime_writes
+sync -f "${sd_dir}"
+validate_checkout
+validate_git_repository
 
 # Keep the installed updater synchronized without executing a script from the
 # live checkout while Git may be replacing it.

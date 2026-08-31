@@ -47,7 +47,7 @@ if (( EUID != 0 )); then
     exit 1
 fi
 
-for required_command in bash curl git sudo systemctl find cp install chown chmod mv mktemp rm id date test; do
+for required_command in bash curl git sudo systemctl find cp install chown chmod mv mktemp rm id date test sync; do
     if ! command -v "${required_command}" >/dev/null 2>&1; then
         echo "Required command not found: ${required_command}" >&2
         exit 1
@@ -93,6 +93,13 @@ validate_runtime_writes() {
     fi
 }
 
+validate_git_repository() {
+    if ! run_as_dsf git -C "${sd_dir}" fsck --no-dangling >/dev/null 2>&1; then
+        echo "Git object corruption detected in ${sd_dir}." >&2
+        return 1
+    fi
+}
+
 install_latest_updater() {
     local temporary_updater
     temporary_updater="$(mktemp)"
@@ -119,6 +126,12 @@ validate_checkout() {
         echo "${blank_system_files}" >&2
         return 1
     fi
+
+    if [[ -e "${sd_dir}/sys/heightmap.csv" && \
+            ! -s "${sd_dir}/sys/heightmap.csv" ]]; then
+        echo "The height map exists but is empty." >&2
+        return 1
+    fi
 }
 
 # Valid existing Git installations use the separately installed transactional
@@ -126,7 +139,8 @@ validate_checkout() {
 # path so the entire old directory is preserved before recloning.
 if [[ -d "${sd_dir}/.git" ]]; then
     normalize_permissions
-    if run_as_dsf git -C "${sd_dir}" rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    if run_as_dsf git -C "${sd_dir}" rev-parse --is-inside-work-tree >/dev/null 2>&1 && \
+            validate_git_repository; then
         run_as_dsf git -C "${sd_dir}" config core.fileMode false
         install_latest_updater
         exec /usr/local/sbin/update-dsf-config --yes
@@ -242,6 +256,9 @@ fi
 validate_checkout
 normalize_permissions
 validate_runtime_writes
+sync -f "${sd_dir}"
+validate_checkout
+validate_git_repository
 install -o root -g root -m 0755 \
     "${sd_dir}/scripts/update-dsf-config.sh" /usr/local/sbin/update-dsf-config
 install -o root -g root -m 0755 \

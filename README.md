@@ -120,6 +120,24 @@ The checkout is owned by the `dsf` account. Inspect it with:
 sudo -H -u dsf git -C /opt/dsf/sd status
 ```
 
+## Corrupt checkout recovery
+
+An `object file ... is empty` message means the Git object database is corrupt;
+it is not a Unix permission error. Check free space and kernel storage errors
+before attempting another deployment:
+
+```bash
+df -h / /opt/dsf/sd
+df -i / /opt/dsf/sd
+findmnt -no SOURCE,FSTYPE,OPTIONS /opt/dsf/sd
+sudo journalctl -k -b --no-pager | grep -Ei 'mmc|ext4|I/O error|buffer I/O|read-only|corrupt|reset'
+```
+
+If the storage is healthy, rerun the one-command deployment. It verifies the
+Git object database, preserves the old directory, and rebuilds corrupt
+checkouts. It also refuses to restore zero-byte runtime files and flushes the
+new checkout to storage before declaring success.
+
 ## Legacy transfer-ready pin note
 
 An older, damaged Raspberry Pi required `"TransferReadyPin": 24` in

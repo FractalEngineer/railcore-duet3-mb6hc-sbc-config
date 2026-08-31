@@ -55,6 +55,11 @@ if ! run_as_dsf git -C "${sd_dir}" rev-parse --is-inside-work-tree >/dev/null 2>
     exit 1
 fi
 
+if ! run_as_dsf git -C "${sd_dir}" fsck --no-dangling >/dev/null 2>&1; then
+    echo "Git object corruption detected; repair the checkout before backing it up." >&2
+    exit 1
+fi
+
 current_branch="$(run_as_dsf git -C "${sd_dir}" symbolic-ref --quiet --short HEAD || true)"
 if [[ "${current_branch}" != "${remote_branch}" ]]; then
     echo "Refusing to back up from branch '${current_branch:-detached HEAD}'; expected ${remote_branch}." >&2
