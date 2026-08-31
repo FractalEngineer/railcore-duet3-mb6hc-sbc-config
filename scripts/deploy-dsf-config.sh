@@ -47,7 +47,7 @@ if (( EUID != 0 )); then
     exit 1
 fi
 
-for required_command in bash curl git sudo systemctl find cp install chown chmod mv mktemp rm id date; do
+for required_command in bash curl git sudo systemctl find cp install chown chmod mv mktemp rm id date test; do
     if ! command -v "${required_command}" >/dev/null 2>&1; then
         echo "Required command not found: ${required_command}" >&2
         exit 1
@@ -79,6 +79,18 @@ normalize_permissions() {
     chown -R dsf:dsf "${sd_dir}"
     find "${sd_dir}" -type d -exec chmod 2755 {} +
     find "${sd_dir}" -type f -exec chmod 0644 {} +
+}
+
+validate_runtime_writes() {
+    if ! run_as_dsf test -w "${sd_dir}/sys"; then
+        echo "The dsf account cannot write to ${sd_dir}/sys." >&2
+        return 1
+    fi
+    if [[ -e "${sd_dir}/sys/config-override.g" ]] && \
+            ! run_as_dsf test -w "${sd_dir}/sys/config-override.g"; then
+        echo "The dsf account cannot write to sys/config-override.g." >&2
+        return 1
+    fi
 }
 
 install_latest_updater() {
@@ -229,7 +241,10 @@ fi
 
 validate_checkout
 normalize_permissions
+validate_runtime_writes
 install -o root -g root -m 0755 \
     "${sd_dir}/scripts/update-dsf-config.sh" /usr/local/sbin/update-dsf-config
+install -o root -g root -m 0755 \
+    "${sd_dir}/scripts/backup-dsf-config.sh" /usr/local/sbin/backup-dsf-config
 
 deployment_succeeded=true

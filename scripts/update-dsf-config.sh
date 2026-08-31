@@ -51,7 +51,7 @@ if (( EUID != 0 )); then
     exit 1
 fi
 
-for required_command in git sudo systemctl find cp install chown chmod id date; do
+for required_command in git sudo systemctl find cp install chown chmod id date test; do
     if ! command -v "${required_command}" >/dev/null 2>&1; then
         echo "Required command not found: ${required_command}" >&2
         exit 1
@@ -90,6 +90,18 @@ normalize_permissions() {
     find "${sd_dir}" -type f -exec chmod 0644 {} +
 }
 
+validate_runtime_writes() {
+    if ! run_as_dsf test -w "${sd_dir}/sys"; then
+        echo "The dsf account cannot write to ${sd_dir}/sys." >&2
+        return 1
+    fi
+    if [[ -e "${sd_dir}/sys/config-override.g" ]] && \
+            ! run_as_dsf test -w "${sd_dir}/sys/config-override.g"; then
+        echo "The dsf account cannot write to sys/config-override.g." >&2
+        return 1
+    fi
+}
+
 is_runtime_path() {
     local candidate="$1"
     local runtime_path
@@ -111,7 +123,9 @@ is_runtime_path() {
 restore_runtime_files() {
     local runtime_path
     for runtime_path in "${runtime_paths[@]}"; do
-        if [[ -f "${backup_dir}/${runtime_path}" ]]; then
+        if [[ -f "${backup_dir}/${runtime_path}" && \
+                ( "${runtime_path}" != "sys/config-override.g" || \
+                  -s "${backup_dir}/${runtime_path}" ) ]]; then
             install -D -o dsf -g dsf -m 0644 \
                 "${backup_dir}/${runtime_path}" "${sd_dir}/${runtime_path}"
         fi
@@ -173,6 +187,7 @@ trap finish EXIT
 
 run_as_dsf git -C "${sd_dir}" config core.fileMode false
 normalize_permissions
+validate_runtime_writes
 
 working_tree_status="$(run_as_dsf git -C "${sd_dir}" status --porcelain=v1 --untracked-files=normal)"
 if [[ -n "${working_tree_status}" ]]; then
@@ -235,10 +250,13 @@ fi
 run_as_dsf git -C "${sd_dir}" diff --check
 restore_runtime_files
 normalize_permissions
+validate_runtime_writes
 
 # Keep the installed updater synchronized without executing a script from the
 # live checkout while Git may be replacing it.
 install -o root -g root -m 0755 \
     "${sd_dir}/scripts/update-dsf-config.sh" "/usr/local/sbin/update-dsf-config"
+install -o root -g root -m 0755 \
+    "${sd_dir}/scripts/backup-dsf-config.sh" "/usr/local/sbin/backup-dsf-config"
 
 update_succeeded=true

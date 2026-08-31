@@ -35,7 +35,8 @@ The deployer asks for confirmation before stopping DCS. It then:
 - Restores the original directory automatically if migration fails.
 - Makes files readable to normal login accounts but writable only by `dsf`.
 - Restarts DCS if it was running before deployment.
-- Installs `/usr/local/sbin/update-dsf-config` for later updates.
+- Installs `/usr/local/sbin/update-dsf-config` for later updates and
+  `/usr/local/sbin/backup-dsf-config` for manual GitHub backups.
 
 For deliberate non-interactive use, after independently confirming the printer
 is idle:
@@ -47,6 +48,11 @@ wget -qO- https://raw.githubusercontent.com/FractalEngineer/railcore-duet3-mb6hc
 Either repeat the universal command above or use the installed updater:
 
 sudo update-dsf-config
+
+After configuring the `dsf` account's GitHub SSH deploy key as documented in
+README.md, commit and push source configuration changes with:
+
+sudo backup-dsf-config
 
 Backups are retained under `/opt/dsf/config-backups/`. Remove old backups
 manually only after confirming that the printer works correctly.

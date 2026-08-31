@@ -27,7 +27,7 @@ During first deployment it:
   Duet Web Control files.
 - Checks that required system G-code files exist and are not empty.
 - Restores the original directory automatically if migration fails.
-- Installs the `update-dsf-config` command for subsequent updates.
+- Installs the `update-dsf-config` and `backup-dsf-config` commands.
 
 Backups are stored under `/opt/dsf/config-backups/`.
 
@@ -50,6 +50,66 @@ printer is idle:
 
 ```bash
 sudo update-dsf-config --yes
+```
+
+## Manual configuration backup to GitHub
+
+Pushing requires one-time GitHub authentication. A repository-scoped SSH
+deploy key is recommended. Generate one as the `dsf` account:
+
+```bash
+sudo -H -u dsf mkdir -p /opt/dsf/.ssh
+sudo -H -u dsf chmod 700 /opt/dsf/.ssh
+sudo -H -u dsf ssh-keygen -t ed25519 -f /opt/dsf/.ssh/id_ed25519 -N "" -C "railcore-duetpi-backup"
+sudo -H -u dsf cat /opt/dsf/.ssh/id_ed25519.pub
+```
+
+Add the displayed public key under the GitHub repository's **Settings > Deploy
+keys**, selecting **Allow write access**. Then switch this checkout to SSH and
+accept GitHub's host key once:
+
+```bash
+sudo -H -u dsf git -C /opt/dsf/sd remote set-url origin git@github.com:FractalEngineer/railcore-duet3-mb6hc-sbc-config.git
+sudo -H -u dsf ssh -T git@github.com
+```
+
+GitHub should report successful authentication and then close the connection;
+it does not provide an interactive shell.
+
+After that one-time setup, manually back up and push configuration changes with
+one command:
+
+```bash
+sudo backup-dsf-config
+```
+
+An optional commit message may be supplied:
+
+```bash
+sudo backup-dsf-config "Tune hotend PID at 225C"
+```
+
+The command commits only `sys`, `macros`, and filament-profile changes. It
+excludes generated state such as the height map, resurrection data, event logs,
+and `config-override.g`. It also fetches first and refuses to push over newer
+GitHub commits or to include unrelated existing commits.
+
+Without a supplied message, commits use `Config Backup YYYY-MM-DD HH:MM:SS` in
+the DuetPi's local time.
+
+## `config-override.g` write check
+
+Deployment and update commands enforce `dsf:dsf` ownership, writable owner
+permissions, and now explicitly verify that the `dsf` account can write both
+`/opt/dsf/sd/sys` and `sys/config-override.g`. An empty old override file is no
+longer restored over the repository copy during an update.
+
+To inspect a deployed system manually:
+
+```bash
+sudo -H -u dsf test -w /opt/dsf/sd/sys && echo "sys writable"
+sudo -H -u dsf test -w /opt/dsf/sd/sys/config-override.g && echo "override writable"
+ls -ld /opt/dsf/sd/sys /opt/dsf/sd/sys/config-override.g
 ```
 
 ## Git inspection
