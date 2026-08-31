@@ -1,4 +1,6 @@
 /sys/accelerometer
+/sys/eventlog.txt
+/eventlog.txt
 /gcodes
 *.bin
 *.uf2
