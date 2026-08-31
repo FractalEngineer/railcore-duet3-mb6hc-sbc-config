@@ -15,6 +15,14 @@ readonly runtime_paths=(
     "filaments.csv"
 )
 
+readonly runtime_directories=(
+    "gcodes"
+    "firmware"
+    "menu"
+    "scans"
+    "www"
+)
+
 readonly backup_paths=(
     "sys"
     "macros"
@@ -43,7 +51,7 @@ if (( EUID != 0 )); then
     exit 1
 fi
 
-for required_command in git sudo systemctl find cp install chown chmod; do
+for required_command in git sudo systemctl find cp install chown chmod id date; do
     if ! command -v "${required_command}" >/dev/null 2>&1; then
         echo "Required command not found: ${required_command}" >&2
         exit 1
@@ -78,15 +86,22 @@ run_as_dsf() {
 
 normalize_permissions() {
     chown -R dsf:dsf "${sd_dir}"
-    find "${sd_dir}" -type d -exec chmod 2750 {} +
-    find "${sd_dir}" -type f -exec chmod 0640 {} +
+    find "${sd_dir}" -type d -exec chmod 2755 {} +
+    find "${sd_dir}" -type f -exec chmod 0644 {} +
 }
 
 is_runtime_path() {
     local candidate="$1"
     local runtime_path
+    local runtime_directory
     for runtime_path in "${runtime_paths[@]}"; do
         if [[ "${candidate}" == "${runtime_path}" ]]; then
+            return 0
+        fi
+    done
+    for runtime_directory in "${runtime_directories[@]}"; do
+        if [[ "${candidate}" == "${runtime_directory}" || \
+                "${candidate}" == "${runtime_directory}/"* ]]; then
             return 0
         fi
     done
@@ -97,7 +112,7 @@ restore_runtime_files() {
     local runtime_path
     for runtime_path in "${runtime_paths[@]}"; do
         if [[ -f "${backup_dir}/${runtime_path}" ]]; then
-            install -D -o dsf -g dsf -m 0640 \
+            install -D -o dsf -g dsf -m 0644 \
                 "${backup_dir}/${runtime_path}" "${sd_dir}/${runtime_path}"
         fi
     done

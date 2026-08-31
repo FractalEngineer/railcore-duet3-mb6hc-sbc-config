@@ -2,6 +2,10 @@
 /sys/eventlog.txt
 /eventlog.txt
 /gcodes
+/firmware
+/menu
+/scans
+/www
 *.bin
 *.uf2
 *.bak

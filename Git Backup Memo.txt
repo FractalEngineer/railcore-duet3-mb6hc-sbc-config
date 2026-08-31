@@ -12,79 +12,55 @@ hdmi_cvt=1024 600 60 3 0 0 0
 
 ### Manage the DSF configuration from Git ###
 
-DSF runs as the dedicated `dsf` account and uses `/opt/dsf/sd` as its live
-virtual SD card. Do not use `chmod 777`, do not pull as root, and do not pull
-while DuetControlServer is using the directory.
+The installer supports a clean Raspberry Pi OS installation, a clean DuetPi
+installation, or an existing Git-managed setup. Only run it while the printer
+is idle and all heaters are off.
 
-The update script preserves these DSF-generated files across pulls:
+#### One-command setup or update ####
 
-- sys/config-override.g
-- sys/heightmap.csv
-- sys/resurrect.g
-- sys/eventlog.txt
-- filaments.csv
+No script has to be copied to the Pi. This one command downloads the public
+bootstrap directly from GitHub and works for both installation and updates:
 
-It also backs up the active sys, macros, and filaments directories, refuses
-unexpected local edits, validates that system G-code files are not blank,
-restores the backup if deployment fails, and returns DCS to its previous state.
+wget -qO- https://raw.githubusercontent.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config/master/install.sh | sudo bash
 
-#### One-time repair of an existing checkout ####
+The deployer asks for confirmation before stopping DCS. It then:
 
-Only do this while the printer is idle and all heaters are off:
+- Installs the official stable DSF packages when DSF is not present.
+- Enables Raspberry Pi SPI, sets the SPI buffer size, and configures GPIO 24 as
+  this printer's transfer-ready pin on a clean Raspberry Pi OS installation.
+- Detects whether `/opt/dsf/sd` is already a Git checkout.
+- Preserves the existing configuration and generated machine state.
+- Moves a non-Git installation to a timestamped backup before cloning.
+- Preserves `gcodes` plus DSF-managed `firmware`, `menu`, `scans`, and `www`
+  directories without duplicating them.
+- Runs Git as the dedicated `dsf` account.
+- Validates that required system G-code files exist and are not blank.
+- Restores the original directory automatically if migration fails.
+- Makes files readable to normal login accounts but writable only by `dsf`.
+- Restarts DCS if it was running before deployment.
+- Installs `/usr/local/sbin/update-dsf-config` for later updates.
 
-sudo systemctl stop duetcontrolserver
-sudo cp -a /opt/dsf/sd "/opt/dsf/sd_backup_$(date +%Y%m%d-%H%M%S)"
-sudo chown -R dsf:dsf /opt/dsf/sd
-sudo -H -u dsf git -C /opt/dsf/sd config core.fileMode false
-sudo find /opt/dsf/sd -type d -exec chmod 2750 {} +
-sudo find /opt/dsf/sd -type f -exec chmod 0640 {} +
-sudo -H -u dsf git -C /opt/dsf/sd pull --ff-only
-sudo test -s /opt/dsf/sd/sys/config.g
-sudo test -s /opt/dsf/sd/sys/daemon.g
-sudo install -o root -g root -m 0755 /opt/dsf/sd/scripts/update-dsf-config.sh /usr/local/sbin/update-dsf-config
-sudo systemctl start duetcontrolserver
+For deliberate non-interactive use, after independently confirming the printer
+is idle:
 
-If any bootstrap command fails after DCS was stopped, run
-`sudo systemctl start duetcontrolserver` before troubleshooting.
+wget -qO- https://raw.githubusercontent.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config/master/install.sh | sudo bash -s -- --yes
 
-#### Routine update ####
+A clean Raspberry Pi OS installation must be rebooted once when the command
+finishes so the SPI configuration takes effect. Existing installations do not
+need a reboot.
 
-Run this from any directory:
+#### Later updates ####
+
+Either repeat the universal command above or use the installed updater:
 
 sudo update-dsf-config
 
-The script asks for confirmation before interrupting DSF. For deliberate
-non-interactive use, after independently confirming the printer is idle:
-
-sudo update-dsf-config --yes
-
 Backups are retained under `/opt/dsf/config-backups/`. Remove old backups
-manually only after confirming the printer works correctly.
+manually only after confirming that the printer works correctly.
 
-#### New installation ####
+To inspect Git directly, run it as the repository owner:
 
-Only do this while the printer is idle and all heaters are off:
-
-sudo systemctl stop duetcontrolserver
-dsf_backup_dir="/opt/dsf/sd_backup_$(date +%Y%m%d-%H%M%S)"
-sudo mv /opt/dsf/sd "${dsf_backup_dir}"
-sudo install -d -o dsf -g dsf -m 0750 /opt/dsf/sd
-sudo -H -u dsf git clone https://github.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config.git /opt/dsf/sd
-sudo -H -u dsf git -C /opt/dsf/sd config core.fileMode false
-for runtime_file in config-override.g heightmap.csv resurrect.g; do
-    if [ -f "${dsf_backup_dir}/sys/${runtime_file}" ]; then
-        sudo install -o dsf -g dsf -m 0640 "${dsf_backup_dir}/sys/${runtime_file}" "/opt/dsf/sd/sys/${runtime_file}"
-    fi
-done
-sudo install -d -o dsf -g dsf -m 0750 /opt/dsf/sd/gcodes
-if [ -d "${dsf_backup_dir}/gcodes" ]; then
-    sudo cp -a "${dsf_backup_dir}/gcodes/." /opt/dsf/sd/gcodes/
-fi
-sudo chown -R dsf:dsf /opt/dsf/sd
-sudo find /opt/dsf/sd -type d -exec chmod 2750 {} +
-sudo find /opt/dsf/sd -type f -exec chmod 0640 {} +
-sudo install -o root -g root -m 0755 /opt/dsf/sd/scripts/update-dsf-config.sh /usr/local/sbin/update-dsf-config
-sudo systemctl start duetcontrolserver
+sudo -H -u dsf git -C /opt/dsf/sd status
 
 
 ### Pin reassignment for fried uart Pi ###
