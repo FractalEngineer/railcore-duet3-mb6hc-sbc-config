@@ -5,13 +5,12 @@
 ; comments and echo statements throughout are provided for convenience
 ; ***********************************************************
 echo "DEBUG: Running deployprobe.g"
-; if !move.axes[0].homed || !move.axes[1].homed     ; If the printer hasn't been homed, home it
-;    M98 P"0:/sys/homexy.g" 
+if !move.axes[0].homed || !move.axes[1].homed
+    abort "Home X and Y before manually deploying the probe"
 
 ; uncomment next line to echo the probe deploy state 
 ;echo "Object Model Deployuser token =" ^sensors.probes[0].deployedByUser
 
-M564 H1 S0                   ; Allow movement BEYOND axes boundaries (for Y to reach probe dock)
 G91                     ; relative positioning
 echo "DEBUG: First Lift Z (8) in deployprobe.g" 
 G1 H2 Z10 F4000        ; move Z 8 for clearance above dock
@@ -29,8 +28,6 @@ if sensors.probes[0].value[0]!=1000    ; if sensor is value other than 1000 do t
 ; if we're here we know it's becasue the above is true which I assume is because you have an NC switch as a probe.
  echo "DEBUG: Passed first logic test to deploy probe"
 
-M564 H0
-
 G1 X-35 Y150 F3000             ; move to center receiving position
 M400                          ; wait for moves to finish
 
@@ -44,8 +41,9 @@ G1 X150 Y150 Z10 F3000        ; move bed to clear probe from build surface
 M400                          ; wait for moves to finish
 
 if sensors.probes[0].value[0]!=0
-  ; uncomment to echo the probe deploy state 
+  ; uncomment to echo the probe deploy state
   ; echo "Object Model Deployuser token (in abort if section)= " ^sensors.probes[0].deployedByUser
+  M564 H1 S1
   abort "Deployprobe endvalue not 0 Probe not picked up!  Deployt cancelled."
   
 M564 H1 S1                    ; Restrict movement to within axes boundaries (for normal Y movement)

@@ -22,6 +22,12 @@ M564 S1 H1									; No movement before homing, no out-of-range
 
 G4 S2                                       ; wait for expansion boards to start
 
+; Global variables (guarded so config.g can be re-run safely)
+if !exists(global.hotend_timer_started)
+    global hotend_timer_started = false
+if !exists(global.hotend_timer)
+    global hotend_timer = 0
+
 
 
 ; Debugging
@@ -65,7 +71,7 @@ M92 E676									; Orbiter 2.0
 
 
 ; Microstepping (independent of M92 above)
-M350 X64 Y64 Z16 I1							; Set 32x microstepping for axes with interpolation
+M350 X64 Y64 Z16 I1							; Set 64x XY and 16x Z microstepping with interpolation
 ;M350 E8 I0									; Set 16x microstepping for Flex3Drive extruder interpolation OFF
 ;M350 E16 I1								; Biqu H2
 M350 E16 I1									; Orbiter 2.0
@@ -77,7 +83,7 @@ M906 X{2800 * 0.65} Y{2800 * 0.65} Z{1680 * 0.65} I30			; Set PEAK motor current
 ;M906 E800 I30								; Biqu H2
 ;M906 E1000 I10								; Orbiter 2.0 (rated 1 amp, recommended 1.2)
 M906 E850 I10								; Smorb3.0 (rated 1 amp, recommended 1.2)
-M84 S30 									; Idle timeout 30s
+M906 T30                                    ; Motor idle timeout 30s (RRF 3.6+)
 
 
 ; Speeds
@@ -205,7 +211,7 @@ M581 T2 P1 S1 R2							; Green button trigger 2 only when not printing (Load fil
 M581 T3 P1 S1 R1							; Green button trigger 3 only when printing (Raise Z)
 M581 T4 P2 S1 R2							; Red button trigger 4 only when not printing (Unload filament)
 M581 T5 P2 S1 R1							; Red button trigger 5 only when printing (Stop)
-M581 T6 P3 S1 R2							; Black button trigger 6 only when not printing (Resume)
+M581 T6 P3 S1 R2							; Black button trigger 6 when not processing a print (Resume if paused)
 M581 T7 P3 S1 R1							; Black button trigger 7 only when printing (Lower Z)
 M581 T8 P4 S1 R2							; Blue button trigger 8 only when not printing (LED strip on/off)
 M581 T9 P4 S1 R1							; Blue button trigger 9 only when printing (LED strip on/off)
@@ -221,16 +227,7 @@ M593 P"mzv" F43 S0.1
 ;M593 F52
 
 
-; Logging
-M929 P"eventlog.txt" S1 					; start logging to file eventlog.txt
+; Load values saved by M500 after the base configuration is defined
+M501
 
 T0											; Select first hot end
-
-
-; Global Variables
-
-global hotend_timer_started = false
-global hotend_timer = 0
-
-
-

@@ -1,2 +1,1 @@
-M112
-M999
+abort "Motor stall detected. Inspect the printer and home it manually."

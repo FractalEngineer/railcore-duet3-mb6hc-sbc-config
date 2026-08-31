@@ -12,8 +12,6 @@ echo "DEBUG running retractprobe.g macro"
 
 G90	                          ; absolute positioning
 
-M564 S0                       ; allow beyond limit axis to print area
-
 if sensors.probes[0].value[0]!= 0
     ; echo "Probe Value =" ^sensors.probes[0].value[0]
     ; echo "Object Model Deployuser token =" ^sensors.probes[0].deployedByUser
