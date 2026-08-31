@@ -10151,3 +10151,963 @@ M307 H1 R4.017 K0.408:0.270 D6.28 E1.35 S1.00 B0 V29.4
 2024-12-02 02:46:48 Event logging started
 2024-12-02 02:46:49 Event logging stopped
 2024-12-02 02:46:49 Event logging started
+2025-04-02 18:22:42 Event logging started
+2025-04-02 18:22:43 Event logging stopped
+2025-04-02 18:22:43 Event logging started
+2025-04-02 19:39:01 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 9m
+2025-04-02 19:38:45 Event logging started
+2025-04-02 19:38:47 Event logging stopped
+2025-04-02 19:38:47 Event logging started
+2025-04-02 20:58:55 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 9m
+2025-04-02 23:07:40 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 57m
+2025-04-03 14:12:15 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 57m
+2025-04-03 15:18:02 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 57m
+2025-04-03 16:18:11 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 58m
+2025-04-03 17:50:57 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 57m
+2025-04-05 17:56:58 Event logging started
+2025-04-05 17:56:59 Event logging stopped
+2025-04-05 17:56:59 Event logging started
+2025-04-05 18:37:02 Event logging started
+2025-04-05 18:37:04 Event logging stopped
+2025-04-05 18:37:04 Event logging started
+2025-04-05 19:04:48 Event logging started
+2025-04-05 19:04:49 Event logging stopped
+2025-04-05 19:04:49 Event logging started
+2025-04-12 21:30:12 Event logging stopped
+2025-04-12 21:30:25 Event logging started
+2025-04-12 21:30:26 Event logging stopped
+2025-04-12 21:30:26 Event logging started
+2025-04-12 21:31:14 Warning: Driver 0.3 warning: phase A may be disconnected
+2025-04-12 21:58:39 Finished printing file 0:/gcodes/boostyboi_v2_test_jig_A.gcode, print time was 0h 22m
+2025-04-13 19:30:59 Event logging started
+2025-04-13 19:31:00 Event logging stopped
+2025-04-13 19:31:00 Event logging started
+2025-04-13 19:31:04 Error: Timeout while waiting for macro file tpost.g (channel Trigger)
+2025-04-17 04:29:25 Event logging stopped
+2025-04-17 04:29:37 Event logging started
+2025-04-17 04:29:38 Event logging stopped
+2025-04-17 04:29:38 Event logging started
+2025-04-17 04:44:41 Warning: Driver 0.3 warning: phase A may be disconnected
+2025-04-17 04:45:34 Error: M564: Z probe readings not consistent
+2025-04-17 04:45:36 Error: G90: Z probe readings not consistent
+2025-04-17 04:46:06 Error: G30: Z probe readings not consistent
+2025-04-17 04:46:30 Error: G30: Z probe readings not consistent
+2025-04-17 05:10:24 Resume state saved
+2025-04-17 05:10:29 Cancelled printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-02_38pcs.gcode, print time was 0h 0m
+2025-04-17 06:08:42 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-02_38pcs.gcode, print time was 0h 55m
+2025-04-17 16:41:12 Resume state saved
+2025-04-17 16:41:14 Cancelled printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-02_38pcs.gcode, print time was 0h 0m
+2025-04-17 17:40:24 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 57m
+2025-04-17 17:56:10 Resume state saved
+2025-04-17 17:56:14 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 215deg.gcode, print time was 0h 4m
+2025-04-17 18:01:22 Resume state saved
+2025-04-17 18:01:26 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2025-04-17 18:03:18 Resume state saved
+2025-04-17 18:03:20 Cancelled printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 0m
+2025-04-17 18:59:46 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2025-04-17 19:57:16 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2025-04-17 21:13:33 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2025-04-17 22:12:53 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2025-04-18 00:32:52 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2025-04-18 04:53:06 Error: G30: Z probe readings not consistent
+2025-04-18 05:58:38 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 56m
+2025-04-18 22:49:21 Resume state saved
+2025-04-18 22:49:25 Cancelled printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 0h 16m
+2025-04-18 23:56:35 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 4m
+2025-04-19 02:34:17 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 8m
+2025-04-19 21:41:34 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 4m
+2025-04-19 22:58:25 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2025-04-20 00:15:50 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2025-04-20 03:12:57 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2025-04-20 17:32:30 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2025-04-20 18:46:46 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2025-04-20 19:55:57 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 7m
+2025-04-20 22:48:46 Event logging started
+2025-04-20 22:48:47 Event logging stopped
+2025-04-20 22:48:47 Event logging started
+2025-05-04 18:35:58 Event logging stopped
+2025-05-04 18:43:06 Event logging started
+2025-05-04 18:43:07 Event logging stopped
+2025-05-04 18:43:07 Event logging started
+2025-05-04 18:59:38 Resume state saved
+2025-05-04 18:59:41 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 215deg.gcode, print time was 0h 6m
+2025-05-04 19:04:49 Resume state saved
+2025-05-04 19:04:52 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2025-05-04 19:14:27 Resume state saved
+2025-05-04 19:14:29 Cancelled printing file 0:/gcodes/Wingman_Washer_Trim_120pcs_.gcode, print time was 0h 1m
+2025-05-04 20:10:43 Finished printing file 0:/gcodes/Wingman_Washer_Trim_120pcs_.gcode, print time was 0h 51m
+2025-05-04 22:37:33 Warning: Driver 0.3 warning: phase A may be disconnected
+2025-05-04 23:47:41 Finished printing file 0:/gcodes/Wingman_Washer_Trim_120pcs_.gcode, print time was 0h 51m
+2025-05-05 00:43:14 Finished printing file 0:/gcodes/Wingman_Washer_Trim_120pcs_.gcode, print time was 0h 51m
+2025-05-05 03:28:57 Finished printing file 0:/gcodes/Wingman_Washer_Trim_120pcs_.gcode, print time was 0h 51m
+2025-05-05 05:21:18 Event logging started
+2025-05-05 05:21:18 Event logging stopped
+2025-05-05 05:21:18 Event logging started
+2025-05-07 05:36:35 Resume state saved
+2025-05-07 05:36:39 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 215deg.gcode, print time was 0h 2m
+2025-05-07 05:42:00 Resume state saved
+2025-05-07 05:42:03 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2025-05-07 08:09:58 Finished printing file 0:/gcodes/Washer_Rev-02.gcode, print time was 2h 18m
+2025-05-07 08:33:43 Event logging started
+2025-05-07 08:33:44 Event logging stopped
+2025-05-07 08:33:44 Event logging started
+2025-05-07 09:24:44 Event logging started
+2025-05-07 09:24:45 Event logging stopped
+2025-05-07 09:24:45 Event logging started
+2025-05-07 21:51:24 Resume state saved
+2025-05-07 21:51:27 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 2m
+2025-05-07 21:56:03 Resume state saved
+2025-05-07 21:56:05 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2025-05-07 22:20:36 Finished printing file 0:/gcodes/m2_14mm_full_2.gcode, print time was 0h 13m
+2025-05-08 00:41:29 Finished printing file 0:/gcodes/Washer_Rev-02.gcode, print time was 2h 18m
+2025-05-08 01:10:16 Finished printing file 0:/gcodes/m2_14mm_full_2.gcode, print time was 0h 15m
+2025-05-08 01:37:55 Finished printing file 0:/gcodes/m2_14mm_full_2.gcode, print time was 0h 12m
+2025-05-08 04:28:22 Finished printing file 0:/gcodes/Washer_Rev-02.gcode, print time was 2h 19m
+2025-05-08 05:11:31 Event logging started
+2025-05-08 05:11:32 Event logging stopped
+2025-05-08 05:11:32 Event logging started
+2025-05-08 15:48:55 Resume state saved
+2025-05-08 15:49:00 Cancelled printing file 0:/gcodes/Box_3.gcode, print time was 0h 3m
+2025-05-08 17:05:10 Resume state saved
+2025-05-08 17:05:15 Cancelled printing file 0:/gcodes/Box_3.gcode, print time was 0h 2m
+2025-05-08 17:11:16 Resume state saved
+2025-05-08 17:11:21 Cancelled printing file 0:/gcodes/Box_3.gcode, print time was 0h 1m
+2025-05-08 17:17:27 Resume state saved
+2025-05-08 17:17:40 Printing resumed
+2025-05-08 17:17:45 Resume state saved
+2025-05-08 17:17:47 Cancelled printing file 0:/gcodes/Box_3.gcode, print time was 0h 3m
+2025-05-08 17:40:15 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 20m
+2025-05-08 18:06:07 Finished printing file 0:/gcodes/Cap_3.gcode, print time was 0h 17m
+2025-05-11 03:43:50 Resume state saved
+2025-05-11 03:43:52 Error: M0: Pause the print before attempting to cancel it
+2025-05-11 03:44:03 Cancelled printing file 0:/gcodes/Box_3.gcode, print time was 0h 2m
+2025-05-11 04:14:28 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 24m
+2025-05-11 04:38:52 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 18m
+2025-05-11 04:58:14 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 18m
+2025-05-11 06:06:31 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 18m
+2025-05-11 06:25:40 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 18m
+2025-05-11 06:44:38 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 15m
+2025-05-11 07:14:17 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 18m
+2025-05-11 07:29:00 Finished printing file 0:/gcodes/Cap_3.gcode, print time was 0h 13m
+2025-05-11 07:57:32 Finished printing file 0:/gcodes/Cap_3.gcode, print time was 0h 14m
+2025-05-11 08:31:06 Finished printing file 0:/gcodes/Cap_3 2x.gcode, print time was 0h 29m
+2025-05-11 09:01:01 Finished printing file 0:/gcodes/Cap_3 2x.gcode, print time was 0h 29m
+2025-05-11 09:16:57 Finished printing file 0:/gcodes/Cap_3.gcode, print time was 0h 14m
+2025-05-11 10:38:21 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 18m
+2025-05-11 11:02:02 Finished printing file 0:/gcodes/Box_3.gcode, print time was 0h 18m
+2025-05-11 12:23:49 Finished printing file 0:/gcodes/Cap_3 2x.gcode, print time was 0h 29m
+2025-05-11 18:16:43 Event logging started
+2025-05-11 18:16:43 Event logging stopped
+2025-05-11 18:16:43 Event logging started
+2025-05-15 05:57:33 Event logging started
+2025-05-15 05:57:33 Event logging stopped
+2025-05-15 05:57:33 Event logging started
+2025-05-15 16:00:24 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Rev-01.gcode, print time was 0h 11m
+2025-05-15 16:05:25 Resume state saved
+2025-05-15 16:05:28 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2025-05-15 16:10:23 Resume state saved
+2025-05-15 16:10:28 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2025-05-15 16:22:29 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Rev-01.gcode, print time was 0h 9m
+2025-05-15 16:42:36 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Rev-01.gcode, print time was 0h 9m
+2025-05-15 20:46:16 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Rev-01_100pcs.gcode, print time was 3h 52m
+2025-05-16 00:44:45 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Rev-01_100pcs.gcode, print time was 3h 52m
+2025-05-16 02:06:24 Event logging started
+2025-05-16 02:06:25 Event logging stopped
+2025-05-16 02:06:25 Event logging started
+2025-05-20 02:43:48 Finished printing file 0:/gcodes/PCB_Fixture_Slide.gcode, print time was 1h 0m
+2025-05-20 05:09:26 Finished printing file 0:/gcodes/PCB_Fixture_Slide.gcode, print time was 1h 0m
+2025-05-21 05:40:54 Finished printing file 0:/gcodes/Jig_Boostybaby.gcode, print time was 1h 3m
+2025-05-21 21:05:30 Finished printing file 0:/gcodes/Jig_Boostyboiv2.gcode, print time was 0h 25m
+2025-05-21 21:39:08 Finished printing file 0:/gcodes/Jig_Boostyboiv2.gcode, print time was 0h 22m
+2025-05-21 22:23:50 Finished printing file 0:/gcodes/dewalt dcf spacer.gcode, print time was 0h 4m
+2025-05-23 02:43:08 Event logging started
+2025-05-23 02:43:08 Event logging stopped
+2025-05-23 02:43:08 Event logging started
+2025-05-26 05:12:47 Finished printing file 0:/gcodes/6mm_silicone_cutter.gcode, print time was 0h 18m
+2025-05-26 09:33:17 Event logging started
+2025-05-26 09:33:18 Event logging stopped
+2025-05-26 09:33:18 Event logging started
+2025-06-01 01:35:08 Event logging stopped
+2025-06-01 01:47:57 Event logging started
+2025-06-01 01:47:58 Event logging stopped
+2025-06-01 01:47:58 Event logging started
+2025-06-01 01:48:55 Event logging stopped
+2025-06-01 02:02:46 Event logging started
+2025-06-01 02:02:47 Event logging stopped
+2025-06-01 02:02:47 Event logging started
+2025-06-01 02:04:18 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2025-06-01 02:32:52 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 0h 20m
+2025-06-01 05:34:45 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 3h 0m
+2025-06-01 08:37:53 Finished printing file 0:/gcodes/Lipo_Strap_v4.gcode, print time was 3h 0m
+2025-06-02 23:48:47 Event logging stopped
+2025-06-02 23:48:47 Event logging started
+2025-06-02 23:48:47 Warning: Board 124 does not have input handle 1040
+2025-06-02 23:48:47 Warning: Board 124 does not have input handle 3000
+2025-06-02 23:48:48 Event logging stopped
+2025-06-02 23:48:48 Event logging started
+2025-06-02 23:48:48 Error: in file config.g line 231: variable 'global.hotend_timer_started' already exists
+2025-06-02 23:48:48 Error: in file config.g line 232: variable 'global.hotend_timer' already exists
+2025-06-02 23:49:14 Event logging stopped
+2025-06-02 23:49:24 Event logging started
+2025-06-02 23:49:24 Event logging stopped
+2025-06-02 23:49:24 Event logging started
+2025-06-03 00:07:16 Finished printing file 0:/gcodes/Wingman_USB_Guard.gcode, print time was 0h 13m
+2025-06-03 01:22:07 Finished printing file 0:/gcodes/Crossfire_Antenna_Mount.gcode, print time was 1h 12m
+2025-06-05 01:20:47 Event logging started
+2025-06-05 01:20:48 Event logging stopped
+2025-06-05 01:20:48 Event logging started
+2025-07-13 23:06:37 Event logging stopped
+2025-07-13 23:06:50 Event logging started
+2025-07-13 23:06:51 Event logging stopped
+2025-07-13 23:06:51 Event logging started
+2025-07-13 23:26:12 Resume state saved
+2025-07-13 23:26:15 Cancelled printing file 0:/gcodes/2x0.5mm cube 255deg.gcode, print time was 0h 3m
+2025-07-13 23:34:48 Resume state saved
+2025-07-13 23:34:50 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 5m
+2025-07-14 00:06:34 Finished printing file 0:/gcodes/Wingman Tray 18650.gcode, print time was 0h 27m
+2025-07-14 05:22:35 Finished printing file 0:/gcodes/Wingman Tray 18650.gcode, print time was 0h 28m
+2025-07-14 06:53:05 Finished printing file 0:/gcodes/Wingman Tray 18650.gcode, print time was 0h 28m
+2025-07-14 13:43:42 Resume state saved
+2025-07-14 13:43:45 Cancelled printing file 0:/gcodes/2x0.5mm cube 255deg.gcode, print time was 0h 2m
+2025-07-14 13:49:50 Resume state saved
+2025-07-14 13:49:52 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2025-07-14 14:19:28 Finished printing file 0:/gcodes/Wingman Tray 18650.gcode, print time was 0h 28m
+2025-07-14 14:51:02 Finished printing file 0:/gcodes/Wingman Tray 18650.gcode, print time was 0h 28m
+2025-07-14 18:11:58 Finished printing file 0:/gcodes/Wingman Tray 18650 12x.gcode, print time was 2h 32m
+2025-07-14 19:45:50 Resume state saved
+2025-07-14 19:45:52 Warning: Driver 0.3 warning: phase B may be disconnected
+2025-07-14 19:45:57 Cancelled printing file 0:/gcodes/Wingman Tray 18650 12x.gcode, print time was 1h 27m
+2025-07-14 19:45:59 Warning: Driver 0.3 warning: phase B may be disconnected
+2025-07-14 19:45:59 Warning: Driver 0.4 warning: phase B may be disconnected
+2025-07-14 19:47:06 Event logging stopped
+2025-07-14 19:47:19 Event logging started
+2025-07-14 19:47:20 Event logging stopped
+2025-07-14 19:47:20 Event logging started
+                                                                             2025-07-14 19:50:17 Event logging started
+2025-07-14 19:50:18 Event logging stopped
+2025-07-14 19:50:18 Event logging started
+2025-07-14 20:26:22 Event logging started
+2025-07-14 20:26:23 Event logging stopped
+2025-07-14 20:26:23 Event logging started
+2025-07-16 17:50:06 Event logging stopped
+2025-08-10 21:46:22 Event logging started
+2025-08-10 21:46:23 Event logging stopped
+2025-08-10 21:46:23 Event logging started
+2025-08-10 21:51:42 Error: G30: Z probe readings not consistent
+2025-08-10 22:02:14 Resume state saved
+2025-08-10 22:02:16 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2025-08-10 22:19:49 Finished printing file 0:/gcodes/jig_pagoda_3_5.gcode, print time was 0h 11m
+2025-08-10 22:49:03 Finished printing file 0:/gcodes/jig_pagoda_3_5.gcode, print time was 0h 25m
+2025-08-11 00:13:14 Finished printing file 0:/gcodes/Wingman Tray 21700_unsplit.gcode, print time was 1h 18m
+2025-08-11 00:34:16 Finished printing file 0:/gcodes/jig_pagoda_3_5-3ghz_C_FE.gcode, print time was 0h 19m
+2025-08-11 01:29:29 Finished printing file 0:/gcodes/Untitled.gcode, print time was 0h 53m
+2025-08-11 04:25:47 Resume state saved
+2025-08-11 04:25:49 Cancelled printing file 0:/gcodes/Wingman Tray 21700_Rev-00_18pcs.gcode, print time was 0h 0m
+2025-08-11 09:48:15 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_18pcs.gcode, print time was 5h 21m
+2025-08-11 19:45:24 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_18pcs.gcode, print time was 5h 21m
+2025-08-11 22:30:32 Finished printing file 0:/gcodes/CPI_SM250_PWK_90deg.gcode, print time was 0h 19m
+2025-08-11 22:44:49 Finished printing file 0:/gcodes/jig_pagoda_3_5-3ghz_A_FE.gcode, print time was 0h 11m
+2025-08-12 00:54:31 Finished printing file 0:/gcodes/Wingman_Tray_18650_Rev-01.gcode, print time was 0h 27m
+2025-08-12 09:30:14 Finished printing file 0:/gcodes/Wingman_Tray_18650_Rev-01.gcode, print time was 7h 47m
+2025-08-12 23:27:11 Finished printing file 0:/gcodes/Wingman_Tray_18650_Rev-01.gcode, print time was 3h 21m
+2025-08-13 03:01:52 Finished printing file 0:/gcodes/Wingman_Tray_18650_Rev-01.gcode, print time was 3h 21m
+2025-08-13 08:20:38 Finished printing file 0:/gcodes/Wingman_Tray_18650_Rev-01.gcode, print time was 3h 21m
+2025-08-14 03:31:39 Event logging started
+2025-08-14 03:31:40 Event logging stopped
+2025-08-14 03:31:40 Event logging started
+2025-08-14 11:15:26 Finished printing file 0:/gcodes/Wingman_Tray_18650_Rev-01.gcode, print time was 3h 21m
+2025-08-14 13:40:47 Finished printing file 0:/gcodes/Wingman_Tray_18650_Rev-01_9pcs.gcode, print time was 2h 1m
+2025-08-14 20:50:53 Finished printing file 0:/gcodes/Wingman_Tray_18650_Rev-01_9pcs.gcode, print time was 2h 1m
+2025-08-14 23:25:27 Resume state saved
+2025-08-14 23:25:30 Cancelled printing file 0:/gcodes/Wingman Tray 21700_9pcs.gcode, print time was 2h 4m
+2025-08-14 23:25:51 Event logging started
+2025-08-14 23:25:52 Event logging stopped
+2025-08-14 23:25:52 Event logging started
+2025-08-15 00:29:11 Finished printing file 0:/gcodes/Wingman Tray 21700_unsplit.gcode, print time was 0h 51m
+2025-08-15 02:33:22 Finished printing file 0:/gcodes/Wingman Tray 21700_unsplit.gcode, print time was 0h 34m
+2025-08-15 02:51:57 Event logging started
+2025-08-15 02:51:58 Event logging stopped
+2025-08-15 02:51:58 Event logging started
+2025-08-19 20:09:59 Event logging stopped
+2025-08-19 20:10:09 Event logging started
+2025-08-19 20:10:10 Event logging stopped
+2025-08-19 20:10:10 Event logging started
+2025-08-19 20:12:14 Event logging stopped
+2025-08-19 20:12:24 Event logging started
+2025-08-19 20:12:24 Event logging stopped
+2025-08-19 20:12:24 Event logging started
+2025-08-19 20:46:47 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2025-08-19 20:46:51 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2025-08-19 22:15:33 Event logging started
+2025-08-19 22:15:34 Event logging stopped
+2025-08-19 22:15:34 Event logging started
+2025-08-19 23:01:06 Event logging started
+2025-08-19 23:01:07 Event logging stopped
+2025-08-19 23:01:07 Event logging started
+2025-08-19 23:32:22 Event logging started
+2025-08-19 23:32:23 Event logging stopped
+2025-08-19 23:32:23 Event logging started
+2025-08-19 23:49:28 Auto tuning heater 1 completed after 3 idle and 5 tuning cycles in 220 seconds. This heater needs the following M307 command:
+M307 H1 R4.777 K0.591:0.000 D4.15 E1.35 S1.00 B0 V29.3
+2025-08-20 00:24:19 Warning: M500: No M501 command was executed in config.g
+2025-08-20 00:30:37 Error: G30: Probe already triggered at start of probing move
+2025-08-20 00:30:56 Warning: M500: No M501 command was executed in config.g
+2025-08-20 00:41:38 Error: M0: Pause the print before attempting to cancel it
+2025-08-20 00:41:45 Resume state saved
+2025-08-20 00:41:48 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2025-08-20 00:48:20 Resume state saved
+2025-08-20 00:48:25 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.48mm width 15-80mm 0.2 layer.gcode, print time was 0h 2m
+2025-08-20 01:07:25 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 12m
+2025-08-20 01:22:06 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 13m
+2025-08-20 01:38:05 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 13m
+2025-08-20 02:30:57 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 13m
+2025-08-20 02:49:00 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-03_108ps_RC.gcode, print time was 0h 15m
+2025-08-20 03:25:26 Resume state saved
+2025-08-20 03:25:30 Cancelled printing file 0:/gcodes/F75_HDZero_Grommet_Rev-04.gcode, print time was 0h 1m
+2025-08-20 03:46:56 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-04.gcode, print time was 0h 20m
+2025-08-20 04:09:46 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-04.gcode, print time was 0h 20m
+2025-08-20 07:24:22 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-04.gcode, print time was 3h 1m
+2025-08-20 08:01:52 Resume state saved
+2025-08-20 08:01:57 Cancelled printing file 0:/gcodes/F75_HDZero_Grommet_Rev-04_72pcs.gcode, print time was 0h 16m
+2025-08-20 14:05:17 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-04_72pcs.gcode, print time was 6h 1m
+2025-08-20 18:23:23 Resume state saved
+2025-08-20 18:23:26 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2025-08-20 18:30:24 Resume state saved
+2025-08-20 18:30:28 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.48mm width 15-80mm 0.2 layer.gcode, print time was 0h 2m
+2025-08-20 18:49:33 Warning: SPI connection has been reset
+2025-08-20 18:49:33 Connection to SBC established!
+2025-08-20 18:49:36 Event logging stopped
+2025-08-20 18:49:36 Event logging started
+2025-08-20 18:49:37 Event logging stopped
+2025-08-20 18:49:37 Event logging started
+2025-08-20 23:02:55 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-04_48pcs.gcode, print time was 3h 57m
+2025-08-21 03:45:51 Finished printing file 0:/gcodes/F75_HDZero_Grommet_Rev-04_48pcs.gcode, print time was 4h 25m
+2025-08-21 05:33:17 Event logging started
+2025-08-21 05:33:18 Event logging stopped
+2025-08-21 05:33:18 Event logging started
+2025-08-24 20:39:01 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Flat_Rev-00.gcode, print time was 0h 11m
+2025-08-24 20:42:58 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Flat_Rev-00.gcode, print time was 0h 2m
+2025-08-25 00:27:06 Finished printing file 0:/gcodes/F75_HDZero_Grommet_SP8_Rev-00.gcode, print time was 0h 21m
+2025-08-25 00:53:48 Resume state saved
+2025-08-25 00:53:51 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 4m
+2025-08-25 01:05:07 Finished printing file 0:/gcodes/F75_HDZero_Grommet_SP8_Rev-00.gcode, print time was 0h 8m
+2025-08-25 01:42:45 Resume state saved
+2025-08-25 01:42:48 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.2 layer.gcode, print time was 0h 3m
+2025-08-25 01:44:32 Resume state saved
+2025-08-25 01:44:36 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.2 layer.gcode, print time was 0h 1m
+2025-08-25 01:46:07 Resume state saved
+2025-08-25 01:46:12 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.2 layer.gcode, print time was 0h 0m
+2025-08-25 01:47:36 Resume state saved
+2025-08-25 01:47:39 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.2 layer.gcode, print time was 0h 0m
+2025-08-25 01:49:03 Resume state saved
+2025-08-25 01:49:04 Error: M0: Pause the print before attempting to cancel it
+2025-08-25 01:49:17 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.48mm width 15-80mm 0.2 layer.gcode, print time was 0h 0m
+2025-08-25 01:49:24 Event logging stopped
+2025-08-25 01:49:37 Event logging started
+2025-08-25 01:49:37 Event logging stopped
+2025-08-25 01:49:37 Event logging started
+2025-08-25 01:59:10 Resume state saved
+2025-08-25 01:59:15 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.48mm width 15-80mm 0.2 layer.gcode, print time was 0h 2m
+2025-08-25 02:10:07 Finished printing file 0:/gcodes/F75_HDZero_Grommet_SP8_Rev-00.gcode, print time was 0h 9m
+2025-08-25 02:52:13 Finished printing file 0:/gcodes/F75_HDZero_Grommet_SP8_Rev-00.gcode, print time was 0h 10m
+2025-08-31 21:48:31 Event logging started
+2025-08-31 21:48:32 Event logging stopped
+2025-08-31 21:48:32 Event logging started
+2025-09-01 21:49:56 Error: M564: Z probe readings not consistent
+2025-09-01 21:49:57 Error: G90: Z probe readings not consistent
+2025-09-01 21:50:48 Error: G30: Z probe readings not consistent
+2025-09-01 22:37:54 Event logging started
+2025-09-01 22:37:54 Event logging stopped
+2025-09-01 22:37:54 Event logging started
+2025-09-16 18:13:20 Event logging stopped
+2025-09-16 18:19:34 Event logging started
+2025-09-16 18:19:35 Event logging stopped
+2025-09-16 18:19:35 Event logging started
+2025-09-16 18:23:42 Event logging started
+2025-09-16 18:23:43 Event logging stopped
+2025-09-16 18:23:43 Event logging started
+2025-09-16 18:29:14 Event logging stopped
+2025-09-16 18:29:27 Event logging started
+2025-09-16 18:29:28 Event logging stopped
+2025-09-16 18:29:28 Event logging started
+2025-09-16 18:31:59 Error: M564: Z probe readings not consistent
+2025-09-16 18:32:00 Error: G90: Z probe readings not consistent
+2025-09-16 18:33:23 Event logging started
+2025-09-16 18:33:24 Event logging stopped
+2025-09-16 18:33:24 Event logging started
+2025-09-16 19:18:20 Finished printing file 0:/gcodes/F75_HDZero_Grommet_SP8_Rev-00.gcode, print time was 0h 15m
+2025-09-19 00:32:08 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-09-19 01:08:44 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-09-19 01:39:17 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-09-19 02:10:34 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-09-19 22:06:04 Error: M140: Temperature too high for heater 0
+2025-09-19 22:13:23 Resume state saved
+2025-09-19 22:13:26 Cancelled printing file 0:/gcodes/DJI O4 PRO CAM.gcode, print time was 0h 1m
+2025-09-20 00:15:07 Resume state saved
+2025-09-20 00:15:13 Cancelled printing file 0:/gcodes/DJI O4 PRO CAM.gcode, print time was 0h 1m
+2025-09-20 00:16:38 Resume state saved
+2025-09-20 00:16:41 Cancelled printing file 0:/gcodes/DJI O4 PRO CAM.gcode, print time was 0h 0m
+2025-09-20 10:07:24 Event logging started
+2025-09-20 10:07:25 Event logging stopped
+2025-09-20 10:07:25 Event logging started
+2025-09-22 03:11:33 Error: M564: Z probe readings not consistent
+2025-09-22 03:11:34 Error: G90: Z probe readings not consistent
+2025-09-22 03:12:04 Error: G30: Z probe readings not consistent
+2025-09-22 03:12:28 Error: G30: Z probe readings not consistent
+2025-09-22 03:26:57 Resume state saved
+2025-09-22 03:27:00 Cancelled printing file 0:/gcodes/DJI O4 PRO CAM.gcode, print time was 0h 4m
+2025-09-22 03:32:00 Resume state saved
+2025-09-22 03:32:03 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2025-09-22 03:37:57 Resume state saved
+2025-09-22 03:38:00 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2025-09-22 03:45:19 Resume state saved
+2025-09-22 03:45:22 Cancelled printing file 0:/gcodes/DJI O4 PRO CAM.gcode, print time was 0h 3m
+2025-09-22 03:57:22 Resume state saved
+2025-09-22 03:57:25 Cancelled printing file 0:/gcodes/DJI O4 PRO CAM.gcode, print time was 0h 10m
+2025-09-22 03:59:33 Resume state saved
+2025-09-22 03:59:37 Cancelled printing file 0:/gcodes/DJI O4 PRO CAM.gcode, print time was 0h 1m
+2025-09-22 04:29:39 Resume state saved
+2025-09-22 04:29:42 Cancelled printing file 0:/gcodes/DJI O4 PRO CAM.gcode, print time was 0h 24m
+2025-09-22 05:19:38 Resume state saved
+2025-09-22 05:19:41 Cancelled printing file 0:/gcodes/O4 Pro Cam Envelope.gcode, print time was 0h 34m
+2025-09-22 05:32:30 Resume state saved
+2025-09-22 05:32:47 Cancelled printing file 0:/gcodes/O4 Pro Cam Envelope.gcode, print time was 0h 9m
+2025-09-22 05:48:57 Resume state saved
+2025-09-22 05:49:01 Cancelled printing file 0:/gcodes/O4 Pro Cam Envelope.gcode, print time was 0h 14m
+2025-09-22 05:51:31 Resume state saved
+2025-09-22 05:51:35 Cancelled printing file 0:/gcodes/O4 Pro Cam Envelope.gcode, print time was 0h 1m
+2025-09-22 18:58:38 Finished printing file 0:/gcodes/O4 Pro Cam Envelope.gcode, print time was 0h 41m
+2025-09-24 05:09:32 Finished printing file 0:/gcodes/TBS_Chupito_Camera_Pod_Clip.gcode, print time was 0h 4m
+2025-09-24 05:14:02 Resume state saved
+2025-09-24 05:14:05 Cancelled printing file 0:/gcodes/Tests/2x0.5mm cube 255deg.gcode, print time was 0h 3m
+2025-09-24 05:20:25 Resume state saved
+2025-09-24 05:20:27 Error: M0: Pause the print before attempting to cancel it
+2025-09-24 05:20:35 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2025-09-24 05:27:03 Finished printing file 0:/gcodes/TBS_Chupito_Camera_Pod_Clip.gcode, print time was 0h 4m
+2025-09-24 19:04:21 Resume state saved
+2025-09-24 19:04:26 Cancelled printing file 0:/gcodes/SB10_Frame.gcode, print time was 0h 25m
+2025-09-24 20:15:24 Resume state saved
+2025-09-24 20:15:28 Cancelled printing file 0:/gcodes/SB10_Frame.gcode, print time was 1h 5m
+2025-09-25 01:49:38 Resume state saved
+2025-09-25 01:49:42 Cancelled printing file 0:/gcodes/SB10_Frame.gcode, print time was 0h 2m
+2025-09-25 01:58:31 Resume state saved
+2025-09-25 01:58:33 Cancelled printing file 0:/gcodes/SB10_Frame.gcode, print time was 0h 7m
+2025-09-25 02:17:22 Event logging started
+2025-09-25 02:17:22 Event logging stopped
+2025-09-25 02:17:22 Event logging started
+2025-10-02 22:32:36 Resume state saved
+2025-10-02 22:32:40 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2025-10-02 22:38:26 Resume state saved
+2025-10-02 22:38:32 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2025-10-02 23:43:22 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 1h 0m
+2025-10-03 01:45:06 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 1h 0m
+2025-10-03 03:23:05 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 14m
+2025-10-03 06:22:20 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 14m
+2025-10-03 19:39:10 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 14m
+2025-10-03 19:42:41 Finished printing file 0:/gcodes/chupito_trailing_edge_20mm.gcode, print time was 0h 1m
+2025-10-03 19:50:58 Finished printing file 0:/gcodes/chupito_trailing_edge_20mm_15.gcode, print time was 0h 5m
+2025-10-03 20:53:58 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 1h 0m
+2025-10-03 22:47:57 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 1h 0m
+2025-10-03 22:57:29 Resume state saved
+2025-10-03 22:57:44 Cancelled printing file 0:/gcodes/Tests/2x0.5mm cube 255deg.gcode, print time was 0h 3m
+2025-10-03 23:02:55 Resume state saved
+2025-10-03 23:02:58 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2025-10-03 23:05:50 Resume state saved
+2025-10-03 23:05:53 Cancelled printing file 0:/gcodes/chupito_trailing_edge_set.gcode, print time was 0h 1m
+2025-10-04 00:25:41 Finished printing file 0:/gcodes/chupito_trailing_edge_set.gcode, print time was 1h 16m
+2025-10-04 02:42:40 Finished printing file 0:/gcodes/SB10_Frame.gcode, print time was 2h 15m
+2025-10-04 03:30:44 Resume state saved
+2025-10-04 03:30:49 Cancelled printing file 0:/gcodes/chupito_trailing_edge_set_L.gcode, print time was 0h 40m
+2025-10-04 04:47:16 Finished printing file 0:/gcodes/chupito_trailing_edge_set_L.gcode, print time was 1h 15m
+2025-10-06 01:18:31 Finished printing file 0:/gcodes/bath tub plug 12mm.gcode, print time was 0h 12m
+2025-10-06 01:46:47 Finished printing file 0:/gcodes/bath tub plug 12mm.gcode, print time was 0h 14m
+2025-10-06 01:59:51 Finished printing file 0:/gcodes/bath tub plug 12mm.gcode, print time was 0h 9m
+2025-10-06 19:17:31 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2025-10-08 15:25:43 Resume state saved
+2025-10-08 15:25:46 Cancelled printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Flat_Rev-00.gcode, print time was 0h 1m
+2025-10-08 15:42:11 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Flat_Rev-00.gcode, print time was 0h 14m
+2025-10-08 22:04:22 Finished printing file 0:/gcodes/Front_GPS_Mount_BZ-121_Flat_Rev-00.gcode, print time was 6h 15m
+2025-10-09 16:16:46 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2025-10-09 16:26:01 Finished printing file 0:/gcodes/Chupito_Servo_Cover.gcode, print time was 0h 7m
+2025-10-09 16:40:09 Finished printing file 0:/gcodes/Chupito_Servo_Cover.gcode, print time was 0h 6m
+2025-10-09 16:58:43 Finished printing file 0:/gcodes/Chupito_Servo_Cover.gcode, print time was 0h 8m
+2025-10-09 17:17:42 Finished printing file 0:/gcodes/Chupito_Servo_Cover.gcode, print time was 0h 8m
+2025-10-12 16:52:52 Event logging started
+2025-10-12 16:52:53 Event logging stopped
+2025-10-12 16:52:53 Event logging started
+2025-10-23 18:57:22 Error: M564: Z probe readings not consistent
+2025-10-23 18:57:24 Error: G90: Z probe readings not consistent
+2025-10-23 18:57:54 Error: G30: Z probe readings not consistent
+2025-10-23 18:58:11 Error: G30: Z probe readings not consistent
+2025-10-23 19:13:44 Resume state saved
+2025-10-23 19:13:45 Error: M0: Pause the print before attempting to cancel it
+2025-10-23 19:14:00 Cancelled printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 4m
+2025-10-23 19:33:39 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-10-23 19:52:56 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-10-23 20:12:30 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-10-23 20:32:38 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-10-23 21:02:24 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-10-23 21:32:31 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-10-23 22:02:42 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-10-23 22:32:41 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-10-23 22:52:15 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-10-23 23:11:48 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-10-23 23:30:59 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-10-31 17:47:07 Finished printing file 0:/gcodes/Canopy_double.gcode, print time was 0h 29m
+2025-11-01 00:14:18 Finished printing file 0:/gcodes/Canopy_double.gcode, print time was 0h 31m
+2025-11-01 20:57:40 Finished printing file 0:/gcodes/gheywing cam shroud.gcode, print time was 0h 3m
+2025-11-01 21:07:29 Finished printing file 0:/gcodes/gheywing cam shroud.gcode, print time was 0h 4m
+2025-11-03 20:23:38 Finished printing file 0:/gcodes/Motor_spacer_set.gcode, print time was 0h 15m
+2025-11-03 20:46:01 Resume state saved
+2025-11-03 20:46:04 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2025-11-03 20:59:08 Resume state saved
+2025-11-03 20:59:09 Error: M0: Pause the print before attempting to cancel it
+2025-11-03 20:59:25 Cancelled printing file 0:/gcodes/Motor_spacer_set.gcode, print time was 0h 0m
+2025-11-03 21:20:36 Finished printing file 0:/gcodes/Motor_spacer_set.gcode, print time was 0h 20m
+2025-11-04 01:27:21 Finished printing file 0:/gcodes/Xbow_Motor_spacer_set_35x.gcode, print time was 4h 5m
+2025-11-04 05:34:05 Finished printing file 0:/gcodes/Xbow_Motor_spacer_set_35x.gcode, print time was 4h 5m
+2025-11-04 19:12:45 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-11-04 19:31:43 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-11-04 20:05:07 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-11-04 20:24:14 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-11-04 20:54:13 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-11-04 21:24:12 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-11-04 21:54:23 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-11-04 23:04:42 Finished printing file 0:/gcodes/Fractal/Cap_3 2x.gcode, print time was 0h 29m
+2025-11-04 23:26:34 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-11-04 23:45:27 Finished printing file 0:/gcodes/Fractal/Box_3.gcode, print time was 0h 18m
+2025-11-05 02:18:14 Finished printing file 0:/gcodes/DJI _O4_ Lite_m2_14mm_full_2.gcode, print time was 0h 11m
+2025-11-05 02:30:54 Finished printing file 0:/gcodes/DJI _O4_ Lite_m2_14mm_full_2.gcode, print time was 0h 11m
+2025-11-05 02:48:58 Finished printing file 0:/gcodes/DJI _O4_ Lite_m2_14mm_full_2.gcode, print time was 0h 10m
+2025-11-10 19:46:20 Event logging started
+2025-11-10 19:46:21 Event logging stopped
+2025-11-10 19:46:21 Event logging started
+2025-11-13 00:24:10 Event logging stopped
+2025-11-13 01:57:15 Event logging started
+2025-11-13 01:57:16 Event logging stopped
+2025-11-13 01:57:16 Event logging started
+2025-11-13 02:08:40 Resume state saved
+2025-11-13 02:08:43 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2025-11-13 02:16:16 Finished printing file 0:/gcodes/O4_Lite_14mm_Adapter.gcode, print time was 0h 5m
+2025-11-13 02:25:12 Resume state saved
+2025-11-13 02:25:15 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2025-11-13 02:25:28 Event logging stopped
+2025-11-13 02:25:40 Event logging started
+2025-11-13 02:25:41 Event logging stopped
+2025-11-13 02:25:41 Event logging started
+2025-11-13 02:40:09 Resume state saved
+2025-11-13 02:40:14 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2025-11-13 02:47:50 Finished printing file 0:/gcodes/O4_Lite_14mm_Adapter.gcode, print time was 0h 5m
+2025-11-13 03:27:56 Finished printing file 0:/gcodes/O4_Lite_14mm_Adapter.gcode, print time was 0h 16m
+2025-11-13 03:45:21 Finished printing file 0:/gcodes/O4_Lite_14mm_Adapter.gcode, print time was 0h 8m
+2025-11-13 17:55:27 Finished printing file 0:/gcodes/O4_Lite_14mm_Adapter.gcode, print time was 0h 23m
+2025-11-13 18:03:59 Resume state saved
+2025-11-13 18:04:02 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 5m
+2025-11-13 18:15:34 Resume state saved
+2025-11-13 18:15:37 Cancelled printing file 0:/gcodes/O4_Lite_14mm_Adapter.gcode, print time was 0h 6m
+2025-11-13 18:35:19 Finished printing file 0:/gcodes/O4_Lite_14mm_Adapter.gcode, print time was 0h 18m
+2025-11-13 19:42:59 Event logging started
+2025-11-13 19:43:00 Event logging stopped
+2025-11-13 19:43:00 Event logging started
+2025-11-15 23:40:07 Resume state saved
+2025-11-15 23:40:11 Cancelled printing file 0:/gcodes/SB10_Frame_Rev-02_BC.gcode, print time was 0h 2m
+2025-11-16 01:10:27 Finished printing file 0:/gcodes/SB10_Frame_Rev-02_BC.gcode, print time was 1h 28m
+2025-11-16 01:42:09 Finished printing file 0:/gcodes/SB10_Canopy_Rev-02.gcode, print time was 0h 30m
+2025-11-19 22:10:22 Finished printing file 0:/gcodes/Baguette_Top_Cover_PETG_1h1m.gcode, print time was 1h 9m
+2025-11-23 17:20:49 Finished printing file 0:/gcodes/Chupito_Midsection_PETG_5m31s.gcode, print time was 0h 6m
+2025-11-23 17:39:35 Finished printing file 0:/gcodes/Chupito_Midsection_PETG_4m44s.gcode, print time was 0h 5m
+2025-11-23 18:27:52 Finished printing file 0:/gcodes/CPT_hardware_PETG_25m27s.gcode, print time was 0h 29m
+2025-11-24 01:11:41 Finished printing file 0:/gcodes/Tetrahex Ripple Vase_PETG_1h11m.gcode, print time was 1h 12m
+2025-11-24 03:03:41 Finished printing file 0:/gcodes/Mosaic Chevron Ripple_PETG_1h15m.gcode, print time was 1h 15m
+2025-11-24 04:53:41 Event logging started
+2025-11-24 04:53:42 Event logging stopped
+2025-11-24 04:53:42 Event logging started
+2025-11-28 20:03:12 Event logging started
+2025-11-28 20:03:13 Event logging stopped
+2025-11-28 20:03:13 Event logging started
+2025-11-28 20:32:34 Event logging stopped
+2025-11-28 20:32:45 Event logging started
+2025-11-28 20:32:46 Event logging stopped
+2025-11-28 20:32:46 Event logging started
+2025-11-28 22:54:28 Finished printing file 0:/gcodes/MINIQ_CADDIX_MOUNT_PETG_36m4s.gcode, print time was 0h 41m
+2025-12-03 01:37:00 Event logging started
+2025-12-03 01:37:01 Event logging stopped
+2025-12-03 01:37:01 Event logging started
+2025-12-10 00:13:03 Finished printing file 0:/gcodes/MiniQ_Horn_PETG_3m30s.gcode, print time was 0h 4m
+2025-12-10 00:20:59 Event logging started
+2025-12-10 00:20:59 Event logging stopped
+2025-12-10 00:20:59 Event logging started
+2025-12-10 00:45:00 Finished printing file 0:/gcodes/MiniQ_Horn_PETG_3m15s.gcode, print time was 0h 3m
+2025-12-10 01:27:35 Finished printing file 0:/gcodes/Breadstick_Top_Cover_Rev-02_PETG_34m43s.gcode, print time was 0h 37m
+2025-12-10 17:04:52 Resume state saved
+2025-12-10 17:04:55 Cancelled printing file 0:/gcodes/Tests/2x0.5mm cube 255deg.gcode, print time was 0h 3m
+2025-12-10 17:12:23 Resume state saved
+2025-12-10 17:12:25 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+                                                                                                                                                                  2025-12-10 17:26:23 Event logging started
+2025-12-10 17:26:24 Event logging stopped
+2025-12-10 17:26:24 Event logging started
+2025-12-11 16:00:43 Event logging started
+2025-12-11 16:00:44 Event logging stopped
+2025-12-11 16:00:44 Event logging started
+2025-12-11 17:06:15 Finished printing file 0:/gcodes/Bracket_PETG_27m59s.gcode, print time was 0h 31m
+2025-12-11 18:05:18 Finished printing file 0:/gcodes/Breadstick_Top_Cover_Rev-02_PETG_34m43s.gcode, print time was 0h 37m
+2025-12-15 23:05:43 Event logging started
+2025-12-15 23:05:44 Event logging stopped
+2025-12-15 23:05:44 Event logging started
+2026-01-02 11:45:15 Error: M564: Z probe readings not consistent
+2026-01-02 11:45:17 Error: G90: Z probe readings not consistent
+2026-01-02 11:49:14 Error: M564: Z probe readings not consistent
+2026-01-02 11:49:15 Error: G90: Z probe readings not consistent
+2026-01-02 12:20:10 Finished printing file 0:/gcodes/Firewall_PETG_22m42s.gcode, print time was 0h 24m
+2026-01-03 13:54:32 Event logging started
+2026-01-03 13:54:33 Event logging stopped
+2026-01-03 13:54:33 Event logging started
+2026-01-29 14:06:44 Error: M564: Z probe readings not consistent
+2026-01-29 14:06:46 Error: G90: Z probe readings not consistent
+2026-01-29 14:07:33 Error: G30: Z probe readings not consistent
+2026-01-29 14:08:53 Error: M564: Z probe readings not consistent
+2026-01-29 14:08:54 Error: G90: Z probe readings not consistent
+2026-01-29 14:58:56 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-02_TPU_11m32s.gcode, print time was 0h 12m
+2026-01-29 15:21:44 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-02_TPU_11m30s.gcode, print time was 0h 12m
+2026-01-29 18:46:27 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_5m5s.gcode, print time was 0h 5m
+2026-01-29 18:54:53 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_6m11s.gcode, print time was 0h 6m
+2026-01-29 19:44:48 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_41m6s.gcode, print time was 0h 39m
+2026-01-31 21:36:41 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_5m25s.gcode, print time was 0h 5m
+2026-01-31 21:38:10 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-01-31 21:39:22 Event logging started
+2026-01-31 21:39:23 Event logging stopped
+2026-01-31 21:39:23 Event logging started
+2026-02-08 16:29:51 Event logging started
+2026-02-08 16:29:52 Event logging stopped
+2026-02-08 16:29:52 Event logging started
+2026-02-08 18:21:25 Error: G30: Z probe readings not consistent
+2026-02-08 18:21:34 Error: G30: Z probe readings not consistent
+2026-02-08 18:22:43 Warning: SPI connection has been reset
+2026-02-08 18:22:43 Connection to SBC established!
+2026-02-08 18:22:45 Event logging stopped
+2026-02-08 18:22:45 Event logging started
+2026-02-08 18:22:46 Event logging stopped
+2026-02-08 18:22:46 Event logging started
+2026-02-08 18:24:21 Event logging started
+2026-02-08 18:24:22 Event logging stopped
+2026-02-08 18:24:22 Event logging started
+2026-02-08 18:31:04 Error: G28: G28 may not be used within a homing file
+2026-02-08 18:32:51 Error: Some computed corrections exceed configured limit of 7.50mm: -23.989 -23.963 -23.962
+2026-02-08 18:33:14 Error: G28: G28 may not be used within a homing file
+2026-02-08 18:33:15 Warning: G29: the height map was loaded when the current Z=0 datum was not determined by probing. This may result in a height offset.
+2026-02-08 18:33:50 Event logging stopped
+2026-02-08 18:34:01 Event logging started
+2026-02-08 18:34:02 Event logging stopped
+2026-02-08 18:34:02 Event logging started
+2026-02-08 18:36:01 Error: G30: Z probe readings not consistent
+2026-02-08 18:36:11 Error: G30: Z probe readings not consistent
+2026-02-08 18:40:27 Event logging started
+2026-02-08 18:40:28 Event logging stopped
+2026-02-08 18:40:28 Event logging started
+2026-02-08 18:46:29 Event logging stopped
+2026-02-08 18:51:44 Event logging started
+2026-02-08 18:51:45 Event logging stopped
+2026-02-08 18:51:45 Event logging started
+2026-02-08 18:54:13 Event logging stopped
+2026-02-08 18:59:20 Event logging started
+2026-02-08 18:59:20 Event logging stopped
+2026-02-08 18:59:20 Event logging started
+2026-02-08 19:02:37 Error: G30.-1: Z probe readings not consistent
+2026-02-08 19:02:47 Error: G30.-1: Z probe readings not consistent
+2026-02-08 19:14:05 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_4m48s.gcode, print time was 0h 5m
+2026-02-08 19:22:06 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_5m7s.gcode, print time was 0h 5m
+2026-02-08 20:07:05 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_41m1s.gcode, print time was 0h 43m
+2026-02-08 20:51:39 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_41m1s.gcode, print time was 0h 43m
+2026-02-08 22:21:31 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_1h19m.gcode, print time was 1h 22m
+2026-02-09 00:22:20 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_1h46m.gcode, print time was 1h 50m
+2026-02-09 02:13:22 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_5m13s.gcode, print time was 0h 5m
+2026-02-09 02:27:57 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_5m13s.gcode, print time was 0h 5m
+2026-02-09 13:33:56 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_5m25s.gcode, print time was 0h 5m
+2026-02-09 13:38:45 Error: M564.-1: Z probe readings not consistent
+2026-02-09 13:38:46 Error: G90.-1: Z probe readings not consistent
+2026-02-09 13:39:39 Warning: SPI connection has been reset
+2026-02-09 13:39:39 Connection to SBC established!
+2026-02-09 13:39:41 Event logging stopped
+2026-02-09 13:39:41 Event logging started
+2026-02-09 13:39:42 Event logging stopped
+2026-02-09 13:39:42 Event logging started
+2026-02-09 13:40:13 Error: Must home axes [XY] before homing [Z]
+2026-02-09 13:39:46 Event logging started
+2026-02-09 13:39:46 Event logging stopped
+2026-02-09 13:39:46 Event logging started
+2026-02-09 13:52:37 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_5m19s.gcode, print time was 0h 5m
+2026-02-09 15:01:06 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_59m6s.gcode, print time was 1h 1m
+2026-02-10 17:37:24 Resume state saved
+2026-02-10 17:37:27 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 4m
+2026-02-10 17:55:24 Finished printing file 0:/gcodes/Tests/python PA 0-1, 0.48mm width 15-80mm 0.3 layer.gcode, print time was 0h 7m
+2026-02-10 18:18:21 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_4m46s.gcode, print time was 0h 5m
+2026-02-10 19:14:45 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_52m33s.gcode, print time was 0h 53m
+2026-02-10 19:43:13 Finished printing file 0:/gcodes/skrch_geestrange_cammock__camera_mount_V4_STL (1)_TPU_17m1s.gcode, print time was 0h 18m
+2026-02-10 20:03:16 Finished printing file 0:/gcodes/skrch_geestrange_cammock__camera_mount_V4_STL (1)_TPU_17m1s.gcode, print time was 0h 18m
+2026-02-11 01:49:23 Finished printing file 0:/gcodes/Washer_TPU_3m45s.gcode, print time was 0h 4m
+2026-02-11 04:27:36 Finished printing file 0:/gcodes/Washer_TPU_2h26m.gcode, print time was 2h 33m
+2026-02-12 18:50:54 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_52m33s.gcode, print time was 0h 53m
+2026-02-12 18:51:56 Event logging started
+2026-02-12 18:51:57 Event logging stopped
+2026-02-12 18:51:57 Event logging started
+2026-02-12 18:58:02 Error: G30.-1: Z probe readings not consistent
+2026-02-12 19:47:41 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_39m17s.gcode, print time was 0h 40m
+2026-02-12 20:29:27 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_39m17s.gcode, print time was 0h 40m
+2026-02-12 22:35:34 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_52m33s.gcode, print time was 0h 53m
+2026-02-20 08:34:00 Event logging started
+2026-02-20 08:34:01 Event logging stopped
+2026-02-20 08:34:01 Event logging started
+2026-02-20 08:55:11 Event logging started
+2026-02-20 08:55:11 Event logging stopped
+2026-02-20 08:55:11 Event logging started
+2026-03-09 21:07:32 Event logging stopped
+2026-03-09 21:12:31 Event logging started
+2026-03-09 21:12:32 Event logging stopped
+2026-03-09 21:12:32 Event logging started
+2026-03-09 21:22:24 Resume state saved
+2026-03-09 21:22:27 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 2m
+2026-03-09 21:41:30 Finished printing file 0:/gcodes/Box_3_PLA_12m49s.gcode, print time was 0h 16m
+2026-03-09 22:03:15 Finished printing file 0:/gcodes/Box_3_PLA_14m15s.gcode, print time was 0h 14m
+2026-03-09 22:19:32 Finished printing file 0:/gcodes/Box_3_PLA_14m15s.gcode, print time was 0h 14m
+2026-03-09 22:35:25 Finished printing file 0:/gcodes/Box_3_PLA_14m45s.gcode, print time was 0h 14m
+2026-03-09 22:50:59 Finished printing file 0:/gcodes/Box_3_PLA_14m45s.gcode, print time was 0h 14m
+2026-03-09 23:06:22 Finished printing file 0:/gcodes/Box_3_PLA_14m45s.gcode, print time was 0h 14m
+2026-03-09 23:21:56 Finished printing file 0:/gcodes/Box_3_PLA_14m45s.gcode, print time was 0h 14m
+2026-03-09 23:37:52 Finished printing file 0:/gcodes/Box_3_PLA_14m15s.gcode, print time was 0h 14m
+2026-03-10 00:09:47 Finished printing file 0:/gcodes/Box_3_PLA_14m15s.gcode, print time was 0h 15m
+2026-03-10 00:22:44 Event logging stopped
+2026-03-10 00:22:54 Event logging started
+2026-03-10 00:22:55 Event logging stopped
+2026-03-10 00:22:55 Event logging started
+2026-03-10 19:01:12 Finished printing file 0:/gcodes/Box_3_PLA_14m15s.gcode, print time was 0h 14m
+2026-03-10 19:34:11 Finished printing file 0:/gcodes/Box_3_PLA_31m30s.gcode, print time was 0h 30m
+2026-03-10 19:58:49 Resume state saved
+2026-03-10 19:58:53 Cancelled printing file 0:/gcodes/Box_3_PLA_31m30s.gcode, print time was 0h 22m
+2026-03-10 20:30:57 Finished printing file 0:/gcodes/Box_3_PLA_31m30s.gcode, print time was 0h 30m
+2026-03-10 20:49:26 Finished printing file 0:/gcodes/Box_3_PLA_16m26s.gcode, print time was 0h 16m
+2026-03-10 21:07:03 Finished printing file 0:/gcodes/Box_3_PLA_16m26s.gcode, print time was 0h 17m
+2026-03-10 21:25:48 Finished printing file 0:/gcodes/Box_3_PLA_16m26s.gcode, print time was 0h 16m
+2026-03-10 22:37:23 Finished printing file 0:/gcodes/Box_3_PLA_16m26s.gcode, print time was 0h 16m
+2026-03-10 22:55:02 Finished printing file 0:/gcodes/Box_3_PLA_16m26s.gcode, print time was 0h 17m
+2026-03-10 23:08:22 Resume state saved
+2026-03-10 23:08:26 Cancelled printing file 0:/gcodes/Box_3_PLA_16m26s.gcode, print time was 0h 11m
+2026-03-11 17:14:14 Event logging started
+2026-03-11 17:14:14 Event logging stopped
+2026-03-11 17:14:14 Event logging started
+2026-03-30 18:50:37 Resume state saved
+2026-03-30 18:50:41 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 3m
+2026-03-30 18:57:29 Resume state saved
+2026-03-30 18:57:31 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2026-03-30 19:10:19 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_4m48s.gcode, print time was 0h 5m
+2026-03-30 19:32:30 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:32:34 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:32:38 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:32:42 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:32:46 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:32:50 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:32:54 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:32:58 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:33:02 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-03-30 19:37:49 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_4m59s.gcode, print time was 0h 5m
+2026-03-30 20:18:00 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_40m22s.gcode, print time was 0h 37m
+2026-03-30 20:57:38 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_25m6s.gcode, print time was 0h 30m
+2026-03-30 22:19:42 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_49m57s.gcode, print time was 0h 59m
+2026-03-30 23:21:46 Finished printing file 0:/gcodes/Cam_Holder_450mAh_Dipole_Rev-06_TPU_49m57s.gcode, print time was 0h 59m
+2026-03-30 23:23:55 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-04-01 20:53:51 Event logging started
+2026-04-01 20:53:52 Event logging stopped
+2026-04-01 20:53:52 Event logging started
+2026-04-01 21:09:57 Event logging stopped
+2026-04-01 23:30:46 Event logging started
+2026-04-01 23:30:47 Event logging stopped
+2026-04-01 23:30:47 Event logging started
+2026-04-05 05:36:13 Event logging started
+2026-04-05 05:36:14 Event logging stopped
+2026-04-05 05:36:14 Event logging started
+2026-04-30 15:19:52 Resume state saved
+2026-04-30 15:19:56 Cancelled printing file 0:/gcodes/Frame_PETG_31m8s.gcode, print time was 0h 2m
+2026-04-30 15:55:03 Finished printing file 0:/gcodes/Frame_PETG_31m8s.gcode, print time was 0h 34m
+2026-04-30 16:23:02 Finished printing file 0:/gcodes/Frame_PETG_23m36s.gcode, print time was 0h 26m
+2026-05-02 20:35:30 Event logging started
+2026-05-02 20:35:31 Event logging stopped
+2026-05-02 20:35:31 Event logging started
+2026-05-10 20:07:11 Error: G30.-1: Z probe readings not consistent
+2026-05-10 20:38:51 Finished printing file 0:/gcodes/F75_HDZero_Grommet_SP8_TPU_10m52s.gcode, print time was 0h 15m
+2026-05-10 21:36:12 Finished printing file 0:/gcodes/F75_HDZero_Grommet_SP8_TPU_36m27s.gcode, print time was 0h 52m
+2026-05-10 21:42:02 Resume state saved
+2026-05-10 21:42:05 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 4m
+2026-05-10 21:50:15 Resume state saved
+2026-05-10 21:50:19 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2026-05-10 21:53:44 Resume state saved
+2026-05-10 21:53:49 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 2m
+2026-05-10 22:08:57 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_4m17s.gcode, print time was 0h 5m
+2026-05-10 22:19:20 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_4m49s.gcode, print time was 0h 6m
+2026-05-10 23:32:20 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_3m52s.gcode, print time was 0h 4m
+2026-05-10 23:39:09 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_4m22s.gcode, print time was 0h 5m
+2026-05-10 23:44:08 Event logging stopped
+2026-05-10 23:44:18 Event logging started
+2026-05-10 23:44:19 Event logging stopped
+2026-05-10 23:44:19 Event logging started
+2026-05-10 23:54:58 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_3m59s.gcode, print time was 0h 4m
+2026-05-11 00:33:15 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_2m22s.gcode, print time was 0h 2m
+2026-05-11 00:37:15 Finished printing file 0:/gcodes/Cam_Holder_300mAh_Dipole_Rev-05_TPU_2m10s.gcode, print time was 0h 2m
+2026-05-14 00:19:12 Event logging started
+2026-05-14 00:19:12 Event logging stopped
+2026-05-14 00:19:12 Event logging started
+2026-05-26 19:10:24 Event logging started
+2026-05-26 19:10:25 Event logging stopped
+2026-05-26 19:10:25 Event logging started
+2026-05-26 19:28:53 Event logging stopped
+2026-05-26 20:18:15 Event logging started
+2026-05-26 20:18:16 Event logging stopped
+2026-05-26 20:18:16 Event logging started
+2026-05-26 21:17:31 Event logging stopped
+2026-05-26 21:32:07 Event logging started
+2026-05-26 21:32:08 Event logging stopped
+2026-05-26 21:32:08 Event logging started
+2026-05-26 21:51:41 Event logging stopped
+2026-05-27 03:41:26 Event logging started
+2026-05-27 03:41:27 Event logging stopped
+2026-05-27 03:41:27 Event logging started
+2026-06-03 22:04:54 Resume state saved
+2026-06-03 22:04:57 Cancelled printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 0h 4m
+2026-06-03 22:05:42 Event logging started
+2026-06-03 22:05:42 Event logging stopped
+2026-06-03 22:05:42 Event logging started
+2026-06-03 22:11:13 Error: M564: Z probe readings not consistent
+2026-06-03 22:11:13 Error: M564: Z probe readings not consistent
+2026-06-03 22:11:15 Error: G90: Z probe readings not consistent
+2026-06-03 22:11:15 Error: G90: Z probe readings not consistent
+2026-06-03 22:24:08 Finished printing file 0:/gcodes/Fractal Engineering F65_75_TPU_4m24s.gcode, print time was 0h 5m
+2026-06-03 22:31:30 Finished printing file 0:/gcodes/Fractal Engineering F65_75_TPU_4m24s.gcode, print time was 0h 5m
+2026-06-03 23:38:32 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 5m
+2026-06-04 00:45:52 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 5m
+2026-06-04 01:51:11 Finished printing file 0:/gcodes/Fractal/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 54m
+2026-06-04 03:00:02 Finished printing file 0:/gcodes/Fractal/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 54m
+2026-06-04 04:10:32 Finished printing file 0:/gcodes/Fractal/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 54m
+2026-06-04 14:20:06 Finished printing file 0:/gcodes/Fractal/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 54m
+2026-06-04 15:19:35 Finished printing file 0:/gcodes/Fractal/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 54m
+2026-06-04 16:27:54 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 5m
+2026-06-04 19:06:01 Event logging started
+2026-06-04 19:06:02 Event logging stopped
+2026-06-04 19:06:02 Event logging started
+2026-06-11 02:41:52 Event logging stopped
+2026-06-11 02:44:37 Event logging started
+2026-06-11 02:44:38 Event logging stopped
+2026-06-11 02:44:38 Event logging started
+2026-06-11 02:45:32 Event logging stopped
+2026-06-11 02:45:46 Event logging started
+2026-06-11 02:45:47 Event logging stopped
+2026-06-11 02:45:47 Event logging started
+2026-06-11 09:05:04 Event logging started
+2026-06-11 09:05:04 Event logging stopped
+2026-06-11 09:05:04 Event logging started
+2026-06-13 18:22:25 Error: G30: Z probe readings not consistent
+2026-06-13 18:22:25 Error: G30: Z probe readings not consistent
+2026-06-13 18:23:14 Event logging started
+2026-06-13 18:23:15 Event logging stopped
+2026-06-13 18:23:15 Event logging started
+2026-06-13 18:55:12 Resume state saved
+2026-06-13 18:55:15 Cancelled printing file 0:/gcodes/Tests/2x0.5mm cube 255deg.gcode, print time was 0h 1m
+2026-06-13 19:02:38 Resume state saved
+2026-06-13 19:02:47 Cancelled printing file 0:/gcodes/Tests/2x0.5mm cube 255deg.gcode, print time was 0h 3m
+2026-06-13 19:09:05 Resume state saved
+2026-06-13 19:09:10 Cancelled printing file 0:/gcodes/Tests/python PA 0-0.1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2026-06-13 19:41:13 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_26m40s.gcode, print time was 0h 30m
+2026-06-13 20:48:40 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_28m12s.gcode, print time was 0h 31m
+2026-06-13 21:36:38 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_28m19s.gcode, print time was 0h 33m
+2026-06-14 00:54:53 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h51m.gcode, print time was 3h 13m
+2026-06-14 04:16:51 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h51m.gcode, print time was 3h 19m
+2026-06-14 04:47:07 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_23m2s.gcode, print time was 0h 25m
+2026-06-14 08:52:34 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h51m.gcode, print time was 3h 19m
+2026-06-14 13:01:27 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h54m.gcode, print time was 3h 22m
+2026-06-14 23:31:51 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h51m.gcode, print time was 3h 19m
+                                                           2026-06-14 23:33:38 Event logging started
+2026-06-14 23:33:39 Event logging stopped
+2026-06-14 23:33:39 Event logging started
+2026-06-15 02:54:55 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h51m.gcode, print time was 3h 13m
+2026-06-15 06:29:02 Resume state saved
+2026-06-15 06:29:05 Cancelled printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h51m.gcode, print time was 0h 0m
+2026-06-15 06:33:36 Resume state saved
+2026-06-15 06:34:22 Cancelled printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h51m.gcode, print time was 0h 1m
+2026-06-15 09:53:27 Finished printing file 0:/gcodes/Wingman Tray 21700_Rev-00_PETG_2h51m.gcode, print time was 3h 18m
+2026-06-15 21:20:26 Event logging started
+2026-06-15 21:20:27 Event logging stopped
+2026-06-15 21:20:27 Event logging started
+2026-07-14 06:34:12 Event logging started
+2026-07-14 06:34:13 Event logging stopped
+2026-07-14 06:34:13 Event logging started
+2026-07-16 20:01:39 Event logging started
+2026-07-16 20:01:40 Event logging stopped
+2026-07-16 20:01:40 Event logging started
+2026-07-17 18:47:16 Event logging started
+2026-07-17 18:47:17 Event logging stopped
+2026-07-17 18:47:17 Event logging started
+2026-07-19 22:56:03 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 3m
+2026-07-20 00:09:01 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 6m
+2026-07-20 02:17:11 Resume state saved
+2026-07-20 02:17:13 Cancelled printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 0h 3m
+2026-07-20 06:56:00 Resume state saved
+2026-07-20 06:56:03 Cancelled printing file 0:/gcodes/Fractal Engineering F65_75_TPU_3m10s.gcode, print time was 0h 1m
+2026-07-20 07:00:56 Finished printing file 0:/gcodes/Fractal Engineering F65_75_TPU_3m10s.gcode, print time was 0h 4m
+2026-07-20 07:14:10 Finished printing file 0:/gcodes/Fractal Engineering F65_75_TPU_3m51s.gcode, print time was 0h 5m
+2026-07-20 07:16:09 Warning: Tool 0 was not driven because its heater temperatures were not high enough or it has a heater fault
+2026-07-23 03:42:19 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 6m
+2026-07-23 04:52:54 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 6m
+2026-07-23 07:04:20 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 6m
+2026-07-23 09:42:11 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 6m
+2026-07-23 09:44:46 Resume state saved
+2026-07-23 09:44:51 Cancelled printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 0h 0m
+2026-07-23 10:51:57 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 6m
+2026-07-23 19:22:13 Resume state saved
+2026-07-23 19:22:21 Cancelled printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 0h 4m
+2026-07-23 21:05:03 Finished printing file 0:/gcodes/Fractal/Cam_Holder_300mAh_Dipole_Rev-04_48pcs.gcode, print time was 1h 6m
+2026-07-24 00:03:49 Resume state saved
+2026-07-24 00:03:54 Cancelled printing file 0:/gcodes/Fractal/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 15m
+2026-07-24 00:05:54 Resume state saved
+2026-07-24 00:06:01 Cancelled printing file 0:/gcodes/Fractal/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 0m
+2026-07-24 00:17:50 Resume state saved
+2026-07-24 00:17:58 Cancelled printing file 0:/gcodes/Fractal/Cam_Holder_450mAh_Dipole_Rev-05_38pcs.gcode, print time was 0h 6m
+2026-07-24 03:34:14 Event logging started
+2026-07-24 03:34:14 Event logging stopped
+2026-07-24 03:34:14 Event logging started
+2026-08-03 22:59:41 Finished printing file 0:/gcodes/Storage_Shelf_Pegs_TPU_6m23s.gcode, print time was 0h 10m
+2026-08-03 23:25:17 Finished printing file 0:/gcodes/Storage_Shelf_Pegs_TPU_11m11s.gcode, print time was 0h 19m
+2026-08-03 23:32:06 Resume state saved
+2026-08-03 23:32:09 Cancelled printing file 0:/gcodes/Tests/2x0.48mm cube 220deg.gcode, print time was 0h 4m
+2026-08-03 23:38:51 Resume state saved
+2026-08-03 23:38:54 Cancelled printing file 0:/gcodes/Tests/python PA 0-1, 0.6mm width 15-80mm 0.3 layer.gcode, print time was 0h 3m
+2026-08-03 23:43:15 Resume state saved
+2026-08-03 23:43:18 Cancelled printing file 0:/gcodes/8Bytes_Prints_Project_TPU_4m47s.gcode, print time was 0h 1m
+2026-08-03 23:50:35 Finished printing file 0:/gcodes/8Bytes_Prints_Project_TPU_4m47s.gcode, print time was 0h 6m
+2026-08-04 02:03:58 Finished printing file 0:/gcodes/8Bytes_Prints_Project_TPU_1h24m.gcode, print time was 1h 58m
+2026-08-04 03:51:41 Finished printing file 0:/gcodes/8Bytes_Prints_Project_TPU_1h7m.gcode, print time was 1h 31m
+2026-08-04 06:30:30 Resume state saved
+2026-08-04 06:30:52 Cancelled printing file 0:/gcodes/8Bytes_Prints_Project_TPU_1h5m.gcode, print time was 0h 53m
+2026-08-04 18:02:58 Finished printing file 0:/gcodes/8Bytes_Prints_Project_TPU_1h5m.gcode, print time was 1h 24m
+2026-08-04 22:50:22 Finished printing file 0:/gcodes/Wingman Prints Project_TPU_1h9m.gcode, print time was 1h 29m
+2026-08-05 00:10:32 Error: M0: Pause the print before attempting to cancel it
+2026-08-05 00:10:44 Resume state saved
+2026-08-05 00:10:47 Cancelled printing file 0:/gcodes/Wingman Prints Project_TPU_1h9m.gcode, print time was 0h 10m
+2026-08-05 01:23:14 Resume state saved
+2026-08-05 01:23:17 Cancelled printing file 0:/gcodes/Wingman Prints Project_TPU_1h9m.gcode, print time was 1h 11m
+2026-08-05 21:09:41 Event logging started
+2026-08-05 21:09:42 Event logging stopped
+2026-08-05 21:09:42 Event logging started
+2026-08-09 19:39:39 Event logging started
+2026-08-09 19:39:40 Event logging stopped
+2026-08-09 19:39:40 Event logging started
+2026-08-31 05:11:51 Event logging started
+2026-08-31 05:11:52 Event logging stopped
+2026-08-31 05:11:52 Event logging started
+2026-08-31 05:32:59 Error: G30: probe already triggered before probing move started
+2026-08-31 05:32:59 Error: G30: probe already triggered before probing move started
+2026-08-31 05:33:19 Warning: M500: No M501 command was executed in config.g
+2026-08-31 05:33:19 Warning: M500: No M501 command was executed in config.g
+2026-08-31 05:48:06 Error: G30: probe already triggered before probing move started
+2026-08-31 05:48:06 Error: G30: probe already triggered before probing move started
+2026-08-31 05:48:25 Warning: M500: No M501 command was executed in config.g
+2026-08-31 05:48:25 Warning: M500: No M501 command was executed in config.g
+2026-08-31 06:08:10 Event logging started
+2026-08-31 06:08:11 Event logging stopped
+2026-08-31 06:08:11 Event logging started

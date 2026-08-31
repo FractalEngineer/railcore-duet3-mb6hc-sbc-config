@@ -118,7 +118,7 @@ M574 Y1 S1 P"124.io2.in"					; Map the Y endstop to toolboard io1.in
 ; Euclid Probe
 M574 Z1 S2                                              ; configure Z-probe endstop for low end on Z
 M558 K0 P8 C"124.io0.in" H8 F300 T9000 A3 S0.01         ; Define Euclid input
-G31 K0 P500 X25.0 Y0.0 Z1.486                            ; Set offset for Smorb V3 Euclid
+G31 K0 P500 X25.0 Y0.0 Z0.97                            ; Set offset for Smorb V3 Euclid
 
 ; Thermistors
 M308 S0 P"temp0" Y"thermistor" A"Keenovo" T100000 B4240 H0 L0 						; Bed thermistor - connected to temp0
@@ -140,7 +140,7 @@ M307 H0 A158.5 C366.7 D2.1 S1.0 V24.0 B0 		; Keenovo duet 3 configuration
 ;M307 H1 R3.573 C131.3:99.7 D5.74 S1.00 V29.4           	; Mosquito 205deg 29.4V
 ;M307 H1 R3.368 K0.543:0.000 D7.05 E1.35 S1.00 B0 V29.3      ; Mosquito new model 215c 29.3V
 ;M307 H1 R4.724 C172.5:109.0 D7.70 S1.00 V29.4	; Biqu H2 205deg 29.4V
-M307 H1 R4.017 K0.408:0.270 D6.28 E1.35 S1.00 B0 V29.4      ; Smorb temp 215c 29.3V
+M307 H1 R4.777 K0.591:0.000 D4.15 E1.35 S1.00 B0 V29.3      ; Smorb temp 215c 29.3V
 
 
 
@@ -214,7 +214,8 @@ M581 T9 P4 S1 R1							; Blue button trigger 9 only when printing (LED strip on/
 ;M955 P0 I21 C"spi.cs3+spi.cs2"              ; LIS3DH removable on Orbiter 2
 M955 P124.0 I20                             ; Onboard toolboard
 
-;M593 P"mzv" F42
+; Input Shaper
+M593 P"mzv" F43 S0.1
 
 ; Dynamic Acceleration Adjustment (DAA)
 ;M593 F52

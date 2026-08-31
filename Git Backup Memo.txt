@@ -33,3 +33,24 @@ sudo chmod 777 -R /opt/dsf/
 ### Pin reassignment for fried uart Pi ###
 
 "TransferReadyPin": 24
+
+
+### Fix Default Keyring Popup ###
+
+In terminal:
+
+sudo apt update
+sudo apt install seahorse
+
+then run:
+
+seahorse
+
+In Passwords and Keys:
+
+-Find Default Keyring or Login
+-Right-click it → Change Password
+-Enter its current password
+-Leave the new password completely blank
+-Accept the warning about storing passwords unencrypted
+-Reboot
