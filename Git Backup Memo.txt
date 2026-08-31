@@ -12,9 +12,9 @@ hdmi_cvt=1024 600 60 3 0 0 0
 
 ### Manage the DSF configuration from Git ###
 
-The installer supports a clean Raspberry Pi OS installation, a clean DuetPi
-installation, or an existing Git-managed setup. Only run it while the printer
-is idle and all heaters are off.
+Start with a working DuetPi image. The installer supports a fresh DuetPi setup
+or an existing Git-managed setup; it does not install Raspberry Pi OS or DSF.
+Only run it while the printer is idle and all heaters are off.
 
 #### One-command setup or update ####
 
@@ -25,9 +25,6 @@ wget -qO- https://raw.githubusercontent.com/FractalEngineer/railcore-duet3-mb6hc
 
 The deployer asks for confirmation before stopping DCS. It then:
 
-- Installs the official stable DSF packages when DSF is not present.
-- Enables Raspberry Pi SPI, sets the SPI buffer size, and configures GPIO 24 as
-  this printer's transfer-ready pin on a clean Raspberry Pi OS installation.
 - Detects whether `/opt/dsf/sd` is already a Git checkout.
 - Preserves the existing configuration and generated machine state.
 - Moves a non-Git installation to a timestamped backup before cloning.
@@ -45,10 +42,6 @@ is idle:
 
 wget -qO- https://raw.githubusercontent.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config/master/install.sh | sudo bash -s -- --yes
 
-A clean Raspberry Pi OS installation reboots automatically when the command
-finishes so the SPI configuration takes effect. Existing installations are not
-rebooted.
-
 #### Later updates ####
 
 Either repeat the universal command above or use the installed updater:
@@ -63,7 +56,10 @@ To inspect Git directly, run it as the repository owner:
 sudo -H -u dsf git -C /opt/dsf/sd status
 
 
-### Pin reassignment for fried uart Pi ###
+### Legacy pin reassignment for the replaced Pi ###
+
+The old Pi required this manual change because its normal transfer-ready GPIO
+was damaged. Do not apply this to the replacement Pi or normal installations:
 
 "TransferReadyPin": 24
 
