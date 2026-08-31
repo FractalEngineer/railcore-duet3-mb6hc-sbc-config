@@ -45,9 +45,9 @@ is idle:
 
 wget -qO- https://raw.githubusercontent.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config/master/install.sh | sudo bash -s -- --yes
 
-A clean Raspberry Pi OS installation must be rebooted once when the command
-finishes so the SPI configuration takes effect. Existing installations do not
-need a reboot.
+A clean Raspberry Pi OS installation reboots automatically when the command
+finishes so the SPI configuration takes effect. Existing installations are not
+rebooted.
 
 #### Later updates ####
 

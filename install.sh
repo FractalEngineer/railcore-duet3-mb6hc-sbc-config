@@ -148,6 +148,18 @@ install_prerequisites
 installed_dsf=false
 configure_transfer_ready=false
 if ! id dsf >/dev/null 2>&1; then
+    if [[ "${assume_idle}" != true ]]; then
+        if [[ ! -r /dev/tty ]]; then
+            echo "Non-interactive clean installation requires --yes." >&2
+            exit 1
+        fi
+        read -r -p "Install stable DSF and this configuration, then reboot [y/N]: " \
+            confirmation </dev/tty
+        if [[ ! "${confirmation}" =~ ^[Yy]$ ]]; then
+            echo "Installation cancelled."
+            exit 0
+        fi
+    fi
     echo "DSF was not found; installing the official stable DSF packages."
     install_dsf
     installed_dsf=true
@@ -160,7 +172,7 @@ download "${deployer_url}" "${temporary_directory}/deploy-dsf-config.sh"
 bash -n "${temporary_directory}/deploy-dsf-config.sh"
 
 deployer_arguments=()
-if [[ "${assume_idle}" == true ]]; then
+if [[ "${assume_idle}" == true || "${installed_dsf}" == true ]]; then
     deployer_arguments+=("--yes")
 fi
 bash "${temporary_directory}/deploy-dsf-config.sh" "${deployer_arguments[@]}"
@@ -173,8 +185,9 @@ if [[ "${installed_dsf}" == true ]]; then
     systemctl enable duetcontrolserver duetwebserver
     systemctl stop duetcontrolserver >/dev/null 2>&1 || true
     echo
-    echo "Clean installation completed. Reboot now to activate SPI and start DSF:"
-    echo "  sudo reboot"
+    echo "Clean installation completed. Rebooting to activate SPI and start DSF."
+    sync
+    systemctl reboot
 elif [[ "${configure_transfer_ready}" == true ]] && \
         systemctl is-active --quiet duetcontrolserver; then
     systemctl restart duetcontrolserver
