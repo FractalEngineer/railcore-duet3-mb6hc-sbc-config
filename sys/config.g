@@ -24,8 +24,11 @@ G4 S2                                       ; wait for expansion boards to start
 
 ; Global variables used by daemon.g
 ; config.g is a startup file; use M999 rather than M98 P"config.g" to reload it
-global hotend_timer_started = false
-global hotend_timer = 0
+; Guarded so re-running config.g is safe and daemon.g may create them first.
+if !exists(global.hotend_timer_started)
+	global hotend_timer_started = false
+if !exists(global.hotend_timer)
+	global hotend_timer = 0
 
 
 

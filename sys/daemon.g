@@ -2,6 +2,13 @@
 
 ; --------------- Hotend Auto Shut Down at Idle, by Cheeseandham -----------
 
+; Create the idle timers if they are missing. daemon.g can run before config.g has
+; declared them, which otherwise aborts this file with an unknown variable.
+if !exists(global.hotend_timer_started)
+	global hotend_timer_started = false
+if !exists(global.hotend_timer)
+	global hotend_timer = 0
+
 ; If printing starts, cancel any pending idle shutdown.
 if state.status == "processing"
 	set global.hotend_timer_started = false
