@@ -148,8 +148,8 @@ M307 H0 A158.5 C366.7 D2.1 S1.0 V24.0 B0 		; Keenovo duet 3 configuration
 ;M307 H1 R3.573 C131.3:99.7 D5.74 S1.00 V29.4           	; Mosquito 205deg 29.4V
 ;M307 H1 R3.368 K0.543:0.000 D7.05 E1.35 S1.00 B0 V29.3      ; Mosquito new model 215c 29.3V
 ;M307 H1 R4.724 C172.5:109.0 D7.70 S1.00 V29.4	; Biqu H2 205deg 29.4V
-M307 H1 R4.777 K0.591:0.000 D4.15 E1.35 S1.00 B0 V29.3      ; Smorb temp 215c 29.3V
-
+;M307 H1 R4.777 K0.591:0.000 D4.15 E1.35 S1.00 B0 V29.3      ; Smorb temp 215c 29.3V
+M307 H1 R5.131 K0.395:0.495 D4.37 E1.35 S1.00 B0 V29.3      ; Smorb 3.5 REVO 225deg 
 
 
 ; Heater Fault Parameters
