@@ -10,5 +10,5 @@ G28 Z				; Establish Z before levelling
 G32				; True-level the bed while keeping the probe deployed
 G28 Z				; Re-home Z after levelling
 M402				; Return the Euclid probe once
-G1 X-37 Y150 F3000	; move to purge bucket
+G1 X-35 Y150 F3000	; move to purge bucket
 G29 S1				; Load Mesh Map

@@ -5,6 +5,7 @@ set -Eeuo pipefail
 readonly repo_url="https://github.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config.git"
 readonly repo_branch="master"
 readonly updater_url="https://raw.githubusercontent.com/FractalEngineer/railcore-duet3-mb6hc-sbc-config/master/scripts/update-dsf-config.sh"
+readonly toolboard_firmware_url="https://raw.githubusercontent.com/gloomyandy/RRFBuild/v3.7-dev/releases/3.7.0/expansion/Duet3Firmware_FLY36RRF.uf2"
 readonly sd_dir="/opt/dsf/sd"
 readonly service_name="duetcontrolserver"
 readonly backup_root="/opt/dsf/config-backups"
@@ -73,6 +74,25 @@ fi
 
 run_as_dsf() {
     sudo -H -u dsf "$@"
+}
+
+fetch_toolboard_firmware() {
+    local firmware_directory="${sd_dir}/firmware"
+    local firmware_path="${firmware_directory}/Duet3Firmware_FLY36RRF.uf2"
+    local temporary_file
+
+    run_as_dsf install -d "${firmware_directory}"
+    temporary_file="$(run_as_dsf mktemp "${firmware_directory}/.Duet3Firmware_FLY36RRF.uf2.XXXXXX")"
+    if ! run_as_dsf curl --fail --silent --show-error --location \
+            "${toolboard_firmware_url}" --output "${temporary_file}" || \
+            ! run_as_dsf test -s "${temporary_file}"; then
+        run_as_dsf rm -f -- "${temporary_file}"
+        echo "Failed to fetch Fly-RRF-36 firmware." >&2
+        return 1
+    fi
+
+    run_as_dsf chmod 0644 "${temporary_file}"
+    run_as_dsf mv -f -- "${temporary_file}" "${firmware_path}"
 }
 
 normalize_permissions() {
@@ -259,6 +279,7 @@ validate_runtime_writes
 sync -f "${sd_dir}"
 validate_checkout
 validate_git_repository
+fetch_toolboard_firmware
 install -o root -g root -m 0755 \
     "${sd_dir}/scripts/update-dsf-config.sh" /usr/local/sbin/update-dsf-config
 install -o root -g root -m 0755 \

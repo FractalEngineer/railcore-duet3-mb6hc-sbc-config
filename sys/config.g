@@ -220,7 +220,7 @@ M581 T9 P4 S1 R1							; Blue button trigger 9 only when printing (LED strip on/
 
 ; Accelerometer
 ;M955 P0 I21 C"spi.cs3+spi.cs2"              ; LIS3DH removable on Orbiter 2
-M955 P124.0 I20                             ; Onboard toolboard
+M955 P0 C"124.spi.cs.acc+int.acc" I20       ; Onboard toolboard accelerometer
 
 ; Input Shaper
 M593 P"mzv" F43 S0.1

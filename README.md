@@ -1,7 +1,7 @@
 # RailCore Duet 3 MB6HC SBC configuration
 
 RepRapFirmware configuration and macros for this RailCore printer, intended for
-RRF 3.6 with a Duet 3 MB6HC in SBC mode.
+RRF 3.7 with a Duet 3 MB6HC in SBC mode.
 
 ## One-command deployment
 
@@ -25,6 +25,8 @@ During first deployment it:
 - Clones this repository as the `dsf` account.
 - Preserves generated machine state, print files, firmware, menus, scans, and
   Duet Web Control files.
+- Fetches the Fly-RRF-36 toolboard firmware from the matching RRF release
+  branch.
 - Checks that required system G-code files exist and are not empty.
 - Restores the original directory automatically if migration fails.
 - Installs the `update-dsf-config` and `backup-dsf-config` commands.
